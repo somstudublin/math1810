@@ -1,3 +1,1705 @@
-from pytransform import pyarmor_runtime
-pyarmor_runtime()
-__pyarmor__(__name__, __file__, b'\x50\x59\x41\x52\x4d\x4f\x52\x00\x00\x03\x08\x00\x55\x0d\x0d\x0a\x08\x2d\xa0\x01\x00\x00\x00\x00\x01\x00\x00\x00\x40\x00\x00\x00\x3d\x64\x00\x00\x00\x00\x00\x18\x77\x0a\x0a\xc8\xab\xa0\xe1\x9e\xae\x85\x57\xf1\xa4\x71\x18\x1b\x00\x00\x00\x00\x00\x00\x00\x00\xd1\x16\x3c\x0f\xb5\x33\x7f\x62\xfd\xf2\xdb\xc0\xa9\x92\x33\xcd\xa8\x75\x08\xd9\x3a\xef\xfe\xc7\xf9\x1f\xa1\x29\x47\xd1\x5d\x1a\xf3\x39\xad\xf3\xa5\x9e\xec\xcc\xd2\xa4\x0e\x23\x03\x10\x38\xc6\x46\x41\xf2\x58\xea\x0e\x41\x09\x14\x47\x01\x20\xd9\xae\xaf\x9f\x2d\xe5\x20\x63\x6c\x12\xb7\x96\x20\xf0\xd7\x85\x24\x8f\x5a\xe8\x13\xa1\xb6\xe0\x80\x53\x58\xd9\xdd\x1d\xb1\x92\x2e\x17\xb7\x28\x37\xc4\x4e\xeb\xcf\x53\xbc\xb0\xcd\xeb\x46\x4e\x6b\x9e\xfd\x80\x86\x9b\x3d\xf8\x8c\x3f\x3c\x88\xb9\x11\x8a\x0b\x3f\x74\x4b\x0d\x8d\xc9\x71\xf4\xe2\xb0\x8c\x0f\x3a\xf2\x31\x8e\x9f\xfa\x26\xf1\xec\x7e\x0e\x79\xf7\x60\xfe\xcf\x9f\xca\x4e\x47\x62\x00\xd1\x30\x92\x93\x3e\x0c\x35\x0a\xd6\x50\xae\x4a\x7b\x7a\xd0\x75\xb0\x27\xcc\xdf\x3c\x8f\x3f\x76\x97\xca\x6b\x93\x09\xaf\x57\xfd\x85\x2a\x0e\x99\xd5\xa8\x6d\xb0\xf9\x6a\x32\x0e\x6c\x4a\x51\x94\xbd\x4f\x8e\x42\xe2\xae\x40\xd7\x8f\x50\xd2\x88\x2e\xbe\x48\x32\x61\x4d\x68\x73\xa6\xa5\x37\x0a\x9e\xcb\x4f\xcc\xcc\xb3\xcc\xc4\x51\xb8\x6a\xbf\xe3\x34\x26\x7b\x87\x2f\xed\x6d\x99\x5d\x5b\x9f\x2c\x1f\x93\x26\x3c\x74\x33\x7b\x97\x6b\x38\x2d\xb3\x8b\xba\x8f\x4b\x58\xbc\xc6\xf1\x82\xe8\x44\x32\x5b\x97\xd7\xfe\x0f\xc7\x37\xe6\xb8\x2c\x91\x20\x99\x46\x51\xe3\x07\x32\x4b\xbf\xab\x76\x77\xb9\x31\x3c\xce\x5a\x34\x32\xb1\xbf\x2a\x46\xef\x8c\x1b\x35\x4f\x84\xad\x25\x55\xba\x00\xf2\x81\x1c\x57\xee\xe3\x5f\xfc\x7e\xe1\x7f\x60\x85\xe1\x46\xae\x3c\xfa\x9f\x73\x2e\x11\xd5\xae\x78\xf9\x11\x18\xb1\x10\x42\x59\xd2\xf0\x8d\x86\xba\xdb\xeb\xb7\x87\x4d\x4a\x98\xca\x59\x80\x4b\x20\xb9\xf4\xd1\x5c\xbc\x1e\x13\x91\xc9\x89\x15\xdf\x6f\xa7\xdd\x2d\x77\x10\x88\x46\x20\x8d\x70\x62\x54\x30\x21\xe2\x1a\x2e\x20\xcc\xab\xb5\xf7\x4d\x82\x1e\x4a\x3e\x80\xab\xbc\x5c\xf5\x91\x9c\x2e\x52\x31\x11\x9a\x43\x5f\x09\xdc\x18\xa7\x4f\x6e\x41\x8f\x09\x1b\x80\x76\xa0\x79\xfe\x17\x40\xca\x48\x53\xd8\x9d\xc7\xc5\x28\x9e\x0e\x5f\xb4\xfb\x04\xd9\xb4\x1f\xf8\x0a\xeb\x7b\x81\x6b\x7d\x15\x2a\x1b\x1f\x3d\xb2\x61\xf0\x1c\xa3\xbd\xd4\xe0\xba\xd9\x5b\x2b\xa8\xad\x60\x76\xd0\x33\xb2\x0e\x97\x0b\x41\x9a\xea\x0c\x21\x8d\x8e\x62\xdd\x9a\x40\xea\x66\x1f\x2a\x63\x90\xfc\x17\x45\xba\x0e\x6b\x03\x2d\x9e\x92\x15\xa3\x63\x40\x96\x70\x56\xa5\x87\x43\x70\x75\xf5\xa5\x66\x10\x4a\xe1\x5b\x20\x13\xe5\x45\x55\xf1\x6d\xb1\xca\x63\x83\xdd\x63\xa6\xf4\x07\x7b\x95\x8c\xa5\x9c\x93\x30\x7a\x16\x80\xa5\x50\x5a\xb1\xd8\xbb\x7f\x1b\x6b\xc1\xf1\x26\x41\xa3\xc3\x04\x36\xe2\x29\x73\xe2\x2e\x6b\x01\xbe\x6c\xf0\x49\x58\x4e\xcf\x06\xb2\x82\xff\x48\x9c\x34\x6e\x95\x6e\x67\x3e\x40\x0a\x5d\x7d\x98\x95\x7e\x76\x08\x60\x30\xce\xab\xbd\xcc\xed\xff\x51\x15\x33\xc2\xf5\x3c\xf2\x2e\x34\xf2\x22\x6b\x6b\xaf\xf6\x84\x64\x72\xa4\xe3\x09\xbf\x1f\x88\xbe\xba\xce\x1a\x61\x67\x9d\x89\x7a\x5e\x0a\x4f\xc8\xc3\xd0\xd1\x6a\xe3\x4d\x65\x62\x2c\xbe\xb9\x7a\xb7\x60\xb4\x68\x93\x07\x9c\x72\x35\x80\xd2\xaf\x75\x76\x3d\x7f\x3b\x31\xd3\x69\xe5\xe6\x6b\xe4\x50\xd0\x88\x32\xf8\x88\xbe\x68\x3b\xa5\xfa\xa4\x8d\x37\x9a\x5a\xfe\x12\x91\x47\x23\x76\xbc\xa4\xe0\xb5\x39\xd8\x65\xf1\x73\x3c\xa0\x6e\x56\x04\x1b\x25\xc6\xac\xe8\x8e\x0f\x3f\x8a\x3f\x6b\x81\x04\x3c\x4a\xbf\xb7\x04\x41\xe1\x42\x8a\xbb\x08\x0f\xf5\x49\x29\x99\x98\x7d\x2e\x0d\x9d\x5b\x74\x05\xfd\x3a\xbb\xbe\x2f\x25\x05\xbb\x28\x82\x30\xc5\x6a\xf4\x14\x8a\x68\x1b\x6b\x02\x88\xea\x3f\x92\xeb\x06\x43\x70\x71\xab\xd3\x8a\x85\xc6\x86\x37\x73\x54\x58\xbc\x9a\x2b\x6b\xff\xa8\xe9\xbc\x0e\x78\xe5\x30\xd3\x2a\x24\x55\xad\xb8\x57\xa6\x0f\x00\xb1\xff\xe1\x1a\x7d\xfa\x4d\xe2\x78\xaf\x4b\x4c\x6b\x25\x56\x7f\xc6\xe2\x14\xe0\x0c\xa2\x0f\x1d\x6f\x98\x3a\x61\x8e\xdb\x2e\x15\x7b\x5c\xee\x6f\x92\x72\xa6\x97\x7d\x3b\x50\x5b\x4f\xa2\x27\x30\x5f\xcd\x61\x54\xaf\xb1\x00\x31\x55\x9f\xef\x97\xb1\xbd\xe4\x6c\xcd\x7b\x31\xbf\x77\x02\x0f\x4c\xcd\x8e\xe6\x9f\x40\xd2\x3b\x1e\xa1\x20\x58\xbd\x36\x8a\x0a\xcc\x88\x4e\x96\x29\xb1\xd8\x14\xcd\xaa\xd3\x05\x7e\x52\xe8\x48\x0d\x47\xef\x96\x28\x0c\x54\x8e\x8a\x64\x0d\xfe\x44\x9e\x2a\x29\x63\x35\xe4\x28\xa1\xc9\x3e\xea\xed\x1f\xbf\x47\x9f\x54\x40\xcd\xf2\x5c\x7f\x5c\x45\x92\x9e\x8e\xd9\x7a\x44\xfd\x04\xe4\xc8\xe8\x5b\x35\xb9\xf9\xcb\xe0\x9a\xfd\xcd\x63\x7c\x09\xea\x50\xfa\x46\x5f\xf8\x75\xa2\x52\xb0\xcd\x62\x85\x67\x39\x5b\x15\xe0\xdd\xe2\x81\x59\x73\xae\x24\x75\x86\x5d\x38\xa3\x3a\xb9\x5a\x99\x4e\x70\x3b\xa6\x33\xeb\x5c\x74\xe3\x3a\x26\x2b\x75\x22\x00\x2a\x10\x36\x8c\x91\xe7\x87\x80\xc3\xac\xb8\xe1\x2b\xca\x1a\x7c\x77\x5c\x3b\x43\xad\x46\xeb\xba\xe0\xbd\xb7\xcc\x66\x03\xc6\xa8\xe4\x38\x01\xba\x29\xca\xb2\x02\x4b\x08\xd4\xa4\xda\x80\x24\xe9\xea\xee\xaf\x76\x6b\x49\x01\x3e\xba\x49\x59\x67\xd7\x89\xca\x0b\x56\xbd\x4e\x13\xde\x81\x3b\xdf\x3f\x65\x41\x2d\xa7\x24\x7a\x6f\x8e\x3d\x04\x3d\xbf\x6c\x11\x86\x38\x9f\x19\x69\xec\x2a\x64\x3c\x66\xca\x5e\x1b\x38\xde\x75\x1e\xd5\xc5\x44\x6c\xc0\xfb\x14\x3d\x1e\x3f\x88\x9b\xc9\xf1\x27\x43\xba\xb6\xa3\x90\x73\x97\x32\x0a\x7a\x8f\x06\xbe\x10\x3a\xc7\xa1\x72\xdf\xe9\x31\x5c\x3c\x2a\x05\x17\xef\x02\x4f\x31\xb1\x4f\xe4\x9e\x21\xd9\xf7\x60\x2d\x4a\x89\xe4\xb3\x3d\xdf\xf8\xea\x5e\x66\xfb\xca\xb3\x6b\x68\xc6\x7c\x46\x90\x22\x96\x3b\x8e\xb1\xb7\x97\x38\x97\x6a\x21\xe8\xec\x79\x96\xa2\x81\x84\xd3\x43\x9e\x03\xb6\x0d\x06\x04\x45\x9f\x47\x6e\x6b\x66\x14\xb9\xd6\x37\x93\xb4\x46\x98\x13\x7c\x5f\xb8\xac\xd4\xa7\x66\x92\x5e\x72\xe3\x56\xac\x43\x99\x62\x4f\x21\xee\xef\x36\xef\x83\x70\xde\xbe\x47\xb6\x69\xad\x6a\x26\x6b\x80\x3d\xea\x07\x7b\x77\xf1\xbf\x59\x48\xf5\xc0\x92\xf9\x98\x78\x3f\xb1\xce\xd9\xd4\xe1\xd7\x81\xc6\xab\x2f\xbf\xe7\x7b\x28\x0d\x54\x76\x44\x11\x3d\x1b\xb3\xb7\x7d\x5f\xbf\x2a\x29\xd8\xcf\xb8\x05\x38\xd7\x03\xf1\x77\x5c\x6d\x87\xef\x00\x37\x10\x33\x1a\xfe\x18\xb4\xed\x40\x46\xb5\x12\xfb\x48\x73\x03\x19\x6f\x7a\x2f\x2b\xcf\xd7\xbe\x4e\xe8\x38\x81\x4f\x23\xe2\x5f\xd7\xe8\xed\xd5\xde\xc4\x39\x0c\xc6\x6d\xed\x41\x2d\x57\x73\x0a\xab\x9c\x42\x8b\xd4\xb2\xa2\x3d\xe7\xa8\xf8\x5c\x04\xa9\x04\x34\xa9\x4b\x94\xbf\xd9\x06\x55\x71\x1f\x0b\xa7\x03\x61\xbd\x24\xfb\x45\xb8\x76\x58\x1c\x4d\xf9\x47\x54\x39\x65\x14\xdb\xd4\xb1\xd7\x4e\xb7\x78\xc7\x6c\xc1\x6f\x7c\x6d\xad\x3d\x8a\x56\x83\x1b\x50\x9f\x5a\x76\xe7\x75\x7f\x0e\xf0\x9d\x9e\x6a\x81\x41\xa0\x41\x57\xb7\x1c\x6c\x0f\x8a\xab\xc9\x73\x13\xe8\x6d\x0e\x5a\x9f\xc8\x70\xd1\xa7\x5d\xce\x56\x91\x4c\x01\xca\xa0\x88\xd5\xad\xcd\xea\xc8\x43\x00\xcd\x0f\x62\x94\x19\xc2\xa1\xff\x05\x6e\x24\xf1\xc0\x35\xbd\xc7\x47\x6c\xaa\xcc\x5e\xfd\x8c\xe4\x2d\x79\x09\x70\xa7\x25\x16\x99\xc8\xeb\x49\xa9\xa7\xa0\xfa\x83\x8f\x17\xac\xe5\x0d\x85\x01\xa9\xcc\x04\x26\x0b\xe6\xe0\x77\xbc\xd6\x54\x50\x40\x2d\xc6\x66\xd4\x1d\xd4\xb6\xea\x72\xdf\xbf\x03\x0f\x5a\x05\xe5\xa9\x0a\x9f\x98\xaf\x8f\x05\xc9\xff\x9f\x23\x0d\x4b\xe6\xc5\x38\xee\xd3\xe1\x16\x14\xa4\xb9\xf1\xdf\xe1\x85\x1a\x23\x9f\xcb\xa2\x8f\x34\x4e\x47\xb2\x4f\x7f\x41\xd0\x59\xf1\xe0\x06\x55\xad\xdd\x13\x4f\xba\xe3\x9b\xe2\x40\x36\xb6\x6b\xa6\xd7\x5a\xf0\xf3\xb8\xb0\x70\x69\xf0\xc5\x5c\xde\xe2\xb7\x75\x9b\xe4\xe4\x1f\x7a\x3b\x15\xcf\x52\xcf\x4c\x35\xa6\x1c\x6c\x67\x9a\x2b\x24\x02\xbd\xce\x3b\xed\x80\xff\xfa\x11\x6e\xd5\x2b\xaa\xae\x26\x1e\x74\x20\xd8\x7f\xe3\x07\x94\x5a\x94\x84\xb5\x20\xc4\x51\x9d\x42\x78\x35\x8a\xf8\x0b\x91\xd8\xe0\xb1\xe9\xa9\x7c\x72\xf5\x31\x01\x36\xbe\xc8\x63\x0f\x60\x26\x08\x6c\xdf\x39\x82\x09\xcb\xb0\x96\x39\xa8\x0e\x07\x88\xb7\x37\xde\x6e\x48\x48\xdf\xc5\x3c\x5c\xc9\x8a\x09\xf4\x69\xa9\xa3\x8d\xa3\x14\xa6\x3d\x14\xfa\xdf\xec\xe8\x2a\x74\x51\x24\x3e\x24\x0a\xcb\xe9\x6c\x56\x63\x55\x9b\x5f\x99\xfc\x91\xcb\x57\xb7\x4b\x3d\x30\x6e\xb1\x5a\xe6\x4d\x03\x40\x2c\x54\xa1\x7c\x3e\xc3\x07\x36\xb6\x0f\x90\x89\x46\x05\x2b\x3f\x56\xe4\x45\xca\x90\x3b\x4a\xc1\xc3\xf9\xb2\x5e\x55\x4e\x75\x87\x82\xd3\x12\x29\x96\xe8\xc6\x43\x7b\xbe\x1e\x01\x0f\x81\x27\xb0\xb3\x4e\x63\xd8\xed\x5f\xc9\xc0\x51\x8b\x4a\x57\x50\x79\x42\xca\xa4\xde\x37\xe8\x0f\x4a\x84\x2c\xe8\xa5\x51\xa3\x4c\x3a\x54\xab\xde\xc3\x52\x0a\xdd\xcb\x59\x27\x36\xc2\x5c\x57\x43\xeb\x83\xaf\x5f\x4d\x32\xa3\xd9\x78\x70\xc5\x60\x34\xbe\xbd\x3d\x74\x01\x75\xe1\x25\xd8\x34\xcb\x5c\x5d\x4d\xb5\x52\x4f\xc8\x24\xc9\x62\x00\xd6\x50\xcc\xef\x4d\xe1\x35\x1e\x59\xf4\x91\x06\xad\x3d\x99\xcf\x1b\x75\x19\xbc\x51\xfd\xda\xe9\xc0\x2a\x8a\x0c\xdc\x6d\x45\xf5\xe4\x81\xda\xab\xc2\xdc\xb7\xee\xba\x03\xf0\x98\x2f\x1c\x7a\x35\x1c\xba\x0c\x5c\x12\xe8\x75\x5b\x79\xa8\x13\x93\xd5\xd8\x74\x16\xba\x1b\x46\x51\x56\x68\x45\x80\x51\xd9\xc6\xa5\x81\x40\xe6\x91\xa9\xdd\x46\x6e\xd8\x41\xdc\xcb\x96\xf8\x48\x59\x59\x85\x44\xd8\x9d\x82\x46\x96\xba\xae\xe0\x25\x00\xc1\xdb\x71\x89\x47\x57\x34\x15\x71\x00\xee\x2d\xbc\xd9\x24\x12\x6f\x88\x2f\xa9\xc0\x49\xb0\xeb\xd0\xba\xa1\x43\xbe\xb6\x0d\x68\xfc\x28\xd2\xd1\xf2\x81\xc7\x39\xb0\xb8\xbb\xe2\x87\x7f\xae\x29\xb1\xff\x4d\x9c\xc7\x57\x1a\x19\x64\xda\xd5\xa0\x85\x80\x65\xc7\x13\x73\xe1\x44\x87\x90\x41\x2a\x21\x0e\x7c\x8c\x14\x70\xdb\x3d\xca\x9c\x22\x5c\xe1\x73\x40\x91\xfa\x60\xf3\xce\xd8\xe4\x39\x54\x1f\x23\x74\x35\x10\x3c\x56\xbb\x22\x3d\xa1\x12\x0b\xbd\x0b\x8f\x99\x8d\x6d\x31\x7a\x3d\xc7\x79\x2d\xc1\x79\x60\x4b\xf8\x62\x20\xdd\x92\x0a\xdc\x4c\x3c\xd5\xa1\x2d\x59\xb9\xc2\x14\xfe\xac\xde\x94\x30\x3d\x6f\x32\xdf\xa5\x27\xb9\xa6\x87\xa1\xdb\x26\x31\xe7\x39\x22\x95\x29\xcb\x36\x09\x9d\xba\xc8\x8c\x8f\xad\x92\x53\x43\x19\xde\x67\x87\x54\x83\xd9\xe6\xd2\x9e\x60\x9b\x79\x2a\x96\x4b\xb4\x41\x5b\x77\x33\x58\x7a\x32\x95\x61\x56\xa9\xd0\xf5\xe1\xd6\x46\x46\x82\x0e\x0a\xc4\x58\x8a\xe6\x6f\xf5\x22\xa2\x5a\xe6\xb1\x89\x8f\xc1\xa5\xc7\x2b\xa7\xdd\x9d\xfc\x28\x9b\x53\xca\xee\x9b\x65\x81\xd5\x39\x38\x3a\x5d\x78\x9f\x8e\xce\x32\x28\x98\xf8\x3b\xfc\x4f\x8a\x11\x31\x24\x72\x76\x0c\x64\x51\x4f\x85\xe8\xde\x43\x8b\xba\xeb\x40\xe1\x9f\x62\x4a\x7b\x02\x7b\xc8\x12\x60\x3f\x9e\x64\x40\xe2\x5a\x03\x2c\x4b\x39\x47\x6b\xc2\xdb\x5b\xbe\xbc\x2e\x66\x7f\x97\x29\xee\x08\x36\x29\xae\x2f\xdf\x0e\xfb\xf8\xdc\x6f\x64\xef\x1a\xb8\xf9\x59\x8b\x4f\xca\xde\x31\xef\x6c\x9f\xdf\x30\x32\xfa\x88\xa4\xc2\x08\x6a\xfe\xbb\x99\x89\x2a\xb5\xc2\xd6\x02\x84\xbf\xb8\x8f\x39\xa7\x3c\x87\xc0\x7f\x55\x7b\xfb\xf8\x85\x98\xf0\xff\x76\xd2\x4b\xbd\xa6\x1e\x68\x1a\x2e\x22\xef\xbb\xdc\x5f\x38\x68\x7e\xa6\x2f\xbf\x09\xa4\x76\xd3\xdd\x0e\x38\xfc\x4e\xca\x27\x99\x4c\x8b\x29\xfb\x90\x0c\x3a\x3c\xa2\x20\xdf\x21\x0e\xd9\x13\x6f\x8f\x04\x75\x32\x6e\x63\xec\x59\x8b\xf1\x52\x90\x75\xb6\x44\x38\x8e\xd6\xba\x97\x15\x5c\x2a\xb1\xef\xa1\xa6\xc1\xaa\xf9\x0e\xb5\xab\xe1\xff\xe4\x53\x3b\x7d\x38\x2b\x89\xba\x40\x62\xb5\xc1\x67\x43\xdd\x68\x3e\x74\x4b\x9b\x01\x4b\xeb\xe4\x4e\x37\x1a\x49\xaf\xa5\x34\x84\xeb\x34\x91\xcc\x00\x49\x55\x12\x9f\x08\x24\x9d\x04\x3d\xb1\xd5\x1f\x0f\x5b\x1d\xcd\xfd\xab\x39\x4d\x7e\x31\xbf\x94\x21\xa2\xb2\x9d\x56\x68\x11\x37\xbc\xa1\x8e\x42\xe9\xae\x45\xa7\x2e\x7b\xcc\x07\xf1\x36\x92\x9e\xa7\x50\x20\x54\x34\xbb\x4a\x41\x49\xdd\x67\x73\x60\x22\x6b\x60\x5b\xa4\x21\x1a\xc8\xef\xa5\x95\xda\x73\x09\x48\x62\x98\xcd\x8d\x7b\xea\xdb\x56\x31\x4e\x6b\x8d\xb1\xc4\x0a\x6d\xc7\x5e\x36\x9d\xc6\x67\xb9\x74\xf2\x74\xec\xa7\x41\x01\xd1\x64\xa7\x25\x54\x75\x5b\x3c\x1d\xb5\x79\xe7\x53\x07\xef\xa1\x8c\xc0\xb0\x96\x46\x80\x21\x3c\xe0\xc0\x3f\xdd\x39\xf4\x93\x60\x41\x68\x8d\x60\x80\xc5\x9e\x07\xd5\xe6\x3a\xe9\x83\x5c\x0b\xc8\x52\x10\xa3\xdd\x7e\x15\xb6\x9c\x0f\x09\xb1\x1e\x3c\x0a\xa5\x7d\xac\x1b\x4f\xd4\xd2\x31\x92\xc7\x54\x84\x32\xdc\x01\xdf\x99\xb0\x44\x89\x36\xb8\xc0\xb2\x62\x82\xd2\x6f\x3d\x7f\xb9\x27\xf3\x0f\x5f\x66\x36\x36\xec\xd5\x04\xa5\x2a\x7e\x07\xd5\xcd\x39\x63\x25\x7d\xf8\x91\x2a\xbb\x93\x8a\x7e\xc3\x9c\x49\x4d\x8e\xfd\xe3\xd3\x66\xb1\xca\x85\xc5\x32\x7f\xd6\x63\xd0\x82\x81\x33\x48\x8e\x53\xc7\x2c\x65\xd2\xce\x2d\x62\x30\x3d\x2f\xfd\xb4\x5f\x02\x8c\x10\x09\x27\x99\x66\x24\xc9\xf2\x04\x92\xa2\x45\xbf\xf6\x98\xae\x18\x3f\x43\xed\x74\xb7\xe0\xa4\x0a\x8d\xa0\x6d\x9f\x62\x3e\x6d\x8b\x93\x8d\xc3\x93\xb4\x45\xfa\x4f\x1d\x6f\x90\x46\x06\x05\x61\xbf\x81\x68\x04\x3f\x35\x6e\x0e\x79\xc3\x96\xe6\x82\xa0\xce\x36\x58\x62\x46\x76\xfe\x22\xcf\x6d\x5c\x63\x56\x10\x2c\x46\x6d\xe4\x7b\x25\x91\xf6\xaf\xf1\x87\x02\x13\xff\x1f\x19\x36\x03\x44\xe0\x0e\xd5\x84\x05\x32\xbe\x58\xa7\xd3\x65\x0a\x42\xa8\x0b\x96\x18\x35\xc8\xb0\xd4\x2f\x3c\xb1\xec\x71\x3e\x0f\x36\x0d\xa7\x8c\x79\xc5\xa3\xbf\x8d\xec\x76\x52\xe0\x3a\xe7\x50\x88\xe0\xa8\xab\xb0\xfb\xed\xcf\x1f\xc1\x7c\x5c\xfb\x4d\xa6\x18\x85\x87\x2e\xc1\x34\xe3\xf0\x4c\x38\x0b\x58\x3f\x2a\xec\x03\x10\x19\x97\x4b\xbc\xa0\x62\xf5\xe7\xc3\x7b\x0b\x58\x37\x8c\xbb\x53\x26\xec\xaf\x7a\xea\x37\x81\xd6\xfb\x57\x20\xbf\x20\x1b\x04\x48\xc6\x07\xc8\x5a\x8f\x52\x58\xb6\x99\x8d\x62\xf4\xad\x30\xe7\x5b\xee\x46\x3b\x1e\x24\x19\x5e\xdd\xc1\x84\xd0\xba\xf4\xbd\x96\x2b\x5b\xd8\x54\x49\x0c\xb4\xc8\x58\x0b\xb2\xf4\xb6\x28\xc6\x22\xdf\x1b\xbd\xbf\x0a\x63\xc3\x03\x2e\xba\x7f\x87\xec\x3c\x15\xe7\x49\xda\x37\x3d\x92\x48\x9a\x49\x3d\x6a\xd0\x45\x53\x79\x7f\x7f\xc1\x18\xcf\x0e\x8d\xa3\x18\xa8\x24\x58\xf8\x44\xbb\x1b\xc9\x40\x13\x4f\x7d\xf6\x87\xd0\xc7\x21\xba\x05\x8d\xd0\xfc\xde\x8b\x07\x03\xd3\x73\xf4\xc3\xc3\xbb\x70\x24\x86\x73\x91\x1d\xaf\xe6\x43\x0c\x02\xb3\xa8\x9d\x97\xc3\xcd\x8d\x5d\x42\x16\x38\xd4\xd2\xd0\x85\x0a\xb3\x81\x5d\x76\x4b\x74\x14\x7a\x72\x53\x53\xf2\x60\xb9\x54\x6a\x41\xe2\x7b\x87\x51\xa7\xe9\xcc\xac\x9e\x51\x66\xbc\xd2\x6b\x24\x61\xf2\x54\x65\x39\x05\x86\xa4\xa7\xa3\xf7\x97\x5a\x7d\xc7\xad\xc6\xc2\xc7\x1d\xf6\x34\xdd\x72\x7f\x28\x64\xb7\x1c\x83\x58\x37\xad\x0e\x7a\xc1\x48\x79\x49\x8b\xae\xda\x21\xa4\xc2\x16\x72\xfb\xa7\xf7\xb8\x64\xda\x83\x68\xdc\x17\x8c\xf6\x24\x38\x75\xda\x9b\x44\xb8\xc1\xb3\xb3\xc4\x3e\x3f\x06\x39\xfa\xe7\xbd\x58\xc4\xd6\xeb\x8a\x59\xd5\xca\xdd\x53\x23\xd7\x54\x24\xfb\x76\xdc\xd7\xe6\x02\xdd\x40\x6a\x69\x7f\xd8\x87\xa7\x36\xab\x86\xc9\x48\xf4\x62\xc0\xd2\x34\xf0\x98\x00\xdf\x7f\xf3\xcb\xb1\xcb\x54\xb7\xf3\x4d\x9a\x0b\xce\xe8\x70\x08\xf8\xb9\x0d\xb9\x42\xec\x32\x32\x0e\x55\xe3\x50\xf2\x17\x3d\x80\x38\xb9\x86\x14\x39\xa7\x04\x18\xcb\x1d\x18\x4d\xe2\x21\x83\x77\xa7\xfc\x91\x2a\x3b\x10\xf5\x39\x6d\xb1\xca\xc3\x18\x80\x96\x6b\x7c\x27\xd6\x98\x46\x3d\xc9\xd0\x19\x90\x81\xf2\xfb\x48\xd6\xae\xdb\x6c\x50\xdb\x7f\x48\x5f\xff\x90\x03\x7f\x1d\xdd\xdc\x90\x4f\xfb\x9b\x3f\x9e\x77\x1b\xba\x2b\x2a\xa5\x2f\xc8\xa9\x3e\x98\x17\x2d\x97\xb4\x62\xa8\xff\x86\x72\xa1\x31\x78\xf1\x4a\x13\x28\xd3\x55\xb3\x3f\xc0\x98\x86\x98\x4f\x7b\xe8\xb8\x97\x0b\x4c\xd3\x84\x16\x72\x86\x2d\x52\x61\x12\xa0\x1f\xc5\x2f\xaf\x13\x42\x67\xa2\xab\x65\x29\x3f\x73\x8a\x10\xca\x32\xe6\x4d\x24\xca\x3c\xa5\xd3\xfb\xf9\x3c\x09\x61\xab\x86\xa3\x82\x09\x4a\x22\x54\x72\x13\xfc\x07\x1d\x01\x78\xe9\x56\x11\xb8\x96\x53\x64\x92\x22\xbc\x8a\xfd\x62\x9f\xbc\xf9\x82\xc9\x5f\xc6\x2c\xa5\x58\x1d\x51\x01\x8e\x79\xb4\xc2\xf5\x58\x9c\x27\xcb\x10\xd1\x3a\xb0\x89\x5c\x4c\x33\x99\x7f\x49\x32\x82\x50\xfa\xb1\x92\x1c\xf2\x33\x6f\x61\x43\x14\x54\xff\x0c\x73\x2c\xb4\xb1\xbd\xf4\xaa\xa6\xe0\xa5\x4f\xec\x8e\x65\x90\xb9\xef\x21\xf5\x3d\x7f\x4b\xab\x6b\xd6\xce\x80\xd4\x5c\x53\x1d\xbd\x88\x60\x12\x76\x7b\xf1\x61\xc8\x98\x68\x30\xf2\x2c\x46\x84\x31\xde\x34\xc0\x74\x1a\x4d\xa3\x45\x61\x62\x8b\x13\x90\xb0\xac\xb4\x1d\x79\xe0\x2e\xb9\x5e\x65\x7c\x29\x2f\x4e\xcf\xda\x85\x6b\x5f\xb0\xe5\xe7\x96\xba\xcc\x0f\x69\xcb\x45\x2b\xb4\xab\x7c\xb3\xf5\x49\x43\xe1\xda\x21\x57\xf3\xd9\x76\x17\x08\xcf\x96\x18\xb4\x5f\xb7\x38\x1d\x75\x87\xeb\x35\xdf\x66\xbb\xf1\x38\xac\xdc\x02\x50\x83\x18\x75\x76\x6c\x2a\x72\x92\xa5\xb1\xd3\xb9\x25\xe3\xbd\x7e\x7a\xfd\xce\xa6\xfa\x83\x56\xac\xf6\x2c\x62\xf9\x1f\xb3\x10\x89\xd4\xcd\xfe\xf2\xe4\x7f\x66\x55\x20\x28\x5e\xea\xc4\x37\xe8\x73\xab\x04\xfe\x4d\x00\x9f\xaf\x93\x81\xfe\xba\xf3\xbd\x3e\xa8\xb8\x09\xac\xd5\xe8\xdc\x89\xe7\x65\x58\x50\x29\x9a\x34\x5d\x3d\x5e\xf8\x5a\x20\xac\x95\x63\x66\xec\x1f\xe7\xc3\xa0\xa8\xd0\x98\xf5\x7e\xed\x71\xfb\x25\xfd\x1b\x88\xe4\xc8\xb3\x75\x32\x8e\x6c\xf9\x7f\xb1\xd1\xcb\x79\x03\xbf\xd2\x7d\xce\xaf\x68\xfa\x05\x26\x1c\x50\xb6\x9b\xae\x93\xd0\x5a\xf0\xb5\xff\x52\x89\x61\x62\x5c\x9c\x7f\xd8\xea\x80\x17\x42\x4e\x17\xa7\x66\xa5\x8f\x83\x8b\x91\x77\x29\x1e\x8a\x48\x1e\x2a\x49\x44\x0e\xc8\x09\x4e\x29\x15\xa1\xfe\x4e\xfc\x4e\x0a\x0c\x2b\x5b\xb5\xdb\x17\xfd\x63\x4a\xdf\x9b\xfe\x5e\xc4\x4b\x6b\xa4\x85\x76\x0f\x7b\x33\x51\x2b\x10\x3d\xec\x28\xc0\xfb\xa8\xae\x5b\x6b\x96\x3a\x35\xe4\x5d\x7a\x01\x44\xfa\xd4\x5c\x17\xdb\x57\xc6\xb8\x25\xdc\xd3\x7f\x61\xd6\x78\xcc\x84\x69\xed\x1f\xfe\x32\xce\x52\xf6\xe1\x3a\xf2\x54\xea\x90\x9e\xc0\x05\x7e\x96\x92\xda\xdd\xf3\xed\x8a\x81\x86\xea\x14\xa1\x7a\x62\x48\x6b\x49\xa8\xf1\x4f\xeb\xba\xf7\xe3\xdf\x7b\x71\x33\x9e\xbc\x8e\x31\xcc\x99\x3c\x2b\x5c\x1c\x9e\x9d\x5f\x38\xa7\xef\x19\xe8\xdb\x1b\xf8\xd6\xf7\xcd\xfc\x5e\x4d\x38\x6a\xf8\xbd\x51\xfd\xe8\x4c\x7c\x24\x25\x87\x3d\xc2\xfe\xd0\x0a\x72\x49\xef\xc6\x9f\xbd\xbe\x84\x8a\xca\xc4\x1b\xaf\x87\xec\x34\x56\x83\xdb\x4f\x8c\xfa\xdf\xf3\x35\x86\xae\xf6\xed\x60\x81\xb7\x77\xf8\x96\x4c\xcd\x21\x98\x82\x35\xc7\x8d\x74\x99\xba\xc9\x35\xbf\x74\x11\x8b\x94\x0f\xc1\xe9\x35\x5a\x8a\x88\x44\xa8\x7a\x2d\x6b\x13\x4b\xd1\x8e\xe8\xa3\x4f\x81\xe4\x11\x83\xc5\xe0\x3f\xcd\xfb\x0c\xf4\xb2\xeb\xfb\x41\x45\x13\x1a\x5e\xe9\xc9\xcb\xfc\xfe\x6b\xac\x7e\x6e\x11\x15\x65\x78\x62\x4f\x9b\x53\x88\xba\xc9\x38\x15\xae\xe0\xbe\x70\xa5\x85\x26\x75\xcd\xcd\x49\x86\xa8\xdd\x35\x3c\xde\xb2\x75\x94\x06\xf4\x61\xdf\xe2\xfd\x18\xe8\x13\xb9\x68\x62\x98\x46\x9c\x4f\x70\x4a\x90\x42\x18\x01\x04\xbe\xbd\x65\x18\x01\x3c\xa2\x16\x49\x95\x27\xff\x31\x7d\xea\x14\xda\x91\x02\xbf\x7d\x8e\x80\x37\xfe\x92\xec\x98\x42\xc3\x72\x67\x36\x8c\xd8\x80\x84\x08\x50\x5b\xb1\x22\x31\xd4\xd0\x57\x9a\x5c\x9c\x9c\x57\x47\x26\x64\x3e\x56\x8c\x70\xe0\xce\x21\x71\x24\x16\xa7\xe0\x14\x34\x51\x76\xa3\x12\x8b\xd4\xe2\x40\x12\x06\x62\x3a\x2e\x69\xf6\x22\x06\x7c\x30\x8e\xfa\xb8\x50\xc9\x1f\x0c\xab\x6d\x52\xb9\x68\x7e\x58\x49\xde\x9f\x0f\x20\x68\x9f\x6b\xf8\xfe\x50\x3b\xdd\xd5\xae\xe2\xc9\xe2\xd7\x41\xdc\x43\x26\x9c\x3a\x21\xcf\x79\xad\xee\x96\x10\x60\x27\x6c\x7d\x9a\x62\x9d\x39\x15\x53\x83\x36\x95\x3a\xc6\x35\xaa\x21\xbf\xfd\xf2\x70\x20\x0c\xea\xc5\x73\x96\x9d\x19\xae\x0a\xad\x35\xb0\x48\x99\x73\x28\x46\x4d\xae\x72\x5f\x72\x21\x9b\x5e\x02\x95\x33\x97\x02\xc3\x42\xb4\xf4\xbc\x08\x30\x60\x2e\x59\x2e\xe3\xc4\xc4\x11\x37\xad\x4a\xd0\x7b\x0a\x97\xe5\x0a\x2f\xe2\x32\xc4\x01\x27\x37\xf9\xe6\x51\xf7\x5f\xaf\x30\x3e\x42\x77\x9d\x29\xa4\x43\x7b\x7d\x24\x90\x02\xb5\xb4\x27\x27\x08\x59\x19\xce\x23\xa2\x95\xdd\x95\x37\xf1\xa5\x56\x67\xbf\x5f\x1b\x1d\x26\xcd\xfa\x92\xc2\x2d\x0e\x53\x87\x90\x55\xd4\x57\x08\xd5\x4a\x33\x62\x96\xf1\xf8\x83\xdb\xa1\x1d\xc3\x94\x9f\xda\x59\xfc\xb1\xa6\x4c\x22\xc5\xc6\x0d\xf2\x4c\xef\xc8\xf1\x5b\x0e\x79\xdb\x59\x0e\xed\x00\xd3\x72\x47\x70\x1c\xb0\x67\x68\x57\x22\x2e\xbd\x25\xa4\xdc\x80\x9c\x94\xf1\x2c\x7e\xea\x47\x56\x02\x98\xd7\xc9\x41\x4b\xb7\x2e\xc1\x3f\xf9\x00\xeb\x79\xd3\x97\x48\xba\xa6\xdb\x6d\xf8\x1f\x95\x78\x32\x75\xad\xc5\x9f\xdc\x7c\x8b\xb2\x14\x8b\x39\x38\xb6\x00\xce\x2a\x22\x4e\xc8\x97\x92\xda\xb3\x0a\x66\xff\x06\x5c\x82\x46\xda\xd3\x46\x3f\x14\xcb\xe3\x2f\x62\xce\xfc\x78\xc2\x65\x02\x85\x41\xd6\x71\x7a\x39\xd7\xb6\x4a\x2e\x76\xaa\xa8\xd0\x51\x73\x04\x58\x0c\x5c\x2f\xb3\x01\x00\xc6\x89\x30\x7a\xe2\x76\xf7\x2c\xf0\xa9\xdf\xe0\x18\x51\x27\x4a\xc9\x52\x41\xc7\xc3\x6c\xfb\xac\x32\x7c\x3c\x15\x3a\xf5\x43\xd0\x39\x5f\xea\x98\x10\x15\x74\x1a\x71\x70\x0c\xcc\xaf\x78\xc2\x7e\x9e\x8c\xe9\x31\xc9\x4f\x27\x66\x32\x2c\x0d\x3b\x4f\x86\x3f\x14\xc4\x06\x2d\x3b\xa3\x3d\xc1\x6b\xb6\x57\xc5\x2a\x5f\xc8\x82\x8d\x37\x13\x86\x32\x2a\xd0\x13\x00\xc2\x8e\xaf\x86\xcb\x6f\xb8\x85\xc5\x24\x95\x16\xbb\x6d\x24\xcb\x5a\xcd\x55\x83\xc7\x7f\x72\xb9\xea\xa3\x74\x25\x51\xc4\x9a\x39\x93\x28\xb5\xda\x26\xf8\x78\x7f\x9c\x73\x23\xdc\xea\xa6\x79\xbb\x3b\x4c\xed\x71\x1e\x50\x9f\x5f\xbc\x71\x85\xac\xa3\xb0\xf0\xce\x38\x0f\xa3\xc2\x6f\x8a\xbc\xe0\xae\x80\x00\x52\xe7\x6d\x6d\x1b\x8c\x98\x6e\xc5\x29\x9f\x06\xdf\xaf\x12\x09\x31\xae\x98\x30\x7a\xe2\x9d\xd7\x01\x27\xea\x32\x6d\x5c\x80\xa5\xab\x27\xe9\xef\xb9\xfb\x4a\x1d\x86\x24\x92\x42\x21\xa4\x8c\x87\xc3\xe5\x64\xe1\x9e\x3d\x3e\xd6\xcb\x91\x8d\x08\x42\xbc\x49\x2f\x7d\x28\x30\x22\x48\x5b\x08\xb7\xc9\xe8\x89\xd6\xeb\x0c\x41\xe7\x8f\xda\xfc\x58\x61\x16\x7b\xcf\xfa\xe4\x13\xc5\x35\x52\x2e\x14\xcd\xc0\x6b\xd8\x8c\x8f\x97\x98\x39\xbc\xd9\xe7\xb7\x74\x3a\x61\x51\xf3\xa8\xf9\xb7\xcb\xc5\xe7\x4a\x3b\x3a\x20\xb2\x43\xec\x06\xc4\x5b\xb1\xdf\x2c\x9c\x68\x9e\xe7\xa1\x2c\x2b\x1e\x93\x2d\x0d\x7b\x74\xa5\x62\xb2\x10\x10\x32\x52\xbd\x53\xcd\x74\x86\x9f\xac\xc4\x79\xe5\xf7\x90\xeb\x12\xb5\xdd\x65\x16\x0b\x20\x2c\xf8\xc1\x02\xe1\x38\x2e\xdf\x22\xfc\xd9\xd3\x76\xc8\x53\xf5\x3a\xa8\x6c\xf8\x09\x1d\x9b\x1f\xbc\xce\xc1\xae\x68\x59\xb6\x78\x1d\x0d\x62\xf6\xfa\x57\x50\x56\x89\x90\xcb\xe9\xc2\x01\xd7\x27\xd2\x79\x89\x9f\x10\x3c\xb7\xc8\x80\xdd\xf1\x0c\x0e\x02\x2d\xf2\xda\x24\xdd\xed\xaf\xfb\x15\x88\xab\x7a\xc1\xaf\xd1\x56\x11\x4a\x2b\xe6\x33\x30\x65\x0a\xe9\xe0\xcc\xf9\x29\x9d\xf9\x16\xf2\x83\xe4\x5b\x49\xd9\xf1\x8b\xc6\x87\x40\x08\xfa\xa7\x49\x7b\x02\xa3\xdc\xea\x49\x06\x99\x2b\x7a\x3d\x53\xa8\x86\x8d\x66\x4e\xdb\x1b\xb7\xb8\x28\x62\xd6\x42\x8d\xd8\x99\xb3\x39\x5f\xee\xd8\xe2\x51\xdd\x5b\xe1\x6b\x6e\x86\xdf\xcc\x98\x79\x2f\xd3\xa7\xba\x0c\x92\x21\x9f\xf9\x0a\xc2\x2f\xc7\x21\x4b\x98\x36\x25\x13\x02\x49\x14\xa3\xcd\x65\x51\x65\x7e\x86\x1e\xfb\xfa\x83\xbe\x0c\xe3\x9e\x98\x44\x45\x25\x6e\x31\xf4\x47\xcc\xb1\xc1\xdb\xd3\x80\xf0\x75\x2b\x8c\x72\x27\xa7\xf8\xa2\xe8\x9b\x8d\x73\x58\xad\x4b\xf7\x21\x68\x2e\xb1\xe6\xfc\xd0\x20\x7c\x0a\xbe\xd1\xe9\xb3\xbd\xf4\x1e\x21\x7a\xd4\xac\x0d\xef\x59\xe9\xb2\x29\xd6\x19\x7b\xc6\x73\x3e\xc9\x90\xfa\xe6\x45\xaf\x7e\x95\x45\xe8\x7c\xe6\xdc\xcd\x41\xcf\xea\x9e\x99\xc6\xe0\x3b\x53\x3f\xda\xa1\x3b\x37\x3f\x4f\x37\xbd\x10\x35\x8f\x7f\x65\x7e\x4c\x89\xd9\xef\xb6\xe1\x39\xa5\x95\x5a\x82\x73\xcf\xc3\x1a\x7c\xe0\xed\xf2\x95\x0d\x5c\xf0\xea\x48\xac\x06\xc6\xb3\xed\xaa\x60\x33\x8c\x06\xd2\x18\x92\x2f\x0b\x60\x2e\x55\xb9\xb2\x68\xb1\x90\x89\x8b\xd8\xc2\x1b\x94\xf6\xc6\x3c\x63\x56\xc3\x5e\xc8\x82\x0e\x85\xdb\x48\xdc\x7a\x5f\xe1\xbf\x9a\xc8\xea\x6b\xa2\x39\xb7\x00\x9b\xf6\x33\xd1\x22\xbb\x8f\xb9\x11\xf1\x31\x0a\x10\xd2\x5e\xa4\x44\xc6\xab\x73\x58\xaa\xbe\x38\xd4\x40\x1a\xb5\x66\x8f\x23\x40\x10\x78\x45\x31\x08\xfc\x0b\x22\x26\xd5\xb5\x22\x78\x91\x90\xc3\x30\x65\x7f\xf6\x58\x1a\xc2\x00\x71\xd6\x61\x9e\xee\x3c\x72\x3e\xa7\x99\xe0\x0e\xd1\x5c\xc8\x17\x1b\xb8\x1b\xab\x50\xa1\x36\x1e\x65\xf2\x9d\x21\xff\xb4\xc7\xd4\xd5\x40\x57\xe8\x83\xf5\xac\xe8\xbd\xbf\x3f\x5b\x68\x62\x2d\xf1\x74\x73\xb3\x49\xed\xc5\x18\x08\x8a\xf1\x71\x30\xa7\xa1\xb9\x5c\x39\x2e\xae\x85\x8e\x01\x79\xff\x47\x6d\x22\xce\x82\x74\x98\xb3\x21\x85\xd4\x88\x10\x6c\x91\x07\x89\xeb\xca\x8a\x36\xf2\x60\xf2\xcb\x22\x67\xf6\x00\x2c\xe2\x08\x86\xca\xdd\x37\xaa\x1c\x99\x5f\x28\xfe\x89\x04\x2d\x19\x5a\xc4\xe3\x21\x11\xdc\x13\x99\x66\x0c\x5d\xd0\xea\x6a\xa2\x67\x8c\x00\x3b\x1b\xb6\xad\x18\x65\x4c\x5c\x67\xa0\xd8\x2b\x2f\x3c\xa2\x48\xa4\xe9\x4e\x1b\xcf\xd9\x67\xed\x9a\xa4\x98\xfd\x88\x21\x05\xd5\xd6\x40\x17\x00\x72\xca\x3e\xb8\x8b\x9c\x29\x85\xcf\xca\x94\xbc\xb2\x35\x31\x98\x37\x83\xc0\x86\x20\x84\x03\x1b\x09\xd0\xbd\xf4\xf6\x61\x1c\xb1\x62\x6d\xd2\x9e\x7f\x23\x76\x0d\xf3\x93\x7f\x68\x63\xf1\xc9\x03\xcd\xce\x53\x26\x58\x42\x22\x63\x88\x93\x60\x9b\x50\x9f\x28\xdc\x08\x43\x4e\x5e\x37\xeb\xbd\xa2\x76\x53\x0d\xc7\x9e\x5b\x7a\xb1\x5e\x5f\xda\x43\x8d\x0e\x61\xbf\xfe\x97\xa8\xb7\xd0\x08\x26\x36\x18\x76\xad\x33\xac\xbb\x9d\x57\x54\x0a\x05\xcb\x50\x54\x9e\x24\xe5\x3e\x60\x03\xe7\x9d\xd0\x97\x5e\x64\xfe\x7c\xb5\x40\x4d\x56\xf3\x85\xed\xf9\x38\x34\xae\x0c\x9c\x83\x6f\x73\x5d\x7e\xe0\x27\x3e\x04\xb6\x94\x5d\x07\xab\xa6\x60\xfe\xdc\x84\x65\xf8\x28\x95\x3d\xad\x7c\x12\x61\x7d\xff\x78\xbe\x9a\x8a\x0a\x6a\x8b\xd6\x7f\x98\x43\xa4\x77\x1e\x97\xff\xc0\xfc\xc9\x6f\x2b\xbe\x33\x9d\xdc\xbb\x28\x39\xac\x3e\x13\x51\x5d\xf4\x4b\xe8\x1b\xc0\x6b\xcb\xdc\xaf\xd6\xce\x2c\x8a\xa8\x51\x54\x30\xe3\x02\xfd\xda\x09\x41\x34\xe4\x11\xb3\x26\x11\xe0\xbc\x49\x50\xa4\x51\xad\x8c\xa4\xc1\x66\xc6\xff\x9c\x74\xd9\x18\x70\x4a\x21\xa1\x8c\x81\xae\x37\x5b\x2b\x8c\x07\x6c\xa2\xb4\xa2\x07\x1f\xb2\x74\x33\xd2\x43\xfa\x66\x73\xbb\x84\x39\x41\x84\xff\x04\x28\xc8\xb1\x4f\x33\xdf\xb6\xc4\x1a\x25\x16\xfa\x9e\x27\x2f\xa4\x76\xb4\x0e\xf6\x63\x1a\xb8\xac\xa9\xa6\xa0\x47\x18\x0a\x5d\xec\xd8\xa3\x0d\x89\xa1\xc9\x9e\x4e\xa3\x56\x23\xf9\x9a\xb3\x01\x80\x02\x23\xfa\x24\x02\x97\xef\xc5\x7d\xc4\x33\x80\xe8\x3d\x49\x6d\xa9\x03\x58\x2a\xb0\xfd\x81\x88\x3c\x3c\x23\x2e\x08\xc0\x73\x43\x07\x1c\xdc\xa8\xdf\xa7\x66\x40\x78\x94\x92\x3a\x72\xed\x37\x08\x3c\x22\xbf\x42\xca\x2a\xb2\xcb\xf8\x6a\xbf\x3e\x48\x8b\x84\x52\xed\xfc\x28\x12\xf5\xe0\x8a\x91\x84\x9d\xae\x58\x74\xe9\xf7\x1d\x13\xf7\x71\xa0\xb0\x0e\x9f\xf1\x46\xed\x24\x10\x21\x12\xe8\x40\x28\xf2\x08\x70\xae\x46\xb0\x8c\x54\x68\x7a\x2e\x91\xbb\xd9\x7f\x13\x53\x87\xca\xae\x10\x14\x0e\xc8\x86\x4e\x87\xe0\x3f\x3f\x4b\x2d\x07\x29\xc9\xf5\x8b\xce\x5b\x02\x72\x8c\x03\x91\xe9\x46\x4c\x5f\xed\x3f\xd2\xab\xdb\x54\x2c\x83\x76\x71\x80\x2d\xe7\xbd\x98\x51\x2e\xc5\xa5\x66\x29\xca\x52\x75\x0c\x11\x58\x60\x4c\xb8\xb5\xcb\xaf\xca\xd4\x27\x79\xde\x1f\x61\xf4\xa8\x59\xb5\xd0\x38\x07\xe7\x58\x72\x29\xe6\x8b\xfc\x9f\xb3\x63\x71\x18\xe2\x51\x85\x5d\x60\xef\x61\x16\x01\xf1\xd9\x8f\x74\xaf\x91\xab\x5a\x50\xd9\x78\x1a\x4c\xc6\x6b\x68\xac\x8f\x19\xad\xfa\xde\xf9\x61\xc1\x32\x97\x4f\x3f\xa2\xd6\xf6\x7a\x0d\x47\xc5\xf7\x01\xa1\xb6\x92\x9b\x3c\x39\xe7\xfb\xfe\x84\xb2\xc0\x49\xc2\x47\xdd\x32\xae\x4b\x9f\x6d\xda\xba\xed\xda\xd7\xd8\xd2\x53\xd6\x59\x19\xe2\x79\xb4\xa0\x9e\x9a\xeb\xb3\x4d\xf3\x92\xeb\x19\xb5\x8f\xe1\xd2\x71\x95\x0a\xfa\x98\x19\xef\x88\xa2\x4a\x08\xf0\x36\x58\x1a\x62\xc5\x31\x02\x2f\xee\xf3\x17\x71\xd3\xfe\xbd\x8f\xa1\x03\x0e\x01\xb6\x31\x6e\xe5\xa8\x1d\xe6\x03\x31\xa6\xbf\xbd\xf5\xa2\x62\xb7\x5d\x93\x27\xe8\xbb\xa6\x8d\x56\xcf\xdb\x2e\x53\xeb\x0f\xf2\xa7\x75\xd0\x36\x85\xf3\x87\xbb\x52\x57\x7c\x41\xf7\xee\xcc\xe8\xed\xa9\xf7\x01\x18\xe6\xed\x69\x0a\x73\xdc\xcb\x74\xeb\xbd\x77\x64\xc1\xe1\x53\xc6\x67\xda\xb9\xcc\x15\x4d\x00\x78\x8e\x74\xd0\x34\xd5\x2e\x46\xf1\x25\x45\x2e\x02\x64\x8b\x31\xc3\xd5\xce\xee\x2b\xb1\xe2\x0b\x5f\x58\x43\x21\x5e\x3d\xbd\x2e\x42\x89\x74\x08\x96\xee\x1c\xc4\xa8\x20\x82\x16\x85\x96\x3b\x44\x75\x48\x14\xf6\x35\x1b\x90\x9c\x8d\x20\x02\x07\xff\x70\xf5\x69\x85\x7c\x77\x56\xe8\x92\x8d\x65\x27\x18\x4f\x94\x22\x1e\xa0\x52\x1e\x21\xe2\x06\xef\x5e\x0d\x52\x2c\xe3\x5a\xfc\x74\x13\x78\xf7\x5b\x08\x0d\xa7\x69\x2d\x4c\xcf\xb7\x51\x13\xc2\x8c\x73\x20\xca\x4a\x9a\x44\x4e\x6b\xe4\x3a\xb1\x5d\x3c\x7b\x0a\xe2\x5c\x9b\x5c\x19\x52\x36\xd8\x77\x31\xbb\x0a\x16\x2f\xbe\x2f\xfc\xb2\x88\xbc\x37\x94\x02\xcb\xf6\xde\x8b\x88\xa0\xf9\xba\x22\x36\xf8\x72\xf7\xbb\xb9\x7d\xec\x6d\x38\x9e\x73\x1a\x0a\xd2\xa3\xef\x21\x7f\x17\xd0\xab\xa9\x45\x23\x4d\x95\x22\x47\x13\x01\xbe\x5f\x55\x47\xba\xfb\xff\xd0\x2a\x85\xa0\x88\x42\x55\x83\x89\x6d\xd2\x78\x3a\x44\xc1\x4a\xf1\xe9\x2e\xdf\x08\x5c\xae\x32\x29\xfa\xdd\x00\xdc\x37\x37\x88\x36\x2b\x9f\x3e\xf6\x88\x14\xab\xae\x7f\xca\x74\xa1\xaf\x79\x5d\x46\xd4\x34\x6d\xe5\x12\x67\x62\xf5\x99\x1a\x2c\x16\x3b\xf2\x67\x4a\x55\x7b\x6b\x0e\x34\x28\x2d\x02\xde\x8a\x86\x92\x0f\xc3\x07\x77\xc7\x77\x10\xd0\x13\x15\xf5\x42\x33\x65\xea\x37\xfb\x84\x94\x33\x5c\xa9\x83\x9b\x1a\xa1\xff\xe8\x9d\xb2\x87\xd9\x9d\xf0\xc1\xe5\x05\x05\xad\x77\x33\xe5\x60\x58\x7b\xde\xa4\xdd\xe7\xff\x86\x12\x97\x28\x1d\x45\x66\x1e\x92\x8d\x0e\x6d\x39\x19\xab\x1d\x91\x8d\xb5\x3e\xf7\xd5\x9c\x52\x9e\x26\x28\xc2\xa6\x50\xe0\x83\x47\x96\xc6\x1e\xc4\xbb\x79\x74\x53\x7c\x28\xa9\x76\x2e\xa2\xa4\x3c\xc8\x6f\x95\x39\x62\x29\xfd\x18\x34\x80\x56\x12\xad\x54\xa9\xb2\x0b\x97\x7e\xbf\x56\xf6\x51\xc4\xff\xaa\x05\x73\xdc\xee\xc7\x4e\xf7\xcb\x31\x85\x5d\xb0\x54\x64\x7a\xd1\x76\x72\xd9\x2e\x2b\xef\x9a\xb3\xc3\x20\x3f\x26\xda\x0f\x0a\x0d\x63\xbc\xa4\xdf\x40\xdb\x0a\x9f\x3f\x47\xbf\xf0\x0f\xc8\xf0\x48\x9a\xce\xe0\x36\xa3\xdb\x47\x82\xd0\x49\x1f\x94\xf5\x99\xbd\xca\x3c\xd9\x05\xa6\xa4\xf2\x48\x3d\x5e\x42\x3c\xd6\xea\xd0\xe5\xd5\x0b\xb2\xf0\xe3\xc3\xdc\x77\x13\xd5\x6a\x02\x3a\x44\x35\x63\x22\xa7\x39\xa8\x67\xaf\xaa\x43\x11\x05\x4b\x7c\xb5\x81\x83\xe5\x53\x1f\x50\x53\x18\x05\x76\xcc\xbc\x6a\xeb\x97\x0c\xab\xaf\xcc\x56\x94\xfe\xc0\xcd\xb1\xae\xe5\xb0\x26\xfa\xd3\x3b\x52\xc7\x84\x5a\xb2\x34\xea\xa5\xaf\xc8\x26\xff\x4a\x5b\x68\x67\xda\xf7\xae\x29\xca\x44\xb2\xd9\x4a\x6e\x86\x7c\x74\x55\x73\xd9\x71\x94\x4d\xae\x43\xfa\xc5\xd8\x77\x24\xdc\x07\xda\xb3\x81\xc8\x32\xc5\x1d\x7a\xef\x42\x04\xab\xe4\x28\xad\x5d\xaf\x23\x88\xb8\x65\xd0\xd5\x12\xea\xbc\xa2\xa5\x83\x38\x56\xa0\x06\xc3\xf6\x5b\x04\x54\x24\xb7\x84\x28\xbf\xd5\x79\x1c\x49\xdc\xa4\x68\x32\x64\xa2\x93\xbe\x37\xbb\x0d\x37\x3d\x7b\x2b\x96\xfc\x8c\x5c\xa6\xcc\xf4\x9a\x9c\x9a\x7b\x49\xab\x1c\x57\xa1\xa7\x8d\x0c\xce\xbf\x5e\x8c\x37\x3b\xd1\x19\x1c\x83\xb2\xbf\x49\xa1\xc2\x3c\xc7\x43\x11\xd3\x2a\x2e\x59\x58\x91\xf3\x02\x57\xbd\x68\x93\x9e\x6a\xe7\x0f\x72\xe8\x15\x09\xcd\xb4\x05\x84\xc5\x6f\x9a\x29\xa7\x62\xd3\xfd\x77\x57\xb8\x20\x97\x73\xf9\xb9\x1b\x47\xf9\x62\x68\x80\x80\xe4\xd5\xa7\x4e\x81\xef\x79\x18\x84\x2e\xdc\xf5\x67\xbc\x9c\xb4\x72\x62\x32\x34\x27\x51\xfa\xd8\xa0\xf5\xa5\x9c\x61\x9e\x47\x90\xab\x02\x09\x96\xd0\x11\x3b\x9a\xa2\xb6\xec\xa2\x2a\x9d\xe5\xd2\x98\x10\x36\x5f\xd8\x7b\xa5\x9e\x54\xb7\xde\xbb\x34\x3b\xc7\x1d\xec\xdc\x7f\xfa\x9d\x60\x3f\xfe\x7b\xe8\xcf\x9c\x23\xb9\xa8\xcd\xbd\x95\x4e\xd2\x5c\x7b\x38\xe5\xd7\xfb\x23\x15\xe2\x3f\xec\x00\x6d\x35\xb5\x6c\x23\x3d\xbf\xa6\x73\x45\xcc\x96\x0a\xdb\x16\xc3\xf7\x90\xcf\x88\x27\xf6\xdd\x43\x47\x43\xf6\x35\x3d\x30\x17\xda\xfc\xfa\xf5\x02\xf5\x6c\x5f\xc0\xd3\x86\xee\x47\xb1\x04\xfa\xb3\x27\x3b\xd1\xa7\x48\x68\x04\x41\xa2\x01\x90\x20\x88\xf6\xd3\x09\x7b\x38\x98\xa3\xd9\x5d\x70\x34\xb4\x14\x57\xab\x5a\xd4\x3e\x28\xe0\x0e\x55\x0f\x0a\x46\x46\xa2\xa3\xf4\xb4\xff\xd7\x76\x55\x18\xa6\x5b\x6e\xdc\x8d\x5b\xba\x26\xf9\xd4\xd6\x70\xcd\x8e\xbd\x2f\xb4\x66\x59\x35\xec\xc8\xfe\x4b\xb6\x29\x76\xf9\x07\x0a\x46\xbc\xb2\x66\xe1\x07\xfe\x0f\x8c\x81\xcc\x25\x90\x18\x5d\xbc\x0a\x3f\x46\xe9\x6d\x88\xdb\x31\x14\xf1\x9c\x3d\x91\xcf\x1b\x81\x79\xb1\x83\x4d\x36\x68\x32\x11\x50\xc2\x55\x1a\x51\x41\x5a\xa3\xfb\x24\x82\x7d\xf5\x2c\xe4\xcf\x34\x8f\x85\xa5\xd8\x53\xbf\xfd\x7b\xc0\xdc\xdb\x78\xba\x2d\x32\xa2\x28\x87\xc9\xc9\xeb\x97\xda\x80\x9a\xb2\xe0\x42\xe4\x18\x0e\x23\xc9\xdf\x4e\x90\xe8\xf4\x19\x7d\x12\x73\x9c\x74\x02\xec\x9c\xf0\x21\x0b\xce\x54\x8b\x16\xcf\xfe\xae\x2b\xb4\x10\x3a\x39\x63\x82\x76\xcb\xbe\x13\x31\x2c\x8f\xa6\x04\x43\x1d\x2e\xae\x58\xbb\x02\xc0\xae\xc7\x8c\xaf\xde\x7d\x06\x56\x33\x5b\x2b\x28\xb9\xbe\xf3\x27\x3d\x5b\xc9\xbd\x0a\x81\x02\x5b\xd1\x14\x13\x47\x9d\x0c\x05\x83\x18\x51\xc5\x44\xbc\x24\x86\x86\x44\x62\xa9\x73\x50\x6f\xf1\xdc\xed\x28\x6b\x03\x25\x21\x41\x2d\xc0\x3a\xf5\x44\x20\x42\x4d\x48\x05\x8a\x5f\x1a\x50\x0e\x60\xd8\x5e\x6c\xa9\x2e\x5c\x03\x84\x53\xa0\xf6\xa6\xa4\x04\xcf\x70\xf9\xc7\x2a\x0c\x76\x80\x03\xbc\x9e\x3f\xb2\x71\xe8\x75\xc5\xd9\xc0\xe0\x48\xdd\xe4\x55\xf7\x03\xdd\xd5\x06\x66\xf5\x6c\xe0\x49\x74\x5c\x52\x50\x07\xb7\x03\x5c\x3e\xd0\xc3\xd7\xe9\xd7\x1b\x76\x58\x29\x97\xbe\xeb\xc2\x47\xb9\x5b\x8e\xbb\x32\x51\x0f\xd3\xb9\x9e\xaf\x60\xd8\x49\x0f\x98\x3c\x4f\xf5\x44\x91\x77\xfc\xf4\x21\xa9\x8c\xcb\x7f\x20\xb0\xb5\xc1\xb7\x60\xd4\x6f\xfc\xe2\x18\x73\x06\xda\x9d\x54\xe8\x51\xcd\xa5\x92\xcd\xce\xa9\x23\xc7\xa7\x80\xe8\x9c\x48\x2c\x43\x5e\x8f\x63\x40\x73\x9b\x8b\x72\x85\xf7\xe4\x44\xb5\x8c\x42\x90\x48\x8c\x71\x68\x91\xd3\x88\x06\x24\x9a\x05\x73\x33\x23\xa3\xbe\xfc\x4c\x06\x3c\x05\xb8\xf5\xa7\x54\xdd\x45\xb8\xd1\x8c\xf2\xa8\x3c\x7e\x45\x00\x49\x07\xbd\x38\xc2\xd3\x1b\xfb\x4e\x2c\x33\x8e\xfa\xb0\x67\x0c\xe4\x74\x91\x40\x76\x04\xdc\xeb\x99\xf9\x0e\x63\x6d\x37\x67\xe0\x16\x4c\x4e\xf0\x97\x74\x4b\x4c\xd7\xee\x4f\x76\x91\x19\x49\x68\x02\xda\x12\xfb\x1f\xba\xb8\x18\x47\xd6\x2c\xe9\xe8\xed\x45\x32\xa3\xaa\x86\x88\x4a\x99\x08\x57\x93\x58\xc4\x18\x29\xf8\xff\xd1\x9b\x66\xbe\x6b\x7e\x61\xaf\x89\xc5\x1c\x69\xb2\x11\x4a\x06\x33\xca\x5d\x1c\x27\x42\xea\x3e\x71\x1e\x47\x91\x9c\xe3\x43\x41\x55\x24\x0c\xab\x44\x72\x41\xef\xaf\xbe\x9a\xc9\x07\x13\xf5\x24\xfc\x05\xff\x43\x26\x04\x15\xf0\xe0\x89\x78\x26\xf6\x09\xbe\x6b\xfd\xec\xea\xc0\xe1\xf7\x5b\x39\xc5\x7d\x8c\x6d\x49\xf5\xcf\x10\x87\x97\xd9\x4e\xca\xdd\xb1\xc7\xa6\x8c\xe6\x2f\xf0\x3b\xf6\xfa\x27\x60\x1a\x55\x0d\x44\xd7\x99\x4e\x78\x4b\x3f\x87\xcf\x6c\x24\xcd\x4d\x5f\x0a\x11\xcc\x16\x5d\x45\x14\x76\x78\xd5\x6c\xe8\xbc\x44\xc7\x17\x2b\x3d\x48\x5b\xfa\x61\xd9\x74\x84\x64\x80\x97\xae\x38\x60\x0d\x7c\x68\xaa\xe8\x4e\xa8\x27\xf4\x70\x38\xf4\x0b\xa6\x8c\x9c\xbb\x00\xd0\xaa\xbc\x97\x9e\xee\x5a\xc2\xe5\xbb\x3f\x4a\x1f\x17\x41\x40\x6e\x7f\x64\x41\x1c\xb4\xc7\xee\xfb\x09\x27\x00\x8d\xfe\x0a\x45\x6d\x60\xc3\xc2\x2c\x5f\x24\x36\x50\xd4\xf6\xd0\x67\x95\xf8\x0e\xf8\x1c\x67\xaf\x7a\x44\x2a\x01\xa4\x1a\x52\x27\x21\x6c\xe3\x2c\xcc\x39\x11\x6f\x02\x28\x57\x9e\x0a\xb8\x75\x6a\x0f\x7e\xee\x0f\x06\xe8\xdb\x78\xc3\x76\x4d\xec\x22\x6b\x9e\x89\x4a\xd1\x98\x5c\xfe\xc2\x1f\xf8\xf7\xed\xb2\xec\x43\x66\x9f\x07\xfd\xd7\xa6\x0c\x44\x8d\x0b\x12\x32\x24\x04\x06\x6f\x76\xad\xe4\x0f\xb0\x0e\xe6\xa0\x7d\xec\x00\x46\x0c\x1c\xa2\xd4\x00\xe4\xaf\x62\xb7\x8b\x4f\x36\x79\xb4\x4b\xd9\x7a\x8b\xcc\x0d\x9b\x55\xb9\xef\x16\x0f\x13\x8c\xa1\x57\xa1\xdb\x3e\x41\x44\x80\x33\xfc\x23\x91\x47\x77\xa5\x50\xf6\x0b\x2f\x35\xf2\x92\xea\x47\x82\x1d\x28\xd9\xfc\xcf\x06\x6f\x26\xbd\x5d\x19\xd8\x57\xf6\x3f\x8e\x10\x60\x30\xf1\xe0\xc1\xe5\x4b\x4f\xbf\x86\x30\x59\xe2\x47\x5a\x9f\xf3\x77\x9f\xd5\x74\x1a\x80\xf5\x2c\xac\x5c\xf4\x30\x57\x1d\xfb\x9c\x55\x9e\x73\x1d\x30\x33\x55\xc5\x88\x98\x7b\x0d\x69\x4b\xdd\xba\x16\xab\x68\x45\x58\x44\x30\xc5\x06\x93\x8d\x1d\x29\x93\x35\x7a\xd3\x74\x39\x1c\x7c\x5b\x9c\x30\x72\x55\x75\x66\xbf\x46\xa1\x20\x05\x1e\xd0\x85\x98\x1f\x6a\xb1\x17\x4e\x00\x4b\xac\xf6\x20\xf8\x97\x2b\x77\xeb\x0a\x47\xe8\x5b\x1b\x00\x15\xc7\xdc\xe1\xbf\x3e\x34\xb7\xa9\xbb\x70\x91\x4d\xb1\xb0\x08\x27\xfb\xae\xec\x5b\x87\x44\xa1\x9a\x5a\xc4\xad\x7e\xaf\x83\x87\x90\x6d\x0c\x46\x13\xbf\xd8\x04\xd9\xfc\xdf\xea\xea\x81\xb0\xe1\xc5\x4d\x54\x49\x40\x74\x1e\x75\xc5\xd9\xac\x7d\x27\xb4\x9d\x90\x0b\x18\x4f\x28\x65\x82\xa3\xf8\xf1\x8b\xaa\x2e\xf2\x7f\xa7\x93\xaf\xf6\xe9\xae\x90\xa5\x5c\x0c\x0d\xe5\x89\xec\x5e\xed\xe3\x8a\xfd\x1f\x2f\x0a\xc0\x50\x02\x1b\x2a\x93\xe6\xb0\x59\x14\x2d\x6e\x97\xfa\xd0\xac\x20\xca\xbc\x2c\x51\x34\x8a\x64\x2c\x1b\x76\xed\x73\xae\xe4\x1c\x7f\x00\x11\x79\x42\xd5\x3d\x46\x08\x36\xa2\x73\xb9\x32\xc6\x89\x5f\xe1\x29\xbc\x39\x44\x2e\xa9\x87\xa7\x4e\xe7\x5a\xd2\xd8\xad\xd3\xd0\x21\xdd\x02\x53\x3f\x16\xf4\x80\x88\xfc\x41\xae\x8d\x0e\xc1\x4f\xc2\x7d\x62\x33\x8d\x12\x6b\x53\x55\xb8\x14\x17\xb7\x00\x1e\xe6\xed\x6b\x47\xe0\xb9\x51\xc9\x75\x4b\xb9\x8d\x9d\x52\x32\xb6\x77\x32\xbf\x6c\x40\xc9\xc6\x63\x79\x54\xaa\x29\x3d\x7c\x87\x3f\x2b\x16\xa3\xa9\xcc\xed\xd2\xd1\x1f\x1a\x2c\xa9\xe3\xa3\x4c\x5c\x46\x6d\xeb\x81\x76\x9d\xe4\x91\x6b\x71\x37\xcf\x17\x91\xc3\x45\x18\x6c\x84\x20\xbd\xac\x74\xd8\xa2\x13\x37\x9d\xaf\x9c\x2a\x92\x6f\x0b\x7e\x65\x2e\x75\xf1\x24\x9f\x97\x58\xaa\x39\x76\x12\x2a\x9f\xa4\xb6\xa5\x3a\x07\xa7\x40\x17\xae\xc2\x49\xbb\x64\x6d\xcd\x81\xa3\x42\x86\x0e\xb4\x3b\x75\xdb\x64\x23\x0f\x47\x89\x32\x7e\xf6\xd7\x1d\x88\xdf\xc9\x83\xde\xba\x0b\xb4\xe1\x06\x82\x0f\x27\x56\x71\x8b\x9f\x59\xff\xe4\x88\x52\xbe\x1f\xa0\x80\x4e\x00\x64\xe8\xb2\xeb\xc4\x6a\xbd\x1b\x63\x94\x7b\x39\x14\xde\x3e\x1a\x8b\x64\x92\xe4\x37\xae\x80\x46\x6c\x9f\x1a\xca\x4e\x43\x91\xa0\x56\x26\x88\xa1\xbe\xe2\x77\xfe\x72\xfa\x38\xb6\x28\xa0\xc3\xd2\xa9\x9b\x4f\xe4\x92\x5d\x87\x1e\x69\xac\x34\xcb\xf6\x7d\x44\xa2\xba\xa2\x66\xb5\xf5\x29\x0b\x02\xc2\x7e\x0f\xeb\xef\xdd\xc6\x48\xcb\xe2\xe7\x96\xd2\x8c\x99\xe8\xae\x9c\x2f\x49\xb1\x37\x59\xd4\x54\xce\x42\x02\x2d\x4b\xae\x6e\x0d\x62\x1d\x9b\xca\x65\x7d\xbe\xf8\xff\xc2\x05\xd6\x72\xa0\xab\x47\x59\xed\x68\x0b\xfd\x58\x5c\x82\xe5\xcc\x0e\x02\xf6\xfc\xd5\x5f\xef\x60\xb2\xcf\xa7\xd0\x4d\x96\x13\x4a\x2e\x00\x69\x10\x37\x5b\x90\xc3\x50\xf2\x80\xca\x98\x81\xeb\x97\xe4\x59\xe9\x75\xc4\x7d\x77\xe2\x9f\x72\x8a\x8f\x54\x27\x99\xaf\xcc\x34\xca\xc5\x72\x08\x94\xce\x25\x31\x2d\xf5\x3b\x79\x63\xb9\x38\x09\x40\xca\xd4\x62\xac\xcc\x9d\x90\xac\x38\x2c\xd8\x7f\x8e\x84\x31\xa4\x7b\x17\x27\x11\x6d\x61\xc2\xb2\x21\x3b\x5a\xb1\x29\xb2\x36\x9b\x6c\xaf\x0f\xe0\x48\x94\xc3\x7f\x11\x6e\xdf\x71\x11\xd9\xaa\xe7\xa7\xb1\xbe\xc2\x8d\x3e\x6e\xe7\x30\x03\x02\x28\x7e\xd3\xe0\xcc\x5b\x54\xa0\xc5\x82\x70\x02\x34\x68\x02\xcd\xef\x99\x4d\xaf\x83\xd5\x09\x82\xd7\x3d\xb5\x8c\xdf\xfe\xc7\x2d\x39\x6c\xe0\xc9\xa7\xb0\xd1\x88\x4a\x32\xbf\x9a\x93\x09\xce\x57\x24\xba\xef\x4d\x8e\x39\xc0\x32\x96\x18\xfb\x58\xc9\xdf\x3c\x51\xf1\x63\x95\x75\xcf\x97\x24\x0c\xdc\xf9\x11\x24\x09\xec\xa9\x60\x28\xfa\x05\xc3\x86\xdb\x95\x28\xaf\x6a\xac\x16\x8e\xf6\xfc\xde\x38\x1c\x8c\xac\x97\x9a\x53\xed\xf9\xe2\xdf\x32\x48\xe5\x5a\xb6\x89\x08\x77\x46\x65\xf0\xc4\x46\x6b\xfa\xb0\x1d\x82\x4c\x67\x51\x25\x7c\x4b\xb0\xe6\xb7\xf5\x74\x31\xaa\x1f\xd3\xa7\xcb\x23\x22\x67\x16\xe0\x75\xff\x23\xf2\xdc\xce\x89\x48\x83\xf0\xc1\x92\x76\x31\x41\x43\xb1\x07\x82\x77\x1e\x35\xae\x2e\xfe\xa8\x60\x1f\x6c\x8f\xff\x59\xde\x89\x31\x93\xad\x57\xd7\x7c\x0a\x1f\xb9\xcd\x3a\xbc\x16\x81\x58\x88\x7c\xb9\x57\xb0\xf7\x07\x6d\xc9\x6e\x22\x1d\x5e\x3f\x7b\x2f\x7a\xc2\x59\x55\xf4\xf9\x5c\xa6\x4d\x9c\x6e\xe2\x9c\x50\x10\x12\x9f\x40\xd5\xe4\xf8\x0d\xd3\x74\xa2\xf9\x53\x53\x34\xf1\x33\xc0\x52\x5b\xc9\x4b\xdc\x64\xfd\x35\x59\x1e\x88\xe6\xd8\xf1\xe3\xc0\x64\xdf\x32\x38\x74\x5b\xa7\xf3\x13\x26\x89\xf8\xe5\x6e\xb3\xb3\x0b\x6f\x0d\x9b\x7b\xc9\x84\x55\x5f\x43\x46\xe9\x16\xc4\x72\x1a\x3d\x3d\x09\x12\x96\xc9\x98\x7e\xf5\x66\x9d\xe9\xf9\xb6\xbe\x65\x29\x30\xe3\x3b\x76\x76\x57\x08\xd6\x56\xaf\xef\x99\xcd\x21\x5f\x83\xe4\x6d\x56\x82\xc6\x21\xa7\xce\x21\xc1\xfb\x26\x82\x6b\xe1\x58\x25\x09\x1e\x99\xb2\x24\x75\xae\xca\x1c\x3b\xdc\x8c\x11\xdd\xc9\x0c\xdd\xff\x7f\xee\xfb\xa9\xc9\x02\xa2\x5f\x8e\xdb\x31\x8e\x1a\xa4\x8a\xec\xdc\xcc\x6c\x2e\xba\x50\x5e\x84\xd3\xee\x9d\xa5\x43\x94\xad\xc7\x87\x63\xc3\xbb\x4e\xa1\x74\x4b\x87\x1e\xc2\x3c\x38\xd5\xec\x29\xe5\xb3\x8b\x41\xb2\x4e\xba\xf7\x37\xc0\x20\xc5\xa9\x92\x2e\x0a\x75\xdb\x18\x3c\x2a\xfd\x1d\xe5\x1f\x9f\x09\x32\x81\xd2\x51\x73\x00\x5d\xc8\xfd\x59\x57\x6b\xae\x88\x70\xaf\x55\xa4\xf8\x3a\x50\xc3\xa7\xac\xac\x1a\x6e\x8f\x9c\x5b\x65\x00\x84\x20\xe4\xee\x06\x54\x18\x96\xf6\x50\x2c\x57\xc8\x49\x05\x6c\xf1\x59\xd3\xa7\x44\xf7\xaf\x94\x31\xde\xa7\x93\xb5\x66\xc9\x68\x80\xb2\xe1\xde\xcd\x5a\xdc\xf3\xd0\x62\x75\x52\x4b\x37\x4c\x60\x79\x50\x94\x7f\x6c\x59\x78\xe6\x33\x45\x75\xa9\x81\x51\x7c\x5a\x33\xd8\xad\x48\x5f\xcd\x7d\xc0\x4b\x42\x14\x20\xb4\x0f\x4e\xa7\xd3\x0c\x01\x07\x5a\x2a\xe0\xea\xc3\xc2\xdd\x38\x34\x8b\xa5\x37\x7e\x2b\x36\xcc\x40\xbd\xf3\xbb\x92\x84\xa1\xc4\x75\x73\x65\x2b\x20\xd2\x11\x4c\x01\xd4\xbb\x6b\xfb\x8e\x35\xb0\xf8\x8a\xd8\xa6\x7c\xdd\xdc\xea\x8d\xf0\x65\x77\x92\xd8\x33\x24\x57\x03\x0d\x05\xab\x15\xcb\xab\xcb\x18\x41\x40\x96\x92\x56\xb0\x67\x83\x3d\x27\x04\xf3\x02\x4e\x8f\x62\x50\x9b\x77\x30\x01\xc3\x29\xf0\xb1\x7f\xdc\xeb\xa7\xb8\xf1\x87\x4f\xe0\x0a\x82\x85\x64\xcd\x35\xfd\x70\xbe\xdf\x7b\x21\x6e\xd7\x52\xce\xb4\xbf\xee\x02\x9b\x8d\xf9\x22\x41\x75\xa7\xc8\xbd\xec\x48\x6b\x30\xb4\x18\xe2\x7f\x23\x55\x6d\x45\xce\x41\xf3\x9a\x05\xda\xe3\x65\x5e\x8e\x75\xd1\x13\x01\x45\x7c\xd8\x2d\x92\x0b\x7e\xcf\x39\x93\x24\xdb\x49\xe7\xdb\x40\xd3\x25\x85\xf5\xff\xf3\x9b\xd2\xc5\xc9\xc7\x75\xc1\x34\x37\x57\x9f\xce\x2c\xf3\xdd\xfc\xb1\x03\x4e\xa4\x3c\xef\x94\x7d\x51\xce\x91\xb0\x55\x34\xef\x20\xe8\xb9\xae\xc8\x76\x57\xdb\x9e\xdf\x34\x79\x09\xca\x1c\x70\xc8\xfe\xe0\x9e\xe8\x5e\x2b\xcb\x86\x32\x1e\x57\x39\x12\x8d\x43\x91\x22\xce\xbb\xea\xff\xbb\xfd\xc9\x6a\x48\xfd\x5b\x1c\x12\xde\x82\x6f\xe5\x8f\x5e\x7f\xac\xf3\xf0\x89\xf6\xad\x63\x1b\xb9\x56\x6f\xab\xfb\x91\xa0\x24\x03\x2d\x3d\x03\x14\xdc\x98\xff\x67\xaa\x5d\x3d\x3c\x08\x99\xb7\xd8\x1b\xb4\x57\x72\xc0\xf1\xb6\xe3\x41\x01\x1a\x10\xe7\x5f\x45\x55\xa6\x41\xbd\x31\x7e\xe5\xc2\xbc\x1c\x44\x3c\xa5\x0f\x9f\x65\xa3\x84\x0d\x5d\x19\x30\x7b\x0c\x85\x02\x02\x05\x7f\xb5\x16\x1a\x9c\xe0\x25\x5e\xb1\x71\x4e\x61\xf3\x58\x77\x1b\x35\xd2\xb9\xc9\x20\x0c\x12\x4e\xa7\x83\x3a\xd4\x7d\xf2\x9e\xc8\xb4\x0f\xab\xc8\x6e\x68\x9c\x17\xd7\x36\x47\x27\x7d\x49\xe9\x69\xb2\x83\xec\x4b\x0e\x49\xca\xec\xe1\xd4\xcd\x90\x67\x6b\x90\x45\x49\xec\xcc\x73\x54\x15\xbc\xb3\xd9\x4a\xa1\xac\x12\xe6\xb0\xfe\x7f\x39\x94\x75\xab\x76\x88\x1c\x6f\x09\x29\xe7\xbe\x04\xd3\xfa\xec\xcf\xed\x09\xd3\xef\x87\x40\xc2\xab\x29\xef\x89\xa0\xd4\xc8\xf6\x4b\x5a\xd4\x67\xa8\xbe\x56\xf9\x45\x9d\xad\x96\x98\xeb\x9a\xb7\x7e\x27\xd5\xa0\x2a\x51\xc6\x2b\xe6\x34\xbd\x23\x79\x41\x66\x93\xbb\x78\x5c\x93\x52\x79\x88\xec\xd1\x93\xc1\x4c\xa2\x80\x30\xb2\x4c\xcf\x55\xee\x86\x4a\x3b\x69\x7e\xc9\x60\x7d\x35\xb4\xc3\x2e\xb9\x35\x5a\x96\x39\xf1\x7e\x1e\xdb\xc7\x65\x70\xc0\x51\x6a\x6e\x59\x97\x74\x9f\xc0\x9d\xe1\x3e\x58\x14\x68\x60\x09\xa8\xea\x65\xf2\x0b\x95\xd6\x4d\xae\xbd\x5c\x09\x46\xab\xf8\xda\xe6\x43\xb2\x4c\xcf\x3a\x89\x8d\xc3\x28\x7d\x94\x9e\xa0\xfd\x5d\x6b\xfd\xa9\xb1\x11\x50\xfc\x13\x4f\x05\xf0\xf5\x2a\x6d\xba\x2a\xe4\x9f\x93\xc4\x7e\x39\xad\xa8\x45\xae\xbe\x1c\xaa\xcb\xc3\xda\x39\x5b\xd3\x6e\x66\x8a\x13\xe4\xc5\xf2\x8b\xd0\x5e\x97\x2c\x02\x8d\x31\x71\xbb\x4b\xbb\xf3\xc3\xf7\xd9\x43\x84\x54\x8a\x0f\x3e\xeb\x53\x8e\x1a\xe6\x16\x40\xbc\x39\x8b\x47\x18\x3e\x99\xa5\xd6\x4e\xd2\x6b\xca\x15\x46\x3f\x11\xa7\x66\xe6\x7e\xb7\xc4\x1b\xa9\xb1\xd4\x81\x63\x85\xd3\xae\x0f\x14\xdb\x84\x5e\xfc\x15\xcc\xae\x17\xec\x58\xc6\xa2\xbd\xc4\x39\x82\x4f\xc8\x1a\x8d\x7b\x2c\x2e\x80\xf5\xe7\x19\xd9\x59\xd0\x9a\x7f\x3f\x45\x86\x9d\xc3\x6f\x5c\x43\x48\x32\xe0\x96\x55\x24\x40\x5a\xe8\x9d\x85\xc3\x27\x17\x83\xd4\xc4\xbc\xd7\xf7\x0b\x45\xcf\x6f\x7c\xe2\xf5\x47\x83\x0c\x0e\xa2\x81\xed\x25\xfb\xd4\x9a\x06\x99\x4c\x38\x42\x12\xe6\x73\xca\x0a\x1d\x30\x5a\xea\x7a\xfb\xc7\x87\xb8\x14\x7b\xcd\x0d\x67\x0c\x18\x06\x77\x5a\xf3\x36\xa0\x68\x5b\xa0\x88\xc2\x0b\xc3\x5b\xeb\x09\x70\x61\xc9\x28\x2d\x79\x40\x55\xc0\x36\xb1\x03\xe4\x14\x4b\x43\x23\x68\x0a\x36\x22\x7d\x90\x2a\xe0\xa9\xa6\x89\x29\x89\x76\xc1\x07\xa7\x3f\x1f\xc4\x62\x70\xbb\x80\x21\x3a\xc0\x8a\x0a\x8d\x54\x14\xe7\x38\x75\x5c\xd4\xef\xf3\x62\x0c\xc3\xbb\xad\x38\x01\x55\x02\xca\x80\x09\xc9\xf1\xe7\xf0\x21\xf4\x1c\xb8\xb9\x00\x91\xd6\x5e\xec\x36\x8f\xdc\x5b\xe8\xce\xe6\xb8\xe1\x2a\x17\x11\x8e\xf9\x34\x8f\xed\xf6\x8c\x08\xfb\x57\x32\x0e\xe9\xf3\x40\x3b\xff\x5e\x26\xb4\x71\xb8\xa0\x8c\x79\xf2\x61\xf3\x48\x04\xec\x5a\xfe\xe0\x9c\xf9\xc9\x95\xb0\xac\x74\xe4\x66\xac\x1e\xbf\xce\x4d\xea\xf2\x31\xda\xd9\x7c\x43\x44\x25\x38\xe5\xd3\xec\x22\xf5\x0f\x9e\xaa\xa6\x55\x00\x89\xde\x78\x13\x56\x84\xde\x5a\xfa\xcc\x76\x5b\xbe\x65\x23\xab\xc7\x34\x6d\xe5\x85\xf3\xc9\x14\x00\x84\x14\x0c\x6d\x61\x1f\x25\xfd\xb7\x17\x71\xd5\x39\x49\xd0\x84\xad\x39\x3c\x88\xeb\x0d\x6b\xb3\x75\x64\xaf\xbb\xa2\xa9\x3a\x5d\xac\x48\x64\xd4\xf3\x56\x5c\x8c\xf3\xfe\x9b\xa6\x8e\x66\x37\x3b\xb7\x5d\x85\x8b\x59\x4c\x7d\x06\x2b\x22\x67\x9a\xf0\x57\xb5\xc3\xf6\x61\x91\x03\x03\xd4\x8a\xd3\x60\xa9\x0c\x86\x89\x0d\x9e\xe2\x93\x15\x9e\x27\x23\xe3\x01\x74\x48\xad\x5b\x21\x0f\xa9\xd7\x5a\x51\x96\x37\x76\x93\x59\x7c\xd8\xb1\x53\x24\x3f\x0d\xd7\xff\x1d\xa5\x87\xb4\x38\xc6\xbf\x84\xf2\x66\x75\x12\x80\x34\xfd\x77\x81\xca\x3c\x15\xf2\x54\x7f\x04\xe5\x33\x3c\x9c\x6a\xfd\x7b\x4a\xd7\x54\xa5\xee\x77\x86\xca\xe4\xae\x6f\x2a\x8c\x86\x0d\x60\xb9\xa0\xae\x58\xbd\xbd\x30\xe9\xc1\xd4\xc6\xac\x97\x96\x8c\xcf\x2f\xbd\x5d\xa3\x7a\xe7\x6b\x29\xa8\x76\xe4\x22\x36\x6e\x68\x99\x61\x22\x4a\xf2\xe8\x85\x10\x0a\x2f\x04\x8f\xfc\x1b\xd3\x18\xe7\xf2\x13\x83\xa6\x41\x0e\xfc\x38\x65\x64\x76\x83\x18\x4a\x45\x31\x69\xb0\x3c\x54\xe6\xa1\x7a\x1b\x8b\xf1\xa8\xa8\x12\x5f\xde\xbf\x6d\x3d\x29\x6e\x9a\x12\x04\x85\xe2\x7b\xf3\x9c\x74\x3d\x18\xce\x2c\xef\xab\x3b\x2b\x4b\xe1\x39\x99\x1e\x09\x1d\xd0\x45\x21\x88\x6a\xa3\xdc\x96\x7a\xa1\x47\x9e\x39\xdd\xaf\x86\x85\x3f\xc6\x63\x78\xa1\x20\x9c\xba\x48\xbb\xcc\x70\xbb\xe4\xd1\xbb\x38\x1b\x42\x12\x8c\xea\x68\xd9\xc7\x16\xdb\x57\x0d\xe0\x7d\xaf\xbc\x34\xb2\x81\x38\x79\x50\x48\x85\xe8\x3e\x08\x2c\xb7\x38\x23\xa8\xc4\x65\xa8\x70\xa0\xc0\xdc\xd2\xc8\x81\xa6\x2d\x94\x6e\xfd\x42\xb5\xf1\x18\xc9\xdb\x99\xa4\x6c\x12\x05\xe5\x45\x2d\x46\x12\x29\xc4\x0a\x39\xc4\xdf\xcf\xec\x7c\x9f\x30\xad\x2d\xa7\x6b\xc0\x5c\x10\x5a\x85\xb5\x05\xe3\xdd\x0a\x0f\x0a\x86\xf1\xbf\x9b\xc2\xbc\xb7\xf2\x09\x43\xce\xfd\x24\xe2\x38\x11\x0e\x3a\x92\x3e\x5c\xe9\x18\xb7\xaf\x32\xda\x19\xd9\x1a\x20\xbb\xce\xb8\xb1\x95\xdc\xb5\x1b\xd4\x73\xd5\xa4\x75\x40\xff\x72\xe5\xeb\x08\x07\x44\x84\xa1\x7b\x22\x45\x30\x56\x55\xc4\xb0\x26\x93\xcb\x64\x4a\xba\x2e\xf8\x3c\x12\xf4\x19\xa7\x8f\x6e\xa1\xb7\x26\xbc\x79\x97\x73\x27\xc3\x83\x88\xa6\xa1\x19\xb3\x84\xb9\x55\xa7\xa9\x38\x06\xab\x7c\x25\x87\x7a\x28\x56\xd5\xfd\x42\x44\x6f\x7a\xb7\x24\xc5\x02\xcc\x41\xeb\xff\xe9\xdb\xb3\xea\xe8\x80\x86\x81\xdb\x85\xb3\x67\x4f\x63\x7c\x5e\xb2\xa8\x5b\xfa\x60\xab\xf0\xd2\xd7\xfb\xc2\x4a\xe4\x75\x12\xd0\xc9\x7f\xf3\x98\xf5\xdf\xf2\x5f\xd5\x0b\xca\x52\xde\xf4\x08\x33\x6b\xda\x3e\x73\x9d\x6c\x45\xe9\x20\xf2\x03\x8f\x0a\x96\x68\x18\xcd\xd0\xe4\xba\x56\x4f\x3f\x89\x22\x69\xde\xf7\x33\x88\xb7\xbb\x93\xa0\x3e\xe0\x9d\xe6\x51\x07\x88\x39\x4f\x72\xd6\xa0\xdf\x6d\xeb\x0b\xb2\x6d\xb2\xd9\x4c\xce\x23\xa1\x01\x94\x41\x75\x35\x62\x70\xdc\xc5\x96\x6c\xb3\x3f\xbf\xe1\x91\x63\xc0\x28\x7c\xd1\x4e\x06\xfe\xf1\xbb\x31\xb5\x00\x2c\x4b\x87\x43\x92\x0e\x06\x92\x6b\xa4\x7e\x7c\x79\xdd\xdb\x55\x6d\x8a\x36\x35\xbf\xa8\x52\x20\x4d\x67\x5f\x54\xa7\x1b\xa1\xb2\xae\x48\x14\x96\xb9\x43\xe1\xcc\x01\x5b\x36\xab\xe8\x03\xb4\xe4\x9a\x41\x26\xa4\x77\x16\xa1\x81\x04\x8a\x2f\x99\x82\xc0\x9c\xe8\x14\xe1\xa6\x81\x9f\x3a\xf5\xd5\x60\x3f\xd8\xf4\x00\x65\xf8\x85\x9a\x02\xd2\x33\x4e\x66\xdc\xcf\x3f\xbf\x49\xc8\xaa\x0e\x80\x5e\xf8\xc4\xb8\xce\x52\xb0\x21\x44\x74\xbf\x3f\x62\xbb\xe2\xd7\xc1\xeb\xee\x05\xdd\xe4\x9a\xf2\xad\xcb\xfa\xed\xf5\x31\x8d\x83\x53\x1e\x50\xe7\x36\x71\x2b\x9a\x43\xff\x7f\x44\x40\xe0\x11\xd1\x21\x72\x8b\x7f\x5b\x8e\xfa\xc1\x77\x1b\x0f\x90\x80\x5e\xff\x6f\xfa\xb8\x7a\xcc\xb4\xbf\x46\x62\x4b\xc7\xd4\x40\x69\xab\x8e\x0c\x28\xb1\xab\xd4\x72\x24\x4e\x4b\x4b\x86\xff\xe7\xb5\xc2\x53\x44\x7e\xd5\xb3\x2d\x61\x94\xce\x61\x7e\xdc\x1b\xbc\x7a\x2b\x62\x06\xca\x2c\xab\x96\x7f\xc9\x7e\x23\x9e\x52\x58\x4a\xda\xe9\xb1\x8c\xc7\x5b\x7d\x76\x7a\x1f\xfe\x17\xfc\x68\xfe\x26\x62\x1e\x84\x90\x44\xb7\x4a\xb5\x28\xe4\x68\x89\x32\xce\x41\xfb\xcf\x2c\x74\xb3\x21\x70\x9b\x6c\x86\x1b\x85\x1a\x50\x2e\x4b\x30\xc0\x7e\xb8\x38\xa9\x75\xc2\x18\xc0\xdb\xe1\xca\x84\xf4\xdc\xda\x5a\xd0\x17\x5d\x37\xd2\xec\xb1\x71\x60\x0a\xf6\xfa\x31\xbb\x8e\x49\xdf\xa0\x2f\xd3\x94\xd1\xba\xc9\xa8\xdb\xcf\x98\x26\x76\x13\xf0\x06\xb9\x8b\xdd\xdd\xb0\x21\xc7\xc8\x55\x2a\x55\x7f\x55\x60\x20\x40\x50\x53\xab\x68\x9e\x8b\xb4\x58\x3d\x16\x3c\x10\x1b\xc2\x6e\x1d\xf3\xa0\x27\x48\x43\xb8\xc8\xb2\x34\x30\xd0\xb1\x21\xc9\xd6\x78\x42\x66\x62\x19\x2e\x9b\xef\xf3\x8c\x68\x28\xef\x12\x84\x86\x9e\xb4\x36\x3d\x1a\x35\xe9\x11\xb5\xe4\xbb\x2f\x41\xbb\x21\x6d\xc8\x7b\x64\xa5\x5f\xa3\x0c\xed\xdf\x65\xdb\x2a\x6d\x55\x38\xbb\xb3\xee\x77\x55\x67\xc4\x95\x7d\xd9\xa7\x9d\x44\x4a\xdc\x0c\xb9\x68\x40\x1c\x16\x34\x32\x86\x03\x34\xac\x79\x6b\xb9\x53\xba\xe9\xf0\xde\x22\x97\x0e\x6a\x28\xc9\xef\x39\xb2\x81\xe4\x2d\x74\x04\xd9\x35\x68\xd4\x3e\xbc\xa4\xbb\xf6\xf1\xea\x9d\x6a\xbe\x9b\xfc\x36\x06\xfe\x76\xeb\xd1\x98\x19\x84\xca\xd7\x30\xc0\xf5\x78\xd1\xff\xe0\xda\xd5\x08\x62\x6c\x68\xdc\xb8\xf1\x71\xed\xfe\xcf\x0f\x90\x2f\x0e\xc2\x0d\xf2\x8f\xad\x13\xcd\xe5\x72\x7c\xb0\x57\x27\xee\x9b\x9c\xad\xb2\x8a\x13\xef\xae\x78\x41\x43\x0e\x03\x0a\xc3\x05\x76\xab\xaf\x40\x91\x9b\xa2\x4e\xbc\x76\x1e\xef\xf4\xe1\xdc\x05\xf3\x82\x37\x6e\x56\x51\x22\x69\xa1\x9a\x9f\xef\x0b\xa4\x37\xa4\xd0\x06\xb3\x3b\x63\xdd\x13\x48\xf2\x70\xdb\xf3\x30\x9c\x16\x40\x85\x6f\x1e\xa3\x2e\xd6\x4a\xa9\xfe\xe8\xe0\x97\x19\x08\x16\x20\x5c\x07\xfd\xcc\x07\x7d\x97\x19\xec\xf9\x80\x2a\x3d\xb3\x3f\xaa\x33\x20\xbd\xca\x8f\xf5\x37\xc7\x62\x26\x20\x40\x02\x23\xe7\x9c\x0d\xf5\x40\xfe\x1e\xf2\x0a\xd9\x9d\xaf\x64\x89\x9a\xb4\x8e\x76\xd6\xfd\xe5\x81\xe7\xc7\x47\x7e\x44\xc1\xcf\xa1\xfb\x0f\xf5\x41\x76\x87\x26\x7e\x62\xa9\xd5\x11\xd3\x74\x21\x94\xa0\xd1\x4b\x3f\x3e\x80\x22\x59\x35\x21\xa6\x7f\x34\xd5\x7b\x39\x0d\xce\x8b\x7c\x1b\x5e\x41\x5e\x22\x87\x36\xef\xe4\x89\xb4\x6b\x9c\xb9\x3c\x0d\x52\x9d\xe4\x4d\xb7\xe1\x91\xb0\xf1\xbc\xb0\x74\x7e\xc9\x86\x78\x27\x0a\x9a\xb3\x4c\xb4\x70\x5a\x60\x22\xed\xfd\x58\x9a\x79\x08\xa0\x3c\x4b\xdc\x73\xf2\x75\x61\xd2\x48\xd3\xa9\xd6\xf3\xc1\x9f\xd9\xc1\xca\x20\x6d\x9a\xe1\xae\xfa\x3b\xf9\x16\xcf\x49\xe1\x73\x2f\x4a\x35\x69\xfa\xa9\x4b\x73\xc4\x82\x67\x96\xcc\x16\xdf\x06\x12\x90\x55\x89\xbd\xe8\x3b\x47\x59\x76\xf9\x79\x3d\x44\x3f\x2e\x4a\x97\x6d\xd7\xf5\xc6\xd4\x12\xb6\x69\x16\xeb\x69\x8b\x04\x51\x90\x9b\xb8\x49\x19\x91\xe2\x29\x38\xc2\x58\xa1\x64\xad\x25\x1c\xb0\x3e\x94\x07\xab\x85\x1e\xfc\xa0\x7c\xdb\x4d\x3a\x64\x3b\xb6\xd4\x1a\x54\x32\x27\x5f\x9e\xda\xb7\x83\x0d\x8c\x16\xff\x06\xc3\xbf\x2f\xda\xe7\xbe\x17\x3f\x92\x4d\x3a\xcb\x41\x43\x75\x5f\x0c\x2c\xcb\x5a\x4c\x48\xf2\xea\x2f\xa2\x95\x82\xef\xe2\xee\xaa\x11\xb5\x6e\xb9\x11\x36\xaa\x92\x82\x70\x2a\x6f\x0f\xb1\x8a\xeb\xba\xb5\xd2\x32\x6f\x3c\x4b\x8d\x37\x02\x92\x8e\xd4\x0d\x1e\x3c\xcd\x84\xa9\x64\x21\x04\x8c\x8f\x3e\xef\x6d\x8d\x59\xf9\x7f\x36\x70\xb9\xe3\x09\x20\xed\x61\xf1\x44\xf0\x46\x29\x6b\x2f\x71\x8d\x02\x03\x6e\x10\x64\x95\x83\xff\x16\x2e\xad\x5b\xa5\x43\x7c\xce\x0b\xb5\xf1\xb5\x0c\xa6\x93\xf2\x5b\x3d\xe6\xb8\x2a\x30\xff\x66\xf5\x0b\x97\xe5\xfc\x71\x3f\x09\xbe\xe0\xd9\x79\xf3\x1c\x28\x1e\xe1\xb4\x17\x81\xe2\xc4\x50\xc6\xe5\x31\xa7\x0f\xef\xd9\x23\x61\x21\x25\xe0\x89\xb5\xad\x08\xb2\xe0\xac\x4f\x9e\xb2\x87\xf0\xc5\xee\x0b\xf6\x24\xfa\x4a\xbe\x84\x4b\xf4\xf8\x57\xc9\x2f\x4d\x08\xda\xbd\x68\xf2\x8d\x46\x14\xc9\xbd\xe1\x59\x44\x73\x43\xe0\x84\xa2\xb6\xc6\x94\x51\x01\xb2\x89\x06\x7a\x45\x7d\xb9\x42\x46\x85\xf9\x3c\x9d\xb3\x0d\xae\x87\x27\x9a\xd9\x5d\x7e\x6e\xc0\x07\x3c\xab\x2b\xd2\xdc\x2c\x69\xdd\x78\xb6\xb1\xdc\xa1\xe3\xc6\xbd\x96\x86\x2c\xac\x4f\x42\x26\x54\xff\xd6\x6b\xfb\xf4\xfb\xdd\x6f\x78\xf6\x06\x4a\xba\xf2\x8b\xdc\x8c\x94\xa3\x2e\x77\x00\xa3\x74\x58\x6e\x21\xd1\x2b\xb4\x9a\x02\xce\x3b\x3c\x03\xd3\xd4\xa3\xb2\xe3\x4f\x1b\x13\x76\x33\x5b\x11\x5f\x69\xe5\x67\xfc\x71\x39\x66\x0b\xb8\x04\x7d\xfd\xf9\xed\xb6\x38\xa2\xc9\x98\xc5\x81\xac\x37\xd5\x00\x08\x13\x08\xc9\x95\x73\x54\xf2\xab\xdf\x70\x2f\x52\x55\x2c\xe7\x55\x8e\xa0\x21\x03\x64\xab\x79\x78\x64\xad\x40\x2f\x9c\x3e\x78\xb1\x6e\x04\x0d\x43\x37\x3b\xae\x67\xaf\xc4\x37\x3b\xa8\x89\x1a\x75\x4b\x89\xb1\x24\x85\x2c\xbb\x2d\x20\xb4\x46\x94\x52\x51\xdb\x2b\xe6\x0b\x14\x3b\xbd\x8c\xed\xbd\x22\xc0\x4d\xa2\x55\xe9\x0b\xf6\x48\xb6\x7f\x60\x32\x23\xe2\x66\x94\x23\x2a\x90\xb7\x29\xdb\x42\xb6\xb6\xd5\x0a\x1b\x74\xf4\x1d\x99\xb4\x1e\xda\xbf\x11\xc9\xa2\xc0\x2f\xbc\x13\xc5\x26\xe4\x13\x9b\xb3\x3d\x31\x1d\x88\xca\x44\xf3\x42\x4c\x1b\x25\xfd\x4d\xd6\x90\xe0\x5d\x4b\x02\x65\xf7\x6e\xf8\x41\x68\x0a\xa3\xe4\x89\x32\x3d\x6d\x32\x37\x30\x15\x67\x38\xe8\x29\x58\xff\x9d\x30\x33\x8a\x19\xa0\x39\xb5\xa3\xf5\x9e\xb7\xa1\x07\xbe\x37\x94\xb6\x0c\xfc\xb1\xf7\x79\x82\x74\x10\x6b\x83\x83\x05\x6f\x75\x7b\x1f\xbf\x9d\x64\x8c\x4e\x3a\xbb\xcb\x11\xca\xfc\x55\x03\x5e\x49\xa2\xb8\x6d\x59\x29\x6a\xa7\xf4\x4e\x49\xf7\x92\xed\xae\x4f\xc9\x73\x3f\x2d\x68\x77\x65\x80\x67\x4a\x56\x4e\x40\xb1\xac\x8f\xc4\xd3\xbd\xb5\x85\x67\xaa\x58\xf8\x02\x78\x2d\x97\x49\x30\x8c\xa3\x3e\xec\xa7\x3a\xbf\x01\xeb\x15\x6a\x57\x78\xcc\x8c\x51\x63\x60\xd8\x93\x76\xf0\x73\x51\xed\x87\xae\x65\x93\x18\x83\x01\x1d\xad\x01\x36\x5a\xe9\xaf\xeb\x80\x0c\x06\x29\x35\x64\x25\x59\xa2\xb6\xf0\x58\xed\x12\xfa\xad\x0f\x48\x52\x3e\x75\xb0\x08\x1c\xc3\x3d\xb6\x5e\x6e\xfa\x0f\x55\x37\x5f\x3d\x42\x1d\x64\xd1\xbe\xab\x81\x5c\xa1\x95\xbb\xcf\x18\xa8\x92\x9e\x8b\x98\xf2\x8d\x7f\xd0\x09\x10\x3b\x81\x62\xb0\x35\xac\xd4\x81\xd1\x9e\x61\x04\x50\xd6\x9a\x28\x9c\x4b\x97\x79\x65\xb7\xe0\xcf\x64\xfc\xea\xdb\x39\x37\x50\x68\xd5\x99\x12\xac\x7b\xea\x6f\x72\x28\xbf\xd7\x22\x6b\x50\x6a\xbf\x1e\xc5\x3d\x3f\xfa\x98\x5e\x94\xe5\x38\x1d\xec\x89\xb1\x26\xb7\x7a\x42\x54\xd0\xf9\xe0\x8e\x3a\x57\x54\xa4\x6b\xaa\x58\xa3\x82\xae\x27\xe4\x40\xfb\x8b\xa3\x31\xbf\x7d\x0a\x7a\x5a\x7a\x37\x38\x8c\x6a\xcb\x4e\xac\xe9\x65\xf4\xb6\x00\x86\x47\x5d\x1c\x9e\x6e\x1c\xfb\x4c\xc6\xfb\xbd\x40\xe4\x04\xd3\x7b\x52\xd1\x91\x5a\xde\xfd\x00\x57\xd5\xdd\x8c\xd1\xbd\x9e\x35\x31\xcc\x13\x63\x49\x17\xc7\x28\x35\x19\x6f\xda\x9b\x53\x51\x2f\xc2\x74\x93\x31\x75\x85\x1e\x4e\xf1\x86\x54\x5b\x97\x17\x85\x15\x61\xe2\xca\x0d\xa9\xe3\xc7\xec\xe9\x9b\xaa\xaa\x2d\x95\x38\xd9\x6e\x7a\x73\x1e\x65\xf2\x0d\x62\xed\x4c\xbb\xb1\x8b\x8f\x75\x43\x9c\x4b\x3a\xaf\x11\x3e\x4a\x4e\x10\x03\x2e\x65\x0b\x1c\xe6\x29\x88\xc2\x2e\x4a\x74\xc9\x12\xd8\x0e\x02\xaf\x08\xeb\xb8\x51\x0a\x1f\x5d\x32\x34\x87\x93\x7f\xbc\xec\xe6\x9e\x75\x78\x22\x7d\xf0\xf9\x9a\xb5\xd6\xc7\x81\x18\xf3\xd0\x35\x1b\x31\x90\xaa\xd9\x9a\xff\xb1\x31\xb5\x4c\xc2\x77\xcc\x2b\x5e\xec\x3a\xc3\xf3\xeb\xd1\x5d\xe0\x07\xf6\x7b\xe5\x09\xf6\x9a\x26\x63\x45\xb0\xb6\x18\xc9\x6b\x44\xdc\x72\x4b\xc8\x92\x83\xad\x89\x5c\x2c\x33\x1c\x5e\x9b\xfd\x47\x9b\x35\xa1\x7a\x1d\xbe\x63\x5f\x2d\xd4\x01\xe4\x4f\x52\x3b\xdd\xf2\xe2\x7b\x82\x67\x89\x2c\x75\x7b\x52\xb8\xd3\x86\xf8\xad\xba\x34\x44\x1b\xc8\xed\xd5\xc3\x57\x7c\x68\x65\xaf\x0c\x64\xa5\x4f\xe6\x58\x53\x9a\x70\xfc\xdb\xc3\xfe\x79\x92\xeb\xca\x59\xb2\x00\xae\x10\x6b\x23\xff\xa1\xbe\x14\x99\xc4\x47\x5d\x8b\x83\x41\xb1\x5f\x07\x23\xa2\x61\x1c\xbb\x9e\xf1\x8e\x30\xa2\x6d\x8c\x78\x0b\x81\x31\x84\x8f\x1c\xc5\x03\x91\x43\xd7\xa4\xdb\x26\x04\x72\xb9\x8d\x45\xf8\x31\xaf\x7b\x7d\xaa\x3e\xc8\x4f\xf7\x89\xb8\xe6\xca\x9c\xe8\xbd\xc1\xca\xab\x66\xfe\x1a\x60\x1b\xe5\xd0\xa5\x7c\xdd\x23\x2b\x55\x60\x20\x2c\x0d\x82\x5d\x84\xfb\xa6\x5c\x94\x36\x68\x5e\xb6\xe4\x4a\x12\x44\x2e\xc1\x2e\xad\x1a\xd9\xce\x89\x4e\x1f\x89\xd8\xde\x3c\xeb\xcf\x8e\x07\x63\x62\xb8\x06\x89\x2e\xe2\x77\x79\xc3\x42\x0e\x44\x66\xdd\x5d\x44\xbf\xeb\x10\x68\x09\x18\xe6\xab\xbc\x85\xa6\xd2\xc8\x84\x70\x60\x83\x60\x2c\xd2\x38\x99\x5f\x34\xe6\x7e\x12\xc5\x85\x9a\x17\x48\x1a\x43\xc5\xf5\x16\xf3\x89\x84\xc2\xdd\x90\xf2\xd5\xf0\x3b\x66\xde\x12\x6d\xc4\x3d\xce\x3f\x3f\xc6\xf7\x28\x54\xa1\x8b\x11\x17\x7a\x9f\xa1\x01\x81\xc9\xd5\x71\x1c\x93\xfe\xeb\x0c\x64\xe4\xd3\xcb\x4d\x90\xfa\x4b\xe9\xc5\xd5\xed\x55\x49\x1f\x15\x6d\xb6\x96\xa3\xad\x2f\x19\xdc\x00\x67\xa8\x01\x56\x68\x72\xa7\xaa\xbc\x8c\xe7\x68\x84\xef\x3f\xba\xed\x5a\x55\x0f\x63\x05\x2c\x04\xfe\xd6\x6a\xf4\x38\x6a\xbd\xc9\xfc\xe8\xfe\xdf\x91\x6c\x13\xc5\xbd\x3f\xf9\xc3\x12\xb3\x31\xd7\x57\x5c\x01\xb4\x02\xa3\x0a\x65\xdc\x2a\xfa\x90\xf8\xab\x84\xf1\xd8\x05\x5f\xe7\x1e\xc0\x1e\x0b\x8c\xe3\x4f\x50\x8e\x97\x4a\x88\x14\xf9\x8b\xe3\xad\x9e\xa8\x5a\xb5\x7b\xb7\xe2\x8f\x82\xca\x2a\x03\xca\x11\x19\xd0\xfc\x28\x5d\x09\xc9\x46\xbd\xfe\xd8\xe2\xce\x9b\x4f\x8f\x1b\x5e\x2d\x43\xdf\xfd\x10\xac\x3f\x5e\xbc\xf5\x3d\x26\x9d\xe3\x2c\x82\xe5\x7e\x8c\xfc\x11\x67\xa3\xcf\x4f\x6a\x8a\x37\x30\x39\x8d\xf1\xb7\xd2\x33\x57\x7d\x92\x72\x86\x32\x28\xb8\x08\xf5\xd5\xef\x78\x21\x71\xb9\x41\xd6\xac\x1c\x59\x8a\xc8\xbb\x53\x4b\x99\xbc\xb2\xe5\x38\x48\xba\x6a\x7a\xc5\x85\x5c\x82\x81\x33\x06\x54\x05\x17\x09\x12\x56\x8b\x20\xb7\x6c\x27\x3f\x0c\x41\x7a\xf6\xcf\x00\xfc\x3b\x42\xc4\x2a\xe5\x2e\x90\xd4\xda\xcb\x1b\xdc\xbe\x2e\xf6\xdd\xc0\xc4\x48\xc2\xc1\x9e\x65\x86\x83\xe3\x94\x70\x20\x5b\xd9\xc3\xf6\xfa\xf8\xd1\xe3\x8f\x6b\x7f\x53\x4b\x9d\xdf\x98\x97\xb7\xc9\xa6\x94\x52\x72\xb7\xd8\xa3\xc9\xe1\x97\x3f\x75\x91\x38\x1e\x5b\x20\x79\xdc\x04\xff\xa5\xec\x64\x6a\x17\xba\xa7\xc5\xd7\xfa\x61\xbc\x0b\xf6\x1b\xe4\x6f\x58\x23\x78\x1f\x90\xb5\x5d\xd8\xda\x31\xc3\xec\xd2\x9c\x74\xc4\x37\xa8\x61\xdb\xc8\xee\xad\x03\x17\x63\xed\x27\x90\x6c\x3c\xc5\x27\xf6\x2f\x69\x3a\xaf\x85\x71\x3b\x13\xda\x89\x9e\x6b\x4d\x5e\x04\x2c\x76\x40\x0d\x25\xb5\x58\x11\x88\x35\x73\xb7\x5d\x2e\xa8\x31\xcf\x01\xe8\x53\xba\x1f\x3f\x7e\x7e\x37\x57\x2c\x82\x6c\x13\x51\xb0\x97\x31\xb0\x10\x30\x86\x77\x7b\xfb\x7b\x4f\x93\x5a\xd1\x3a\x12\x9e\xce\x97\xb5\x8d\x1f\x08\x9a\x1f\xb1\x1d\xe6\xef\x04\x44\x95\xdb\xd8\xd7\xff\xb9\xb3\xd5\x7a\x41\xa8\xe0\x68\xc6\x52\xaa\x22\x52\xba\x10\xd9\x98\x90\x0b\x81\x96\x5c\x63\x37\x74\x4d\x49\x39\x72\x50\xb4\xc2\xd1\x5b\x60\x5e\x8b\x17\x24\x2a\x94\x47\x65\x56\x8b\xb3\x09\x37\x71\x19\xff\x07\x58\xb3\x8c\xc2\xdf\x32\x2e\x66\x61\x43\x1e\x67\x86\x12\x60\x45\x52\x46\x3b\xd8\xd7\x63\xb7\xea\x00\x7b\xc5\x06\x69\x80\x78\x23\xb2\x0b\xb4\x19\x6f\xc4\x65\x9f\x9d\xce\x02\xf1\xa1\x21\x1d\xc8\xe5\xfd\x96\x2f\x0b\xb0\x4e\x91\x57\xf1\x5d\xab\x11\xba\x7c\x07\x54\xfc\xa7\x67\x83\x6a\x16\x95\x7a\xbd\x63\x4c\x4c\x85\x46\xb9\xaa\x51\x62\xb0\x7b\x12\xe2\x48\x94\x3c\xf5\xc2\xea\xcc\x91\xfc\x7b\xc5\x9b\xac\x7d\x8d\x24\x7a\xeb\x11\xc5\x4a\xd0\xa8\xc1\xb4\xb3\xed\x04\x7f\xc7\x85\x73\x0f\xc8\xf1\x3d\x59\x04\x19\xf9\x13\xe9\xa5\x5d\xfa\x94\x7e\x9d\xd0\xa9\x0f\xf9\x7a\x12\xea\xb3\xf2\x75\xc8\x66\x7b\x53\xfe\xae\x20\xaa\x4e\x0c\xcf\x1d\x06\x7b\x18\x87\x2f\xcd\xdb\x57\x6d\x07\x57\xab\x40\xc9\xba\x36\x0d\x6e\x94\xc7\xaf\xe6\x83\x79\x0d\xc5\xe8\x7a\x4b\xbd\x3e\xe1\xd6\xa0\xfb\xe6\x6b\xa8\x0f\x18\x8a\x71\x46\xf5\x27\xce\xcb\x3e\x7b\xaa\x9b\x1d\x78\x84\x85\xc3\xe8\xca\xf5\x61\x30\xe4\x78\x58\xc7\x5e\xe4\x19\xfd\x52\xb0\x02\x9a\xc8\x68\xb5\x4f\xe6\xaf\x04\x57\x51\xd9\x4f\x87\x54\x6a\x99\x3e\x7b\xab\x5b\x50\xd5\x5f\x2e\x4e\xa0\x86\xc1\x0d\x9e\xdf\x5b\x00\x37\xdf\xac\xcc\x45\x67\x9f\xc2\x6d\xd9\xc1\x87\x74\xcf\x02\x11\x22\xe2\x71\x07\x8d\x48\xf4\x31\x2c\xbe\x33\xdb\xe7\x30\x35\xcf\x72\xfd\xe1\x0c\x34\xf7\x45\x51\x39\x8a\xd7\xe8\x47\xed\x3b\xef\x81\x2c\x27\x52\xf2\x29\xaa\xf2\x04\x99\xca\xc2\x0b\xc0\x1a\xab\xe1\x37\x4f\x43\xf0\xca\x97\x51\x97\x8d\x6f\xb8\x4b\x6a\x99\x27\x07\xdf\x91\x67\xf7\xb3\xaf\xb0\xf5\xfd\xda\x70\xa3\x7a\xaf\xc3\x9b\x20\xfc\x8d\x8d\xb5\x9d\xd2\x2e\x36\x2e\x85\x24\x59\x09\x0c\x5e\x78\xc1\x2e\xd8\x51\x05\xe1\x08\x7d\x05\xb6\xc3\x79\x3e\xd5\x67\xb3\xb9\x5b\x34\x15\x57\x8d\xfd\xc0\xc1\xdd\xc4\xc7\x66\x9c\x68\x6a\xdd\xf1\x4f\x40\xe0\xf5\xa1\xae\x16\x1d\x2c\x61\x46\x61\x83\x39\xd6\xc9\x75\x0b\x00\x35\x64\xde\x95\x1e\x03\x6e\x58\xf4\xbe\xb0\x49\xa3\xaa\x08\x46\xf2\x02\x21\xfe\xac\xf9\xd5\xf0\x3a\xc4\x36\x1c\x29\x55\xe9\xb5\x74\x6e\xc9\x6b\xe2\xec\xac\xd6\x42\x24\xac\x6c\x5f\x09\x42\x94\x5a\x8e\x8b\x2f\xe3\x01\x40\xf7\x70\x91\x06\x58\x4b\x60\xa1\x23\xe7\xc1\xf3\xfd\x8c\x9f\x39\x7c\x3d\x87\xdf\x54\x5b\x6a\x44\xab\xcf\xe5\x14\x07\xe6\x8e\x5a\xbc\xc6\xb5\x63\x0f\x86\xac\xa2\x59\x84\xa0\xf4\x5a\x4b\xd8\x0b\x76\xc2\x4d\x7b\xad\x3b\xd0\xc5\x5e\xa6\xb8\x41\xd9\x04\xd4\x0f\xfb\xbd\xbc\x58\xbd\x63\x83\xea\xae\xfa\x96\x4f\xeb\x71\x4e\x71\x08\x3f\x8a\xfb\xf2\xe2\x2f\xd2\x61\x24\x1d\xc7\x8b\x9c\xd4\xbd\xd1\x63\x21\x09\xb8\xee\x8f\xcc\x37\x9f\x31\x1c\xa9\x8b\x9b\xb2\x71\xb3\x09\xb6\xb3\x11\x87\xee\xb8\x0b\xdf\x38\x4b\x24\x4f\x4f\x76\xa2\xf9\xd2\xd0\x54\xb1\x1c\xe7\x34\x47\x30\xa3\xfa\x5e\x3f\xfc\xcb\xa2\xeb\x86\x5e\x3a\x03\xf3\x07\x86\xa2\x23\x7a\x69\xa7\x34\xa5\x34\x20\x77\x6e\xe8\x7f\x23\xd9\x24\xe1\xa2\x10\x04\x51\xd1\x58\xaa\x11\x4f\xed\xf6\xbe\xa4\x77\xfb\x91\x40\x4e\xab\x98\x27\x8d\x1f\x6f\xba\x30\x09\x08\x03\xba\x1c\x70\x85\xdc\x01\x2d\x56\x06\xfb\x8f\xd1\x51\xa9\xd6\x74\x1d\x21\xa6\xcf\x1a\xd7\x24\x4a\x74\xc1\xdc\x1b\x19\x5f\x2a\x29\x86\xc6\x58\xac\xa6\xa8\xed\x89\xa8\xd4\x30\x36\xee\xed\x5a\x45\x58\x77\x77\xb3\xea\x76\x11\x34\x54\x49\xec\xab\x98\x6d\x92\xc1\xd3\x53\x05\x31\x02\x66\xf1\xbf\xdf\xde\x96\x77\x29\x10\x40\x14\xe3\x30\x53\xbf\x14\x42\x93\x84\x5b\x22\xe2\x11\xa0\x35\xf5\xa2\x3e\x89\xba\xd9\x24\xd1\xda\x96\x15\x24\x8b\x71\xc8\x4c\x9f\x3e\x1b\xab\xf4\x0b\xc8\x2b\x21\xbc\x10\x5c\xf0\xde\xf8\x72\xb5\x9e\x16\xa9\x20\xb2\xf6\x41\xdc\x80\xf3\x39\x80\xc0\xd7\x04\x03\xa4\x3c\x2f\x1e\xb2\x74\x42\x87\xc6\x45\xe2\x21\x25\xd7\x99\xd4\xf2\x6a\xe4\x96\x5b\x2f\xf1\xe5\x41\xe1\xdd\xa8\x16\xa6\xf3\x41\xf1\xd6\x17\x72\x69\xa5\xbf\x3d\x98\xe2\x63\xa0\xd3\x4f\x12\xf5\xef\x5a\x05\x55\x98\x48\x26\x4c\xca\xda\x2c\x37\x91\x54\x6c\x4a\x2e\xfc\xaf\x89\x60\x86\x17\xbf\xbe\xc6\xb3\xa1\xec\x0d\x67\x72\xe5\xe1\xa7\x96\x94\x22\xea\x80\x7d\xbd\xec\xb2\xca\x04\x60\xe1\xe7\x42\xd6\x90\x7c\xe3\xbc\xe1\x62\x02\x15\x11\xd8\x7e\xcd\xd3\x26\xd6\x2b\x4a\x8c\x2e\xb9\x87\xdb\xde\xaa\x48\xf2\xe1\x9f\x9e\xe4\x2b\x0a\x27\x38\xce\x03\x69\xa4\xd9\x6b\x37\xf8\x77\xaa\x3e\x87\x73\x70\x45\x77\xa4\x5a\x77\x8c\x23\x2e\x13\xd8\xfc\x4b\x9b\x42\x76\x65\x0e\xfd\xce\xfe\xfe\x05\x15\xfe\x28\x94\xc8\x34\x69\x8d\xe6\xcd\x76\x8a\xfa\x72\xb3\x45\x97\x85\x64\xc8\xec\xd5\x9b\x2a\x81\xc7\xe1\x00\xf0\xe0\x32\xe4\x69\x8e\x4b\xdd\xa7\x72\x67\x8d\xa9\x22\xbe\x6e\x95\x2e\x83\x99\x4a\x12\x9c\x9e\x30\xaa\x3a\xc2\x46\x37\x06\x72\x5a\xdc\x04\x83\xb9\x43\x9b\x1c\xcd\x8b\xee\x6a\x06\x06\xfd\xa0\xd4\xc1\x83\x02\x4e\x3a\xf0\x7d\xad\x68\xb0\xf0\xab\x06\x8a\xd7\x1c\x24\x64\xf3\x5f\xf3\x17\xe1\x79\x37\xc1\x99\x28\x12\x4e\xdf\x14\xd3\xc0\x19\x7c\x62\xea\xda\x2f\xc6\x8f\xb6\x45\x14\x0b\xf1\xa0\x96\xbc\xd0\x59\x1c\x2c\x89\x15\xb4\x1b\x9f\xb0\x05\x71\x7a\xf7\xfa\x62\x03\x48\x9b\xd4\x53\xb1\x97\xba\x44\xc7\xe8\x52\x46\x36\x44\x95\x67\x06\xda\x91\xfa\x07\x79\x36\x71\x36\xb2\x80\x74\xf0\x12\x59\x57\x8d\xcc\xa5\x42\x7f\x71\xe8\x45\x64\x6b\x88\xe8\xe2\xb6\xb1\x0c\xe3\xcb\xe4\xf8\x10\x82\x35\x74\x7b\xd7\x22\x84\x72\x14\xf7\x73\xd8\x9b\x1b\x4b\xfb\x95\x21\x42\xf6\x35\x84\x87\x27\xea\x01\x2f\x96\x31\x1b\xf8\x1a\x2d\x9d\x27\x12\x60\xbd\x42\xd4\x65\xaf\x0e\xa5\x64\xc8\x3d\x46\x3e\x5d\x8f\x7f\x6f\x89\xb5\xa4\x83\xab\xcc\x2e\xc0\xa8\xb2\xbb\x93\xf9\xa2\x1f\xbe\xe0\x66\xb1\xe9\xbd\xb1\xe8\x56\xaa\x13\xc3\xf7\xd4\x6f\x57\xe6\x99\xb5\x2c\x45\xbf\xfa\x60\x84\x6d\x20\x98\xe3\x06\xb2\xb2\x48\x99\x27\xe8\x25\x1a\x39\xb7\x53\xa9\x16\xd1\x35\x38\x4f\x7a\x6c\xa2\x80\xfd\xcb\xb9\xab\x50\x67\x4c\x11\xc6\xf0\xfb\x93\x73\x58\xdf\xd6\x6e\xda\x93\x9c\xc2\xb9\xae\x77\x60\xc9\x07\xf5\x75\xaa\x2b\xc7\xee\x12\x92\x80\x79\xb0\x95\xf1\x69\xaa\x04\x44\xce\x13\xbf\xfb\x79\x6d\x38\x1d\xd4\x95\xce\x90\x09\x48\x24\xe0\xee\xc9\x41\xdf\xf8\x93\x6b\x48\x1e\x03\xed\x6a\x5a\xbe\x1b\x42\x9e\xaa\x93\x47\x4a\x78\x4c\x3d\x8b\xd5\x9b\x78\x22\xe2\x83\x75\x39\x77\xea\x18\x5c\x52\x92\x6d\x9f\x3c\x4e\x44\xf1\xdb\x51\xd5\xb3\xbf\x7b\x23\x19\xeb\x90\x30\x8a\x0b\xea\xa8\xeb\x27\x14\x8c\xec\x26\x0c\x3d\x75\x20\x73\xd8\x79\x7c\xc7\x9f\x54\x5f\x3b\x02\x0c\x0b\x9b\x02\x39\x81\xd2\x90\x8b\x36\x27\xcb\xeb\x58\x38\x4e\xad\x6b\xaf\x37\xc5\x4d\x76\xef\xd0\x00\x4c\x82\x2b\x95\x8b\xa0\xb0\xf7\x21\x53\xaa\xf9\xd8\x6e\xf9\x8f\x95\xfd\x1e\xdc\x15\x19\x94\x32\x26\xcb\xa0\x2a\xea\x04\x50\xeb\xa0\xd0\x53\x88\xa2\x66\xb5\x21\xd3\xa7\x2d\x4d\x79\x21\x9c\x4a\xaa\x10\x27\x3f\x13\xe8\x00\x8e\xf4\x71\xf7\x91\x49\x38\xa0\x71\x9c\x72\xd2\x15\x29\x39\x26\xd7\x55\x07\x5d\xf2\x74\xc6\x8f\x5d\x17\x31\x6d\x8e\xa0\xa3\x7f\x55\x14\x1f\x9d\x63\xf4\x1f\x85\xcd\x93\x68\x86\xa4\x93\x68\x9d\xed\x8f\x78\x92\x44\xd8\xb0\x6d\xaf\x32\xa1\xce\x42\xb8\x1a\xd7\x78\x23\x59\xa6\x59\xf3\xd3\x59\xb9\x0c\xcb\x1d\x89\x87\x88\x03\x62\xad\x27\xab\x89\xc7\xad\x48\x46\x19\x65\xe6\x27\x81\x13\xd3\x68\x70\xd5\x09\xd8\x8a\x4f\xe0\x6d\x7f\x58\x00\x03\x5e\xc9\x50\x0e\x7c\x15\x35\xee\xb0\xb3\xfd\x9a\x8f\x2f\x83\x74\xcc\x26\x73\xc7\xda\x30\x93\x88\xe4\xe2\x56\x34\xd5\xc4\x4e\xb0\x53\xe8\x68\x63\xfc\x0e\xe7\x62\x79\x07\x86\x1c\xc8\x42\xfe\x78\x2b\x9c\x8b\x4d\x25\x6a\xe3\x6d\x97\xbd\x1a\x80\x87\xc7\xc2\x74\x2d\x97\xae\xd5\x42\xc6\xb2\x1b\x4f\xe5\xbf\xd7\xb7\x5c\x12\xbb\xcf\x93\xd3\x48\xb8\x4a\xa4\x46\x0e\x9a\x0a\xf4\xee\xb5\xb9\xee\x49\xba\xc9\xf5\xf7\xdd\xf4\xb5\xae\xa3\x43\xbc\x12\x6f\xec\x33\x87\xbb\x50\x82\xef\xa5\xab\xad\xe6\x7a\xf7\xbf\x1b\xcb\x43\xfe\xd3\x6c\xed\x21\x56\xba\x39\xf4\xd5\x18\x03\x61\xaa\x94\x7f\x60\x69\x2c\x5f\xa6\xfa\xa7\x9a\x58\x79\xcd\xaf\xb1\xc5\xe6\x72\xfd\x40\x86\xf1\xf5\xa8\x1a\xcd\xdd\x8e\xb1\x2c\x71\x8c\x6c\x7f\xb3\x0d\x63\x8f\x0b\x7c\xf5\x43\xa6\xb2\xaa\xf6\xb8\x06\xd0\x25\xd9\x86\xfd\xce\x68\x47\xfa\x5c\x6b\x82\x7b\xfa\x0e\x4c\x7d\xb8\xfd\x63\xad\x45\xbd\x68\x0e\x91\xcc\xf5\xbf\xfb\x60\xe1\x59\x7b\xdd\x40\xc8\xb9\xab\x80\x7b\x5c\x02\x7a\x50\xb9\xe3\x14\xf5\xc0\x3a\x7a\x60\x76\xc2\xc7\x38\xf1\x4b\x7c\xa3\xf4\x33\x64\x18\x98\x88\x0b\x25\x46\xfc\xf9\x01\xc6\xfb\x49\x9b\xff\xfe\x7e\x47\x7b\x2c\x66\xa5\xa8\x24\xbc\x18\x93\x67\x9c\x06\xd1\x85\xaa\xe3\x29\x04\x33\xff\xf4\x25\x88\xaa\x86\x64\x42\x96\x47\xf6\xb6\x26\x7d\xa2\xf7\x89\x0d\xac\x2a\x42\xbf\x56\x4a\x6b\x30\x03\x2a\xe9\xe4\x47\x29\x27\x55\x08\xe2\x7e\x25\x98\x70\xf7\xd5\x49\xcf\xf8\x7a\xef\x26\xec\x6f\xb5\x01\xfa\xe3\x21\x0e\xbc\x7d\xb8\x44\xce\xfa\x84\x97\x16\xd6\xe0\x6d\xf0\x85\x83\xf6\xaf\xcf\x23\x47\x3c\x6a\x6c\x1a\x3a\xde\x0b\xa5\x42\xe6\xe4\xdc\xc4\x21\x33\x61\x35\x30\x97\x4e\x46\xf7\x09\xe0\x6f\x63\x51\x5b\xe5\x89\x3c\xb9\xbd\x91\xeb\x31\x93\x7d\x5f\x06\xbe\x50\xcd\xb9\x42\xba\x5b\x77\xf3\xaa\x26\x0c\xe5\xcf\xd7\xe9\xf8\x6e\xf4\x42\x89\xa9\x13\x72\x2e\xdd\x0a\x43\x37\x2a\xc1\xd1\x70\xe3\xe4\xb5\xa8\xe0\x2a\xe0\xae\xc4\x56\xee\xfd\xa6\xff\x8c\x99\x79\xd3\x93\x3b\x38\x49\xc0\xfc\xb9\xcd\x73\x9d\xbb\xa7\xfd\x5f\x5f\x30\x5c\x85\x0d\xa9\x60\x07\x30\xe5\xc9\xff\x15\x15\x86\x09\x80\xe4\x1c\x24\xb2\x54\xf6\xce\x55\x85\xee\xe9\x97\xc5\xcf\x04\xd1\x65\x64\x6d\x67\x52\xed\x60\x75\x2f\xc8\x8d\x94\x33\x69\x39\x25\x3a\x37\x77\x75\x41\x23\x00\x8b\xc9\xb4\xbf\x69\x58\x3b\x71\xd6\xd3\x52\x76\x67\x6c\x3a\xf5\x98\xed\x42\x72\x1b\xa4\xd9\xc2\x2d\xeb\x01\x89\xf9\xe3\x71\x76\xff\xce\x36\x77\x1d\x87\x0e\x26\xa1\x2e\x6a\x91\x43\xde\xa2\x0e\xf1\x4e\x2a\xea\xf4\x30\x7b\xc4\x94\x0b\xe3\x5b\xa4\x5c\xea\x0e\x0b\x2d\xf2\xa5\xb1\xf0\x92\xc8\xa0\x83\xf2\x25\x93\xea\x4c\x80\x7c\x1f\x99\xa2\x71\x08\x07\xba\x19\xc4\x04\x68\xe3\x2e\xfe\xc3\x45\xf1\x2b\x0a\xd3\x15\x18\x62\xe2\xf6\xc4\x00\x47\x13\x9a\x46\x15\xc9\x23\x8f\xa2\x97\x8a\x08\xf3\x70\xd7\xb1\x2b\x6c\x24\xf9\x12\xcc\x92\xe0\xbf\x5b\xa5\x5f\x2b\x39\x67\xae\x3a\x7f\xa9\x5f\x08\x8b\xa5\x28\xbb\xf0\x7a\x98\x84\x6a\xb4\xd0\xf9\x73\x55\xf4\x0d\x51\xa7\xfd\x64\x1b\xfe\x78\x4a\x67\xdf\x8c\x77\x2f\xfe\x3f\x41\x7d\xde\x37\x12\x8a\xba\x29\xaa\x53\x7d\x86\xcd\x83\x5b\x01\x02\x1e\x41\x8c\xc5\x4c\x58\xf4\x2e\x2b\x13\xb2\x7d\x68\xb5\x09\x87\x36\xa5\x99\x0f\x99\x3c\x00\xe3\x8c\x40\x37\x57\x9b\x21\x0b\xac\x99\x33\x1b\xf9\xa8\xd7\x54\xf6\x55\x0f\xb5\xad\x3c\x8c\xcf\x82\x1b\x27\xa1\xf9\x7f\xb4\xf5\x3f\x13\x8b\xa4\x5e\x30\x36\xf6\x20\x1d\x67\x3c\xf0\xf3\x0a\xbc\x4f\x38\x6a\x3e\x6d\xcb\xc1\x55\x7e\xeb\x01\x24\x63\x55\x99\xbb\xf8\x1f\x87\x12\x2c\xa9\x2c\x26\x63\x10\x24\xdc\x85\xab\xe9\x8e\xc0\xf7\xbd\x05\x7f\x66\x55\x45\xdc\x56\x9e\x12\x2f\x0b\x17\xe9\xd6\xbd\xb5\x14\x46\xd5\xc0\xc4\x8d\xc3\xf5\x01\xd0\x9a\x18\x94\xa2\x0e\x9f\x04\x80\x1b\xfa\xf2\x78\x0c\xdb\x22\xf4\x9e\x67\x74\x8a\xfc\x52\x8b\x27\x72\xbd\x6c\xc1\x72\xee\x70\xb6\xe1\x74\xdf\xb0\xb6\xc8\x88\xc0\xd0\x43\xec\x36\x4e\xbf\x56\xf5\xf4\xa2\x48\x2c\x7c\x88\x46\x60\x3f\x10\x8e\x98\x96\xed\xda\x6c\x1d\xa4\xd4\x2e\x92\xf1\xdf\xa3\xa0\xca\x51\xd2\x2e\x99\x14\xa1\x54\xf6\xc8\xc5\xf5\x50\x46\x87\x89\xbc\xca\xb2\xc0\x06\xa0\xf6\x48\x60\xd4\x59\x89\xb0\xdf\xe0\x87\xfa\x22\x15\x6b\xf0\xeb\x22\x4c\x7d\xd0\x33\x4e\xf4\xfd\x4d\x74\x80\x0f\x65\x06\x6a\x01\x6f\x25\x86\xdd\xaa\x6a\x89\x82\xb6\x04\x79\x22\x43\x77\x55\x5d\x79\xd5\x7a\x55\x87\x74\x71\x2d\x93\x60\x87\xce\x82\x2c\xdb\xca\xde\xb6\x9a\xda\x01\x34\xb1\xba\x37\xa1\xc8\x5f\x6a\xbb\xc3\x1c\x06\x89\xc1\x63\x4d\x1b\x6c\xda\x62\x9c\xee\x0c\x51\x0a\x94\x60\x8a\x95\xf2\xa4\x4c\x2f\x36\x5e\x7d\x89\xcd\x77\x0c\xda\x99\x35\x5a\x29\x8c\xd9\x64\x39\xd5\x45\x15\xfd\x30\x15\x90\x7d\x1d\x6d\xd5\x0e\x23\x59\xc2\x01\x47\xce\x28\x94\x43\x7e\x5b\x98\xb0\x8b\x10\xe3\x09\xe7\xc3\x7a\x56\xd6\x0f\xd7\x01\xdb\x28\x4b\x4a\xfc\x40\x6b\x08\x0b\x17\xe5\x3f\x1b\x25\x60\xd6\x61\xec\x36\xf3\x1d\x4a\x58\x0f\x1a\x32\x9a\x15\x91\xe1\x60\x2a\x53\x66\xbf\x9d\xb2\xd8\x04\x2a\x39\x19\x1d\xea\x88\x4e\x93\xa3\x62\x86\x07\x6e\xb7\x8c\x42\xbf\x05\x6c\xbd\x19\x8f\xce\xe7\x48\x19\x3f\x3a\x6a\x00\x0f\x46\x0d\xae\x9c\x4c\x0e\xa7\x83\xb1\xb5\x7f\x8c\x0f\xc5\x37\x80\x8b\x83\x03\x42\xb2\x73\x36\xfe\xce\xb4\x3f\x66\xe5\x64\x91\x1e\x67\x2d\xdf\x3a\x3d\x68\x0e\x2a\x07\xdc\x03\xf3\x38\x04\x03\xb2\x1d\x88\xc1\xa7\x0e\x69\x78\x4a\xd7\x68\x5e\x0f\xe0\x40\xdd\xa3\xfe\xc9\xc9\xc9\xcb\x67\x40\x09\xc2\xdb\xd3\x60\x02\xf3\x8b\x15\xdd\x16\x5f\x6e\x90\x0e\x8f\xbf\x86\xf9\x68\x62\xc1\x9b\x07\xd4\x38\x42\x9c\x95\xf3\x97\x11\x84\xf0\xb3\xd6\x56\x2f\xa7\x51\x07\xb8\xa9\xae\xb9\x36\x6d\x48\xd1\x87\xac\xeb\xb0\xb0\x40\x2a\x53\x24\x9f\x7b\x30\xc7\x21\x1a\x4c\x5b\xb4\x54\x04\x03\x06\x46\x5a\x76\x96\x3e\x92\xb2\x96\x2a\x15\xb3\xd5\x6d\x9a\x7b\x8d\x11\x5f\x8a\xdf\x1b\x07\x6b\xd2\x4b\x6f\x6a\xb2\xdc\x14\xab\xd9\xff\xec\xe4\xe4\x90\x4f\xce\x40\x50\x3b\x47\x8b\xa9\xfb\xd4\xca\x38\x6a\x73\xb7\x6c\xb8\x66\xc4\xc5\xcf\x1d\x72\xb3\x0f\xee\x48\x01\xbb\xe8\x98\x7f\x4a\x67\xf4\x63\x31\xf5\xcf\x6e\xab\xdf\x7e\xac\x21\x65\x16\x7f\x0b\xe2\x7f\x2e\x49\xe7\x44\x8b\xa7\xbd\x22\xa6\xc0\x12\x53\x26\x7d\x0e\x0f\x0e\xa5\xf2\xee\x27\x93\x7d\x60\x5d\x33\x6b\xee\x0d\xfe\xcd\xa5\xaa\xf4\x47\xa7\xc4\x8d\xa4\x41\xaa\xb0\x40\x54\xe5\x13\x9a\x3f\x5e\x8a\xfb\x21\xf8\xe6\x96\x14\xd9\x99\xde\x87\x3c\x92\xf2\x5d\x48\x19\x51\x18\x03\x36\xbe\x5c\xc9\xd3\x7d\x80\xba\x85\xc8\xf4\xfb\x84\x66\xd7\x50\x4f\xbf\x6e\x15\xbd\x88\xda\x92\x98\xc0\xd2\x71\x8a\x94\xea\x7e\x87\xe7\x17\xa8\x0e\x53\x20\xbc\xcd\xd7\x2a\x7d\xec\xde\x10\x58\x06\x2c\x54\xeb\xcd\x52\x4c\xd3\x05\x2b\xef\x23\x4a\xa0\x96\x7f\xe0\x0e\xaa\x87\xfc\xa5\x0f\x41\xd3\x97\xc6\x97\xf6\x16\x18\x72\xe0\xbc\x1d\x09\xe1\x8a\xa3\xc5\xb8\xe8\x22\x7b\xc6\x2d\x7c\x5c\x88\xd1\x07\x36\xc9\x2d\xe2\xc7\x01\x9a\x62\xe7\x98\xac\x41\x28\xba\x73\x56\x37\xc1\x09\x73\x80\x2a\x1c\x44\x45\x3d\x50\x40\xc6\x6e\x27\x69\x61\x3d\x46\xa6\x0e\x08\xd3\x1b\x78\x1f\x4f\x26\x96\xbc\x57\x42\x81\x60\x7b\xad\x22\x51\x71\xfb\x75\x54\xf7\x35\x1f\x2f\x1f\x96\x25\xc9\xbe\x60\xcb\xd1\x27\xab\xc9\x1e\xe6\x10\x5d\x98\x92\xa4\x0c\xfd\x69\x11\x19\xbb\xa1\x35\xeb\xa9\x90\xb3\xf5\x1c\xcd\x6b\xd1\xd9\x1d\xda\x7e\x25\x8c\x74\x85\x28\x85\x8c\xfd\x6b\x54\x09\xfa\xc4\xaf\xe8\x73\x20\xf5\x3e\x6c\x25\x9a\x3d\x27\x2b\xd8\xfc\xaf\xe0\x53\x81\x98\x76\x96\xc3\x3e\xac\x7e\x04\x31\xc3\xeb\x85\xe4\x8f\xe1\x94\xb3\x18\xb6\xce\xd9\xd6\xc8\x7c\x6f\xf4\x65\x18\xc9\x08\x3b\xad\xc3\xed\x12\x47\xfb\x25\xed\x28\xdb\xcd\x64\xb8\x50\xef\xeb\x18\x8e\x3a\x5f\x57\x28\x76\xd9\x8c\x25\x6d\x8c\x6e\xee\x38\x2e\x36\xd3\xe0\x4d\x70\xcc\xae\xae\xdd\xb5\x09\x12\xf9\x5c\xbb\x42\x4e\x04\x22\x0d\x3f\x7f\xb5\xbe\x4d\x52\x88\x4e\x63\xf4\x87\x92\x88\xf2\x54\x6a\x36\x3a\x50\xf7\x8f\x16\x45\xbe\x9b\x1d\xe9\xdb\x24\xf4\x90\x26\x6f\x35\x85\xe2\xc3\x2c\xd9\xb3\xe8\xad\x6e\x6f\x6d\xf4\x5f\x9f\x0c\x23\x94\x1d\xa4\x50\xe3\xe5\x2b\xb2\x60\x28\x1a\x24\x74\x42\x30\xc9\xfa\xf8\xb4\xcc\x8e\x8b\x73\x7b\x63\xc9\x67\x01\x29\x40\xd4\x0b\x1d\xca\x87\x62\xc2\xfe\x64\x0e\x43\xde\xa6\x53\x7b\xdf\xea\x76\xc2\xff\x11\x7a\x50\xe9\x45\x13\xc1\x2f\xef\x2e\x93\xee\x02\x2c\xc0\x43\x9a\x59\x41\xd0\x3e\xdc\x28\xed\x4c\x13\x6e\x5a\x09\x06\xa5\x62\x0f\xc5\xcf\x74\x2c\x4f\x61\xc1\xcc\x6c\x09\x9b\x08\xc7\x47\xc9\x52\x51\x37\xbf\xb3\xcc\xd2\x6d\xfb\xe2\x8d\x67\xea\xc5\xc6\x87\xcb\xca\x27\x93\x25\x41\xc1\x78\xe6\x3d\x83\x22\x96\x60\xdb\x8c\x2d\xed\x11\x15\x37\x79\x43\xf3\x98\x9b\xb2\xe4\x6d\xef\x5c\xcc\x27\xc5\x24\xb4\x98\x62\xde\x18\xc8\xae\xb2\xf4\x79\x04\xe9\xde\xda\xe9\xea\x20\xd1\xb7\x24\xd8\x0d\xf9\xd4\x70\xd2\xa6\x88\xc4\xd4\x3c\x63\x54\xf5\xf5\x6a\xeb\x00\x16\x26\x4d\xe1\xe7\x3a\x4b\x5d\x5b\x69\x8a\x3e\xa5\xfc\xaa\x79\x3f\x33\x80\x66\x8e\x2e\x79\x54\x5e\x76\xaf\xce\xef\x29\x21\xf9\x5d\x18\x62\xd1\xf4\xad\x12\x6f\x31\x7d\x80\x48\x33\x97\x58\x76\x09\xb5\xa0\x7a\x49\x41\x69\xf7\x77\xe5\x94\x46\x12\xc5\x3c\xe9\xac\xc8\x5d\xad\x5d\xc3\x0d\xe4\x1b\x21\xbb\x94\x28\xfa\x45\x69\xa6\x52\x70\xc2\x06\x8a\x17\x1c\x94\x92\x29\xef\xe2\xd6\xcc\xdc\x62\xd5\x4d\x5a\x11\xa9\xfb\x83\x2c\x91\xae\x25\x97\xba\x9e\x9a\xa1\x06\x70\xe6\x99\xc0\xd2\xe3\x70\x5c\x9b\xac\x69\xd1\x7a\xc3\xe5\xed\x81\x3c\xfc\xc3\xd4\xf8\x89\x75\x06\x3f\xc5\x3a\xad\x9b\x25\x25\xe3\x08\x56\x15\x07\xc2\x01\x81\xc5\xe8\x65\x8b\x1c\x75\x1b\x97\x3d\xe4\x66\xba\x26\x0d\xc0\x5a\x74\x7c\xac\xb2\x08\x7b\x16\xeb\x45\xfe\x74\x02\x65\xe2\xfe\xb8\xba\x09\x7d\xfb\x93\xd9\x9f\xa5\xf0\x35\x43\x28\x72\x7b\x4b\xd2\x45\x7f\x0b\xa8\x71\x7f\x01\x21\xc6\xe9\x45\x0b\x84\x95\xb7\x8f\xf4\x73\x59\x2d\xf1\xf4\x8d\x83\xbc\xe7\xb3\xf9\xb9\xad\x8d\xcf\x66\x3a\x6b\xba\x8b\xa9\xfb\xed\xc9\x78\x02\x13\xcd\x33\xb6\xd8\xf8\x7d\xfa\x71\xa4\xfc\x58\x28\x17\x61\x80\xaf\x85\xc8\x71\xdb\xee\x80\x71\xd8\xd0\x8a\x8f\x14\x0e\xf0\xda\x41\xa7\x25\xa9\x70\x9f\xd7\x93\x64\x70\x16\xbb\x3e\xca\x4e\x79\x5d\x7d\xdb\xbf\x45\x27\x7a\x16\xb0\x6f\x5b\x85\xac\xea\xba\x45\x59\x9f\x3f\xce\xbe\x8d\x47\x3b\x77\x61\xe5\x5a\x13\xee\x58\x5f\x98\x58\x71\xa1\xa8\xb8\x12\x35\x2a\xca\x06\x75\x96\x3c\x09\xc5\x16\x42\xe4\x51\xdd\x9c\x15\x21\xfa\x2b\x18\xcb\x26\x61\x9e\x8c\x6c\xa7\xd8\xa0\xc2\x76\xd1\x34\x0b\x3f\x0b\xa8\x9b\xa7\x73\xe4\x0a\x45\x44\x3f\x5e\x9b\xe0\xbb\xc5\x16\xb7\x0f\x56\x49\xc3\x19\xab\xcd\x5b\x4a\xe2\x3a\x47\xf8\xcf\xd0\x03\xf3\xa8\x26\xf9\x4d\xeb\x00\x18\x87\x58\x97\x70\xa4\xd5\x2b\xc0\xae\x23\xeb\x83\xed\x68\x11\x80\x54\x08\x97\x2c\xc8\x8b\x13\xa5\x7d\x42\xec\xec\x9e\x3b\x51\x96\xf1\x4a\x5f\xc5\x8f\x53\xa1\x27\x32\x77\x47\xea\xbb\x5f\x51\x58\xa8\x67\x5d\x3d\x02\x56\x4c\x7e\xa0\x77\xf6\xa0\xbe\xcf\xc8\xab\x1c\x98\xe1\x29\x12\x6b\x66\xb2\x22\xd0\x3d\x50\xe5\xa9\x84\x3f\x8f\x8c\xe6\x03\x1f\xc7\xaa\xb3\x40\xd4\xf7\xa4\x68\x8c\x36\xac\x93\xbb\x37\xf2\x9f\x91\x80\xca\x57\x6f\xb0\xfd\xd2\x3d\xcb\x30\x89\x62\x15\x3e\x8b\x82\xea\x3c\xea\xcd\xa6\x8a\xec\xc6\x1a\x35\xab\x91\xfa\x05\x50\x01\x1c\x92\x40\x2b\xd7\xd5\xb4\x29\xca\x56\xd3\x5c\x11\xe8\xa8\x92\x7b\x17\x4f\xad\x03\x16\x8f\x49\xa3\x30\xe6\x04\xa7\x31\xde\x75\x76\xd0\x8c\xee\x39\xe0\xa5\x7e\x5b\xa5\x4e\x4f\xe0\x8b\xbe\x2c\xce\x7f\xf2\x83\x2f\x46\x5f\x2a\x5a\x9b\xcf\xa5\xef\x25\x0a\x50\x57\x33\x6a\xc9\xa0\xd3\x5f\x7a\x43\x02\xb6\x60\x02\xa4\xf7\xd8\x31\xce\x12\xde\x1d\xc3\x96\x60\xb9\x64\x7b\x78\x26\x4e\xf2\x0a\x54\xdb\x1e\x25\x22\x37\xfb\x1a\xd5\x98\xbd\xa4\xc7\x3c\x42\x1d\x2e\x25\x7b\x6e\xbf\xfa\xcb\x9e\x2e\x13\xcd\x32\x16\x31\x40\x9e\xef\x22\x41\x9d\x2a\xff\x05\xe7\x47\x9c\x3b\x69\x30\x61\x35\xb4\xf7\x06\x88\x6d\x80\x8f\x6d\xe4\x7b\x88\xde\xa6\x78\x50\x57\xa2\x1c\x02\x97\x05\x75\xe1\xab\x69\xb4\xba\x2b\x03\xf7\x59\x88\xa5\xcd\x4e\x47\xd2\xa9\x31\x16\x6e\xa2\xb9\x1b\xc6\x9d\xb7\x0d\x98\xdb\x56\x86\xa4\x86\x91\x6d\x60\xa4\x85\xb7\xff\x23\xa0\x31\xc6\x62\xb3\x40\x71\x0f\x19\xd7\x74\x90\x6a\x9e\x84\x5f\x92\x8b\x28\x53\x11\x85\x79\x6d\xb5\x40\x42\xbf\xd9\x87\x32\x0c\x3c\x1f\xb7\x45\xd3\xad\x33\xa8\x19\xc3\x68\x2e\xca\x07\x20\x6d\xe3\x9c\x80\x12\xb4\xc9\x36\xb4\x8b\x8e\x50\x2f\xba\xb7\x17\xe8\x58\x1f\x13\x45\x99\x02\x0f\xec\xba\x3d\x70\x46\xe5\xfa\x4a\xa4\x9b\x32\x01\x0a\x62\xa2\x40\x1b\x77\x32\xf6\x12\xeb\x76\x47\xf4\x9a\x97\x2b\x9a\xbe\x7a\x7f\x0e\xf9\xcb\x06\x8c\x4b\x2e\xfb\x7c\x39\x77\x8a\x6f\x6f\xe1\xb2\x68\xb3\x04\x06\x4d\x10\x26\x85\x10\x49\x17\x07\x0f\x0b\x80\xa9\xac\x27\xf6\x7d\xdc\x74\xcb\xbb\xf9\x49\x8e\x3d\x7c\x32\x68\xb8\x9e\x0d\x2b\xcb\x30\xaa\x11\x0d\x0e\x12\x7e\x90\xc4\x08\xa4\xd6\x9b\x95\xfd\x26\x9c\x8c\xc3\x1a\xcd\x81\xf2\xea\xd6\xd0\xda\x83\xcc\x66\x37\x78\xbe\x96\xcb\x83\x1f\xd7\x2f\x08\xaa\xa0\x80\xbd\x07\x39\xbc\x83\x2a\x00\x8d\x50\xce\x4a\x3b\xf6\xbb\x55\x9c\x59\x3e\x8b\xb5\x67\x3a\xce\x85\x10\x95\x33\xeb\x44\xf6\xa4\xd4\xfa\x40\xff\x7c\xcd\xd8\xbf\x7d\x8f\xd3\x1e\x1c\xbf\x5d\xa4\x14\x41\x10\xc1\x17\x77\xb6\xfa\x2f\xbf\x20\x58\x9d\xc3\x8b\x55\x26\xdd\x0d\x65\x8c\x65\xc7\xfc\xe4\x29\x86\x58\x54\x42\x0a\x7e\x86\xe4\x90\xa6\xeb\xf5\xd6\x84\x50\xcc\x74\xaa\x29\x66\x85\x76\x07\xd9\x2b\xde\x01\x28\xbf\xbb\x1b\xe0\xa1\xd1\xb6\x72\x64\x8d\xf2\x26\x63\x7c\xe9\x7c\x8d\x50\xa9\x62\xe8\x23\xa0\x8b\x0f\x0c\xed\x99\x2a\x63\x9f\xac\xe6\x67\xa1\xba\x94\x43\x97\xba\xf5\xa5\xd1\xfd\xbb\x0f\x94\x83\x48\x56\xb7\xa1\x63\x75\x7d\x8e\xdd\x6b\xd7\xda\x7e\x9b\x11\x6c\xc7\x07\x8d\x36\x28\xb4\xf3\xff\x79\xf3\x38\xaf\xb5\x0c\x95\xb2\x56\x70\x08\xce\x4c\xe5\xbd\x7f\x69\x0d\x45\x59\x64\xaa\x34\x28\xc1\x50\xae\xec\x94\x23\xbe\x4b\x91\x56\xa8\x4f\x89\xc5\x52\x3c\x98\x1f\x2d\x11\x5a\xac\x25\x87\xfb\x16\x8d\x82\x83\x0f\x9e\x91\xce\x66\xad\xcd\x57\x4b\xdd\x5f\x29\x29\xa3\x97\x30\x1f\x9e\x8b\x9a\x16\x2f\x1f\xf6\x19\x61\x92\x6e\x4e\x44\xa4\xc6\x59\x39\x0e\xd6\x0d\x1a\x55\x3d\xf9\x43\x11\x7f\xd2\xf2\xef\x83\xcc\xea\x09\x25\x34\xe7\x58\xfd\xef\xcf\xde\xc4\xa2\x68\xe9\xe4\x0f\x99\xd6\x5c\xdc\x82\x12\x2d\x6f\x42\x91\xf5\x22\x8f\xcb\xe5\x66\x35\xea\xa4\x52\xd7\x66\x00\x47\xb5\x8d\x0c\xa0\x31\x78\x0b\x2b\xc7\x51\xa7\xf4\x95\xa0\x8f\xd4\xe0\xc6\xa1\x58\xb5\x58\xac\x8d\x54\xdc\x91\x5f\xca\xa2\x68\x0b\x17\xc6\xa0\x14\xb6\x3c\xc2\x02\x96\x6c\x4d\x0c\x34\xd7\xe6\x3a\x71\xb6\x2e\xd7\x26\xa6\x0c\xf3\x48\x89\x6f\x88\xcd\x9b\x04\x37\x6a\xe2\x95\x40\xd1\x0a\xda\x42\x56\x66\xd0\x49\xf5\x6d\x8c\x7f\x0f\xe5\x79\x94\xdd\xa4\x56\x2c\x82\xc9\xb5\x39\x8c\x5b\x9d\x95\xf5\x07\xba\x4d\xe6\xd6\x84\x06\x3e\xbf\xbf\x6b\x80\xb1\xda\xd1\xef\x58\x3c\x34\x96\x7e\x34\x27\x8d\x23\x82\x5d\xc9\xbe\xbb\xef\xfb\x22\xfb\x2b\xba\xef\x90\x26\x8b\x31\x82\x8f\x28\x39\x65\x78\xa4\x8e\xfc\x16\x37\x64\xe9\xff\x43\x15\xc2\xbc\x59\x48\xd6\x35\xf1\x23\x5e\xc0\xc6\xe1\x7f\x3c\x96\x1b\x14\x97\x46\x01\xd8\x1d\x99\x8c\xb6\x2e\x2d\x75\x9a\x14\x50\x9c\x57\x67\x7a\x0a\x24\x0f\x98\x52\x0b\xe3\x78\xcf\x67\xde\xdb\x1d\x6a\x10\xc6\xf4\x84\xe0\xe1\xa4\x3f\xed\x61\x56\xfb\x0d\x45\x5c\x40\x48\x7d\x66\x69\x07\x99\xec\x65\xf3\x5f\xb2\x7d\xc1\x3d\x0e\xd0\x59\xb6\xee\xfb\xe9\xf0\xd6\xba\x7c\x33\x95\x7e\xc4\xc5\x3f\xb0\x6b\x55\x9e\xc8\x90\xa4\xf4\x3e\x21\xdb\x55\x57\xf0\x65\xfe\xc3\x4b\x8b\x28\x2a\xf5\x29\xb2\x50\x11\xfa\xa4\xa6\x83\xac\x58\x7e\xc3\xd5\xef\x54\x40\x72\x24\xfd\x5b\x29\xbf\xf8\xb2\xd9\x39\xbd\xb2\x0f\x2d\x7c\xb8\x41\x92\x41\xdd\xe6\x2f\xa5\x88\xac\x3d\xf7\xe3\x87\xe0\x20\xab\x08\xea\x71\xc0\xd6\x56\x51\x56\x00\x8c\x55\x1e\x1c\x0a\x4e\x8c\x5e\x16\xb4\x83\xfd\x52\x1c\xc8\x64\xb5\x33\x3b\x32\x03\x4b\x59\x71\xfb\xd7\x34\x29\xb5\xab\x5c\xc3\xbf\xed\xad\xac\x10\xf8\x0d\x7c\x9c\xcf\xdd\x3d\xad\xfe\x5b\xcd\x71\x26\x76\x7b\x0c\xe2\x35\x21\x89\xaa\x9e\xa2\xe8\x5b\xec\x2f\xcb\x1e\xc5\x59\x5c\xeb\xc6\x50\xb5\x4c\x8f\x85\x76\x51\x3e\x90\xff\x82\x59\x40\xb2\xb0\x96\x28\xbe\xa7\x65\xab\x90\xde\xc5\x80\xf5\xf8\x40\xd3\xa5\x1b\x5f\x25\x83\x3f\x0d\xe6\xca\x11\xfd\xff\x56\xc7\xd9\xd2\xed\x61\xd4\x34\x60\x99\x6e\x5b\x4e\x42\xae\x58\xcd\xd8\x03\xa5\x08\xd0\xbe\x47\x58\x37\x78\x2f\xf7\x33\x22\x9b\xab\xc3\x3f\x19\xf1\x46\xe7\xc6\xe5\xa0\x2f\x17\x87\xe6\x45\xcd\x2f\x56\x59\x11\x2a\x2d\xae\xf4\xea\xee\xed\x63\x41\x83\x88\x69\xf9\x17\x3e\x26\x69\x7a\x33\x2a\x05\x1e\x62\xf1\x7d\x53\xb0\xbd\xfc\x49\x54\x49\xca\xe2\x65\x1d\xa0\xe3\x9c\xa6\xe2\x77\x2a\x78\xaa\x19\x90\x31\x67\xdb\x8b\xbc\x4a\x09\x9b\xd5\x18\x50\x04\x40\xc1\xce\x73\x74\x71\x37\xfb\xa2\x21\xaa\x95\x38\x88\xa5\xdc\x1d\xc0\xf3\x26\x1a\x5f\x84\x95\x9a\x25\xb4\xe7\x87\xac\xeb\x9d\xf8\x0e\xd0\xe8\x1e\xef\xdd\x36\xbf\xbe\xf3\xad\x96\xcd\xf6\x92\xaa\xc7\xf9\x67\xa0\x21\xfb\x21\x09\xa5\x1c\x21\xfb\x5b\xed\xa5\x98\xc3\x05\xff\xc2\x30\x17\x0f\xdc\x86\x8d\x5a\x62\xff\xfd\xf8\xf7\x4b\x33\x7d\xf1\xf6\x9d\x55\x2a\xa8\x39\x18\x9a\xae\xad\xd0\x51\xc6\x6e\x3c\x05\x10\x2f\x8b\x3d\xc1\x1a\x91\x8e\x75\xf0\xae\x99\x2a\x2e\x0e\x0d\xa5\x27\x2b\x1b\x1f\xcb\xf3\x82\x6d\x4d\xe0\xd7\x1d\x3a\x55\x62\x8e\xb0\xd7\xa4\x1c\xa1\xcd\xcd\x4d\xb0\xf9\xe7\x0a\x3a\x3c\xac\xe1\x40\xee\x22\xe0\x57\x8e\x1f\x55\xa0\xf9\x12\x9d\x37\x3f\x16\x44\x80\x27\xa4\xa9\xcd\x0d\x2e\x74\x7a\xe1\xcb\xa3\x46\x84\x2a\x9c\xf6\xe1\xe5\x22\xbf\x4b\x4c\x46\x9d\x45\x44\xc0\xaf\x93\xee\xbb\x91\xe2\xb7\x46\x5c\xc4\xa1\x3c\x16\x6c\xa3\x4f\xfc\x06\xa8\x46\x22\xd3\x13\x70\x83\xf6\xa3\x48\xac\x8c\xf9\x8b\xa5\x91\xb3\x76\xae\xc3\x67\x01\x6d\x41\xc6\x2c\x57\xd7\xf7\x3d\x76\xb7\xa5\x75\x9d\xaa\x9a\x2f\xef\x5b\x63\x07\x6a\x28\xbd\x50\xbb\xdc\xfc\x85\x80\xda\xa5\x53\x04\x85\x94\x5e\xed\x46\xbd\x62\x83\x03\x61\x29\xce\xeb\xdd\xe4\x6f\xbe\x39\x6d\xd2\x41\xd3\xcd\xac\x28\x3f\x52\x21\x3d\x25\x61\x52\xfd\xdf\x46\x16\x7d\x87\x9a\x3d\xca\x18\x45\x0b\xe8\x0d\x13\x27\x08\x87\xc5\x4f\xb0\xf7\x71\xcf\x02\x2b\x5b\x4c\xb9\xdd\xa3\x91\x21\x8b\xc1\xd6\x2f\xe7\x5c\x40\xca\xbe\xe9\xfb\x8e\x81\x95\x53\xfa\xa2\x1b\xd5\x68\xb1\xe2\x1f\x5c\xbc\x77\xb3\xa6\xce\xca\x69\xd8\x5e\xe8\xf5\x52\xbe\x84\x10\x67\x66\xd2\xb2\x4b\x9e\x35\x8a\x99\x41\xd5\x1d\x96\x07\xde\x28\x54\x22\x32\xb4\xba\xba\x67\x42\xc9\x81\x2c\x53\xd0\xfd\x1f\xac\xce\x22\x88\xad\x40\xf9\x66\x0d\xb9\xa2\x70\x0b\xd6\xe7\xc4\xd2\x21\xfd\xcf\x8b\x48\xae\x60\x9c\x41\x08\xef\xfb\x07\x0c\x97\xbd\x80\xe7\x99\xfc\x91\x02\x86\x23\xdb\xae\xf4\x83\x38\x56\x59\x79\x85\xfa\xa3\x6f\xc0\xe2\x3a\xe7\x19\x2d\x94\xa1\xbb\x0e\x26\x5c\xb4\x70\xda\x9b\x34\x5d\x82\xd4\xe8\x8a\x70\xe3\x89\xb9\xbe\x15\x09\xfd\x39\x79\xe4\x84\xfb\xe4\x69\x9d\xff\x31\x52\x04\x1b\xe4\x53\xa9\x9b\x32\xa5\x5b\x87\x8d\xc5\x47\xa7\x6c\xd2\x3e\xb6\xc3\xe8\xeb\xe0\xcf\x2f\x15\xbd\x18\xd8\x04\x43\x3e\x62\x1d\x50\x03\xfd\x65\x74\x1b\x08\x1a\xdf\xc9\x33\x83\x3b\x22\xae\x1a\xe9\x4b\xaf\xb8\xe7\xf4\x0f\x84\x10\x2f\xa9\xb4\x65\x18\x8e\x97\x07\x2b\x47\xd6\xc9\x9f\x80\xa1\x30\xfe\xda\x51\xd9\x63\x9e\x30\xbc\xc1\x23\xb2\xaa\x4e\xc0\x17\x90\x93\x25\x67\x45\x94\x13\x1d\x9d\xd1\xa4\xaf\xd7\x18\xb0\x0e\x04\xf0\x7b\x62\x1c\x7c\x98\x3d\xbb\xb5\xb9\xf2\x61\x02\xc5\xdb\xc6\x8e\x25\xdc\xc0\xfa\x0f\xe9\x00\xb7\xa9\xfa\x1a\x14\xd9\x5f\xe4\x82\xc7\x0d\xd8\xbc\x4f\x71\xe1\xec\xd0\x7a\xaf\x02\xfe\xf0\xd0\x40\x3d\xd3\x2c\x46\x55\x6f\xf8\x0f\xf3\x40\xb6\x0c\x08\x0c\x57\x61\xcb\x03\x44\xaf\x13\x6c\xca\xeb\x16\x8a\xfc\x91\xa0\xc2\xaf\xe0\xaa\xe2\xe5\xf7\x1b\xde\x47\xce\xf6\xea\xdd\x39\xd6\xa3\x80\xe4\x83\xe1\x98\x0f\x86\xa3\x69\x0d\xd4\xea\xde\x22\x48\x99\x94\xd1\x6b\x6b\xc9\xe2\x44\xd6\x1a\xc8\x7c\xd4\xf5\xce\x46\x44\xac\xa7\xed\x65\xc0\x3e\x01\xf2\x20\x0b\xff\xf2\x43\x7c\x06\xe6\xc2\xbd\xff\xc2\x17\x44\x32\x50\x7b\x6e\x66\xd9\x90\xb3\xda\x6b\x25\x9d\xb7\xb3\x59\x3b\x81\xca\x0b\x18\x1f\xe9\x5b\xf5\xb3\x6c\x5a\xcc\xd8\x82\x4d\xed\x0c\x56\x3a\x0d\xe5\x56\xe3\x3f\x85\xeb\xeb\x1b\xeb\xcc\x5c\xe2\x19\xad\x73\x4c\x84\xcd\x10\x2d\x14\xc8\x47\x8a\x56\x3b\xac\x3e\x70\xe1\x75\xdd\xb7\x11\x85\xe6\x2f\xf5\x0d\xf2\x70\x80\x42\x81\xd9\x90\xb3\x9e\x58\xcb\xa6\x5c\xe7\xa4\xdc\x20\x16\x10\xe8\xef\xb8\x56\xb9\x6a\x15\xc8\xee\x8f\x26\x3f\x28\xcf\x68\x28\xeb\xf6\xaf\x2f\xd4\x8f\x4b\xba\xc0\x30\xea\x4b\x4d\x3c\x93\x14\xdf\x08\xb5\x4b\xcc\x32\x95\xfe\xbf\x30\x36\xf3\x53\xfd\xea\xa1\x8d\x40\xd4\xf1\xf7\xd1\xa9\xcb\x0e\x8b\x42\x98\xd8\x2a\x1e\x7b\x34\xc1\x49\x2d\x02\x71\x66\x6b\x7f\xaf\x08\x78\xf6\xa3\x06\x8f\xa2\x49\x51\x78\x0f\xb5\x0e\x83\xfe\x34\x2a\x3a\xf2\xd5\x20\x34\x53\x97\x75\x62\x93\xb1\xda\x30\xed\x27\x35\x43\x41\xaf\xa0\x6a\xf3\xbc\xcb\x0c\xc0\x31\x7c\x8e\x67\x1e\xf5\x44\x94\x72\x9e\xa3\x1b\x75\x23\xa6\xf8\xdd\xf7\xcc\x57\xf9\xe6\xd4\x83\xd6\x9a\x39\xa5\x0b\x4f\x35\x4a\x52\x9a\xe0\x5f\xb1\xb6\xc5\x7b\xae\xc3\xe4\xdd\x37\x1b\x05\x31\x92\x25\xd9\x29\x83\xe3\x1d\x37\x17\x94\x12\x8b\x70\xc6\x21\xcc\x6e\x67\x43\xae\x67\x2b\x93\x3e\xc4\x78\x70\xb6\x8a\xde\x84\x55\xab\xd2\x99\x4f\x43\xaf\xf2\x20\xd5\x71\x77\x2b\xc0\xdc\x42\xee\x69\x0c\xb9\xf8\x5b\xa4\x28\xab\xf8\xc4\x75\x08\x9d\xdf\x68\xbd\x6b\xe7\xf3\xe7\x7d\x72\x60\xdb\x88\xfc\x12\x74\x09\x54\x59\x17\x97\x2e\xb6\xd5\x5b\x68\xc5\x61\xe8\x5d\x78\x08\xe5\x31\xff\x99\xb8\xa5\x15\x17\x96\x27\x6d\x20\x90\xf4\x33\x0f\x76\xff\x16\xdb\xd5\x0e\xb0\x44\x7a\xa0\xc5\x8e\xef\xf0\xaf\x37\xc5\x17\x70\x19\x01\xf0\x75\xad\x51\x65\x27\xce\xec\x6e\x71\x93\x47\x54\x88\xd1\x7a\x8f\xd9\xed\x5c\x09\x25\xf9\x7a\x62\x49\x97\xb3\xae\xba\x90\x79\x35\x29\x7e\xde\x80\x38\xd4\xb3\xa0\x34\xa1\x7a\xdd\x4b\x52\x69\x02\xea\x5a\x2d\x3a\x20\x50\xde\xfe\xec\xad\x26\x00\xe8\x90\x43\x77\x26\x76\x1a\xca\x00\x50\xde\xd3\x8d\x63\xb7\x0f\x87\x8d\x25\xc6\x40\xdf\x8e\x9e\xd8\x74\x5b\x5a\xd3\x3c\xe2\x23\x72\xfa\x2e\x73\x0f\x81\x78\x99\x9d\x47\x5a\xcc\xbc\xd3\x51\xf4\x64\x05\x29\x24\xdf\xa0\x13\x33\x35\xd6\x44\xcd\x0a\xf8\xa1\xf7\xbc\x7f\x27\x02\xf7\xba\xe7\x71\x1e\xde\xe4\x7f\x4e\xed\x21\xd8\x33\xec\x3c\x81\xb8\xe5\x27\xa4\x72\x8a\x4f\x25\xd3\x03\x36\xb4\x46\x8e\xf3\x9f\x89\xb2\x8e\x05\xd6\xd4\xb4\xa6\xba\x48\x4c\x6d\x0e\x29\xc7\x1e\x00\x1a\x08\x14\x5c\xa6\x52\x81\xe6\x07\x6a\x10\x4d\x63\xca\x0d\xe1\xec\xf7\x7c\xf4\xd1\xb3\xae\x30\xca\x56\xef\xca\xc1\x42\x60\xc1\x43\xa7\xb9\x54\xb1\x0a\xa7\x13\x51\x15\x64\xc1\x82\x0f\x88\x1c\x73\x7a\xc3\xc6\x67\xdb\x0c\x8c\x60\xd8\x17\xd2\x70\x06\x00\x76\x85\xa3\x1a\x1a\x20\xd8\xba\xd6\x9e\x55\xad\x50\x4d\xe0\x18\x6b\x3e\x6f\x77\x97\x46\x6c\x94\xb2\x45\xb7\xcd\x51\xee\x89\xb2\x5d\xd8\x27\x52\x0d\x3d\xbb\xd9\x78\x5f\xc5\xf9\x39\xfb\x83\xae\x1b\xec\x40\x55\x41\x7b\x7e\x82\x3f\xdf\x6b\x6f\xdc\xbf\x86\x56\x36\x00\x66\x3a\xd9\x73\xb9\xc1\x7c\xf6\x8a\x1f\x90\xa4\x6a\xd2\xdf\x92\x9e\xb9\x1f\x44\xf2\x74\xfe\xfb\x56\xe5\x1d\x0a\x69\xa8\x8e\x91\xe9\x8d\x7c\x41\x98\x1b\xf2\x62\xc6\xfa\xf3\xd4\x83\xae\x74\xe1\x8d\xfd\x40\x99\xb0\xae\x6b\x7d\xdc\x7d\x94\xd5\x8e\x47\x04\x46\xf0\xff\x70\x43\xe5\xbd\xb8\x92\x72\xbe\x43\x96\xf3\xd1\xce\xdf\xdd\x2e\x68\x5a\xaf\xe7\x02\xc5\xad\x3a\x06\xb2\x8c\x31\xd3\x56\xec\x3a\xac\x87\x27\xeb\x86\x24\xc3\x12\xe5\xb0\x3e\xcf\x6b\x5f\x80\x56\x89\xef\x41\xbf\xa4\xee\x29\xf4\xdc\x34\x0a\x65\xe3\xfe\x71\xc4\xdd\x6e\xf7\x84\xa5\x50\x24\x9d\x57\xf0\x37\x0b\xee\x46\x35\x42\xd9\x82\xc2\x47\x0a\x46\xea\x86\xb3\xb9\x39\xd1\x0b\x73\x90\xd9\xaf\x26\x38\xf3\x90\x85\x2c\xfa\x73\xf6\x65\xa4\x43\xec\x30\xc8\x91\xc8\x55\x3f\x67\xbf\x22\x52\xbd\xc4\x79\x80\x65\xf6\xd0\xf6\xe6\xb9\xa7\x01\x3b\x24\x1e\x79\xdd\x4b\xf8\xe4\x33\x70\xd0\xf2\x65\xd0\xf0\x50\x5a\x4b\x3f\x08\x81\x81\x94\x23\x19\xa7\x2a\xeb\xca\x06\xf5\x52\xc1\xc7\xca\x04\x3c\xeb\xec\x40\x11\x27\xba\xa6\xcb\xfc\xaa\x4f\xa6\xb1\xeb\x74\x15\x2e\xaa\x88\x78\xa8\xc6\x2d\xb5\x53\x69\x4f\x1b\x35\x50\x0a\xf6\x8e\x6f\x91\x63\x61\x0b\x96\xf5\x2f\x8f\x0c\x0d\x67\xbb\xd5\x4e\x16\x43\x9b\x82\x1f\xbd\x6f\x4c\x75\x8e\xd3\xc1\x8a\xb9\x32\xbc\x24\xdc\xd5\x48\x27\xfc\x5b\x03\xe3\xe0\x34\x2e\x34\x24\x60\x36\xf1\x0b\x7a\xff\x04\x21\x1b\x4b\x05\xf0\xcb\x05\x2e\xfa\xb2\x1d\xd8\xce\xc1\xfe\xec\x67\x6c\x25\xcd\x3c\x79\x30\xad\xa8\x01\xdc\xdf\xcd\xee\x8e\x55\x2e\x12\x15\x2b\x26\x45\x20\xa7\xbb\x18\xd0\xd5\xfc\x65\xa0\x9a\xa5\xbb\x33\x12\xd7\xd6\xbf\xbc\xd4\x0e\x6c\xd5\x48\x31\x44\xc3\xc0\x5d\xff\x3d\xbf\xc1\xc4\x17\xfe\x8e\x68\x05\xe1\x60\xbb\x4e\x9b\x4c\x8c\xf3\x99\x23\x67\xed\x1f\x66\x47\x88\xc5\x66\x2f\xa0\x4a\xcd\x3b\xb1\x2b\x45\x6f\x16\xfd\xf0\xcf\xac\x2c\xe5\x43\xcd\x71\x45\xb3\x4f\x59\xe9\x67\xd8\xeb\xb0\x54\x7b\x11\x09\x7a\x98\x3b\xac\x19\x83\xa4\xbd\xd9\xd3\x14\x9d\xdf\x44\xde\x28\x31\xaa\x9f\x3b\xc6\xca\x0d\x7f\x65\x16\xa0\x0b\x42\xed\xf1\x6a\x77\x78\x37\xc8\xb5\x80\x7c\x0a\x2f\x15\xd7\x10\x29\x64\xac\x95\x6a\xbb\xf4\x61\x1a\x48\xb0\xf6\xc2\xd4\x2d\x08\xea\x62\xa6\xb4\x41\xc0\x6d\x03\x44\x2e\xd6\xcc\x58\x94\x31\xc9\xba\x14\x6c\xd7\x7b\x1c\xbc\x88\x27\x4b\x6c\xa4\x25\xba\xcb\xcf\x1e\x60\x09\x2e\x5f\xef\x23\xdb\x8f\x21\x11\xaa\x80\xf6\x17\x0e\x0b\xb7\xc9\x04\x4b\x0c\x5e\x66\xd4\xd7\x2a\xd6\x5d\x78\xbd\x84\xab\x09\xe2\x0a\xa1\x3a\x88\x55\x9b\x85\x11\xd6\x34\xd0\x4a\x0a\x87\xcb\x5a\x86\x77\x6f\x12\x12\x43\xd5\xa2\x1d\xb5\xf0\x73\xa6\xe7\x71\x3b\x59\xdb\x38\xd5\x00\x96\xed\x04\xc9\x03\xd3\xf6\x6b\x04\x98\x35\xf8\x3a\x6b\xcb\x6a\xc8\xbb\xb4\x31\xd2\x73\x97\x62\x43\xef\x5d\xfa\xcb\x2f\x34\xde\xd3\x35\x81\x72\xef\x65\x91\x83\x65\x52\xe5\x33\x8d\x18\x54\x63\xe5\x03\xf8\xa5\xd8\x98\x66\x40\x19\xbf\x44\xeb\x7a\x29\x76\x7e\x94\xa0\x90\xc9\xbc\xc4\x42\x27\x85\x9e\x94\x18\xb7\x40\x96\x70\xfd\x29\xd7\xb8\xcb\xe6\xc3\x90\x68\xf6\x8f\xca\xf0\xe5\x71\xb7\x32\xb6\xfe\x28\x35\xd3\xe5\x96\x2f\x18\xe1\xe4\x92\x6e\xaf\xf0\x44\xc3\x65\x9b\x07\x0e\xb3\xfb\x94\xa2\x59\xca\x38\x14\xa1\xca\x8e\xb5\xee\xdf\x05\xa6\x43\x03\xa7\x4f\x53\xe4\xe2\x5b\x68\x8c\x5a\xef\x74\x47\x1f\x6f\x66\x7b\xb6\xf0\xd0\xfe\x11\x6f\x15\xde\x84\xba\x26\x80\x8f\xf1\x7c\x1d\x00\x4f\xbd\x62\x73\x1c\x73\xac\xd7\xf0\xa7\x48\xb2\x49\x0d\x90\x21\x60\x95\xc6\x00\x3d\x81\xdf\xc5\xe6\xb8\x16\x11\xce\x6d\x90\xe1\xf7\x6c\xf0\x35\xcc\x92\x17\x14\xfe\xfe\xbb\xb6\x97\x8f\x07\xf1\x2c\x14\xef\x82\x43\xdb\x17\x5b\x6d\x07\x0d\xf7\x95\xb6\xd6\xac\x50\xf8\x3b\x45\xab\x16\xff\x00\x46\x32\xba\x5b\x9e\x3b\xa4\x61\x7c\xaf\xf8\x57\xef\x02\x55\xa8\x66\x79\x5e\x73\x21\xa6\x52\x05\xfa\x11\xec\xbe\x8b\x2c\xa3\xfa\x94\x20\xa2\x3a\x05\x09\x70\x75\x20\x18\xfc\xa0\x45\x18\x36\x3f\xdb\xce\xdb\x3d\x74\x6a\x63\xbe\xac\x7d\xdc\xbb\x0c\xf3\xe5\x50\x9b\x65\x66\x07\xc7\x6a\x8a\xc3\xfa\xd8\x81\x25\xfb\xd4\xe4\xc2\x78\x30\xd3\x83\x8f\xc2\x8b\x0d\x95\x9c\x26\x58\x95\xf9\x71\xbb\xdf\xf4\xe6\xac\xcb\xbd\x6a\x5c\xaa\x4a\xb3\xd7\x8d\x6e\x04\xb0\x7b\xed\xd9\xaf\xe1\xd1\x74\x35\x90\x3e\x1a\x5e\x32\x01\xb5\xfa\x7b\xdd\x4b\x7b\x72\xfd\x6c\x52\x65\x1a\x76\xa2\xfd\xe2\x9d\x86\x6e\xb2\x49\x26\x21\x69\x87\xa7\xf4\x2a\x53\xd1\x91\xb4\xd6\x1a\x83\x54\x1a\x27\xb3\xb4\x06\x98\x77\xbe\x99\xf3\xb0\x9d\x79\x05\x60\xc9\x9c\x6f\xea\x9f\xe2\xc6\x8c\x81\xbb\x0d\x20\xc8\x41\x0c\x03\x9d\xbe\xf8\x00\x7d\x3c\xd7\xa4\x36\x75\xdc\xc0\x9b\xba\x95\x80\x0a\xe3\x67\x72\x5a\x3e\xac\x2f\x85\xfd\x36\x10\xe4\x95\x3a\x38\x85\xb2\x58\xf4\x96\xda\x37\xb0\xe4\x3a\x35\x10\xb8\x7d\x3d\x33\xee\x95\x4f\x17\x66\x23\xd1\xef\xb6\xd3\xb4\xb2\x27\x0d\x08\x3e\xac\x1f\x8a\xe4\x4c\x31\xeb\xbf\x9a\xdd\x4d\xa3\x4e\x0c\xaf\x66\xcd\x2d\xf5\x37\x2f\xeb\x32\xb4\x0d\x7b\x15\x7b\xb9\x36\x8a\xc5\x3b\xf5\x0c\xd2\x70\xed\xb5\x6a\xb4\xd4\x7d\xad\x5d\x24\x21\x68\xef\x71\x40\xcf\xf9\x87\x5e\xc6\xa8\x81\x25\x11\xb9\x54\xb3\x92\x0c\x3b\xb2\x4f\x03\x30\x0c\x2d\x8c\x24\x5d\x97\x4e\xf7\x8d\x18\xa9\xe4\x05\x1d\xc0\x86\x54\x8e\x8a\xaa\x5c\x0a\x74\xa9\x35\xa9\x87\x30\x56\x1d\xc9\xd5\x39\x77\xef\x91\x44\xdd\x65\x02\x7a\x73\x8b\x19\x96\x26\x70\xa7\xe9\xfc\x37\x5a\x74\x69\x85\xa2\xc6\x60\x4a\xd1\x4b\xb6\x21\x11\xc7\xe7\x57\xef\xee\x4b\x0e\x7d\xac\x63\xee\x43\xbe\x8d\xfb\x65\x3e\x7d\x4f\x7c\xd9\xdc\x18\x2c\x21\xcf\x98\xb0\xe1\x0f\xdd\x5b\x0a\x10\xb7\x5a\x25\x48\x1d\x80\xec\xa0\x38\x83\xdc\x34\x90\x00\x83\x56\xe9\x22\xfa\xa8\x27\x8a\x31\xc5\x55\x09\x7a\x1e\xe1\x40\xe8\x8c\x7b\x14\x18\xa3\xa8\xe2\xad\xa0\x41\x69\xe8\x8e\xee\x95\x9f\xcb\xb7\x2f\xfc\x66\xbc\x89\x6b\x2c\x90\xdb\x38\xd0\xae\x91\x8a\x76\xba\xde\xb4\x39\x4e\x0d\x87\x78\x07\xcd\x42\x3b\xce\x48\x86\x83\x59\x4a\x98\x94\x94\x44\xe6\xc5\x95\xf9\xfb\xb3\xb2\xf8\xb5\xa1\xf9\x9f\xb7\x56\x26\x1c\xd5\x07\xef\x07\x85\x52\x9d\x08\xba\x26\xa0\x8e\x43\x3d\xda\x0d\xd5\xe1\x87\x9c\xe3\x34\xe3\xfc\x6c\xa4\x35\xbe\x8b\xcb\x3e\xf4\x85\xf6\x52\x70\x67\x06\xa0\x52\xbb\xa1\x7b\x04\x69\xfd\xaa\xad\x6e\x12\x49\x8f\x59\x9d\xef\x88\xe9\x88\xa1\xee\xcf\x07\xa9\x4f\x74\x8f\xfb\x34\x71\x2c\x7c\xc4\xea\xd1\x4c\xb0\x03\xec\x1a\x0f\x44\xb1\x80\x2e\xe5\x92\xe0\x36\x4b\x11\x8d\x8a\x92\x9d\xc1\x8e\xb9\x9e\x10\x4e\x02\x60\xe4\x04\x4a\xbd\x23\x95\xd7\x1a\x3e\x63\x62\x5f\xe3\x65\x39\xb4\x86\x5a\xa1\x49\xc1\x62\xa9\x47\x8d\xea\x5d\x79\x23\x24\x47\x81\xf5\x53\xe4\xfb\x52\x1c\x85\xaa\xe7\x81\xc4\xfb\x87\xd2\xb3\x56\x67\x9b\x78\x5d\x21\x44\xba\x77\xb3\xe1\x93\x93\x23\xb5\x56\xab\xd4\x21\x8d\x08\x50\x51\xf7\xfe\x27\x0b\xc4\xbf\x06\x69\x42\x80\xa0\xc5\x79\x6b\xee\xe3\x29\xb9\xea\xc9\x88\xa8\xf5\xff\x83\x9a\x57\xb8\xba\xb5\x02\xdf\x0a\xae\x06\xbd\x11\x83\x5e\xb1\xc3\xcd\xd4\x26\x4e\x02\xe3\x35\x93\x04\xd9\x9c\x27\x8d\xd4\x1d\x1a\x17\x92\xc1\x2e\xe7\xcd\x67\xff\xc8\x46\x8b\x4a\xaa\x82\x1d\x14\x05\xfa\x74\x7d\x92\xe0\xfd\x94\x10\x20\x6b\x29\x7c\x5c\x0b\x0d\x76\x49\x91\x01\x31\x9b\x16\xff\x95\xa3\x61\x37\x83\xa4\x0b\xf3\xb5\xb4\x14\x26\x91\x98\xee\xc0\x72\x61\x84\x83\xf9\x5d\x13\x00\xc7\xbb\x5f\xcd\x06\x3b\x48\xc8\x13\x07\x04\x13\xb4\x91\xd7\x65\x15\x67\x9b\x2f\x93\xc5\x4b\xb7\x94\x99\x5e\xad\x3e\x13\xf6\x0b\xd2\x31\x03\x6f\x9a\xb5\x7e\x9b\xc1\x2d\xb0\x62\x75\xf3\xab\x2d\xa6\xac\x73\xb6\xff\xa8\xf5\xa6\x04\x57\x4f\xbb\x7f\x02\xe5\x39\x0a\x4b\x1d\x59\x83\x45\x5f\x16\xbd\x98\x22\xdc\x83\xe8\xb7\xf7\xfb\x99\xd2\x65\x89\xee\x73\x58\xd1\xf6\x08\xdf\x32\xd8\x6c\x72\x49\xd4\x8d\xbf\xf1\x00\xea\x68\xb4\xbf\xa7\x04\xc6\x01\xf9\x1f\xc5\x03\x3a\x87\xcf\x2b\x87\x48\x05\x30\xf2\x78\x7a\x15\xf9\xff\xc0\x0c\x5a\xa4\x80\x02\x30\x8d\xd8\x99\x49\xf1\xaa\x2e\xe6\xab\xe9\xb9\xdd\x51\x4b\x15\x4b\xaa\xf7\xb1\x33\xee\xf2\xfc\xdf\xc1\xfc\x84\x29\x4b\x2f\x8f\xf3\x00\xd0\x0f\x7d\x7f\xa4\x5d\xd2\x81\xfe\x47\x16\x62\xa6\x85\x47\xc8\x9b\xba\x53\x0c\x74\x0c\x1d\x85\xac\x41\x93\x31\x0e\x7d\xd5\xfc\x05\xf7\xc9\x5a\x24\x7b\x7f\xd6\x39\x2a\xf3\x73\x88\x14\xbb\x8e\xe6\x9e\xf9\x87\x3c\xad\x9f\x61\x9a\xf2\x23\xbc\x05\x11\xb3\x62\x97\x91\x97\x02\x45\x55\x3a\x52\xf2\x01\x00\xd2\x15\x0e\x81\xc2\xbc\xb0\x46\x12\xa3\xa7\x16\xd5\x60\xe2\xb8\xd3\x37\x54\x93\xb7\x78\xa9\xf0\xb6\xb6\x90\x8a\x7e\xd4\xa3\x3e\x03\xb2\x2e\xae\x53\xf4\x30\xca\xaa\xf9\xa7\x63\xaf\x6b\x26\x35\xc2\x42\xd1\xc1\x5a\x4d\x1f\x04\xf9\xa1\x16\xaf\x5b\xbe\x19\x8d\x8d\xa1\xb2\x7c\xba\xd1\x41\xa9\x70\x32\x55\xdd\xe5\x5b\x7d\x55\xa7\xf4\xa6\xfa\xdf\x1a\xed\x0a\xf5\x19\x68\xcc\x34\x7a\x5c\xb9\xa4\x4b\x80\x66\xcd\xa5\x78\x19\xda\x51\x2b\x76\x47\x5d\x70\xfa\xcb\x91\x28\x4a\x29\x33\x9b\xad\xc0\xc4\x64\x8c\xa9\x0e\xad\x33\x2e\x23\xea\xdf\x5a\x5d\xba\xc1\xf2\xfa\x2c\x6b\x32\xa4\x78\x64\x57\x6c\x50\xed\x9d\xc3\x7c\x93\x5a\xe0\xc4\x0a\x30\x98\x86\x2e\x66\xbf\x2d\xbe\x21\xe2\x90\x9c\xb6\x0a\xed\x5d\xbc\x41\xb5\xa5\xd0\x6f\x50\x3d\xf3\xe6\x52\xaa\x1c\xfc\x72\xac\xa3\x33\xe2\xb3\xf9\x12\xcb\xfe\x4d\x2b\x39\x6d\xa2\x55\x7d\xdd\x4c\x05\xdf\xaa\x81\xf7\xb5\x96\x35\x54\xbc\xf3\xee\xfc\x06\x4e\x65\xc4\x8c\x8e\xb2\x9d\x06\x75\xc1\x11\x9a\x2f\x8a\x17\x67\x33\x16\x98\xde\x5c\xc2\xfa\x91\xb0\x24\xe1\xd3\x07\x80\xa9\x37\x63\x49\xe7\x56\xc1\x75\xef\xeb\x38\x41\x1f\x97\x94\x37\x88\x72\xe3\x28\xf1\x45\xa3\xac\x11\x26\xed\x8f\xe8\xb7\xd9\x6f\x3b\x0e\xda\x49\x19\x30\x5f\xf8\xf9\xb0\x22\x9f\x43\x24\xdf\x2d\x18\xf9\x4c\x66\xe9\x74\xe2\x64\xa1\x21\x63\x4b\x0a\xa2\x32\xcd\xb1\xf1\x4b\xfc\xc9\x71\x13\x1b\xec\x5f\x94\x69\xfe\xc3\x33\xb7\xc2\xaa\x96\x09\xbf\x60\x71\xa2\x17\x56\xb9\xf1\xd6\xfb\xc4\xcb\x48\x07\x7c\xc1\xd2\xb1\x46\x08\x60\xdc\x8d\xc3\xb6\x9a\x82\x0d\x3c\x40\x09\x96\x89\x44\xed\x7f\xc1\xf1\x2e\x76\x24\x57\x2e\x95\x41\x02\x4c\xc5\xfa\x1c\xbf\x9b\x50\x0e\x1d\x2b\x48\x0e\xbc\xff\x55\xe6\x77\xaa\xdb\xaf\xfe\x9e\xb6\xbf\x1a\x64\x1e\x4b\xea\x2f\xc8\x52\xd9\x53\x85\x25\xb2\xb4\x95\x25\x65\xeb\x98\x41\xa8\x4e\xfe\x8d\xb9\xc1\x2f\xc8\x58\xf3\x04\xb9\x91\x72\x06\xe7\x53\x95\x06\x02\xa7\xae\xcf\x38\xa4\xc6\x65\x1f\xf8\x9d\xc0\x21\x44\xe4\x7d\x17\x15\x34\xf1\xd1\x92\x28\xae\x0c\xd7\xe0\xec\x09\xb0\x8a\xd1\x4b\x41\xca\x9a\xb5\xa3\xf1\x81\xdc\xcf\x9a\x77\x21\x10\x10\x13\xd0\xb5\xcb\xdf\x2a\xaa\x3b\x1e\x79\xf2\xad\xbc\xb2\xd6\xd4\x64\xa9\x1e\x9e\xb0\xf9\x64\x79\x56\xb5\x1e\x0d\x75\x74\x7c\x16\x01\x06\xc9\xd8\x65\xca\xc2\x9a\x5b\xb2\x12\x2d\x20\x6d\x8f\x5b\xbc\x99\xd2\x27\x74\x5c\x74\x87\xe6\x0a\xd9\xd5\x05\xe7\x94\x20\xce\xe9\xec\x15\x77\x7b\xe5\x00\x15\x13\x11\x03\x54\x39\x24\xea\xec\xff\x52\x21\x0d\x03\xfe\x38\x04\x03\x44\x81\xee\x3b\x2a\x8b\x72\x4b\x78\x31\xca\xef\x8b\xfe\x06\x78\xda\xf1\x07\x67\xb5\x58\x38\xd5\xca\xb2\x93\x28\x82\x39\xee\x45\x67\x3d\x12\x71\x1a\xcf\x35\x59\xe2\x11\x30\xa6\x9e\x8f\x1e\x74\xa6\x2a\xad\x05\xf4\xcf\x5e\xba\x82\xe8\xbf\x02\x0a\x28\xa2\x9f\x61\xb7\xaa\x63\xbe\x2d\xf9\x6c\x0a\x30\x55\x78\x31\xc9\x33\x59\xb1\xd8\xcb\xf1\x63\xe7\x68\xb7\x9d\x1f\xaf\x13\xbf\x69\x0e\x5e\x69\x82\x38\x0c\x30\x7c\x08\x15\x75\x4f\xf4\x4c\xe2\xec\xca\xad\xf5\xcc\x79\x7a\x1f\xd8\x8e\xce\x5e\x12\x16\xc5\x26\x84\x24\xbf\x1b\x2c\x0b\x57\x03\xe7\x77\x52\x10\xec\xd6\xa6\xc3\x15\x8d\x59\x63\x23\x93\xef\x9d\x13\x30\xbc\x81\x2d\x1d\xb5\xd0\x62\x88\x38\xb3\x51\x1e\x3e\x37\x21\xff\xa2\xaa\x83\x26\xd1\x88\x9b\xea\x24\x0c\x32\x7e\xa7\x0a\xfc\xd0\x89\x32\x89\x75\x62\x22\xcb\xd0\x18\x4d\x79\x91\xcb\xfe\x76\x12\x54\xd5\x98\xe1\x5d\x7d\xfd\x11\xe9\x8a\xd8\x24\x4c\x04\x5e\xbe\xfd\x71\x44\x84\x32\x82\x7a\x8e\x36\x2e\x2a\x1a\x13\x4a\x11\x8b\x41\xb6\xe3\xb8\x30\x3d\xbd\x47\x35\x46\x4e\x88\xdf\x6d\x81\x44\xb9\xce\x86\x07\x00\x03\xdc\xca\x02\x1d\xfa\x88\x8a\x93\x7a\x2c\x07\x8f\xe0\x19\x26\xe2\x45\x1e\xc4\x44\x68\xad\x10\x15\x2a\x62\x52\xd7\x6d\xb6\xab\x38\xc9\x3d\x42\x1b\xe4\x01\xef\x28\x0c\x1d\x39\x5d\x66\xcd\xe7\x2a\xf9\x67\xa5\x43\xb4\x7d\x3a\xdb\xd0\x21\x9c\xa2\xb9\xfc\x91\x10\x83\xb4\x18\x26\x03\x62\x40\xac\x77\x0d\xeb\x4c\xbd\x97\xf7\x52\x6e\xf8\xd2\x9f\x4f\xab\xa4\x84\x38\x93\xd4\x8b\x04\x29\x94\x4f\xc4\x2c\x3f\xf5\x95\x8f\x29\x79\x8f\x61\x9b\xce\x40\xec\x01\x6c\x67\xa0\x64\x59\x74\x68\xe7\x56\xf5\xde\x67\xaf\x68\x5c\x82\x80\xa5\x63\xac\x1e\x0f\xd0\x22\x4e\x61\x58\x62\xc7\x3a\x1c\xdc\x96\xa6\x43\x64\x75\x3e\x9d\x3a\xaa\xaf\x48\x82\xcc\xda\xf4\xb3\x4e\x2b\xeb\x9b\x14\x82\x1f\xc0\xfc\x19\xc2\xfe\x79\xc6\xa7\x42\xeb\x96\xb8\x68\x3f\x58\x1b\x12\xd4\xeb\xec\xfd\x47\xd8\x46\x2d\x22\x03\x65\x39\x85\x52\x11\x65\x0b\xda\x7e\xf4\xae\x49\xf9\xd2\xa6\x39\x55\x2d\xe4\x6e\x2c\x45\x81\x04\x4f\x4b\x72\x08\x51\x80\x8f\xd4\x99\xc3\xef\x0e\x24\x90\xf9\x26\xe8\x9a\x63\x67\xaa\x8b\xbd\xdc\x2a\x00\x44\xda\x2e\x18\x07\x3f\x6a\x94\x73\x99\xa2\xe6\xcd\xb2\x12\xb4\x30\x32\xe1\x51\x43\x37\x4b\x20\x9c\x07\x64\xda\xee\x76\x98\xf3\xb8\x16\xc0\xd4\x84\x65\x54\xb9\xdc\x87\xfd\xf3\x7b\x23\xca\x45\xd6\x3f\xfa\x8b\xf9\xca\xc4\x1f\x88\x95\xaf\x1d\x90\xaa\xeb\xed\xc8\x77\xd9\x04\x1e\xc6\xa6\xde\x60\x26\x8b\x28\x83\xe9\x64\x15\x32\xc4\x2b\x0d\x51\xc4\xf7\x90\x93\x30\x70\x59\xdd\x08\x06\x7e\x3e\x51\xaf\x13\x54\x14\xba\x9d\x5e\xea\x39\x0e\x80\x77\xe4\x68\x9d\x06\xe0\x71\x62\x63\x24\xf0\x33\xd1\xef\x32\xcc\x69\xa1\xae\x28\x58\x35\x54\x62\xef\x6f\xd9\xb9\x56\xb0\x7a\x02\xa3\x66\x84\x08\xf9\x46\xa0\x72\x84\x27\xa3\x15\x72\x73\x6b\x30\x21\x1e\xf8\x90\xa8\x0d\x89\x41\xb5\xab\x71\xf6\x61\x11\x30\x91\x51\xef\x97\xd7\xdf\xa1\xbf\x0c\x25\xb5\x29\x0b\xba\xb2\xf3\x09\xa1\x16\x4e\x3d\x80\xa1\xcc\x6e\x7e\xdf\x23\x6d\x3c\xc5\xd0\xc7\x04\xf6\x50\xf6\x5b\xf6\x4c\x49\x71\x84\x62\x2c\xcf\x5e\x32\x37\x91\x09\xf3\x2b\x2a\x4f\x29\x86\xf7\x97\x1e\xd8\x21\xd9\xed\xec\xa5\x32\xbc\xa3\x50\x70\x74\x78\xf4\x15\xe8\x25\x83\x92\xbd\xe5\x1a\x6c\x54\x61\xb2\xd5\x83\xa8\xad\xce\xb9\x4e\x95\xd5\x81\x4e\x00\x34\x51\x20\x82\x2e\x0e\x12\x1d\xe4\x30\xd1\xd9\x67\x22\x67\x6b\xc4\xe4\x22\xd5\xbd\xcf\xe4\x12\x3e\xa1\x64\x85\xaf\x23\x4b\xce\x53\x89\x57\xa5\x50\xa5\xfe\x56\xaf\xbc\x98\x73\x3c\xb1\x39\x9b\xa2\x24\x85\xd9\xce\x53\x13\x4d\x85\x1b\x9e\x8c\x44\x08\x92\xc1\x2b\x70\x20\x4f\xcc\x74\xfa\x90\x65\xb4\x6f\xa6\xb0\xc6\x30\x06\xfb\x8a\x8c\x60\x3a\x19\x21\xb3\x5c\x08\x95\x1e\x87\xb1\x8b\x34\xb9\xbc\xfb\xb4\x41\xd8\x40\x04\xb6\xa1\x96\x4f\x15\x0d\x6f\xf3\x80\xd2\x73\xc5\xc1\xd3\x18\x54\x01\x3a\xf4\xae\xce\x46\x66\x2b\x9a\xfe\x1e\xfc\x2b\xf3\x97\x30\x38\x52\xc7\x1f\x55\xdc\x92\x4a\x33\xd2\x35\x6e\x73\xfa\x36\xa8\xee\x95\xda\x76\xc5\x4a\x37\xc4\x8a\x38\xdb\x6f\x18\xcf\x6a\xae\xff\x72\xe6\xa0\x9e\x10\x79\xf9\x8b\x56\x5c\x7e\xd2\x61\x89\xa2\x66\x9c\x71\xe7\xef\x42\xa8\xb6\xe2\x1b\x27\x60\xac\x84\xb5\x9a\x21\x64\x2f\x0b\x8b\xec\xea\xcc\x2f\xc4\x9b\xef\x8a\xec\x9c\xef\xa3\x26\x45\x78\x8d\xb8\x97\xcb\x23\x7b\xe3\x1e\x7c\x07\x41\x68\x88\x05\x9a\x92\xbb\xa0\xd5\x9d\x49\xe1\x0e\xd8\x1f\xf2\xb7\x63\x22\xc3\x51\xa2\xd4\xd7\x54\x1f\xf8\x29\x87\x39\x83\x89\x29\xa1\x9a\x8e\x64\xbf\x6e\xcc\xe8\xce\x19\x85\x28\x04\xea\xcf\xa5\xbf\x67\x91\x9d\xe0\x04\x0e\xc5\x25\x57\x0e\x54\x53\x96\xd7\x3c\xd5\x6b\x4b\xbc\x10\x04\xbe\x3f\x39\x72\xea\x03\xff\x76\xc3\x07\x40\xa9\x66\x86\x26\x70\x98\xa3\xaf\x14\x8e\xa3\x49\xed\x27\x12\x15\xca\x8f\xc5\xce\x4f\xcf\x82\xb3\xf2\x19\x08\x61\xb4\xfa\x54\x5f\x32\xc1\xdb\x6b\x9b\x85\xf8\x8e\xb8\x1e\x3d\xef\x01\x70\x67\xcd\x43\xdf\x47\x05\xcc\xd5\xf9\xa0\x70\x9a\x8c\xd0\x14\xbe\x87\xe6\x12\xfd\xa4\xaf\x67\x26\x68\x90\xa8\x44\xfa\xf3\x64\xec\x0f\x6c\x6f\xda\xfc\xd9\xdd\xb1\x88\xa7\x83\xa5\x16\xf5\xba\xef\x9a\xf7\xca\x5a\xac\xc7\x08\x05\x63\x7b\x27\xa3\xad\x99\xf0\xcd\xf0\xaf\xbd\x6c\x08\x0e\xc3\x74\x16\x6c\x94\x1d\xd8\xff\xc9\xfc\xb4\xf4\x6a\xf5\xbb\x4c\x1a\x6a\xd3\x83\xf4\x15\x53\x3a\x60\xce\x37\x89\xd5\x8e\x54\xf7\x06\xb6\x6c\x13\x3e\xcf\xec\xba\x06\x83\x01\x82\x00\x53\x22\x6a\xc0\x35\x0d\x38\x95\x3b\x23\x67\xaf\xfc\x89\x9d\xde\x22\xcc\x97\x8a\x9c\x36\x91\xd6\xad\xa1\x75\xa0\xcf\x69\x53\xb6\x91\xaf\xee\x0a\x21\x13\xac\x15\x04\x3e\x71\x32\xe8\x75\x10\x6d\xeb\x9d\xcc\xd1\xea\xbf\x11\x3e\x94\x1b\x73\xea\xc1\x2b\x58\x28\xda\xde\x4c\x7f\xd1\xd0\x67\xde\x74\x16\x12\x4c\x0a\x17\x0f\xc8\x07\x8a\xb0\xb6\x38\xb9\xb1\x74\xb0\x00\xef\x93\xcc\x7a\xb9\xf9\x75\xb6\xfa\x19\xbd\x4b\x64\x53\x87\x75\x06\xec\xc2\xbe\xe8\xa0\xe5\x28\x58\x8f\x00\x51\xa4\xb6\xe6\xc0\x4f\xdc\xcc\xce\xc7\xe4\xbc\x4a\x95\x35\x54\x63\xdc\x38\x69\x99\xff\xe4\x0a\x45\x56\xb1\x66\x32\x37\xbc\x8e\x46\x0b\xd2\x0d\x12\x86\x74\x9d\xd8\xc2\x46\x2b\xf9\x9c\xd1\x3d\xf5\x47\x8e\xd8\x42\x3f\x48\x36\x06\x4b\xd9\x4c\x6d\xaa\x8a\xb5\x2f\x8f\x8d\x86\xa4\xe2\x60\xa4\x50\x38\xa1\x0c\x7f\x19\x3d\x8a\x5b\xa3\xa5\xbc\xc8\xdc\xa5\xb0\x6c\xb6\xc5\x90\x13\xea\xcb\x65\xc7\x2d\x26\x72\xd9\x9d\xf3\xb1\xbd\x45\xa2\x69\x9e\x5b\xe6\x44\xd2\x56\x4b\x4a\xbe\x5c\x17\x89\xcd\x49\xe1\x79\xb8\xef\x71\x7e\xad\x85\x5c\x31\x58\x63\x2d\xb5\xba\xba\x1b\x3c\x67\xef\x72\xde\xe9\xc8\xe2\xcf\x10\xee\x21\x16\x1d\x03\x36\xaa\x1e\x6a\x00\xe6\x09\xfd\x6e\xc3\xe0\x44\xff\xac\x03\x61\x16\x10\xd5\x4e\x64\x2f\x1a\x91\x38\xa2\xf7\xed\x19\x10\xfe\x22\xdb\x76\x75\xac\xe3\x56\x46\x72\xab\xc0\x38\xa7\xfc\x0d\x08\x1f\x63\x3e\x33\xd3\x7a\xa4\x94\x58\x67\x60\xda\xc3\x8a\xff\xa1\xb7\xc6\x99\x40\x8d\xee\x61\xe0\x37\xf7\xa8\x58\x42\xc3\xe5\x83\xfb\x37\x61\x4d\xc2\x22\x23\xd0\xa0\x9b\x1b\xc5\x88\x03\x47\x35\x1f\xcc\xed\xf0\x3f\x57\x48\x45\x34\x3c\xa2\x48\x36\x1b\x4e\xc3\x2e\x1f\xb6\x99\xbe\xf1\x6c\x8b\xf7\xac\x3a\x86\xd4\xb0\x62\xb3\xda\x00\xf2\x77\x4b\xd9\xbd\x7c\xd3\x0b\x3a\xeb\x99\x0e\x3c\x6b\xf1\x69\x61\x0c\xae\x10\x97\xba\xb7\x25\x89\xd9\xc3\xef\x0e\xce\x14\x69\x69\x1f\x36\x75\x6f\x14\xf4\x79\x8d\x55\xa4\xd2\x68\xb4\x32\x43\x25\x6f\xd3\x03\x6c\xee\xde\x26\x1e\x03\xb4\x39\xa6\xcb\xee\x8f\x0a\x65\xb4\xc5\x59\x27\x82\xa2\x01\x0a\x86\x20\xa2\x21\x26\xc3\xc5\x12\xc2\xe3\x97\x80\x00\x16\xfc\x02\x86\x2b\xe9\xb6\x7e\x24\x08\xb3\xbc\xea\x76\x61\x1b\x40\x85\x0c\x8d\x58\x32\x38\x8c\x96\x2e\x15\x53\x0f\xff\xd3\x6e\xa2\xe6\x0f\xb6\xca\xa1\x3d\xdf\x0e\xd7\x8a\x9e\xdd\x18\xe4\xd1\x22\x56\x90\xe7\xe2\xa9\x83\x45\xc0\xa3\x0f\xb5\xbe\x67\x17\x8d\x47\x81\x2d\xc5\x5a\x45\x96\x1f\x12\xe1\x3c\x10\x4d\x6c\xbb\x46\xdc\xd2\x97\x6e\x8e\xd9\x19\xc3\x71\xed\x25\x10\x24\xa7\x6b\x74\xf3\xe9\xe6\x1c\x69\x36\x14\x6f\x7f\xe0\x4e\x69\x14\x61\x8b\xab\x7b\xeb\x8e\xbb\x7b\x6c\x42\xf2\x3e\x1c\xc0\x2a\x9e\xbc\x67\xf9\x92\x0c\x6f\x22\xe9\x47\xe1\x7a\xf9\xf5\x60\x30\x59\xc1\xf3\xe4\x66\x15\xa0\x36\xce\x7e\x25\x95\x76\x84\xd2\x4c\xd6\x6c\x88\x64\x26\x19\xb1\x29\xe1\xa4\xac\x3f\x85\x1f\xff\x26\x61\x76\x08\x74\x85\x7b\xa9\x41\x3d\xb7\x12\x88\x04\x3f\x37\x69\x54\x41\x80\x28\xaf\xd2\x83\xb3\xd9\xf7\x91\x16\x99\x0c\x9e\x39\x3c\xd0\x04\xb1\xae\xb0\x6f\x12\x2d\xf4\x67\x19\x46\xa0\xc4\xfc\xc3\x5c\xf1\x46\x00\xd2\x7c\x33\xa0\x9c\x28\x0a\x71\x65\xb3\x95\x98\x59\x07\xf4\xc1\x78\x2b\xc9\x34\x42\x85\xae\x8c\x5b\x40\xa6\xca\x18\x47\xea\x5c\xc7\xac\x9b\x52\xf5\xfd\xe8\x46\x78\x97\xc1\x7d\x50\xa0\xa8\x88\x52\x3f\x42\x18\xd5\x52\x64\x0d\x02\xaf\x6d\xae\x79\xcb\x17\x54\x1d\x1a\xd0\x9e\xca\x68\x16\x1e\xe6\x6a\xbf\x46\x87\x74\x31\xaf\x14\xb5\x85\xaa\x55\xc8\xed\xde\x78\x80\x98\xc6\x6d\xad\x56\x92\x18\x1c\x2a\x10\xca\x81\x40\x86\x13\x0d\x54\x80\xe5\xb0\xf7\x8b\xb5\x2e\x5a\xbc\x80\x7b\x3e\xe1\x85\xa0\x59\xba\xcb\x7c\x0e\xfc\x94\xe4\x26\xd8\x20\x80\x4d\xaa\x47\xab\x6d\x47\x8e\x1e\xb2\x2f\x7a\xf0\x3e\xb0\x4a\xa2\x2f\xcb\x08\x70\xab\xa0\xfb\x54\xa5\x68\x15\x54\xd1\x3c\x6b\x86\x13\x48\x45\x55\xf7\x94\x30\x06\xd2\xe8\x42\x56\x23\x65\xff\x07\xe2\xbc\x61\xe6\xa7\xf0\xdf\x83\x9c\x1c\x7c\xc7\xce\x9f\xbd\x05\x59\x03\xfb\x1a\x91\x7b\xa1\x0c\x8f\xff\x97\x44\x1a\x67\x9d\xb8\xc4\xf3\x71\x07\x89\xda\xf3\x5a\xf9\xc1\x93\xeb\xe4\x0f\x91\x68\xf3\x9a\x70\xd9\x08\x5b\x2d\x19\x9a\x56\x6f\x78\x8b\xc8\x5b\xc5\xc2\x60\x50\xe8\x0a\x1d\xfc\xb5\x3b\x4d\x92\xeb\x2c\x14\xc1\xe7\xeb\x72\xae\x44\x82\x71\x0c\x33\x3a\x77\x30\xf4\x72\xe4\x94\x4f\x62\xbb\xd8\x4c\x4d\x74\x74\x25\xad\xe6\xe8\xc3\x42\xb0\x9d\xb3\x10\x00\x3a\x69\x55\xe9\x44\xfd\xac\x5b\x93\xcb\xe6\x3c\xd3\xc9\xd4\xa8\x70\xd1\xa1\xdb\xa3\x5c\x3e\x04\x84\x9b\x9b\x26\x3c\x91\x8b\x3c\xe3\x96\x75\x0f\x89\x70\xd6\xfa\x8d\x88\x09\x79\x11\xa7\xee\x0d\xb4\x33\xe1\x30\xfa\x6d\x58\x69\xff\xa9\x62\xc2\x8a\x9a\x65\x03\x4d\xe8\xd2\x49\x26\xd4\x68\x46\x7d\x25\xd4\x8c\xf1\x48\xbc\xb0\xbb\x02\x5b\xef\x6e\xa0\x40\xbe\xfc\x40\x53\x8d\x7e\x15\xd0\xf0\x79\x1f\x63\x68\x91\x6d\x92\xc6\xb4\x9e\x0a\xfe\x58\x4d\x70\x3e\x0d\x9b\x5f\x7d\xa6\x76\xb2\x82\x05\x50\x0f\x49\x47\xa4\xb3\x61\x31\x4c\xdf\x49\x84\xd0\x1b\x7c\x2f\xe7\x87\xa3\x51\xf5\x4c\x8c\x2f\x84\x8e\xa5\xfc\xa1\xa8\x8d\x8f\x94\xb6\xfb\x84\x0f\x69\x4d\xdd\x0b\xed\xb0\x05\xed\x4e\xc4\x55\x7e\x5a\x7d\xcc\x5e\x56\xe5\x99\x71\x67\xba\xd4\x05\xed\x9b\x00\x71\x0f\xbc\x60\xc2\xad\x20\xb7\x6b\xb7\xb3\x89\x25\x0f\xb1\x9a\x80\xef\x63\xbe\x70\x7c\x5b\xfe\xb4\x94\x65\x29\x2d\xba\x81\xe1\x27\x37\x4c\x69\x28\x0b\xa8\x22\x50\x62\x69\xcb\x41\x29\x15\xc5\x29\xa4\x94\xca\x75\xbf\x88\x6d\x2e\xde\x03\x34\x67\xf8\xf2\xba\xf3\x75\xc8\x2c\x90\xdd\x3f\xb3\x3f\x93\x69\x65\x25\x0b\x29\x5e\x15\xe0\xc5\x99\x7d\x94\x06\xd5\xc0\xbd\x92\x6a\x86\x7d\xc1\x5c\x6f\xba\x07\xb5\xde\xb0\x0a\x6c\xcc\x3f\xb4\xa4\x59\x96\x6f\x3f\x25\x93\x1c\x78\xea\xe3\x67\x5f\xd9\x65\xd7\x9c\x0c\xd3\xcd\xf1\x98\x40\x02\x85\x16\x9e\x7d\x71\x06\x9c\xc0\x7a\x40\xc1\x7e\x0e\x2b\xb6\x58\xc1\xbf\x45\x7b\x02\xa8\x75\xc1\x81\xb6\xd1\x20\x2e\x80\xb3\xbd\x4c\x1a\x06\xa7\x06\xcf\x3b\x08\x13\x49\x2e\x4f\xbd\x70\x12\x79\xaa\x67\xfd\x30\xf4\x1c\xe0\xa3\x65\x50\x2f', 2)
+AaAaaaAaaaaAaAAaaaaAaaAAAAaAAaaAaAaAaaaaaAAaaaAAaAaaAaaaaAaAaaaAaAAAAAAAAaaAAAAaAaaaAAAaAAaaaAaAaAAAaaAaAaAaaAaAAaAaaaAAaAaaAAaaaAaaAaaaaaaAaaaAAaaaAaaAaaaaAaAaaaAAaaAAAaaaaAaAAAAAAAAaaAAaAAAAaAAaAAaaaaaAaaaaAaaAaaaaaaAAaaaAAaAaaAaaAAAaAaaAAAaAaaAaAAaaaAAAAAAAaAAaaaAaaAAaAaAaaaaAaAAaaAaaaaAaaAAAaAAaAaaaAAaaAaAaaaAaaAAAaaAaaAAaaAAAAAAaaAaAAAaaaAaaaAAa = "jqMPhfUcWyKWjBlxlMuVvGcdCASVhMVgbHnrJprkrUOEkUUplvfNqnWWhhFVwCVSOnMiTMhzUyMrdew"
+u350 = 319
+miaSxKmprzpphoiWSqNboftgiPfssvXitXDQwbXLEfepsFZfEMeCmbNlAaOaZigSopqKYeuOLwmpcDt348 = "gZsKfMnXLuwwkmFCtcuhkkIAQzyOMwYoBrIdtFKNhgUJcnACuxuwKUPsFpVuxiBufyRdrxJKxKSOqxW"
+pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp = 410
+IlllIlIIlIlllIIllIllIlIlIllIlIIIlIIIllIllIIIlllIIIIllIIIIlIlIIlllllIlIIIIIllIIIIIlllIllIlllIIlIlIIlIllIIIllIllIIIIlIlIlIIllIlIlIIIlllllIIllIlIllIIlIllIIIIIIlIIIlIllIllIllllllIIlIIlIIlllIIIIIIIlIllIlIlIlIllIIIlllIIIllIIllIlIlllIllllIlllIllllllIlIIIllIlIIIllIIlIIIllllIlllllIlllIllIlIIlIllIIlIIIIIlllIlllIllIllIIIllIlllIIlIlllIlIllIllllIIIllIIIII = 362
+AAaaAaaaAaaaaaaaaaAaaAAaAAAAaaaAAAaaaaaaAaAAAaaAAaAAaAaaaAAaAaAaAAaAaAaaaAaaaAAAaaAaaaAAaaAAaAaaAaAaAaAaAaAAAAaaAAaaAAAAaaaAAAAAaaaAAaAAAaAaAaaAaAaAaaAAAAAAAAAAAaAaaaAaaAaAaAAaaaAAAAAAaAaaaAAAaaAaaaAAAAAaAaAAaAAAaAaaaAAAaAAAaAAaAaaAaaAAAAAaAaAaaAaaaAAAAAAAaaAaAaAAaaAAaaaaaAaAAaAAAaaAaaAaAaAAaaAaaAaAaAaAaaAaAaaAaaAaaAAaAaAaAAaaAaaAAAAaaAAAaa = 116
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX = "BfFboaSYxTZkeSAsMXgvhPZxUKBZlYiiOzbDMqcVNdbKuoXpvGsILPKYaYJMWWqgfTJZFKycpgpDJyj"
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT = "kIFfYapkKaVsQLwOLdihvJbnWiAhBsdDRcYMntblwPfwOKHwSfiWJESqiWuRXGuXzLkhcnGwHirtBfN"
+dVikzGhdqTtLLwJpOjXdiZsLdYgNhADejQHLFhRnQksvbwtkPbXGGGdRkeXELalCHtDIWOhBFPonUdR336 = "gUuKdNkmKFHublYjkSacgEfciAJDIhopzvIfcBOKgHOENJAYcPWUvHdWLJPjsxcoCMVwJoIjqLDTXsk"
+JESVbhxZzEqHddOpKngQHesESAYzwrzDJmollMYbftSGAQkzQIlyiSpFMHJPMsyucdAeZvAXNKCvwSf334 = "QgpmxydEzZSYfHxBSEqEsiosFNRYqqQFbwPUOwqaNrWbFvhDxyTQlYsWRpgGcInxyczCyZvmecUjVsH"
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff = 139
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll = "nxdhNMkgZflEjlrGKhsmCXgHFxdvhzfVYGfDmzNQFhiPemLUNYoPDnPJXDDfpqSTbBuKQdusxvIQETd"
+TtMCfPpmMXUyUQqZHQNiQVqPKhOWrrZIuZiGhKjBprsadNAZjgXDSKFHfkmXaRGjBdaXxrXyzqvSSzw328 = "FIKDeFAvLTbQTUGDtEBWegxKCzkqyYKkvpmQuNBckIdskRqrGtGbMrYRLqhMCvPbgjoEIWteljnuZNp"
+GLazjbFKGkUSZAbkIcSfrgHnhwmlobaYOKxfcZxKaGyuFglxDMnKmbLyqIsWqoHZcdvwwevnwhewlGA326 = "YWIkIrzlSgjuzMyzjqJQJjapMkqpBbMwjQEajxYAIYNAfeXOyKPYYDdfTKxadUrueroIcNmPPPnzVhD"
+k16311163690845819324 = "DOcOKFLvbCBvNzUcBnuEglnwyImoGmwuzQQTSMXizrvahZSNvColFPLmZSSagfuTbsvOlwDbfbJsbgS"
+e16311163690845368322 = 825
+u320 = "keCaZQwrVoxwFOKYmJmUttryvrUYKQzPVcgscuRcYIrYmmdOboNQaGKPchtJrXEddyGWjzOZYjcNuoD"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb = "XexMfgqPMxTnAWDhUovlnXPCAbSCvNiCZLYnMHcSuprTDxRsJhwAyvCHAdqIqmCUzijVnKtKhdvcqZf"
+n316 = "cICcBkjpLVQhOsZfcpJQFqtsPMYVYgKpgIHdlsikcmsFsIOhzwBsbVwdXmDUnJDuEMbgGOOlcVtpsKC"
+aaAAaaAAaaaaaAAAaAaaAAaAAaAAaAAaAAAAaaaAAAAaaAAAAAAaAaAAaAAaAaaaaaaAAAaaaaAaAAAAaaAaaaaaaAaaaAaAaAaaAaaaaaaaaAAAaAAaaAaaaaAAAaaAaAaAAAAAaaAAaaaaaAaaaAAAaAaAAAaaaAAaAAAAaAAAaAAAAaAaaaAaAaaAaaAaaAAAAaAAaaaAAAaaAaAAAAaaAaaAAaAaaAaAAaAaaAaAAAAaaAAAAAAaaaAaaAaaaAAaAaaaaAaaAAAAaaAAaaAaAaaaAAaAaaAaaAAAAAaAAaAaaAAAaAaaAa = 615
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll = 117
+U16311163690840478310 = 846
+JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ = 773
+lIIIlllIllIlIlIIIllllIlIIlIIlIIIIlIlIllIllIIlIIIlllIIIlIlIlllllIIIlllIlllIllIlIIIIIlIIIIIIIIlIllIlllIllIIlIlllIIIIllllllIlIIllIIlllIIIIIIlIIllIlIlIIlIIIIllIllIIlllIIIIIllIIllIlIIllIIlIIlllIllIllIIIllllIlllIIIIlllllIIIIllIIlIlIIlIIlIIIIllllIIIIIlIllIllIIIlllIlIIIIlIlIllIlIlIIIlIIllllllllIlIIllIIIllIlIIlIlI = 181
+IIIIIIIIIIIIlIIIIIIIllIIIlIlIlIlllIIllIllIIlIlllIIlIllllIIlIIlIIIIIllIlIlIlllIIlIIIIlIIlIllIIllllIIlIlIIIlIlIIIIllIllIlllllIlIlIllIlIllIlIIIIllllIlIllIIllIlIllIIIIlllIIllllIIlIIlIlIllIlllIlIlIlIlIlllIlIIIIlIlIIllllIlllllIlIIllIlIlllIIllIlIllIlIIlllIIIIlIlIllIIIlllIIlIIlIIIIIllIIlIllIlIlIllIllIlllIIIlIll = 70
+aaAaAaAaaaaAaAAaaAaAAaaaAaaAaAAAaAAAaAAaaAaaaAaAAAaaAaAaAaaaAaaaAaAaAaaaaAaAaAAAAAaaAaaAaAaaAAAaAaaAaAAaaAAaAAaAaAaAaAAAAAAAAaAAaaaAAAAAaAAAaAaAaAaaaaaAaaAaaAaAaaaaAaAaAaaAAAAAaaAaaAAAAaaaAaAAAaaAAAaAAaaAAAAaaaAaaaAAaaAAAaAAaAaAAAaAaAaAAaAaAAaaAAAAAAaAAaAAaaAaaAaAAAAaAAAAAaAAAaAAaAAaaAAAaAAaAaAaaAaAaA = 482
+o300 = "SyaOltVSMzsgPvFmAbzJdaaAyoAawbWofdziwDNLeOpEzIcKkoLvrptVeItHdrlFJYBsTLKGtGHLZWV"
+mSoSfjEFNDpagTxOofpZKZzhsvjboZFTBHPJZNxnxUSfBbUrUsfagFmEPXRDLUteaHIlJyalMnOBRxy298 = 264
+IllllIlIllIlIIlIIIIllIIIIllIlIIIlllIIllIIlIlIlIIIIIIIIlIllIIllllIIIlIIIllIIlllIlIIIIlIllIlIIIIlIllIlIlIlIlIlIlllIlIllllIlIIIIIIllIIlIllIlIlllllIllIIlIlIIlIllllllIIlllIlllIlIIIIIlIlIIlIllIIIIIlIlIIlllIlllllIlIIIlIIlIIlIllIIlIIllIllllIlIIllIIIIIllIIIIlllIIIIIIlIllIIIllIlIIIlllIllllIIIlIIlIIIIIIlIl = 288
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll = "KTqSbLiZoONyiLbXgOkapQoNlihydrKSmVkAUaSswHcISLGEuCaEfORUEwXTLSmUuaNajGbyGqGwkdM"
+X292 = 152
+R290 = "AQiScFsyIDdApqQzFIRpEHdiVeOMOSoUrhuUmmsfgtJEyYwjaQdqPyFpITXhrbcTHYooDNaVqwtxNPR"
+nkhcRGFgCnGvtWhlakzeBHRCMtdFiTDBanalfbVzSZUcTnMaYVzXoOLBjKDmdhMPTaCQvSUutPkriyC288 = 259
+iTCwaYELSGoLpWwKzBosrNBPyshImXeGIYOcvJhUEPcfHGbKXdVqJxwxpDIyVkvrfoUEqofXOswydib286 = "MAaTtFMCeWJLFdgXehtDAJzusPjUQYyKsnJzuNCqCbIVbVLWzobOKpseYvOgoTuvaPYmRJixrkdDMxb"
+IIIIlIlIIIIIlIIIlllIIllIlIIIIIIIIllIIllllIIIlIIIlllIIIIlIIIIIIIlIllIIlllllIIIIlIlIlIIIIIIIlllllIllIIIIIIllIlIlIlIlIIlIIIIlIllIIIIlIIlIIlIllIIIllllIIIlIIIlIIlIlIlllIlIlIIlllllllIlIIlllIIIIlIlIlIIIlIIlIIIlIIIIIlIIIIllllllIIIlIIIIIIIllllIllIIIllIlIIIIllIIIlIlIIlIIIIIlIIllIlIlIIIlIIllIIl = 484
+z282 = "sLmBJBVWsVwMvYHCbRCfXlItIAXUraifSdYKRwOkPzcqFKHXSPbTZujfBJzWUfoISmRSHrbVGOrgNWx"
+aaAAAAaAAAAAAaAAAaaAaaAAaAAAAAAaaaAAAaAaaAAaAAAaaaaAaaaaAAAaAAaAAaaAAaAaAAAaAAAAAAaaaAaaAAAAAAAAaaaaaaaAaAAaAaaAAaAaaaAaaAaaAaaAaAaAAaAaAAaAaAaAaAAAaAAAaaAAaAaaAaaaaAaAaAaAaAAAaAaaAAAAaAaAaAaaAAaaAAaAaAaAAAaaAaaAAaAaAaaaAAAAaAAAAAaaaAaAAaaAAaAaAAAAAAaAaaaaAAaaAaAaAaaAAAaaAaAAaAAA = 357
+AaAAaaAaAAAaaaaaAAaaAaaaaaAaAAaAaAAAaaaAaaAaAAAaaAaaaAAaaaaaaaAAAAaaaAaaaaAaAAaaaaaAAaAAaAaAaAAaAaAaaAaaaaAaaaAAAAAAAAaaAAAAAAAAaaAAAAAaaaAAaaAaAaAaaAAaaAaAAaAaaAAaaAAaaAaaAaAaaaaAAaAAAaAAaaaAAaaaAAAAAaAAAaaaaAAAaaaaaaAaaAAAaAaAaAAaAAaaAaAAaAaaaaAaaAaAaaAAAaaaAAAAAaaAAAaaaAAAAA = "HaCVHhcamjgryQlqSghPtbjBKzFTmrguslaLfIWSviKYlnOjsjweSmucsApZjxpmOqGAPDAQNDHGUWB"
+AAAAaAAaAaaAAaaAaAAaaAaAaaaAaAaAaAaaaAaaaAaaAaaaaAaaAaaAAAAAaaAAAAaaAAaAAaaaAaAAAAaaAaAAAaaaAAAaaaAAaAaaaAaAaAaaaAAaAaaaAAAaAaaaaaAAAaAAAaaAaaAaAAaAaAAaaaaAaAAaAaaAaaaAaaaaaaaaaaaAAAAAAAaaaaAaaaAAAaAAAaaaaAaAAaaaaaAaAaAAAAAAAAAAAaAAAAAAAaAaAaAAAAAaAaaAaAAAaAaAaAaaAaaAAaaAAaaa = "YnjkCDUrfGBdvThVrgiyrNKKPQSACwfBEllvwEZWGBhtNQrgqsEdOHKWILPkfgBtpWLLRSKBqmbIBTV"
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG = 591
+aaAAAAaaAAaaAaaaAAAaAAaaAaaAaaaaaaaAAaaaAaaAAAaaaaaAaaAaaAaaaAAaAaAaAaAaaAAaaAaaAaAaaaaAAAaaAAaAaaAaaAAaaAAaAaAAAaAAAaaAAAAaaAAaaaAaaaAaAaAaAaaaAaaaAAaaAAAAAAAaAAAAAaAaaAaAAaAaAaAaaaaAAaaAAAAAaAAaAaAaAaaAAaaaAAAaAaaAaaaAaAaaAAAAAaaaAAaAAAAaAaaAaaAAAaAAAaAaAAaaaAAAaAAAaAaA = "zgdslOBsAgKCehREJTcXFwPKhDCjLtKcARTvyYRJYxevMolvTbXBIIjAsqCWLKMHBQOPrZgKmuCbrwy"
+llIIlIlllIlIllIIlllllIllIlIlIIllIIIIIlIllllIlIIlIlIIllIIlIlIlIIlIlIIIIIIIlIllIIIIIlIllIlIIIlllllllIIIIlIIllllIIIlIIIlIlIlllIIIIIIIllIllIllIIIIIIlIllIlIIIIIIIlllIlIIllllllIIlIlIIllIIllIIllIIllIlllIIIllIIlIIllIlllIlIlIIlIlIIIIIIIIllIIllIIlIlIIIllIlllIIllIIIIllIIIIlIIlIIIl = "jjxUjTnrLXaYvNhXdfbkBaeeHudAMNIvEdVsKSMHXnnjrdfeZRrPWOknPuBobsJHdpRynvCyHQngBMc"
+AaaAaaaaaaAAAaAaaAaaAAaaAaAAAAAAaaAAaaAaaaaaAaAAAaAaaaaaAAAaaaAaaaAAaAaaAaAaaaaaaAaaAAAaAaaAAaAAAAaaaaaAAaAaAaaaaAAaaAAaAAAaAaaaaAaAaaAAaAAaaAaaaaaAAaaaaaaAaAAAaaaaaaAaaaAaAAaAAAaaAAAAaaAAAAaaAAAAaAaaAaAAAAaaAAAAaAaaaaAAAaaAaAaAaAaAAaaaAaaAAAaAAAaaaaaAAAAaaaaaaAAAaAAa = 224
+sLAsTDexoBPeuoxboLnYwMhLJxcfxYEqmdGaScOAGQimyjTRaoLhuqkgmzLFlnnfQjmoMacDohADRYc266 = "VtZLPZNswpAlGJIukrvHxJlVsnTvQbZJkywvlYcDUclLCHSDwXvIyXxIUEdWYsjAOlMcqYcBYqdoCij"
+ztDygQcPVFGunLzZpxtgvbYxiUtUsrIsMGQyiqcmEuJYlGUZwNKLnJOyadFUXkJIewTvhvuPjeufgmR264 = "frjTJmafUqkRDopMjPFzMMKgDgHsahPMoyjouBfpYCIXJrqxAMYbAYXcBHQlRSqevPWTlwWITpWoWOh"
+aAAAAaAaaAaaAAaaAaaaAaaaAaaAaaAAAaaaAaAAaaaAAaaaaAaAaAaAAAaAaaAAAAaaAaaAAaaaaaAaaAAaaAAAaaaaAAaAAAaaaAAAaAaaaaaaaaAAAaAaaAaAAAAAAAaAaAaAAaAAAaAaaAaaAAAaAAAaAaAaaAaAAAaAaaaaaAaaAAaAAaaaaAAaaaaaaaaaAAAaaaAAaaAaAAAaAAaAAaaaaaAaAaAaaaaAAAaAAAaAaAaaaaaAAAaaAaAaAAaAAa = 424
+N260 = "IBOXYQmbSnonFOkDVFznjFtoQfSjkQdCfdWBOykMgBTzWQJdTkWjojEAINjYcmpugLCmbnJXyADinUd"
+c258 = 333
+d16311163690804155256 = 641
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj = "FfORoRJaKjYcPMwcUcaWsVJjZhHKfJMvARLCHrWHaVLcXQLDCUcRsEfkAifNbVJzCtThdFzBjaYdbqS"
+DBBTOtfJGVlcqHmAcidvQtkMwpZnlxNhMsMvnFBfMlxFpBVDmOHgyBtvXTEJAKAzhruIPQoSGCOZqBh252 = 334
+E16311163690802238250 = 330
+kzvhsCjhnuyYLdvmzfylYqYDoBHMLAikJXAZPxcMHgsbUgLASsXFYhNBgOQwLckaJsKXQQwxLYqEYAo248 = 201
+OKFplIMRytLLMNeRFDAlylFjaIhmxPeOPJwpuHaUcbkeFiZtyCNPjYBFaXspfUxGnLfcOqgYIijimwU246 = 275
+s1631116369080099244 = 541
+y242 = "jddNOrqeztSwOhueETbbtkdjvhMbDETPejfyBZlCyNxAMoRsoxrIfCOXoKDLHKonAOdxkcRxyLukoSC"
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = 118
+IIIlIlllIIllllIlIlIIlIllIlIlIllIllIlIlIIIlIllIlIIIIlIlIlIIIlIlllIlIIllIIlIIlllIIIIlIlIIIlllIlIlllllIlIllllIlllllllIlIIllIlIIllllIlIlIIlIlIIlIlIlIIIlIIlIlIlIllIlIIIlIIlIIllllIlllIIIllllllllllllIIlIllllIIlIIlIllIIlIIllIIllllIIIllIIlIlllllll = 154
+aAAaaaAaaAAAaaAaAAAaaaAaAAAAAaAAAAaAAaaAAAaAAaaAaaAAAaaAaAaAAAaAaAaaAAaAaAAaaAAAAaaAaAaAaaAAAaAaAAAaAAaAAAAaAaAaAAAaAaAaaAAaAaAAAaaaaaaaAAAAaaaaaAaaaAAAAaAAAaaaaaAaAaaAAAAaAAAAAAAaaAaAAaaaaAAaAaAaAAAAaaaaAaaaaaAaaaAaaaaAAaAAAAAAaAAaaaAa = "dqbgePHygTxtYsbBkOYORJIHKxnbbVgjsxSeYrALjemocjDznHPKDWLhlzCyVLihfoggjQTCNMJAiUn"
+HqUHgpGCsqffejfEYXGOUYAmIkiYfQfxOASFjHeZQHFQPdIwmhFhjPRcvShkQciilidabJntpSakGYa234 = "qRvXEcjDrzqmlkrpDGOKJARFvUARXcXBGJwdYKjbBoHsufsYjmLbANrtHSBrjsJjWyzNmFtqufkApEM"
+l1631116369079354232 = "IfQJHKXAZABRkYYStdzEhoaRUptQtTczeJVwjmhPzVCnwZoiJpdveFRjwmMiGDRyLlpjdOsdeEuuGFg"
+QEJHVNdqsRZOTCBAayyZKQKGCTLgEBvkxvNGNgDxWUaIWxEKGgUctFPyVwOuWgHqSVkockHknptigdP230 = 432
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF = "qZCiymgUevRIycVzqSLhdHMIxeCwiOjtvASaquGzxfOdzOnDxqCoSQbqmTZJaNhvgtvvEkeCLwwgPyU"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc = 326
+IlIIllIIIllIIllIlIIIIIIllllllIIIllllIIIlIlIIlIIllIlllIlIIllIlIIIIlIIIlllIlIlllIIIIIlllIllIlllIIllllllIIIlIllIIIIlIllIlIlIIIIIlIllllIlIIlIlllIIIIIIIIIIIIlIIllllllIIlIIIIlIIIIllIlIlIIllllIIlIIIIlIIlIlllIlIllIlIlllIllllIIllIIlI = "RCHecQIALjRYKUZUeLDkGjeGjuvLOjTtCdeQGmkVsBpkOaYVddugTpMghWWHuOLZgjHPcqrkSQebSHR"
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr = 624
+lXJokLtFVNeihJTkOyHrRdyPhvwrmIheVuUOPcEquupBSgaPMXxfgbmXyLjMwrSskwHXGMDiLnkPpRv220 = "CBElsecJdZPRWgJDsOXnrGOvGAWprgkNtNYYaASUjNQCNsadUKEyfIXngcaaiahXdfefBfnunFpkfhu"
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF = "TsPBcbuIqhzSHCxfzMTLJxnXfNPaPhqHZudSxvFQiVFyuYvdpzxigmnrxJNiMSFGeijzNqFeWpfhlBk"
+d216 = 225
+D214 = "iIkgiThofDbCRnqaUYSIVgBCGLTBbdnsAPgZhikEaHvReJQvhUqVHoaSYAbjqAnvWvkeAEleBjpOqkC"
+aAaaAAaaaaAaAAAAAaaaaAAaaaaAaaAaAaAaaAaAaAAAAaAaAAaAAaAaaaAaAAAAAaaAAaaaAAAaAAAaaaAaaaAAaAAAaaaaaAaaaaaAAAAAaAaAAaaaaAAAAAaAAAAAAaaAAAAaAAAAAaaaaaAaaAaaAaaaaAAAAAAAAaaAAaAAaAaaAaaaAaaAAAAaAaAAaAAAaaaaAaaAAAAAaaAa = 162
+IllIIIIlllIIIlIlIIIIlIIIIIIIIlIllllllllIIIIIlIllIllllIIIllIIIllIlIllllIllIllIIlllllIIllIllllIIIIllIIIllllIIIlIlIllIIlIIlIIIllIIIIlIlIIIIIIlIIIIIIIIllIIlIllIlIIIlIIIlIlIIlIIlIIIIlllIIlllIlIlIlIIIIIlIlIlIlIlIllII = "GWDXSJXSvtmLknZTjkQOoZjSGHpgnceiyxqVztqJfVQQBBAflZZMAeUNBKZGNAnfPcYkWAJgQjQfiby"
+aAAAaaaaaAaaAaaaAAaAaAAaAaaaAaAAAAAaaaAAAAaAAaaAaAaaAaAAAAaaaaAaaaaaAAaaAAAaaaAaAaaAaaAaaAAaAaaaAAaAAaaAaaaAaaAAAaaAaAAAAaAAAaAAaaaAaaAaAaaaaAAAAaAAAAAaAaaAAAaAaAaaAAAAaaaaAAaaAaaaAAAaaAaaaAAaaAaaaAAaaaAAAaAA = "vGWZLEHxDEUOUGxLVniCRtkRqQekmpNFwkrJDaEwgiaURTBhXRORatSyjMxSBhkUwYUctnVQdlKpUcM"
+aAAAaAaaaAAAaaAaAaAaaAaAAaAAAaaaaaAAAaaAAAAaaaaAAaaAAAaaaAaAAaAaaaaAAaaaAAAaAaaAAaaAAaaAAaaaAAAaAaaaAAAAaaAaAAAAAAaAaaAaAAAaaAAaAaaaAAAAaaaaAaaAaaaaaaAaAAAAAAAaaAaaAaAaaAAAaaaaaaaaaAAAAAAAaAAAAaaaaaaaaAAAaa = "OUFzjKVcgqOkoWzaHnTaKQkPPjsXMOfmxWKqFLELgNtqayOgCYTrtOntKntGtGUSPFpTnxQTqpLbJuO"
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee = 685
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL = 912
+L1631116369077624200 = 384
+M16311163690776105198 = 301
+V196 = "JsxMIqECCqShMeXslInImVxKzGWvyECigJSugzyGEODJNxWBaIGpGDTsBcRUjlzwXCIeWDyzPqjfMLd"
+u16311163690775237194 = 301
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii = "WDVgakoCezuTWxoBrIFVzwVoqaUtFXVPfpIgygpXKnUMpVpFwcJpNtjzEMuQWJvixksCcBRebeZrvKm"
+tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt = "PibgXSOaGmAQabovQxlZxgYSpCuJuohgdhlvitPjxCVTsddpOtueAmrGsfPFslmbYoyOUPnHdWoLIrj"
+LwxDXRXGikbqATxaZkvDkOlNwCEadSVaTDqrvUClmVvDcbsozpJodsYpjnpdsqNSiWCEDwLovFFydJr188 = "frGIQYbZhtiXVCybhXgEjMpacNQYUOJUpgNFzEFjilGGXuNLzbTkwsNBlOjSBbMHVqjtFzXsUajhGUK"
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ = 308
+AaAaAaaaaAaaaaAaaAaAAaaaAaaaaaaAAAAaAAAaAaaAAAaAAaaAAAAaAAaAaaaaAaaAAAaaAAAAAAAAaaaaaaaAaaaaAAAaAaAaaaaAAaaaaaAaAaAaAAaaaAaaaAAaaAAAaaaAaAaaaAaAAaaaaaAAAAAaAaaAAAaAAAAAAaaAaAaAaAAaAAaA = "NSgbzftWHnqvXRYpVdtbEYbHLESnGbaeopfoaZPLrbHiMLXKtgqQxWhxswrkymhAaIaYHOABFKHFKfX"
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii = 357
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll = "szxXPPbeyEKxeBkEaLKqOxBKOWOMFigwjKCMrvirIvpUfJtJqaTcHipCRXzOpieQbqlXPLOZxKktmvR"
+VWeVLEOdJhcklEOKVLtTRXJevKUUXuvrXEDrtqrcrerXhTUqoClfgIGvMbRlFMVaSMsDhrpmYVUyrgS178 = 583
+llIlIllIlIIlllIIllIIIIIIlIlllllIllllIlIIlIlIllIIllIIIlIIlIIIlIlIIlIIIIIIIlIIllIlIlIIIIIIIIllllIllIlIIllIIllIIIlIllIlllIllIIllIIlIlIllllIIllIIIlllllIIIIlIIIIlIIIIIlIIIIlIlIIIlll = 236
+R16311163690767868174 = "clBTdbaQYTLbChZErJybgLbVhKCEBtinDrhVFbHcNBiIbOHoIcGyFnjUxlUtXAwCUrMGLhrjIWwUdFR"
+Q16311163690766776172 = 372
+uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu = 538
+ocvZuskYlQjrSIMLFpQWnpqRNDKDdjQSWMBfViSGrloOMESULHJMdrfnHcDzyMIxDTPrcRdpmkvrGYE168 = "wvElKVuNYpAdTRLuCNmlYLUAfuLTGLqyJomwgvIhpRoeoCLkpymcuUIZtNLOFQuDBeDCTogfbboqEch"
+R166 = "aJVhdQdMQxQqunboJeoIZxRWcRhlfjZCLZFgRUFyCuOvjSRMxxhqGfqoJSECXPzEyjAeWaquNqozFdw"
+lIIllllllIIllllIIIlIIIllIIlIllIlIIllIIllIIIIlIlllIlIIIlIllllIIllIlllIlIIllIIlIIIllIIlllllIlllllllllIlIllIIllIlIlIllIlllIIlllIIIlIlIIIlllIIIIllllIllllIlIlIIIIlIIllII = 450
+uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu = 455
+rsHubMSJEcEDcnwDqAQxqVCyiJhqUcrmvMPEKRdvVJttzRpiAZDkpbIfskELGoaYGFnxdmKCGsushOn160 = 396
+E158 = 338
+IIllIIlIIIIlIllIlllIIIIlIlllIlIIllllIlIIIllIIlIIIIlIIlllIIIIllIllllllIIlIIIIlllIIIlIIIIlIIllIllIlllIIllIlllllIIlIllIIIIlllIlIIIlIIllIlIIIIIlIllIlIIllIllIlIl = 656
+l154 = 485
+AaAAAaAaAAAAAAaAaAAAaaaaAaAAAaaaaaAAAaaAaAAaaaAaAAAAaAaAAAAaAAaaAaaaAaaAaaaAAAaAAaaAaAAaAAaaaAAAaAaAAaAaAAAaAaaaAaAaAaaaaaAAAaAaAAAAAaAaaAAAAaAaaaAaAaaa = 597
+z16311163690757055150 = "iVERXYSMtzDxHzlSauZvrbuoWimCfKmZWEkdBrbOSQhFYJlUCLiitBqQXnkyrEDwLEMrQhMmnuHQtRn"
+aaAAaaaAaAAaAaAAAaaAAaAaAaaaaAaaAAaAaAAAAAAaAAaaaAAaaaAAaAAaAAAAAaaAAaaaaAAAAAAaaAAaaaaaaAAAaAAAaaaaAaAAAAaAaAaAaaaAAAaaAaAaaAAaaAAAAaaaaAaAAAAaAaAa = "PIPfqxsgNBkHqQlkxDJKKjIPekRBAoyeNjviEkTaVzYdxlVnmUDNxqbTTFFSVBVZqPHTyIPIFrZaxhY"
+IlIIlIIlIIIlllIlllIlIlIIlllIllIllIllllIlIlIllIIIllllllllllllIIlllIlIlIlllllIIIllIlIllIIIlIIlIlIlIIIlllIlIIIlIIlIlIlIIIllIIIIIlIIIIllIllllIIlIIllll = 467
+T1631116369075308144 = 280
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM = "vFYMEEsVkdxUayILMFAgEtUHPWQxHfZScAMJFPQVUWsHDQsGJFhbolIckATxXRVDZqZyGhGwcRXxXUN"
+A16311163690751705140 = "lPlaUIaFXzpwLOTerUuWypNlYTlpUMGhTNKvvtjNRYUnBgzlHFvHaNhQROGXUyprLEGlQjwFaDjvlBM"
+L1631116369075076138 = "awVGFTdtcRKDrEWTEpBNolBDYDAlfszuQaILCBJYXngOoTaRLoaPiqoaFboRwrsrmPWkRnCQcAYgCbn"
+llIllIIlIlIlllIIIIIIIlllIlllIIIIIlIlIIIllIlllllIlIIlIIIIIIIlllIlIIllIIllllIIIlIIlIIllllIlllIIllIIlIIllIlIIlIlllIIIllllIllIIlIlIIllIIlllI = 209
+k134 = 308
+F132 = 423
+d130 = "BjjSftfNivwhVRjGoaiILDneRfVANZKLbWKGbevAnwVXUKbhPCfMqbKnqOTJBgvjJxuwUFEkSGQPble"
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv = "mWsfBPIdHEHxEANtWSadvoymZUJyWgwkWnssnYvkQmytlrDKXxSAPImmQHWyWsHxLdmdbrdFLGgQHDD"
+IIIIlIllllllIllIIIIIIIIlIIIIlIlllllIlIllIlIIlllllIIllIlIllllIIIllllIllIllIIIlIlllIIIllIlIIlIIlllIIlIllllIIIIIlIIIIIIlIIlIIIIlI = 416
+jcFvXZGvmGJxXKAzLzNKXzVgSDrbMvnoyseOwqWtghGWnVePEnVfWZzolcuRaTNsIIGFXpLylTSWqnR124 = "cPKsvaounurBsxuFCeWZzOJzdBXHIztJeWCNdfrGyNcRXbMgoFRjqzrQkZOfiVPDuYwEGGzWlKRwZtQ"
+qiVsikZwQNqhyNAmIgEYSZgNsBhpJZrtWcYfmITaGEZAPDrCodtfEIDqZtTwBQDIUiNEvVUXOfbmLli122 = 413
+AaAaAaaAaAAAaaaaAAaAaAaaAAaaaAaAAaAAAAaAaAaaaAAaaaAAAAAaaAAaaaAaaaAaaaaaaAAAAaaaaaAAAaaaAAAaAaaAAaaaAAaaaaAaaAaAaAAaaaaA = "GgvGCuiiKDNbQcwbYoqFauuaqhLxZdAPdbDLNGvCSvZaxMwiFJYRbQCLMTTOPCODgTQSLZvjSIyhAfI"
+AaAAAAAaaaAAaAAAaAaAaaaAAaaAAAaaAAaaAAAAaaaAaAAaAAAaaaAAAaaAAAaAaAAAaaAAAAAAaaaAAaaAAaaAAAAAAAAaAAaAAaaAAaAaAaAAaaAaAa = 281
+lIlIIIIlIlIIlIllIIIlllIIIlIIIIIlllIllIlIIIIIIlIllIIlIlllllIIIIllIIllIIIIlllIIIlIIIIlllIllllllIIIlIIIllIlIllllIIlIllI = 398
+AAaAAaAaaaaaAAAaAaAaAaAaAAAaAAAaaAaAAAAAaAAaAAAaAaaaAAAAAAAAAaAAaAAaaaAaaaAAaAAaAaAaaaAaaAaAAAaaaaAaAaaaaaAaAaaaAA = "UEYpqGAvQMzKdbQtdeZvRdTrMjkXipQaIxCgcwUmWQwzannhMtfhLAwGmLXQhbahgiwUpoAIUtZAxCp"
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT = 256
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk = 454
+gUudqFJnRVAFYwNsIrsjOpRXxbQqEPDZecjxcFabaQKgfiXPWpZgCPaDAKkmoexYCaPxNdgqtYRHOue108 = "kirSLOiCQpYUpUklZghkMDptZXJqxSMfIUJoUknmLHfCwwrmxLjfRCJLOBZpfWKCgYzbGXJmFlCMxrt"
+e16311163690736942106 = 385
+d104 = 551
+aAAaaaaAaaAAAaaaAAaAAAaaaAAaAaaAaAaaaAaAAAAAAAAAAAaAaAAAAaaaAaAaAaAaaAaAAaaAaAaaAAaaAaAAaaAaaaAAAaaaaa = 339
+jNznzdNbkNydrsyslUWETyCWqlCuMMHmtMFVbJOcPmMELtRelyuYwOpLPCIiACjpABxYGHZHidYjiLc100 = 439
+R98 = 26
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = "dRCyCNekhWjaBPtOKWxOjxZrbRQszSPfneXIsvBCyRBwqaRNHDoxnZszncOsbAIkzfVwElKAjznraEh"
+M1631116369073370794 = 64
+hYRYfQyzqKoBbxsLvJqxAYEIFPzuqMXauoGfUzAUaQXlaoVDsPTraZBkyCcASwefOqNVmMsfLhtFvJA92 = 573
+C90 = "MfMRKbAMnyoqeODEoazhyWPzmAuMVQGGlMpNDGDHaKiPLxcXsOPDeGALqDaxUchXqLLxXyawTtiwdbi"
+G163111636907312488 = "bpwyxDYJTmKNgAksOYJiuiFkvlBWfKsJJVWkMpSudWNWatUlDrwlQMLedjnABtYcltMGeVHRtZVLLZb"
+IllIIlIlIlIIIIlllIIlllllllIllIllIIIlIlIlIIlIlIIllIIlIlllllIlIlIllIlIIlIIIIIlllIIIIlIIl = 115
+llIlIIIIllIllIllllIIllllIlIIlIIIllIllllIIIIIlIlllllIIllllllIIlIlIIIllIIIllIIlllIllll = "XWubplUiADngEMDhjOQQZTKrKvXBLTqhDhKWxCoixcrLxfaqwBQSzysXhNXLCdqCmHzJVeEcFoyeGIO"
+aAaaAAaaaaAAAAaAAaAaaAAAAaaaAaaaaaaAaAAAAaAaaAAAaAAAaaAaAaAaAAAaaAaaaAAAaaAaAaaaAA = "krMbQyEKWUuzNuXWQImSeyuGuWqMffMzgBlDlFtYumSUrisNVMwQaJwrCMevxNsYGOIMwzwsDSvKrqb"
+IIlIlIlllllIlIlIIlIlIllIIlIIlIllIlIIIlIlllIlIIIIlIlIlIIIIIlIllIlIIllllIllIIIlllI = 398
+IIIIlIllIIIlllIlIIIIIIIllIlIIIlIIIIllIllIlIlIIIIlllIIlIIIIIlIIlIIlllIlIIIIIllI = 734
+v76 = "dSNBTKmynXiHDcOJeLlPQEFlfnRPxQMduRtrVdCOAZMcVYVgyHaceIQtRuKaPzDqJlIThAbCxrjbzok"
+AaAAaaaaaaaaaAAAaaAaaAAAAaAaaaAaAAAAAaaaaaaaAAAAAAAaaAaAAaaaAAAAaaAAAaAaAa = 661
+G1631116369072509372 = 369
+aaaAAaaaAAAaaAaaaAAAaAAAaAaAAaAAAaAAaaaaAaaaAaAAaAAAAaaAaaAAaAaaaaAAAa = 518
+UbMIQUZvAbTwZkVxuhgxSYQnNyflwmeBgSDuhoHXnTmXMsDToecOgUhPPsHdNgZxDdGaiCeYdzMqSrv68 = 245
+aAaaaAaaaaAAAaAaaaAAAAAaaaaaAaAaaAaAAAaAaAaAAAAAAAaAaAaAaAaAaaAAaa = 727
+IIIlIIIlIlIIlllIIlllIIIIIIIllIIIlllIIIlIlIIllllIlIIIIIlIlllIlllI = 237
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD = 371
+o60 = "UXhFiUCZudWLXfMkTMeKRkkrkHfOtaABVEcIQCmgNjhUTNopnCYbeYQsfqBJAcrnUmXVqOPivyekCTr"
+IllIIllIllIIIIIllIIIIlllIllIIIllllIlIlllIIllIIIIIIIIllIIII = "DfIHROVrZRgeWseATYlQscFwRubnbABjVtMkZuDjqjOkgjNulfoOGZzxmhbAqQZSJEXquhfQnVvsMWf"
+AaAAAaAAaAAAaAaAaaaaaaAaaAAAAAAAaAAAaaAAAAAaAaAAaaaAaAAa = 524
+K54 = 266
+n1631116369071912852 = "LzpatzAMikYPaycgXdxyxTRKqlxLAhwKimDcPfowCmsLsiokAyeGCTkrcAQZwpDSnNARZfuDJhLZJUi"
+aAaAAaAaaAaAaAAaAaAaAAAAaAAAaaAAAAaAAAaaaaaaAaaaaa = "AhnUvOhgVKuFHDWitDDHymKOgkWvblrDqQUoHISHyonYZyvtMNpVnMXOJyzshnQWJouoIUvMivwCVRA"
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW = "yLTVhNgEJXXTTITJFlBuoenQbBwEkUugKjLNYaNsCpHBVDyFuRAFRVNecylDzOxMNIFvRnjODejWREz"
+IlIIIllIlllIlIllllIIIlllIllIIlIllIllllllllIlIl = 717
+u1631116369071674844 = 696
+K42 = "UxZvLVUfbfCxNQsALIzZgAnmMAoMiNJyTtQADJyxoafpYqNyynvdFwxJsCgCjUxKEWnTWsUYSbvYsYw"
+AAaaAAaaaaAAaAaAaaaaaAAaAAAaaaAAaAAAAAAa = "HaRKEYoVzpjmKMtOQJEfvAcWUtgrkbOjrOmqPweCXmuKxfJiTlNZSXpJuyglTtYLhWPsQJrzzcITyzC"
+dddddddddddddddddddddddddddddddddddddd = 594
+ssssssssssssssssssssssssssssssssssss = "sdrAeByxAlvCUIuyOBMrHHxdgZQSDuhYJOokoZaQgZqWMHhtEVINHShrwUZhzldpLykikyJitfZyiWk"
+u34 = 204
+Q32 = 680
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb = 115
+r28 = "IXEZdNxiwqAGrWzjLzXfdmtfHVpnMnBLIgdiaybIZbIuVbXwgRPnCKEViobRjgTtkumWOXRpOQfJOPo"
+lIIllIlIlIlIIlIlIIlIlIIlll = 750
+JfixcyciPRSmRlvXxfaIOvoTFdzQEWnKAerFplusjANCQLAkIFtpnmjLqqPXBPqCGUfeVeRVpQnkfuZ24 = 666
+esNCMugmpEDZEFQtMQgXottHFMBCSrkOuTrVvOqbfQYmsuEiQBZQeRcQLdYAWqxjSESfadExXdvGWAR22 = 855
+aAAAaAAaAAaAaaAaaAaA = "uyUkfDIvwFOCMxMtnLLEAFsECuXhXasUmwbbVpHfOINioSpdqnfguJPLpDpsGfKpmynqTAfaopUWAeL"
+B1631116369070918618 = 566
+aaAaAAaAaAAaaaAa = "lgmZwrNbWjqvCQzffJXseBwCRRCcImRmkaDcQUjSpXCvyiiUkcKFypfNTHxkVLdcpbWkdUOdthkxqam"
+q14 = 368
+X12 = 228
+lIIIlIllll = "nGxnppZzbiNctQboVUfIFUmiYmUziFEGCNwkOXULLeoaxlmFokgQtWtEsDUwKtevtTvTvBelPgfHjqU"
+RLMkhXUfjmnKuVGIBqDrXnOzlQOTDxBtqOVHCNjCSzpFPqoJFUwtlMUUtxuLVQLougLnEwSohNUqjip8 = "CNXOwlAVFwVIMJmpKPsKHHUBtUVtkvipMfNzjgZKFlMpIaLUJuWJWGaFDeNCWSzPAJlejoiiIidfKTH"
+aaaAaA = 301
+lIlI = "EUpGdHFIBDcSgLpKkWTCHrMQwkZAGiBKZaYQuZhArZfeYUOezxcXOhEyXAjGDhFnObwiALRlozxaBeK"
+T163111636907041672 = 660
+
+import math
+import numpy as np
+import time
+import time
+import os.path
+import getpass
+from IPython.display import Markdown, display
+
+
+def pj(oldj,newj):
+#    from subprocess import call
+#    call(["passj",oldj,newj])
+#    print("\nPassword should be changed.\nClose all notebooks, log out, and log in again with new password to confirm.")
+        print("\nPasswords may not be changed using this notebook at present.")
+
+
+#global parameter list
+N1=[]
+uu=''
+
+#############
+#TEMPLATE CA FUNCTION
+
+#Naming convention: <TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT><e16311163681474753>
+#Module     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT   
+#MATH1810   o1631116368214047228
+#MATH1811   B29
+#e16311163681474753=ca task number
+
+#1. def vala1(M,K):
+#2. lIll=".a1_counter.npy"
+#3. llllI=0.0
+
+#############
+
+def a1_notlive():
+
+    global N1
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".a1_counter.npy"
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+    llllI=0
+    kkkkkkkkkk=N1[0]
+    IlIlIIlIIlI=N1[1]
+    
+    if(waiter()):
+        while True:
+            try:
+                printmd('**CA** (2%)')
+                print(kkkkkkkkkk,"+",IlIlIIlIIlI)
+                Z1631116368163067812 = float(input("Please enter your answer here: "))
+                lIIllIIlIIIII=kkkkkkkkkk+IlIlIIlIIlI
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,lIIllIIlIIIII,llllI)
+                if IlIIlIlIllIlll:
+                    print("Well done, right answer is ",lIIllIIlIIIII)                
+                else:
+                    print("Not right yet. Take another look then run this cell again.")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+        return
+        
+######
+#END OF TEMPLATE CA FUNCTION
+######
+
+#############
+# CA2 FUNCTION
+
+def a2_notlive(prompt):
+
+    global N1
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".a2_counter.npy"
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+    # Vary these indices for varied problem parameters
+    SSSSSSSSSSSSSSSSSSSS=6
+    aAaAaaAAaaaAAAAaaAAAa=7
+    #Set tolerance for testing result here (0 for exact integer calcs)
+    llllI=0
+    
+    kkkkkkkkkk=(N1[SSSSSSSSSSSSSSSSSSSS])%6+1
+    IlIlIIlIIlI=(N1[aAaAaaAAaaaAAAAaaAAAa])%6+1
+    while kkkkkkkkkk+IlIlIIlIIlI==7 or kkkkkkkkkk==IlIlIIlIIlI:
+        IlIlIIlIIlI+=1
+        IlIlIIlIIlI=IlIlIIlIIlI%6+1
+
+    if(prompt):
+        printmd('**CA** (2%)')
+        print("Run your program (when you are happy it is working correctly) for o1631116368214047228=",kkkkkkkkkk," and B29=",IlIlIIlIIlI)
+        print('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')
+        return
+
+    if(waiter()):
+        while True:
+            try:
+                print("Enter your program'T16311163690128045305 result for o1631116368214047228=",kkkkkkkkkk," and B29=",IlIlIIlIIlI)
+                print('(If you are not ready to enter an answer stop the kernel and go back to your program.)')
+                Z1631116368163067812 = float(input("Please enter your answer here: "))
+                lIIllIIlIIIII=(3*(kkkkkkkkkk**3*IlIlIIlIIlI-kkkkkkkkkk*IlIlIIlIIlI**3))%7
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,lIIllIIlIIIII,llllI)
+                if IlIIlIlIllIlll:
+                    print("Well done, right answer is ",lIIllIIlIIIII)                
+                else:
+                    print("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+        return
+        
+######
+#END OF CA2 FUNCTION
+######
+
+#############
+# CA3 FUNCTION
+
+def a3_notlive(prompt):
+
+    global N1
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".a3_counter.npy"
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+    # Vary these indices for varied problem parameters
+    SSSSSSSSSSSSSSSSSSSS=23
+    aAaAaaAAaaaAAAAaaAAAa=24
+    kkkkkkkkkk=(N1[SSSSSSSSSSSSSSSSSSSS])%6+1
+    IlIlIIlIIlI=(N1[aAaAaaAAaaaAAAAaaAAAa])%6+1
+    #Set tolerance for testing result here (0 for exact integer calcs)
+    llllI=0
+    
+    kkkkkkkkkk=10*kkkkkkkkkk+IlIlIIlIIlI;
+
+    if(prompt):
+        printmd('**CA** (6%)')
+        print("Run your program for ",kkkkkkkkkk,"people")
+        print('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')
+        return
+
+    if(waiter()):
+        while True:
+            try:
+                print("Enter your program'T16311163690128045305 result for",kkkkkkkkkk,"people")
+                print('(If you are not ready to enter an answer stop the kernel and go back to your program.)')
+                Z1631116368163067812 = float(input("Please enter your answer here: "))
+                lIIllIIlIIIII=kkkkkkkkkk+2*kkkkkkkkkk+2*kkkkkkkkkk+10*kkkkkkkkkk
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,lIIllIIlIIIII,llllI)
+                if IlIIlIlIllIlll:
+                    print("Well done, right answer is ",lIIllIIlIIIII)                
+                else:
+                    print("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+        return
+        
+######
+#END OF CA3 FUNCTION
+######
+
+######
+#START OF CA4 FUNCTION
+######                                                                                                                                                        
+
+
+def a4_notlive(prompt):
+        
+        import random
+        import requests
+        
+        global N1
+        global uu
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".a4_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+        
+        # Vary these indices for varied problem parameters
+        SSSSSSSSSSSSSSSSSSSS=60
+        aAaAaaAAaaaAAAAaaAAAa=61
+        L163111636826510656=62
+        uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu=63
+        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr=64
+        
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        llllI=0
+        
+        if(prompt):
+                #AaaaaaAAaaAaaAAaAaAaAaaaAAaAAAAAAaaAaAAaaaaaAaAaaAaAaaAAaaAA = "http://svnweb.freebsd.org/csrg/share/dict/words?R1631116368290266361=co&content-N1631116368294091762=text/plain"
+                AaaaaaAAaaAaaAAaAaAaAaaaAAaAAAAAAaaAaAAaaaaaAaAaaAaAaaAAaaAA = "https://users.cs.duke.edu/~ola/ap/linuxwords"
+
+                jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj = requests.get(AaaaaaAAaaAaaAAaAaAaAaaaAAaAAAAAAaaAaAAaaaaaAaAaaAaAaaAAaaAA)
+                U65 = jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj.content.splitlines()
+                random.seed(10*N1[62]+N1[63])
+                aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA=4+(10*N1[64]+N1[65])%4   #between 4 and 7 inclusive
+                IlllllIlllIIlIllIllIIlllIlIlIlllIIIIIIIlllIIIIlIllIIIllllIIIlllIllI=True
+                while IlllllIlllIIlIllIllIIlllIlIlIlllIIIIIIIlllIIIIlIllIIIllllIIIlllIllI:
+                        AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa=U65[random.randint(0,len(U65)-1)].decode("utf-8")
+                        #print(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa)
+                        if len(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa)>7 and len(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa)<14 and AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa[0].islower(): # between 7 and 13 letters, first letter lower case
+                                IlllllIlllIIlIllIllIIlllIlIlIlllIIIIIIIlllIIIIlIllIIIllllIIIlllIllI=False
+                                for c in AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa:
+                                        if chr(ord(c)+aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA)>'z': # M16311163690157785306 encoding stays in regular alphabet
+                                                IlllllIlllIIlIllIllIIlllIlIlIlllIIIIIIIlllIIIIlIllIIIllllIIIlllIllI=True
+                #print(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa,aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA)
+                aAaaAAaaAaAaaAAAaaAAAaAAAaAAaaaaAaaaAAaaAAAaAaAaAaAAaaaAAAAAaaAAAaaAAaA=len(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa)
+                lIllIIIIlllIlIIlIlllIIllIIIllIIIIIllIIlIllIlIlIIIIIIlIIIIllllIIIlllllIll=''
+                for i in range(0,aAaaAAaaAaAaaAAAaaAAAaAAAaAAaaaaAaaaAAaaAAAaAaAaAaAAaaaAAAAAaaAAAaaAAaA):
+                        #print(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa[i],ord(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa[i])+aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA)
+                        lIllIIIIlllIlIIlIlllIIllIIIllIIIIIllIIlIllIlIlIIIIIIlIIIIllllIIIlllllIll+=chr(ord(AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa[i])+aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA)
+                #print('Your encoded word is',lIllIIIIlllIlIIlIlllIIllIIIllIIIIIllIIlIllIlIlIIIIIIlIIIIllllIIIlllllIll,'\nYour key is',aAaaaaaaaAaAAAAaAAAAAaaaAAAAAaaaaaAAAAAaaaAaAAaAaaaaaAAaaaaaAaAAaA,'\e16311163681474753')
+                print('Your encoded word is',lIllIIIIlllIlIIlIlllIIllIIIllIIIIIllIIlIllIlIlIIIIIIlIIIIllllIIIlllllIll)
+                print('Write your program in the cell below this one.\e16311163681474753')
+                print('When you have decoded the word (it should be o1631116368214047228 real word if you are correct),\e16311163681474753', \
+                      'run the CA cell underneath and enter the word into the dialogue box.')
+                uu=AAaaaaAAAAaaaaAAAaAAaAaAaAAAaaaAAAAAAAaAaaAaaAaAAAaAaaAAAAAAAAaAAAaa
+                return
+
+        if(waiter()):
+                while True:
+                        try:
+                                printmd('**CA** (6%)')
+                                Z1631116368163067812 = str(input("Enter your DECODED word here: "))
+                                lIIllIIlIIIII=uu
+                                IlIIlIlIllIlll=Z1631116368163067812==lIIllIIlIIIII
+                                if IlIIlIlIllIlll:
+                                        print("Well done, right answer is ",lIIllIIlIIIII)                
+                                else:
+                                        print("Not right yet. Take another look then run this cell again.")                    
+
+                                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                o1631116368170175816=100-(lIllllI[0]-1)*10
+                                if lIllllI[1]:
+                                        print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                else:
+                                        print("You have had ",lIllllI[0]," tries.")
+                                        print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                                break
+
+                        except ValueError:
+                                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                                continue
+                
+                return        
+                        
+######
+#END OF CA4 FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA5 FUNCTION
+######
+# differentiate polynomial
+def a5_notlive(prompt):
+        
+        import random
+        import requests
+        
+        global N1
+        global IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl
+        
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".a5_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+        
+        # Vary these indices for varied problem parameters
+        SSSSSSSSSSSSSSSSSSSS=70
+        aAaAaaAAaaaAAAAaaAAAa=71
+        L163111636826510656=72
+        uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu=73
+        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr=74
+        
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        llllI=0
+
+        if(prompt):
+                IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl=[]
+                N1631116368352247290=7+(10*N1[SSSSSSSSSSSSSSSSSSSS]+N1[aAaAaaAAaaaAAAAaaAAAa])%4   #between 7 and 11 inclusive
+                for i in range(N1631116368352247290):
+                        IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl.append(max(0,N1[L163111636826510656+i]-1))
+                print('Run your program for the list below:\e16311163681474753',IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl)
+
+                print('Run the next cell and copy and paste your result, as o1631116368214047228 list of the same length, into the dialogue box.')
+
+        elif(waiter()):
+                while True:
+                        try:
+
+                                #Testing answer from here
+                                printmd('**CA** (6%)')
+                                Z1631116368163067812 = eval(input("Enter your list here: "))
+
+
+
+                                #Solution determined here
+                                llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI=3
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ=IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl.copy()
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.append(0)
+                                print(ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
+                                N1631116368352247290=len(IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl)
+                                for d in range(llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI):
+                                        for i in range(N1631116368352247290):
+                                                #print(N1631116368352247290,i,ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
+                                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[i]=ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ[i+1]*(i+1)
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.pop()
+
+                                #Setting lIIllIIlIIIII answer and testing
+                                lIIllIIlIIIII=ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+                                if not N1631116368294091762(Z1631116368163067812) == N1631116368294091762(lIIllIIlIIIII):
+                                        print('You need to enter answer as o1631116368214047228 list (not counted as an attempt).')
+                                elif not len(Z1631116368163067812) == len(lIIllIIlIIIII):
+                                        print('You need to enter answer as list of same length (not counted as an attempt).')
+                                else:
+                                        IlIIlIlIllIlll=Z1631116368163067812==lIIllIIlIIIII
+                                        if IlIIlIlIllIlll:
+                                                print("Well done, right answer is ",lIIllIIlIIIII)                
+                                        else:
+                                                print("Not right yet. Take another look then run this cell again.")                    
+
+                                        lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                        o1631116368170175816=100-(lIllllI[0]-1)*10
+                                        if lIllllI[1]:
+                                                print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                        else:
+                                                print("You have had ",lIllllI[0]," tries.")
+                                                print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                                        break
+                                # Prevent querying of stored internal solution from calling routing
+                                #print('Setting to None')
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ=None 
+                                lIIllIIlIIIII=None                                
+                        except ValueError:
+                                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                                continue
+
+        return        
+                        
+######
+#END OF CA5 FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA6 FUNCTION
+######                                                                                                                                                        
+def a6_notlive(prompt):
+        
+        import random
+        import requests
+        
+        global N1
+        global IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl
+        
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".a6_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+        
+        # Vary these indices for varied problem parameters
+        SSSSSSSSSSSSSSSSSSSS=11
+        aAaAaaAAaaaAAAAaaAAAa=16
+        L163111636826510656=7
+        uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu=33
+        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr=21
+        
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        llllI=0
+
+        if(prompt):
+                Y163111636839218111=N1[SSSSSSSSSSSSSSSSSSSS]+N1[aAaAaaAAaaaAAAAaaAAAa]+N1[L163111636826510656]+N1[uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu]+N1[rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr]
+                random.seed(Y163111636839218111)
+                IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl=random.randint(1000,2000)
+                print('Run your program to obtain the stopping time for the Z1631116368163067812:\e16311163681474753',IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl)
+
+                print('Run the next cell and enter the stopping time into the dialogue box.')
+ 
+        elif(waiter()):
+                while True:
+                        try:
+
+                                #Testing answer from here
+                                printmd('**CA** (6%)')
+                                Z1631116368163067812 = eval(input("Enter your stopping number here: "))
+
+
+                                #Solution determined here
+                                e16311163681474753=IIllIIIIlIllllllIIlIllllllIIlIlllllIllIIIIIlIlIlIlllIllIllIIIlIIlllllIlIlllIlllIlIIIIIlIl
+                                lIlllIlllllIllIlIIlIlllIlIIlIlIIIIlIIIlIIIllIIllIllIIIIlIllllIllIllIlIIIIIIIIllIIllIlllllIlIIIlllIllIIlllIIllIlllll=[e16311163681474753]
+                                while not e16311163681474753==1:
+                                        if e16311163681474753%2:
+                                                e16311163681474753=3*e16311163681474753+1
+                                        else:
+                                                e16311163681474753=e16311163681474753//2
+                                        lIlllIlllllIllIlIIlIlllIlIIlIlIIIIlIIIlIIIllIIllIllIIIIlIllllIllIllIlIIIIIIIIllIIllIlllllIlIIIlllIllIIlllIIllIlllll.append(e16311163681474753)
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ=len(lIlllIlllllIllIlIIlIlllIlIIlIlIIIIlIIIlIIIllIIllIllIIIIlIllllIllIllIlIIIIIIIIllIIllIlllllIlIIIlllIllIIlllIIllIlllll)
+                                #print('lIlllIlllllIllIlIIlIlllIlIIlIlIIIIlIIIlIIIllIIllIllIIIIlIllllIllIllIlIIIIIIIIllIIllIlllllIlIIIlllIllIIlllIIllIlllll',lIlllIlllllIllIlIIlIlllIlIIlIlIIIIlIIIlIIIllIIllIllIIIIlIllllIllIllIlIIIIIIIIllIIllIlllllIlIIIlllIllIIlllIIllIlllll,'stop',ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
+
+                                #Setting lIIllIIlIIIII answer and testing
+                                lIIllIIlIIIII=ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+                                if not N1631116368294091762(Z1631116368163067812) == N1631116368294091762(lIIllIIlIIIII):
+                                        print('You need to enter answer as correct N1631116368294091762 (not counted as an attempt).')
+                                #elif not len(Z1631116368163067812) == len(lIIllIIlIIIII):
+                                #        print('You need to enter answer of correct length (not counted as an attempt).')
+                                else:
+                                        IlIIlIlIllIlll=Z1631116368163067812==lIIllIIlIIIII
+                                        if IlIIlIlIllIlll:
+                                                print("Well done, right answer is ",lIIllIIlIIIII)                
+                                        else:
+                                                print("Not right yet. Take another look then run this cell again.")                    
+
+                                        lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                        o1631116368170175816=100-(lIllllI[0]-1)*10
+                                        if lIllllI[1]:
+                                                print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                        else:
+                                                print("You have had ",lIllllI[0]," tries.")
+                                                print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                                        break
+                                # Prevent querying of stored internal solution from calling routing
+                                #print('Setting to None')
+                                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ=None 
+                                lIIllIIlIIIII=None                                
+                        except ValueError:
+                                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                                continue
+
+        return        
+                        
+######
+#END OF CA6 FUNCTION
+######                                                                                                                              
+
+                          
+######
+#START OF CA7 FUNCTION
+######                                                                                                                                                        
+def a7_notlive(userfunc):
+        
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".a7_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+        def dummy():
+                pass
+        
+        # Test cases
+        IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl=[(30,10)]
+        
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        llllI=1.0e-4
+
+        
+        if(waiter()):
+                #Testing answer from here
+                printmd('**CA** (6%)')
+                
+                if not N1631116368294091762(userfunc) == N1631116368294091762(dummy):
+                        print('You need to enter answer as correct N1631116368294091762 (not counted as an attempt).')
+                        #elif not len(Z1631116368163067812) == len(lIIllIIlIIIII):
+                        #        print('You need to enter answer of correct length (not counted as an attempt).')
+                else:
+
+                        #Solution determined here
+                        def AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(nu,alpdeg):
+                                import math
+                                IIIIIIIllIlIlIIIIIIIllIllllIllIIlIIIlllIIIIlIIlIlIIIlIlIllllIllIIIIIIlIllllIIllllIllIIllIIlIIlIIIlIIlIIIllllIIlIIlIIlIIIIIllIlIlIlII=9.81
+                                EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE=math.pi*alpdeg/180.
+                                llllIIlIllIIllIlIlIIIllIllIIIIIlIllIIllIlllIlllIlIllIllIIIIIIlIlllllIllIlIlIlllIlllIIlIllllIIlIIIIlIIIllIIIIIIllllIIIIllIIlIIllllIIlIl=nu**2*math.sin(2*EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)/IIIIIIIllIlIlIIIIIIIllIllllIllIIlIIIlllIIIIlIIlIlIIIlIlIllllIllIIIIIIlIllllIIllllIllIIllIIlIIlIIIlIIlIIIllllIIlIIlIIlIIIIIllIlIlIlII
+                                AaAaaaaaaaaaaaAaaaAaAaAaaAaaaaAAaaaaaaAaAAaaAAaaAAaAAaaaAAaAAaAaaAaAAAaAAAaAaAAAAAAaAaAAaAAaAaAAAaAAaaAAaAAaAaaAaAaaAAaaaAaaaaAaAAAaAaA=nu**2*(math.sin(EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE))**2/(2.*IIIIIIIllIlIlIIIIIIIllIllllIllIIlIIIlllIIIIlIIlIlIIIlIlIllllIllIIIIIIlIllllIIllllIllIIllIIlIIlIIIlIIlIIIllllIIlIIlIIlIIIIIllIlIlIlII)
+                                return llllIIlIllIIllIlIlIIIllIllIIIIIlIllIIllIlllIlllIlIllIllIIIIIIlIlllllIllIlIlIlllIlllIIlIllllIIlIIIIlIIIllIIIIIIllllIIIIllIIlIIllllIIlIl,AaAaaaaaaaaaaaAaaaAaAaAaaAaaaaAAaaaaaaAaAAaaAAaaAAaAAaaaAAaAAaAaaAaAAAaAAAaAaAAAAAAaAaAAaAAaAaAAAaAAaaAAaAAaAaaAaAaaAAaaaAaaaaAaAAAaAaA
+                        
+                        #Setting lIIllIIlIIIII answer and testing
+                        import random as aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA
+                        IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl=[]
+                        W16311163684746306137=False
+                        ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138=[]
+                        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=10   # limits
+                        o140=100
+                        kkkkkkkkkk=5
+                        IlIlIIlIIlI=85
+                        for i in range(5):
+                                IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl.append((aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.uniform(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,o140),aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.uniform(kkkkkkkkkk,IlIlIIlIIlI)))
+                        for (nu,EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE) in IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl:
+                                print('Testing:',nu,EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)
+                                Z1631116368163067812=userfunc(nu,EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)
+                                print('Output:',*Z1631116368163067812)
+                                lIIllIIlIIIII=AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(nu,EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE)
+                                print('Actual:',*lIIllIIlIIIII)
+                                print()
+                                if (not N1631116368294091762(Z1631116368163067812) == N1631116368294091762(lIIllIIlIIIII)) or (not len(Z1631116368163067812)==len(lIIllIIlIIIII)):
+                                        if W16311163684746306137==False:
+                                           W16311163684746306137=True
+                                else:
+                                        ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138.append(all(np.isclose(Z1631116368163067812,lIIllIIlIIIII,llllI)))
+
+                        if W16311163684746306137:
+                                print('Check the returned Z1631116368163067812 format of your function (not counted as an attempt).')
+                                        
+                        else:
+                                IlIIlIlIllIlll=all(ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138)
+                                if IlIIlIlIllIlll:
+                                        print("Well done, all correct.")                
+                                else:
+                                        print("Not right yet. Take another look then run this cell again.")                    
+                                
+                                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                o1631116368170175816=100-(lIllllI[0]-1)*10
+                                if lIllllI[1]:
+                                        print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                else:
+                                        print("You have had ",lIllllI[0]," tries.")
+                                        print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                        # Prevent querying of stored internal solution from calling routing
+                        #print('Setting to None')
+                        lIIllIIlIIIII=None                                
+                        AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA=None
+        
+        return        
+                        
+######
+#END OF CA7 FUNCTION
+######                                                                                                                                                        
+
+                          
+######
+#START OF CA8 FUNCTION
+######                                                                                                                                                        
+def a8_notlive(userfunc):
+        
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".a8_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+        def dummy():
+                pass
+        
+        
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        llllI=1.0e-4
+
+        
+        if(waiter()):
+                #Testing answer from here
+                printmd('**CA** (6%)')
+                
+
+
+                if not N1631116368294091762(userfunc) == N1631116368294091762(dummy):
+                        print('You need to enter answer as correct N1631116368294091762 (not counted as an attempt).')
+                        #elif not len(Z1631116368163067812) == len(lIIllIIlIIIII):
+                        #        print('You need to enter answer of correct length (not counted as an attempt).')
+
+                else:
+
+                        #M16311163690157785306 not using loops
+                        import inspect
+                        AAaAaAAaAaAaAaaaaaaaaaAaAAaaaAaAaAaAAAaAAaAaaAAaAaAaAaaAAAaaaaAAaAaaaAAaAaaaaaaAaAAaAaAAaaAaaaAaaaaAaAAaAAAAAaaAAAaaaAAaaaaaaaAaaAaAaaaaaAaAaAAAaaaaaaaaaAAA = inspect.getsourcelines(userfunc)
+                        W16311163685351455157=True
+                        v158=[]
+                        for linenum,line in enumerate(AAaAaAAaAaAaAaaaaaaaaaAaAAaaaAaAaAaAAAaAAaAaaAAaAaAaAaaAAAaaaaAAaAaaaAAaAaaaaaaAaAAaAaAAaaAaaaAaaaaAaAAaAAAAAaaAAAaaaAAaaaaaaaAaaAaAaaaaaAaAaAAAaaaaaaaaaAAA[0]):
+                                if 'for' in line or 'while' in line:
+                                        #print(linenum,line)
+                                        W16311163685351455157=False
+                                        v158.append(linenum)
+                        if not W16311163685351455157:
+                                print('Function needs to be written without loops (using NumPy), M16311163690157785306 AAaAaAAaAaAaAaaaaaaaaaAaAAaaaAaAaAaAAAaAAaAaaAAaAaAaAaaAAAaaaaAAaAaaaAAaAaaaaaaAaAAaAaAAaaAaaaAaaaaAaAAaAAAAAaaAAAaaaAAaaaaaaaAaaAaAaaaaaAaAaAAAaaaaaaaaaAAA',*v158)
+                                print('No marks lost for this attempt.')
+                                return
+                                
+                        #Solution determined here
+                        def AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(vertices):
+                                o1631116368214047228 = np.vstack((vertices, vertices[0]))
+                                D163111636856055161 = sum(o1631116368214047228[:-1,0] * o1631116368214047228[1:,1])
+                                lIlIlIlIlIlIIIlIIlIIllIlllIlIlIIllIlIlllllIlIIIlIlIIlIIlIlIlIlIlllIllIlIIIllIlIllIIllIIIllllIIIIlIlIlIIlIIlllIIlIIIIIllIlIIllIIIlIlIIllIIlIIIIIllIIlIlIllIllIlllIl = sum(o1631116368214047228[:-1,1] * o1631116368214047228[1:,0])
+                                return abs(D163111636856055161-lIlIlIlIlIlIIIlIIlIIllIlllIlIlIIllIlIlllllIlIIIlIlIIlIIlIlIlIlIlllIllIlIIIllIlIllIIllIIIllllIIIIlIlIlIIlIIlllIIlIIIIIllIlIIllIIIlIlIIllIIlIIIIIllIIlIlIllIllIlllIl)/2
+                        
+                        #Setting lIIllIIlIIIII answer and testing
+                        import random as aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA
+                        WXxWYCVfNfNBWEqPsZmSxYUUCIGETNlccCSItTWoAnstQmomoWNoXCkByQBovIwaCzpNVAWCycxnWau163=aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.randint(6,11)
+                        IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl=np.ones((WXxWYCVfNfNBWEqPsZmSxYUUCIGETNlccCSItTWoAnstQmomoWNoXCkByQBovIwaCzpNVAWCycxnWau163,2))
+                        W16311163684746306137=False
+                        ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138=[]
+                        IlllllllIllIIlIIlIllIlIllllIlIIlIIIllllllIllllllllIllIIlIlIlIlIlIllIlIIllllIIlIlIIlIlIIlllllIlIllllllIlIIIlIllIlllIIIlllIlIIlllIlIllIIIIIlIlIIlIllllllllIllIlIIlIlllIIl=1.   # limits
+                        E168=20.
+                        HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH=IlllllllIllIIlIIlIllIlIllllIlIIlIIIllllllIllllllllIllIIlIlIlIlIlIllIlIIllllIIlIlIIlIlIIlllllIlIllllllIlIIIlIllIlllIIIlllIlIIlllIlIllIIIIIlIlIIlIllllllllIllIlIIlIlllIIl
+                        NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN=E168
+                        for i in range(WXxWYCVfNfNBWEqPsZmSxYUUCIGETNlccCSItTWoAnstQmomoWNoXCkByQBovIwaCzpNVAWCycxnWau163):
+                                IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl[i]=[aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.uniform(IlllllllIllIIlIIlIllIlIllllIlIIlIIIllllllIllllllllIllIIlIlIlIlIlIllIlIIllllIIlIlIIlIlIIlllllIlIllllllIlIIIlIllIlllIIIlllIlIIlllIlIllIIIIIlIlIIlIllllllllIllIlIIlIlllIIl,E168),aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.uniform(HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH,NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN)]
+                        print('Testing:',IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        Z1631116368163067812=userfunc(IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        print('Output:',Z1631116368163067812)
+                        lIIllIIlIIIII=AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        print('Actual:',lIIllIIlIIIII)
+                        print()
+                        if not N1631116368294091762(Z1631116368163067812) == N1631116368294091762(lIIllIIlIIIII) :
+                                if W16311163684746306137==False:
+                                        W16311163684746306137=True
+                        else:
+                                ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138.append(np.isclose(Z1631116368163067812,lIIllIIlIIIII,llllI))
+
+                        if W16311163684746306137:
+                                print('Check the returned Z1631116368163067812 format of your function (not counted as an attempt).')
+                                        
+                        else:
+                                IlIIlIlIllIlll=all(ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138)
+                                if IlIIlIlIllIlll:
+                                        print("Well done, all correct.")                
+                                else:
+                                        print("Not right yet. Take another look then run this cell again.")                    
+                                
+                                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                o1631116368170175816=100-(lIllllI[0]-1)*10
+                                if lIllllI[1]:
+                                        print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                else:
+                                        print("You have had ",lIllllI[0]," tries.")
+                                        print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                        # Prevent querying of stored internal solution from calling routing
+                        #print('Setting to None')
+                        lIIllIIlIIIII=None                                
+                        AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA=None
+        
+        return        
+                        
+######
+#END OF CA8 FUNCTION
+######
+
+#
+# PLACE HOLDER FUNCTIONS BELOW
+#
+#
+
+
+
+######
+#START OF CA1 NOT LIVE FUNCTION
+######
+def IlIlIIlIIlI():
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA1 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA2 NOT LIVE FUNCTION
+######
+def a2(prompt):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA2 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA3 NOT LIVE FUNCTION
+######
+def a3(prompt):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA3 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA4 NOT LIVE FUNCTION
+######
+def a4(prompt):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA4 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA5 NOT LIVE FUNCTION
+######
+def a5(prompt):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA5 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA6 NOT LIVE FUNCTION
+######
+def a6(prompt):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA6 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA7 NOT LIVE FUNCTION
+######
+def a7():
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA7 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF CA8 NOT LIVE FUNCTION
+######
+def a8(polygon):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF CA8 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+                                                                              
+
+
+
+
+#######################
+#   Semester 2 functions below here
+#######################
+
+######
+#START OF b1 FUNCTION
+######                                                                          
+
+def b1():
+
+    global N1
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".b1_counter.npy"
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+    llllI=0.05    #relative tolerence
+    
+    if(waiter()):
+        while True:
+            try:
+                printmd('**CA**')
+                Z1631116368163067812 = eval(input("Please enter your answer here in the format llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI,k: "))
+                lIIllIIlIIIII=(0.025,2.0)
+                IlIIlIlIllIlll=all(np.isclose(Z1631116368163067812,lIIllIIlIIIII,fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff=llllI))
+                if IlIIlIlIllIlll:
+                    print("Well done, reasonable estimate is ",lIIllIIlIIIII)                
+                else:
+                    print("Not right yet. Take another look then run this cell again.")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+        return
+        
+######
+#END OF b1 FUNCTION
+######                                                                          
+
+
+######
+#START OF b2 FUNCTION
+######                                                                                                                                                        
+def b2(userfunc):
+
+        #USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO
+        #   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+        lIll=".b2_counter.npy"
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+        def dummy():
+                pass
+                
+        #Set tolerance for testing result here (0 for exact integer calcs)
+        fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff=1.0e-2
+        w16311163686386397194=0.0 
+        
+        if(waiter()):
+                #Testing answer from here
+                printmd('**CA**')
+                
+                if not N1631116368294091762(userfunc) == N1631116368294091762(dummy):
+                        print('You need to enter answer as correct N1631116368294091762 (not counted as an attempt).')
+                        #elif not len(Z1631116368163067812) == len(lIIllIIlIIIII):
+                        #        print('You need to enter answer of correct length (not counted as an attempt).')
+                else:
+
+                        #Solution determined here
+
+                        def AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(s231):
+                                AAaAaaaaAaAaaaaaAAaaAaaaAaaAAaAaaAaAAaaaaaAaaAAaAAaaAAaaaaAAaaaaAaaaaAAaaAaaaaAaAAAaaAAaAaaaAAaAAAAaaaAaAAaaaaaAaAAaAaAaaaAAAAaAaaAaaAaAaAaaAAaAaaAAaAAAAaaAAaAaaaAaAAAaAAAaAaaAAaAAaAaAaAAaAaaAAaa=[] # landing distances 
+                                oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=20.0
+                                aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA=58.1e-3
+                                IIIIIIIllIlIlIIIIIIIllIllllIllIIlIIIlllIIIIlIIlIlIIIlIlIllllIllIIIIIIlIllllIIllllIllIIllIIlIIlIIIlIIlIIIllllIIlIIlIIlIIIIIllIlIlIlII=9.81
+                                IlllllllIllIIlIIlIllIlIllllIlIIlIIIllllllIllllllllIllIIlIlIlIlIlIllIlIIllllIIlIlIIlIlIIlllllIlIllllllIlIIIlIllIlllIIIlllIlIIlllIlIllIIIIIlIlIIlIllllllllIllIlIIlIlllIIl=0.0
+                                HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH=0.0
+                                AaaAAAAAAAaAAAAAAAaAAAaAAaaAAAAAaAAAAaAAaaaAaaaaAAaaAAAAAaaaaAaAAaAaAaaAaaaAaaAAAAAAAaaaaaAAaAaaaAAAAaaaAaaaaaAAaAaaAAaAAAAaAAaAAaAAaAAAaAAAaaaaAaAaaAaaaaAAAAAAaAAAaAaAaaAAAAAAaaaAAAAAAaAAaAAaAAaAAAAAa=0.0
+                                E16311163686561484202=10 # terminal time
+                                aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA=3.35e-2
+                                IIlIllIlIlIlIllIIlllIlIIIllIllllIlIIIIIlIllIlIllIlIllIIIIlIIIlIIIlIIIllIIIlIIlIIIIIlIIIIlIlIllllIllllIIIllIllIllIIllllllIllIllIllIIIlIllIIIlIIIlIlIIIIlIlllIIIllIlIllllIIlllIlllIIllIllIlIIIllIIlIIIIIllIIII=0.51
+                                aAaAaaAAAaAAaAAAaaAaaaAaaAaAaAaaAaAAaAaaaaAAaAaaAAAaaaAAAAaAAAaAaAAaAAAaaaAAAaaaAAAaaAaaAAAAaAaaAaAAaAAAAAAAAAAAAAAaAAaaAaaaAAaAaAAAAaaaAaAaaAAaAaAAAAaAAaAAAAaaaAaAAaAaAaAaaAaaaAaAAAAAaAAAAaAaaaAaaaAAAAaAa=1.25
+                                b16311163686653888206=math.pi*aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA**2
+                                llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI=0.5*IIlIllIlIlIlIllIIlllIlIIIllIllllIlIIIIIlIllIlIllIlIllIIIIlIIIlIIIlIIIllIIIlIIlIIIIIlIIIIlIlIllllIllllIIIllIllIllIIllllllIllIllIllIIIlIllIIIlIIIlIlIIIIlIlllIIIllIlIllllIIlllIlllIIllIllIlIIIllIIlIIIIIllIIII*b16311163686653888206*aAaAaaAAAaAAaAAAaaAaaaAaaAaAaAaaAaAAaAaaaaAAaAaaAAAaaaAAAAaAAAaAaAAaAAAaaaAAAaaaAAAaaAaaAAAAaAaaAaAAaAAAAAAAAAAAAAAaAAaaAaaaAAaAaAAAAaaaAaAaaAAaAaAAAAaAAaAAAAaaaAaAAaAaAaAaaAaaaAaAAAAAaAAAAaAaaaAaaaAAAAaAa
+                                # Variable arrays
+                                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb=100000 # number of points in sol 
+                                kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                IIllllIlllIllIlIIllIIIIIlIIllIlIIlIlIIlllllllIIIIIIIlIIIlIlIlllIIlIlIIllllllllIIlIIlllIIlIlIlIIIIlIIIIlllIlIIIIllllIlllIlIllIIIlIlIIllIllIIIlllIlIIIlIllIlIlllIIlIlIIlIllIllIIllllIlIllIIllIIlllIIlIllIIlllllllIlI = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                ViLOhdYXQQFDgOAKDejrdEmYhnrUXjfAjbsudVrVeNWBjegXhVsTfHQUtwodFlFZiZdnmBIcVEgzZpU211 = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212 = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213 = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                J215 = np.zeros(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,float)
+                                kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209,aAaaAaaaaaAAaaaaaAaAaAAAaaAAAaAaaAAAaAAAaaAaaAaAaaaaaaAaaaaAAAAaaAAAaAAaaAaaaAAaaaAaaAaaaAaAAAAAaaAAaAAaAAaAaaAaaaAAaAAAAaAAaAaAAAaAAAAaAAAAaaaAAAAaaaAAaaaAAaaAaAAaAAaAaAAAAAaAaAAAAaAAAAAaaaAaAAaAaaaAaaaAAAAAaaAAaaAa=np.linspace(AaaAAAAAAAaAAAAAAAaAAAaAAaaAAAAAaAAAAaAAaaaAaaaaAAaaAAAAAaaaaAaAAaAaAaaAaaaAaaAAAAAAAaaaaaAAaAaaaAAAAaaaAaaaaaAAaAaaAAaAAAAaAAaAAaAAaAAAaAAAaaaaAaAaaAaaaaAAAAAAaAAAaAaAaaAAAAAAaaaAAAAAAaAAaAAaAAaAAAAAa,E16311163686561484202,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,I217=True)
+                                #vary initial angle
+                                for theta in s231:
+                                        F1631116368694177218=oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*math.cos(theta)
+                                        owrxtIdNSrDfmupuUyJAwhwaQSSPzlQHHfLJhfPttygabYyjUxsJhZwylArVbsLzCRhJnQPjFkQOteB219=oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*math.sin(theta)
+                                        #numerical solution
+                                        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT[0]=IlllllllIllIIlIIlIllIlIllllIlIIlIIIllllllIllllllllIllIIlIlIlIlIlIllIlIIllllIIlIlIIlIlIIlllllIlIllllllIlIIIlIllIlllIIIlllIlIIlllIlIllIIIIIlIlIIlIllllllllIllIlIIlIlllIIl
+                                        J215[0]=HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                                        zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[0]=F1631116368694177218
+                                        KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[0]=owrxtIdNSrDfmupuUyJAwhwaQSSPzlQHHfLJhfPttygabYyjUxsJhZwylArVbsLzCRhJnQPjFkQOteB219
+                                        for i in range(bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-1):      # Euler-Cromer
+                                                B1631116368699061220=math.sqrt(zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[i]**2+KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[i]**2)
+                                                uhXZDCgyDXxYSIzlPEHOWVTJbtqkCZoHrxegnicSzlxZIlKDJXqPlKIoXFbPaFWqaPinVCcPHtvwHDk221 = -llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI*B1631116368699061220*zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[i]              # Set TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT force here
+                                                IIllllIlllIllIlIIllIIIIIlIIllIlIIlIlIIlllllllIIIIIIIlIIIlIlIlllIIlIlIIllllllllIIlIIlllIIlIlIlIIIIlIIIIlllIlIIIIllllIlllIlIllIIIlIlIIllIllIIIlllIlIIIlIllIlIlllIIlIlIIlIllIllIIllllIlIllIIllIIlllIIlIllIIlllllllIlI[i] = uhXZDCgyDXxYSIzlPEHOWVTJbtqkCZoHrxegnicSzlxZIlKDJXqPlKIoXFbPaFWqaPinVCcPHtvwHDk221/aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA
+                                                zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[i+1] = zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[i] + IIllllIlllIllIlIIllIIIIIlIIllIlIIlIlIIlllllllIIIIIIIlIIIlIlIlllIIlIlIIllllllllIIlIIlllIIlIlIlIIIIlIIIIlllIlIIIIllllIlllIlIllIIIlIlIIllIllIIIlllIlIIIlIllIlIlllIIlIlIIlIllIllIIllllIlIllIIllIIlllIIlIllIIlllllllIlI[i]*aAaaAaaaaaAAaaaaaAaAaAAAaaAAAaAaaAAAaAAAaaAaaAaAaaaaaaAaaaaAAAAaaAAAaAAaaAaaaAAaaaAaaAaaaAaAAAAAaaAAaAAaAAaAaaAaaaAAaAAAAaAAaAaAAAaAAAAaAAAAaaaAAAAaaaAAaaaAAaaAaAAaAAaAaAAAAAaAaAAAAaAAAAAaaaAaAAaAaaaAaaaAAAAAaaAAaaAa
+                                                TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT[ i+1] = TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT[ i] + zMldKJaIYbMcIZLGAXmELruZyAcJkZLRhnIqZewrJQuthcOSffrPDgeBrfEExwfpNGHTpTukKvQhiHU212[i+1]*aAaaAaaaaaAAaaaaaAaAaAAAaaAAAaAaaAAAaAAAaaAaaAaAaaaaaaAaaaaAAAAaaAAAaAAaaAaaaAAaaaAaaAaaaAaAAAAAaaAAaAAaAAaAaaAaaaAAaAAAAaAAaAaAAAaAAAAaAAAAaaaAAAAaaaAAaaaAAaaAaAAaAAaAaAAAAAaAaAAAAaAAAAAaaaAaAAaAaaaAaaaAAAAAaaAAaaAa
+                                                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb = -aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA*IIIIIIIllIlIlIIIIIIIllIllllIllIIlIIIlllIIIIlIIlIlIIIlIlIllllIllIIIIIIlIllllIIllllIllIIllIIlIIlIIIlIIlIIIllllIIlIIlIIlIIIIIllIlIlIlII-llIIIllIlIlllIllIIlIIIllIlllIIIlIIlIIIlIlIIlIIIllIllIllIIIIlIIlIIlIlIIIIlIIllllllllIllllIIlI*B1631116368699061220*KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[i]           # Set J215 force here
+                                                ViLOhdYXQQFDgOAKDejrdEmYhnrUXjfAjbsudVrVeNWBjegXhVsTfHQUtwodFlFZiZdnmBIcVEgzZpU211[i] = bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb/aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA
+                                                KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[i+1] = KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[i] + ViLOhdYXQQFDgOAKDejrdEmYhnrUXjfAjbsudVrVeNWBjegXhVsTfHQUtwodFlFZiZdnmBIcVEgzZpU211[i]*aAaaAaaaaaAAaaaaaAaAaAAAaaAAAaAaaAAAaAAAaaAaaAaAaaaaaaAaaaaAAAAaaAAAaAAaaAaaaAAaaaAaaAaaaAaAAAAAaaAAaAAaAAaAaaAaaaAAaAAAAaAAaAaAAAaAAAAaAAAAaaaAAAAaaaAAaaaAAaaAaAAaAAaAaAAAAAaAaAAAAaAAAAAaaaAaAAaAaaaAaaaAAAAAaaAAaaAa
+                                                J215[ i+1] = J215[ i] + KkhavXALuBYJTrUcVbgmyVkZDzNBJgUEqAFeRFgBOqpFZOmpxLCBEjSxupIhYATGuaRFRNNjBXQeMFd213[i+1]*aAaaAaaaaaAAaaaaaAaAaAAAaaAAAaAaaAAAaAAAaaAaaAaAaaaaaaAaaaaAAAAaaAAAaAAaaAaaaAAaaaAaaAaaaAaAAAAAaaAAaAAaAAaAaaAaaaAAaAAAAaAAaAaAAAaAAAAaAAAAaaaAAAAaaaAAaaaAAaaAaAAaAAaAaAAAAAaAaAAAAaAAAAAaaaAaAAaAaaaAaaaAAAAAaaAAaaAa
+                                                if (J215[i+1]<0):
+                                                        break
+                                        G223=i
+                                        AAaAaaaaAaAaaaaaAAaaAaaaAaaAAaAaaAaAAaaaaaAaaAAaAAaaAAaaaaAAaaaaAaaaaAAaaAaaaaAaAAAaaAAaAaaaAAaAAAAaaaAaAAaaaaaAaAAaAaAaaaAAAAaAaaAaaAaAaAaaAAaAaaAAaAAAAaaAAaAaaaAaAAAaAAAaAaaAAaAAaAaAaAAaAaaAAaa.append(TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT[G223])
+                                        #print('IIIllIIIlllIIIlllIIIlIIlIlIIllIllIIIIIllIlllIllIllIIIIIIIIIIlIllIIlIlIIIllIIIIIlIIlllIlllllllllIIlllllIIIIIllIIIlllIIIllIlIllIlIllIlIlllIIIIlIlIlIlIlIIIllIIIIlIIIllIIIlllIIllIlIIIlIIlIIllllllIIIIlllllllllIlIIIlIlIIlIlIlIlIII=',kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209[G223], 'ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=',TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT[G223])
+                                return(AAaAaaaaAaAaaaaaAAaaAaaaAaaAAaAaaAaAAaaaaaAaaAAaAAaaAAaaaaAAaaaaAaaaaAAaaAaaaaAaAAAaaAAaAaaaAAaAAAAaaaAaAAaaaaaAaAAaAaAaaaAAAAaAaaAaaAaAaAaaAAaAaaAAaAAAAaaAAaAaaaAaAAAaAAAaAaaAAaAAaAaAaAAaAaaAAaa);
+                        
+                        #Setting lIIllIIlIIIII answer and testing
+                        import random as aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA
+                        IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl=[]
+                        W16311163684746306137=False
+                        ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138=[]
+                        u16311163687442539229=0.1   # limits
+                        aaaAAAaaAaaaAaAaaaAAAaaaaaAAaaAaaAAAAAAaAAaaAAAAAAAAaaAAaAaaAaAAAAaaaaAAaaAaaaaAaaAAaaaaaaaAaAAaAaAaaaaaaaaAAaAAAAaaaaAaAAaAaaAAAaaAaAAaAaAAaaAAaAaAAAaAaaAaAAAAAAAaaaaaAaAAAAaAAAAAAAAAAAaAaaaaaaaAAAaAaAAAaAAAaAAAAaAAAAAAAAAAAAAAaa=1.5
+                        for i in range(5):
+                                IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl.append(aaaaaaaAaaAaaaAAaAAaAaaaAaaaAaaaaAAAAaAAAaaAAAaaAAaAaaaaaaaAAaaaAAAAAaaAaAaaaAAaaAaAAAaaaAAaAAaaaAaaAAaaaAAaaaAAAAaAAAaaaaaAaAaAaaaAAAAaaAaaaaaAAAAAAAaaaaaAAaaAAAAAaaAAAaAAAAAaAAaaaaAAaaAAaAaaaAAaaAAaAAA.uniform(u16311163687442539229,aaaAAAaaAaaaAaAaaaAAAaaaaaAAaaAaaAAAAAAaAAaaAAAAAAAAaaAAaAaaAaAAAAaaaaAAaaAaaaaAaaAAaaaaaaaAaAAaAaAaaaaaaaaAAaAAAAaaaaAaAAaAaaAAAaaAaAAaAaAAaaAAaAaAAAaAaaAaAAAAAAAaaaaaAaAAAAaAAAAAAAAAAAaAaaaaaaaAAAaAaAAAaAAAaAAAAaAAAAAAAAAAAAAAaa))
+                        IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl.sort()
+                        print('Testing s231=',IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        Z1631116368163067812=userfunc(IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        print('Output AAaAaaaaAaAaaaaaAAaaAaaaAaaAAaAaaAaAAaaaaaAaaAAaAAaaAAaaaaAAaaaaAaaaaAAaaAaaaaAaAAAaaAAaAaaaAAaAAAAaaaAaAAaaaaaAaAAaAaAaaaAAAAaAaaAaaAaAaAaaAAaAaaAAaAAAAaaAAaAaaaAaAAAaAAAaAaaAAaAAaAaAaAAaAaaAAaa=',Z1631116368163067812)
+                        lIIllIIlIIIII=AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA(IIlllIlIllIllIllllIllllIlllIlllIIlIIIlllIlllllIllIlIIlIlIllIIllIlllIlllllllIIIlIIIIlIIIIlllIIIIlIIIlIIIlllIIlIIIIllIIIlllIIIllIIIl)
+                        print('Actual AAaAaaaaAaAaaaaaAAaaAaaaAaaAAaAaaAaAAaaaaaAaaAAaAAaaAAaaaaAAaaaaAaaaaAAaaAaaaaAaAAAaaAAaAaaaAAaAAAAaaaAaAAaaaaaAaAAaAaAaaaAAAAaAaaAaaAaAaAaaAAaAaaAAaAAAAaaAAaAaaaAaAAAaAAAaAaaAAaAAaAaAaAAaAaaAAaa=',lIIllIIlIIIII)
+                        print()
+                        if (not N1631116368294091762(Z1631116368163067812) == N1631116368294091762(lIIllIIlIIIII)) or (not len(Z1631116368163067812)==len(lIIllIIlIIIII)):
+                                if W16311163684746306137==False:
+                                        W16311163684746306137=True
+                        else:
+                                ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138.append(all(np.isclose(Z1631116368163067812,lIIllIIlIIIII,fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff=fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff,w16311163686386397194=w16311163686386397194)))
+
+                        if W16311163684746306137:
+                                print('Check the returned Z1631116368163067812 format of your function (not counted as an attempt).')
+                                        
+                        else:
+                                IlIIlIlIllIlll=all(ahgeblYPvRasQswsSLtPPUCbhXzjHtDiOsJWhAPRFHEqLLzhQKrLVcYaFRfEeincfjUwuoeFZrdSkhs138)
+                                if IlIIlIlIllIlll:
+                                        print("Well done, all correct.")                
+                                else:
+                                        print("Not close enough. Take another look then run this cell again.")                    
+                                
+                                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                                o1631116368170175816=100-(lIllllI[0]-1)*10
+                                if lIllllI[1]:
+                                        print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                                else:
+                                        print("You have had ",lIllllI[0]," tries.")
+                                        print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+                        # Prevent querying of stored internal solution from calling routing
+                        #print('Setting to None')
+                        lIIllIIlIIIII=None                                
+                        AAaAaaAaaAaaAaaAAAAAAaaaaAaaaAAaAAAaaAAAaaAAAaAaAAAaaaAaaaAaaAAaAaaAaAAAaaaaAaaAAaaaAAaAAaAaAAaaAaAaaAaaAAaaAaAAAAAAaaaaAaAAaaaaaAaAAAAAaAaAaaaaAAAaAAA=None
+        
+        return        
+                        
+######
+#END OF b2 FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF b3 FUNCTION
+######                                                                          
+
+def b3():
+
+    global N1
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".b3_counter.npy"
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+
+    #Set tolerance for testing result here (0 for exact integer calcs)
+    w16311163686386397194=0.01 
+    
+    if(waiter()):
+        while True:
+            try:
+                printmd('**CA**')
+                Z1631116368163067812 = float(input("Enter o1631116368214047228 real number here: "))
+                lIIllIIlIIIII=0.5
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,lIIllIIlIIIII,w16311163686386397194=w16311163686386397194)
+                if IlIIlIlIllIlll:
+                    print("Well done. Actual Z1631116368163067812 is ",lIIllIIlIIIII)                
+                else:
+                    print("Not right yet. Take another look then run this cell again.")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+        return
+        
+######
+#END OF b3
+######
+
+
+
+
+######
+#START OF b1 NOT LIVE FUNCTION
+######
+def b1_notlive():
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF b1 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+
+
+######
+#START OF b2 NOT LIVE FUNCTION
+######
+def b2_notlive(userfunc):
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF b2 NOT LIVE FUNCTION
+######                                                                                                                                                        
+######
+#START OF b3 NOT LIVE FUNCTION
+######
+def b3_notlive():
+        print('This CA test is not currently live.')
+        return                        
+######
+#END OF b2 NOT LIVE FUNCTION
+######                                                                                                                                                        
+
+
+
+
+
+
+def printmd(string):
+    display(Markdown(string))
+
+def repeat_to_length(string_to_expand, length):
+   return (string_to_expand * ((length//len(string_to_expand))+1))[:length]
+
+def getco(pslen):
+    global N1
+    x255=getpass.getuser()
+    A16311163688247724256=int.from_bytes(x255.encode(), 'little')
+    h257=str(A16311163688247724256)
+    A16311163688354828258=repeat_to_length(h257,pslen)
+    N1 = [int(i)+1 for i in A16311163688354828258]
+    
+def waiter():
+
+# SET FORCED TRIAL INTERVAL HERE    
+    oHOEoorWnVkUSsKwUHbBUdFRQkCebDMSAZuXSEKZQRhtpmeQbeSVuwEtYRObPhfTlmeTupbzmbThGkS260=20
+    
+    eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261=".ts1.txt"
+    if os.path.isfile(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261):
+        AaaAaAaAaAAAAAAAAAAAaAAAaaaaAAAaAaAaaAaAAaAaAaaAAaaaAaaaAaAAaaAAaaaaAAaaaaaaAaAaAaaaAaaaAAAAaaaAAaAAAAaAAAaAAaaAaAAaaaaAaAAAaAAAaAaaAAaaaAaaAAaAaAAAAAAaaAAaAaaAaAaAaAAaAAaaaaAaAaAaaaaaaAAaAAAAAaAaAAaAAaaaaAaaAAaaaaAaaAaaaAAAaaaAaAAAaAAaAaaAaAaAaAAaAAaaAAaaaaAaaA = np.loadtxt(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261)
+#        print(AaaAaAaAaAAAAAAAAAAAaAAAaaaaAAAaAaAaaAaAAaAaAaaAAaaaAaaaAaAAaaAAaaaaAAaaaaaaAaAaAaaaAaaaAAAAaaaAAaAAAAaAAAaAAaaAaAAaaaaAaAAAaAAAaAaaAAaaaAaaAAaAaAAAAAAaaAAaAaaAaAaAaAAaAAaaaaAaAaAaaaaaaAAaAAAAAaAaAAaAAaaaaAaaAAaaaaAaaAaaaAAAaaaAaAAAaAAaAaaAaAaAaAAaAAaaAAaaaaAaaA)
+    else:
+        AaaAaAaAaAAAAAAAAAAAaAAAaaaaAAAaAaAaaAaAAaAaAaaAAaaaAaaaAaAAaaAAaaaaAAaaaaaaAaAaAaaaAaaaAAAAaaaAAaAAAAaAAAaAAaaAaAAaaaaAaAAAaAAAaAaaAAaaaAaaAAaAaAAAAAAaaAAaAaaAaAaAaAAaAAaaaaAaAaAaaaaaaAAaAAAAAaAaAAaAAaaaaAaaAAaaaaAaaAaaaAAAaaaAaAAAaAAaAaaAaAaAaAAaAAaaAAaaaaAaaA=0.0
+#        print("no file")
+
+    ZVIGxhJJJQwsuJZzDAysRWVPXIUWGorCjoflJZWlTXUWTXKfbLBcdyRcMGYbjkhJAGcHnooVGkOCmqG264 = time.time()        
+    F16311163688585935265=ZVIGxhJJJQwsuJZzDAysRWVPXIUWGorCjoflJZWlTXUWTXKfbLBcdyRcMGYbjkhJAGcHnooVGkOCmqG264-AaaAaAaAaAAAAAAAAAAAaAAAaaaaAAAaAaAaaAaAAaAaAaaAAaaaAaaaAaAAaaAAaaaaAAaaaaaaAaAaAaaaAaaaAAAAaaaAAaAAAAaAAAaAAaaAaAAaaaaAaAAAaAAAaAaaAAaaaAaaAAaAaAAAAAAaaAAaAaaAaAaAaAAaAAaaaaAaAaAaaaaaaAAaAAAAAaAaAAaAAaaaaAaaAAaaaaAaaAaaaAAAaaaAaAAAaAAaAaaAaAaAaAAaAAaaAAaaaaAaaA
+        
+    if(F16311163688585935265<oHOEoorWnVkUSsKwUHbBUdFRQkCebDMSAZuXSEKZQRhtpmeQbeSVuwEtYRObPhfTlmeTupbzmbThGkS260):
+        print("%.1f  seconds since your last exercise answer.\nYou need to work on your estimate for %.1f seconds before you can try again!" % (F16311163688585935265,oHOEoorWnVkUSsKwUHbBUdFRQkCebDMSAZuXSEKZQRhtpmeQbeSVuwEtYRObPhfTlmeTupbzmbThGkS260))
+        return False
+    else:
+        AaAaAaaAaaAaAaaAAaAAaAaaAaAaaaAAAaAaAAaAAaaaaAAaAaaAAaaAAaAaAaAaAAAaaAaAaaaAaaAAaaAAaAaaaAaaaaaAaaAAaAaAAAAAaaAaaAAAAaAaaaAAaaAAaAaaAAAAaAAAAAaAAaaaAaaAAaAAaAAaaAaAaAaAAaaaAAaAaAaaaaAAaaAaaAAaaaAaAAAAaaAaaaaAaAaaaAaaaaaaaaAaAaAaAAaaAaaaaAaaaaAaAaaaAaAAaAaAaaAAAAAAaA = open(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261,'w')
+        AaAaAaaAaaAaAaaAAaAAaAaaAaAaaaAAAaAaAAaAAaaaaAAaAaaAAaaAAaAaAaAaAAAaaAaAaaaAaaAAaaAAaAaaaAaaaaaAaaAAaAaAAAAAaaAaaAAAAaAaaaAAaaAAaAaaAAAAaAAAAAaAAaaaAaaAAaAAaAAaaAaAaAaAAaaaAAaAaAaaaaAAaaAaaAAaaaAaAAAAaaAaaaaAaAaaaAaaaaaaaaAaAaAaAAaaAaaaaAaaaaAaAaaaAaAAaAaAaaAAAAAAaA.write(str(ZVIGxhJJJQwsuJZzDAysRWVPXIUWGorCjoflJZWlTXUWTXKfbLBcdyRcMGYbjkhJAGcHnooVGkOCmqG264))
+        AaAaAaaAaaAaAaaAAaAAaAaaAaAaaaAAAaAaAAaAAaaaaAAaAaaAAaaAAaAaAaAaAAAaaAaAaaaAaaAAaaAAaAaaaAaaaaaAaaAAaAaAAAAAaaAaaAAAAaAaaaAAaaAAaAaaAAAAaAAAAAaAAaaaAaaAAaAAaAAaaAaAaAaAAaaaAAaAaAaaaaAAaaAaaAAaaaAaAAAAaaAaaaaAaAaaaAaaaaaaaaAaAaAaAAaaAaaaaAaaaaAaAaaaAaAAaAaAaaAAAAAAaA.close()
+        return True
+        
+def trycount(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261,IlIIlIlIllIlll):
+    
+    if os.path.isfile(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261):
+        lIllllI = np.load(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261)
+        #print("Recorded itry,IlIIlIlIllIlll= ", lIllllI[0],lIllllI[1])
+    else:
+        lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+        lIllllI = [0,False]
+        #print("no file")
+
+    if not lIllllI[1]:
+        lIllllI[0] += 1
+        lIllllI[1]=IlIIlIlIllIlll # update success state and count only if not already succeeded
+
+        np.save(eeYLnLiaNzWskWhNBIvRcqPtZoJGqSqEqMfVLLjOcDkeqvVxcUhAZQAgIFZFlwgcLppxfqGlFOnrATH261,lIllllI)
+
+    return lIllllI
+        
+        
+
+#############
+#Damped Harmonic Oscillator
+#############
+
+def valdho(M,K):
+
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".dho_counter.npy"
+
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+    
+    if(waiter()):
+        while True:
+            try:
+                Z1631116368163067812 = float(input("Please enter your estimate here: "))
+                aAAAAaaaAAAAaAAAAaaaaaAaAaAAaaAaaAAaAAAAaaAAaaaaaAAAAAaaaaaAaaAAaAAaaAAaAAAaaaaaaaaaaaaaAAaaaAAAaAAAaaaAAaAAaAAAAaAaAaAaAAAAAAaAAAaAAaAaAaaaAaAaAaaaAAaaaAaAaaAaaaaAaAaaAaAAAAaaAAaAAaAaAAAAAaaAaaaaAAAaAAAaaaaAaAAAAAAAaAaAaAaaAaaaAaAaAAAaaaAaAAaaaAAaaAAaAaaAAAAAAAaaAAAAAaAaAaaA=2*np.sqrt(M*K)
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,aAAAAaaaAAAAaAAAAaaaaaAaAaAAaaAaaAAaAAAAaaAAaaaaaAAAAAaaaaaAaaAAaAAaaAAaAAAaaaaaaaaaaaaaAAaaaAAAaAAAaaaAAaAAaAAAAaAaAaAaAAAAAAaAAAaAAaAaAaaaAaAaAaaaAAaaaAaAaaAaaaaAaAaaAaAAAAaaAAaAAaAaAAAAAaaAaaaaAAAaAAAaaaaAaAAAAAAAaAaAaAaaAaaaAaAaAAAaaaAaAAaaaAAaaAAaAaaAAAAAAAaaAAAAAaAaAaaA,0.2)
+                if IlIIlIlIllIlll:
+                    print("Well done, that is close to the critical damping Z1631116368163067812 ",aAAAAaaaAAAAaAAAAaaaaaAaAaAAaaAaaAAaAAAAaaAAaaaaaAAAAAaaaaaAaaAAaAAaaAAaAAAaaaaaaaaaaaaaAAaaaAAAaAAAaaaAAaAAaAAAAaAaAaAaAAAAAAaAAAaAAaAaAaaaAaAaAaaaAAaaaAaAaaAaaaaAaAaaAaAAAAaaAAaAAaAaAAAAAaaAaaaaAAAaAAAaaaaAaAAAAAAAaAaAaAaaAaaaAaAaAAAaaaAaAAaaaAAaaAAaAaaAAAAAAAaaAAAAAaAaAaaA)                
+                else:
+                    print("Sorry, not very close. Take another look then run this cell again.")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+
+        return
+        
+#############
+#END Damped Harmonic Oscillator
+#############
+
+#############
+#Driven Damped Harmonic Oscillator
+#############
+
+def valdrivendho(om,gam):
+
+#USING NUMPY LOAD SAVE WITH STRUCTURED ARRAY FOR BINARY IO    
+#   SET UNIQUE FILENAME FOR THIS PROBLEM'S TRY COUNTER
+    lIll=".drivendho_counter.npy"
+
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file
+    
+    if(waiter()):
+        while True:
+            try:
+                Z1631116368163067812 = float(input("Please enter your estimate here: "))
+                G284= np.sqrt(om**2-2*gam**2)
+                IlIIlIlIllIlll=np.isclose(Z1631116368163067812,G284,0.2)
+                if IlIIlIlIllIlll:
+                    print("Well done, that is close to the resonance Z1631116368163067812 ",G284)                
+                else:
+                    print("Sorry, not very close. Take another look then run this cell again.")
+                    
+                lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful
+                o1631116368170175816=100-(lIllllI[0]-1)*10
+                if lIllllI[1]:
+                    print("First success after ",lIllllI[0]," tries, you have ",o1631116368170175816,"% on this exercise.")            
+                else:
+                    print("You have had ",lIllllI[0]," tries.")
+                    print("If next try is accepted you will achieve ",o1631116368170175816-10,"% on this exercise.")
+
+                break
+
+            except ValueError:
+                print("I didn'kbRtWSsuaZzpJPdVayQMbLjnpjJfbwgrsAUQEHxcJRyPirullvLDbSOxIiEKtAYYKwmIJPeCobFjyPg209 understand that.")
+                continue
+
+
+        return
+        
+#############
+#END Driven Damped Harmonic Oscillator
+#############
+
+#############
+#NEW NOVEMBER 2019
+#CLASS QUIZ
+#############
+
+
+
+#Attendance quiz, based on https://github.com/jupyter-widgets/ipywidgets/issues/2487
+
+import ipywidgets as widgets
+import sys
+from IPython.display import display
+from IPython.display import clear_output
+
+def create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,lIIIllIIIlIlIIIlIlIIlIIIllllIIlllIIllllIIlIIllllIIlIIIIlIIllIlIIlIllIIlllIIllIlIIIIIIlllllllIlIIIIIIllIIIIIlIlIlIIllIlIlIIllIIlllIllIIllIlllllIIllIllllIllllIllIlIIIlIIIIlIIIlIlllllllIIllllIIIlIlllIlIIIIlIIllIIlllIllllIIIlIllIIIIlIIllIllIlIIIlIIllllIllllIlIIIIIlIIIlIlIlIlIIIIlIllIIlIllIllllIIIlII, IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll, correct_answer):
+    lIll='.q{:d}_counter.npy'.format(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308)
+    lIllllI = np.zeros(1,p8='int8,bool') # itry and succrec: int and bool, output to binary .npy file                                               
+
+    xIjKPQicGvbLYUIPUtGivznlkLUEZDKzOpfUKgwEXZOUszVBYZCyUdKvLVzRqAPkDLxfbcZvynjEndg291=len(IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll)
+    if correct_answer not in IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll:
+        IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll.append(correct_answer)
+    
+    VWAKKhmgQnWowUdIvMRxtXqvbqhUcYuBlrgvEYsBQvJPlgtNFXoSNMYbkyMyphfCJdTgtdEHXeleixp292 = IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll.index(correct_answer)
+    
+    IIlIlIlllIIlIIIIlIIIIIIIIlIlIIlllIllIIIIIIIlIlllIlIIIIIlIIlllIIllIlllIlIlIllIllIllIlIIIIlllllIllIlllllllllllIIIlllIllIIIllIlIllllIlIlIllIlIIlIlIllIIlIIIlIllIIlIllIlIlIIlIlIIllIIlllIllIlIllIIIlIlllllllIlIllIlIllIIIIIlIlIIlllIlllIlIlIIlllIllIIIIIlIllIIIlIlIIIIIIIIlIIlIllIIIIlIIIlIlIlllIIlIllIlI = [(words, i) for i, words in enumerate(IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll)]
+    iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii = widgets.RadioButtons(
+        IlIllIIlIIIlIIIlIlIllIIIIIIlIlIlIllllIIIlIlllIlIllIllIIlIIllIIIIlIIlIlllIllIIlIllIIllIIIlIlIIIIlIIIllllIlIlIlllIIlIlIlIIIlIIllIlIIllIIIllIIlIIlIIllllIlIIIIIlIlllIlIIllIlIlllIIIllIlIIlIIlIIIlIIIIIllIIIIIlllIllIlllIIlIIIIllIlIIIlIlIIIIlllllIIIIIlIIlIlIIlIlIIIllllIlIllIIlllIIIllIllIIlllIIllIllIlll = IIlIlIlllIIlIIIIlIIIIIIIIlIlIIlllIllIIIIIIIlIlllIlIIIIIlIIlllIIllIlllIlIlIllIllIllIlIIIIlllllIllIlllllllllllIIIlllIllIIIllIlIllllIlIlIllIlIIlIlIllIIlIIIlIllIIlIllIlIlIIlIlIIllIIlllIllIlIllIIIlIlllllllIlIllIlIllIIIIIlIlIIlllIlllIlIlIIlllIllIIIIIlIllIIIlIlIIIIIIIIlIIlIllIIIIlIIIlIlIlllIIlIllIlI,
+        lIIIllIIIlIlIIIlIlIIlIIIllllIIlllIIllllIIlIIllllIIlIIIIlIIllIlIIlIllIIlllIIllIlIIIIIIlllllllIlIIIIIIllIIIIIlIlIlIIllIlIlIIllIIlllIllIIllIlllllIIllIllllIllllIllIlIIIlIIIIlIIIlIlllllllIIllllIIIlIlllIlIIIIlIIllIIlllIllllIIIlIllIIIIlIIllIllIlIIIlIIllllIllllIlIIIIIlIIIlIlIlIlIIIIlIllIIlIllIllllIIIlII = '',
+        wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww = False
+    )
+    
+    s298 = widgets.Output()
+    with s298:
+        print(lIIIllIIIlIlIIIlIlIIlIIIllllIIlllIIllllIIlIIllllIIlIIIIlIIllIlIIlIllIIlllIIllIlIIIIIIlllllllIlIIIIIIllIIIIIlIlIlIIllIlIlIIllIIlllIllIIllIlllllIIllIllllIllllIllIlIIIlIIIIlIIIlIlllllllIIllllIIIlIlllIlIIIIlIIllIIlllIllllIIIlIllIIIIlIIllIllIlIIIlIIllllIllllIlIIIIIlIIIlIlIlIlIIIIlIllIIlIllIllllIIIlII)
+        
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA = widgets.Output()
+
+    def check_selection(B29):
+        
+        o1631116368214047228 = int(iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.value)
+        
+        IlIIlIlIllIlll=o1631116368214047228==VWAKKhmgQnWowUdIvMRxtXqvbqhUcYuBlrgvEYsBQvJPlgtNFXoSNMYbkyMyphfCJdTgtdEHXeleixp292
+        lIllllI=trycount(lIll,IlIIlIlIllIlll)  # increment lIllllI[0] only if not already successful                                
+        o1631116368170175816=max(0,100-(lIllllI[0]-1)*100/xIjKPQicGvbLYUIPUtGivznlkLUEZDKzOpfUKgwEXZOUszVBYZCyUdKvLVzRqAPkDLxfbcZvynjEndg291)
+        T16311163690128045305=iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.options[o1631116368214047228][0]
+        if IlIIlIlIllIlll:
+            T16311163690128045305+=' correct\e16311163681474753'
+        else:
+            T16311163690128045305+=' incorrect\e16311163681474753'
+        if lIllllI[1]:
+            T16311163690128045305+='{:.0f}% on try {:d}'.format(o1631116368170175816,lIllllI[0])
+        else:
+            T16311163690128045305+='{:.0f}% remaining'.format(max(0,o1631116368170175816-100/xIjKPQicGvbLYUIPUtGivznlkLUEZDKzOpfUKgwEXZOUszVBYZCyUdKvLVzRqAPkDLxfbcZvynjEndg291))
+   
+        with AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA:
+            clear_output()
+            print(T16311163690128045305)
+        return
+    
+    M16311163690157785306 = widgets.Button(lIIIllIIIlIlIIIlIlIIlIIIllllIIlllIIllllIIlIIllllIIlIIIIlIIllIlIIlIllIIlllIIllIlIIIIIIlllllllIlIIIIIIllIIIIIlIlIlIIllIlIlIIllIIlllIllIIllIlllllIIllIllllIllllIllIlIIIlIIIIlIIIlIlllllllIIllllIIIlIlllIlIIIIlIIllIIlllIllllIIIlIllIIIIlIIllIllIlIIIlIIllllIllllIlIIIIIlIIIlIlIlIlIIIIlIllIIlIllIllllIIIlII="submit")
+    M16311163690157785306.on_click(check_selection)
+    return widgets.VBox([s298, iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii, M16311163690157785306, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA])
+    
+######
+#START OF q1 FUNCTION
+######                                                                                                                                                        
+    
+    
+def runq1():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=1
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'Complete program:',['e16311163681474753*fac(e16311163681474753+1)','e16311163681474753*fac(e16311163681474753-1)','(e16311163681474753-1)*fac(e16311163681474753)'],'e16311163681474753*fac(e16311163681474753-1)')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF q1 FUNCTION
+######                                                                                                                                                        
+######
+#START OF q1 FUNCTION
+######                                                                                                                                                        
+    
+    
+def runQ1():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=1
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR=',['aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA/T16311163690128045305^2','kg/aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA/T16311163690128045305^2','kg aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA/T16311163690128045305^2'],'kg aaaaaAAAaAaaaaAAAaaaaaAAaAAAAaaaaaAaaAAAAaAAaAAaaAaaAaaAAaAAAaaAaAAAAaaaaaAaAaAaAaaaAAAAAAaAaAAAaaAAAaAAAAaAAAAAaAaAAaAAAaAaaaaAaAaaAAAAAAaaAAaaaAAaaaAaaaaaaAaAAaaAAaAAaaAaaAAaaaaAAAaaAaAaaAaaaaAaA/T16311163690128045305^2')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q1 FUNCTION
+######
+
+######
+#START OF q2 FUNCTION
+######                                                                                                     
+def runQ2x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=2
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'',['centred','backwards','forwards'],'centred')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q2 FUNCTION
+######                                                                                                                                                        
+######
+#START OF q3 FUNCTION
+######                                                                                                     
+def runQ3x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=3
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'After the Earth\'T16311163690128045305 gravity, the main effect on o1631116368214047228 falling tennis ball is: ',['moon','quantum','drag'],'drag')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q3 FUNCTION
+######                                                                                                                                                        
+
+######
+#START OF q4 FUNCTION
+######                                                                                                     
+def runQ4x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=4
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'If position J215 is given by Asin(wt), then the velocity B1631116368699061220 is: ',['Acos(wt)','-Awsin(wt)','Awcos(wt)'],'Awcos(wt)')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q4 FUNCTION
+######                                                                                                                                                        
+                                                   
+    
+######
+#START OF q5 FUNCTION
+######                                                                                                     
+def runQ5x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=5
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'Newton\'T16311163690128045305 second law states that force is proportional to ',['everything','position','acceleration'],'acceleration')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q5 FUNCTION
+######                                                                                                                                                        
+                                                   
+######
+#START OF q6 FUNCTION
+######                                                                                                     
+def runQ6x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=6
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'Drag force magnitude increases with ',['speed','height','gravity'],'speed')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q6 FUNCTION
+######                                                                                                                                                        
+                                                   
+######
+#START OF q7 FUNCTION
+######                                                                                                     
+def runQ7x():
+    SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308=7
+    AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA = create_multipleChoice_widget(SAFRRvGYDOraUPaZYGfiwUpRifmmSxZrlWuPyTPVMhbmwrnnwfIaKYyMFaqKNnqzLLbKOxZlqwjcUee308,'Work has units of ',['Pascals','Newtons','Joules'],'Joules')
+    display(AaaaaAaaaaaaaaaaAAaAaAaaAAaaAaaaAaaAAaAaAAaAAAaAAAaAaAAAAAAAaAaaaaaAaaAAAAAAAAAAAaAAAAaaAaaAaAAaAAaaaAaAaAAAaaAaAaaAaAAaAAAaaAAAAaaaAaaAaaaAAaaaAAAaaaaAAAAaaAAAaaaAAAAAAaAaaaaaaaaaAAaAAAAAaaAAaaAAaAaAAaAAaAAAAaAAAAaaAAAAAaaAaaaAAAaaaAaaaaaAAAAAAAaaaAaaaAaAAaaAaAaAAaAaAaaAAaaAAAaAAaaAAaaaaAAAaaAAaAaAaaaAaaAaA)
+
+######
+#END OF Q7 FUNCTION
+######                                                                                                                                                        
+                                                   
+    
+
+#############
+#END
+#NEW NOVEMBER 2019
+#CLASS QUIZ
+#############
+
+
+
+
+A = "JrJPWeIwKzBbJsIqPHVyQzikiXrAapxCkGnVPmKjansnglWTVBgsQzPUnxNuNKKzSXejxSiXxkQuLDT"
+LLL = 525
+z163111636907053855 = "SQWGNibwQRSWtVKPDVMBwYMrUwQDXxPtoKipeCBclqAiQERHNRvtEWgSzabPrgdQdvSMJjshSNbqzpT"
+FFFFFFF = "ZvPHufnAPmuyflmyMNuEuEAjcMYTwCTVjEZeVnWpawaKeBLxCLjqPiyjvXCzEFShjaEgNihodEGlDto"
+PPPPPPPPP = 835
+kkkkkkkkkkk = "NFRdzPTpsgOoStUvAFtzoAZTtiHrSfWiqkMUlhbcJkbrYDZLjgovznwSYxNHLhNzupBwzdhXrERPgUm"
+IllIIIIIlIlIl = "GBNEFvGaNouMWEyxylmTrDxYeGMUMHWGPzluSzQRUCEKDIoFjCWYpGppSToPgtJrnXCugOElYwVUEGX"
+hIzDSyOrvtYxuGvaxKMJESoaqEBRHaOCpsNyRvIiiBnZohXckuObaqNbdAgrOpZLUWTdXfdrcndVCkg15 = "NpfyfUekSuQQfDuTuQZmVIImtWBOYiNoDdxNHhpCGXqWwSiGbNlTmUoduClEMUTgQvetjcmKEngvcPZ"
+AaAaAaaAAAAaaaAaA = 16
+kkkkkkkkkkkkkkkkkkk = "oHkGKOGgAvYgoPnTojSEMRiMCxkMAHGaPTvxjmYoOjcaOLBCqRtQWcggnyNAeZGVDKQKsgIhmgDWYez"
+lIlIIIIIIIlIIIIIlllII = "GYRdwLocVwEWqpdfKRytpywWxUvIGHSmSOTctQMKRNONEtzfDfjMhzVajILPBvVCPjPyqwuegsLlRKV"
+y1631116369071121223 = "zRZeBlrhqxRmRDMSkuFgibPFwWHBpcqmVKTzrxruxBgLKXfAFdsSHFcLmQUqMDytOVBnzczrPdPlXKZ"
+m163111636907116125 = 239
+LjQPHFnydDSRbmJvvXsHNLrXoFAbaIcSuZGObpJOiaCMrSPMIUCiZbVaeaUfmXSjcickKeUSyfrqtbq27 = "ORncivjQjasqlbNTVlpeyWseSABKprLIumiFQeMwkgeXdpNcxVkxNYezpiDOzOVUxmHfoeuDFVmtqQl"
+Z1631116369071284329 = 283
+ubVscYUxaYBiUsJqSlVGlzmLjMUjuBqRKlZruKcZBZitAwfziDFPExYoBknsSmPQkymzGgxKKmUXueo31 = "xhZuCtYKMqoVmKablFOLMelKuoGmHOoHjXisFaQSyOPOXYAotUwAxgaWIBgahKyiGIlWytfdjpcrfax"
+X33 = "linaQCMHLhneKtorhWAIBtnExFDNtdHOYeOaSvyAjEmrLusTAAmWriCkYJBDewBfVtLlkSlmgQHpDuq"
+AAAAAaaaAaAAaaAAAaaAaaAAaaaaaaAaaAA = "KLGmMeybDrkinZzURqiNOdbgtsmwGIyeHhQAJSXeGWHyZQnqkZGfscSatmqJrXSsfMYpWwZrckEtfUv"
+u163111636907152937 = "dqBzsYDgclHWfwSqLFgEjhDgpfmpqMPJXksNKsMqsIFLyzpUQNEygzSiANpVkiuPONCBuZEsMsuYqat"
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR = 487
+s41 = "xwgpVkhtRAzYYApNyaJCMGsrtsRvpoTuHkjYVFVlCqjsiGPKxLnNImIONWhzyZiLtVJBrhuqDAApRuA"
+o16311163690716743 = 364
+l1631116369071683645 = 258
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww = "aabfPmGeuhiBvBxcArYJTyWfWTqDCIxLnoNvFWbEyKJHVBIuXgepmQhVqBrxwGaKPFbKeEPMCABEyEH"
+m163111636907181549 = "IjelzYSqKVgxNNTrumdGeJzXuiLDwnWnqOAayHUhZPruvtqGGUjiYUYrgsrdLwJWETSORyYBJceDATa"
+F51 = 304
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS = "veSKuSKKIAOqVUMpopEmgBKhbDmKzNXacmOaFIsXYplpPUMfuysqOqTkzIICgNndsvvkeeFUwpaYFZp"
+y55 = 300
+ExgfGplfayMTnyBHfAyXenafIiXAKUscTiNoLPHECgGUvSqeUzNzDqFIrUuhPdmUeMokVKRhmgiQLQl57 = 363
+aaaAaAaaaAAAaAaaAAaAAaAAaaaaAaAAAAAAaAAAaaaaaaaAAAaaAaaAaaa = 488
+AaAAaaAaaaaAAaaAaAAaAAAAaAaAaAaaaAAAaAAAAAaAAaaAaAAaAaaaaaAAA = "sYJDxIUjFfmVrulwCXgAnEgCoGmhVmrUlhDOIxkfFcXtdpFlZcWaQocbOdFwnjGzHuvfrlGDsukuyCt"
+AaAaaaAaAAAaAAaaAaAAAaaAaaaaAaaAaAAaAAaaAAaaaAAaaaAaaAAAAAaaaaa = "LGXzeVnXwRhxYOrADVzLYhghtmhiAxhECjaMARazhQSaEqaQMPMXgaBjbvQMkorQZxvYVQGlVaYRuyY"
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc = "dMdEJkGhFwoAgnqWxTZnUDDwBZNHevnrzduGoDXMxlrOrnicqgDUCmYojrRVfgmMvbJksnpNvjyIXQn"
+l67 = 298
+AAAaAaaaAaaAaaaAaAAAAAAaAaAAaaaAaAAAAaAAAAAAaaAaAAAaaaAaAAaAAaAAaAAAA = 352
+z71 = "zwoYFDAdEbkrfQEAnYfpXNlDVpWLQfpgseTAOpyenDCQbMzXpRFuFDoETloMwXwWpcXhVNecCALmkCh"
+r1631116369072517973 = 497
+O75 = "pQwhXrKjUbEFaKjKDwkvSuUJruaqBMZpTfFUDyXsDyCuDsFAYVuZzjUDqZyZZNncCyUQqgSRSSzmUeg"
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL = "JUdSTVwCWRIvdOAOwxSeMcSKsCbNuRZozkgYtMolRodqIqHLkznWrBZlDUnnKWfwKkhMPkTZFRMtLul"
+u79 = "umzfmWfetlcooyLtPeiUvYGbWiSydarmkRCRArMLPNghwiyfpQiVJACUdyHqbiyaBsrCjhEzfqpctRH"
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG = "uIVHqsdaoYpGYGwbffyRyihLWZYtLqPeuAEGSgpofcGfrnNaIAPTgHWKObsYQwoUMYFTeouaCSzTBts"
+aaAAaAAaaaAaAAaaAAAaaaaaAAAaAAaaAaaAaAaaAAAaAAaaAAaAAaaaaaAaAAaAAAAAaaAaAAAaAaAAAaA = "esmTcAfWGreHbgSXevKanCeATpvHsRCtQUuyJisVuJVOvopCixaggLxHjzDnihEIaEacqYXtNtIiswc"
+o1631116369073044585 = "lfAEbCBMEAximBoxvZPvJZaKXGvuTIfbkiicAfmsgZoSHsyWBdDkpwnLUizLbMjsmqVHtwogcXQYKgQ"
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo = 460
+JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ = "oAEyaTcJdlkkIpIyEnkdvYbxciqRoosGmswAvEFWZtjiEfIetbguoSoovbOebBTpRVghQBneqfVmgCI"
+HzQEwoJuQcAfclUfdyCHEHDcvWzffxSoIRrDQEZYgtBQMafArcfQsEEYIbkTdbGBrYkhLgAeUyfGxjs91 = "tHSamJByqahLEoxZuSHsrysIVKzRUeQLBNrAGUXCqGItBARWRujokkHMzKvcIymxURxWhNSEhXlFumd"
+IlIllIlIlIlllIIIIIIlIIlIlIlIlIIllIlllIIIIlIIllIllIIIllIIIIIIIIlIllIllllIIIllIllIIllIlIlIIllII = "BZGanYUNLiNOpbbaRiEuhmESbOllCnujxMJkSlMBkqDLxmOovpdbdcYIqoZMlveCqJpEGesIyLMDVjo"
+A163111636907337995 = 431
+shjytuPRVuLFIMGEDotMujADmTKrDTMXfOetTYtqXZTMNxqtvHmCeHfAVfuMLeBrJQDNBuYfzOfkyfm97 = "BgeAhpYHRZRxfVDiUmOkuPjNVhSzciahqisSybqezzmkZLQoJDGmkWuIhdaJfLVZsAniLzzuVybkmQZ"
+A99 = 476
+AAaaaAaAAaAAaaAAAAaAaAAaaAaAaAAAAaAaaaAAaAaAAAaAAAAaaaaAAaAAaAaAaAAaAaaaAAaaAAAaAaAAaaAAAAAaAaAAaAAAA = 655
+ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt = 648
+xpjBYWckmdDJSzqUsInjrcTLDkIOrKuZUSeWVnBXOEuWvLPumSEvZXMNmIPZqJvivARAViJMOYivsZP105 = "DqpKoStAttLrSiaUfsrgIQfpxtYIysKSBDymOhWdifSsYYUwmszgpEcKaGqqWCAeNRAnoLeoaipvddn"
+llIIllIIIlIIlIlIlIlIlIIllIlllIllllllIllllIllIIlIlIIllIIllIllIlIlIllIllIIIIlIlIIllIlIIIlIlIIlIIIIIlIIIllllll = 625
+kXuNrxibqrLlvlbJVGFwhqjmpkbeBSBYsTAyXUDARPDDNVUEZNIZEDZSDLKzqqDGlBcHwUsphvzbVTE109 = 531
+rIvLSvdKhwdmFeMuMpdHHYTyBguPgoaBMSuVcZhhshqfKZzKFSUnOHdTYEGQGGydrDlcRglMooSVggQ111 = 445
+aAaAAaAAaaAaaAaAAaaAaaAAaaaAAaAAaAaaAaAaAaAaaAAaAaAAaaaaaAaAAAaAAaaaaaAAAaaAaAAaAAAAAAaaaAAaAaaaAAAAAAaAaaAAaAaAa = "MbDkOyNFljbGnwGWpUxryqHCXAJQAojivCCFJrnUixUcAuZjhJoTsuUzXVXjMFhsgeedEuvfTGSrjnJ"
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD = "YUFauPjJYCuSmLeBSXNsXaJZJvVsiFNxyuqVsPAkwLPwcIcAgaiWhRKpFosvJJcrGvvjyoUPhMBXlrf"
+aAAAaAaAaAAaAaAAAAAAAAaAAAAaAAAaaAAaAAaaaaaAaaaaAaAAaaAAAAAaAAaaaAAaaAAAaAAAaaaaAAaAAaAAaaAAaaAaAaAAAAAAaaaaAAaAaAAAa = 371
+H119 = "zJESbiZYRYXzKvkNqzKHnZTElkaQlxztuumugryVFMzUjaQSXtHZIpdWNetnAzqUBrKqwEnqbPrjkIZ"
+MeeTwPYXJXymuPrJwglgJULrteIVbhnRUVZCFVJitOuSFexFrdRvdiVUNapeaOddZWcaDrtMOpZLmNK121 = 408
+b123 = 472
+q16311163690744858125 = 683
+yDeZDArFWbTtEbKslzypSOcQLmlyLrRDJHfqBRbLKZmwWZciZgvvroIUwgUtmwjRosHukqcRnBywYlW127 = 371
+IlIlIIIlIlIIIlllllllIlllIIIIlIIIllIllllIllIllIIIIIllIlIIIIllIlllIlIlllllIIIlIIllIIIlIIIIllIlIIlIIIlIlIIIIIIlIIlIllIIlllIlllllIlIl = "yeYshEdPxOUjbQqyRxSjrSHFOFhfvUNSGYvCiBpkvPRBbbPBeqCDJnXglQRHZKzibGaUcyqSNJcBNjs"
+P16311163690747652131 = "WLePVZxkZlHPacplDTvlEwhGpjSypWGtkPsNjMGkAamqbifnrwlNMRRTGxUlmjUnhftpIPsFhJabYUG"
+aaAaAAaAaAAAaaaaAAaaaAaAaaaaaAaAAaaaAaaAaaAaaaaaaaAaaaaaaAaaAAaaAaaAaAaAAAaaaAaaaaAaaaAaAAAaaAAaAaaAaAaAaAAAAaAAAAaaaAaAaaAAAaAaaaaAa = "bhkPdcsRGYeGldVHnfJQGTPCnAFcgQQsTNfGUQOpFqbyQNGmoFBQAiQJABZLWhmbTffnohWYOvbmTyH"
+d135 = "pIBORuCqiyuZTdSZWLTgVNtOZWVckXutUrPijqrSDXFTgcdqbboKodHjVuzCcbDcOacAJzhsmxKuACN"
+llIIlIlllIlIIIIIllIIIIIIlIIlllIIllIIIIIllIlllIllIllIlIIIllIIIllIllIllIIIlIIllllIllllIlIllIlIlIllIlIllIIIIIlllIIllllIlIlIlIIIIIlIllIlIllII = "rFKPaCBIxZZiOlFxrZbDCpPSUHrmeNigrvIAmwaOCrltMvsSTddoasGZcDCjkoekMpfjhgRFKqSVOkF"
+lllllIlIIllIlIlllIllIIIIIIIIllIlIIlllIllIllIIIIlllllllIlllIllIllIIIlIIllIIIIIIllllIIIlIIIIlllIIlIIIIllIIlIIllIlIlIIlIIlllIlIllIlIIIlllllllI = 598
+aaaAAaAAaaaaaaAAAaaAaAAaAAAAaAAaaaAaAAaaAaaAaAAaAaaaAAAaaaAAAaaAaAaaaaaAAAaaAaaaaaaaAAAAaaAaaAaaAaaaaaaAAaAAaAaAAaAaaaAaaAaaAAaAAaAaaAAAAaAAA = "auwdjZUbpJFDTXdbHEygFPwlfHAiIRsXwIIEzYoaQGLbmBUfWqMiupzNaIbuFzQfknSDmXjZTmIgeuW"
+o16311163690753028143 = 253
+AAAaaaaAAaAaaaAAAaAaAaAAAAAaAAaaaaaAAaaaaaaAAAaAAaaaaaAAAaAaaaaAAAAAaAaAAAaAaaaaaaaaAaAAAAAAaAAaaAaaAAaAAaaaAAAaAAaaaAaAAaaAaAaAAaaaAaaaaaaAaAAaa = 238
+AaaAaAAaAAAaAAaAAAAAaaaaAAAAAaaAaaAaAaaAaaaaAaAAaaAaAAaAAaaaaaAaaaaAaAAaaaaaaaaAAAAaaAaAAaaAaaaAaaAaAAaAAAaAaaaaAaAAAaAAAAAaaaaaaAaAAAAaAaAaAaAaaaA = 364
+aAAaAaaaAAaAaAaaAaAAaaAAAAaaAaaaAaaAAAaaaaaaAAAAAAaaAAAaaAaaAAaAaaAaaAaaAaaaaAAaaAaaAAAaAAaAAaAaaaAaaaAaaaAaaaaaaAaaaaaAAAAAAaaaAaAaaaAAaAaaaAaAaaaaA = "PCaYbQsdTHQqVybahTniXGEagORmvlaKGywPrGoDqvjPpDlaJvNtnIUgAeOaaNVMUJsNbACdRrEhEXG"
+aAAaAaAAAAAaaaAAaaAAaAaAAaaAaAaAaAaaAaaAAaAaAaaAaAaAAAAaaAaAaaAaaAAaaaaaAAAaaaAaAaAaAaAaAaAaaaaAAAaAAAAaaAaaAaAAaaaAAAaAAaaaaAAaaAaAaAaAAaaAAAAAaAAaAAA = 281
+JUIQbVOGhPOwIpEmFLCQCxfMkDbenbvIGOishNCbDIUaFOhPXabzyDtTBtMmbcTRSNewwaVedITXcjm153 = 144
+aAaAAaAAaaAaAAaaAaaaAAaAaAaAAAAaaAaAaaaAaAAAaaaaAAaAAAaaaaAaaaaaaaAaaAaAAAaaaaaaAaAAaAAAAAAaaAAAaaAaaaAaAAAaaaaaaAaaAAAAAAaAaaaaaaaaAaaaAaaaaAAAAAaAaAaAAaA = "hlGtlFJOjZUlflMMLUPyJGLPSCTonkVTkKIYOuIpPEABDJfMxTRYiEiGUdKJclcelgzcGxPRXJrMRTl"
+CUabtdNnbLWHnpZfMcbIIVMFmVYmswcocCRWQnVXuaDhnQIrUSJAYnmvFIGAeYrTnJhiUBTnjqMgdIy157 = 476
+lIIIIIllllIIIlllllIIlIIIlIllIIlIIIIlIIIllIlIIIIlIIIIIllllIllllIlIllIllIIlllllIllIllIIlIllllIIlIlIllIIllIIIIIIIIIlllllIlIIlIIIIlllIlIllIIllIIIlIlllllllIlllllIlI = "ILYIcNydqbgnybdhyTapGcayIvQVyceHmSwmMUlXdWjBwYiSpUGpHlPmxaatAPDjcRSiMtLLTqDDOdV"
+IIIllIlllIlIlIIlIlIIlIIIllllIllIlIlIIIIIlIlIlIllIIlllIllIIIIIlIllIIIIllllIIIlllIlIllllllIlIlIIIIlIlllIllIIIIlIlIllIIIIlIllllllIlIlIIlllIllllIIIlIllIIlllIlllIllll = "tQcpKYQmcUTmcJAFBeiPfpUDPnINxmcNOSIVfadWSiyFTnEhOEWhwurdiqFpmIWvgICYjkbxsCjDHYE"
+D163 = "aOsZwfEZHgsATXENtSZxMHOuzSqDFfDNEhXxcyBgUevfJqKBthjMQKiDLIKgkjdMKjadYNaCYQLKRab"
+aAaaaaaaAAAAAaAAaAaAaaaAAAaAaaAaAAAAAaaAaAaaAAAaAaaAaAAAAaaAAAaAAAaaaaaAaAaAAAAAAAAaAAaaaAaaaaaaaAaaAaaAaAaaAAAAaAaaAaaaaaaAAaAaaaaAaaAaAAAaaaaAaaaaAAAaAaAAaAaAAAAAa = 463
+tybmSkOJdlBIUJlyheCfhSYfrNzuGzOOPsKVrLbKizFKbMENxJPEVvCjQmMzkOWNzhURHyiePTXmWwS167 = "CILZRdUSnFCExREAsoCZMrnVZmdMzfNPUUgFDmBTjRSbxKmTiunjNqPUcwtbidPwoIHMhoYLGsOLpKM"
+dfMMqLOhAAbsnUXUxxBaeBnQFgiRAKurZQiBvTJNwAEEJRQiiEgrYbxrINeCKZRRIaqRYDfVyKuBwCZ169 = 539
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT = 704
+lIlIIIIIlIlIllllIIlIIIlIlIIllIllIIlllllIlIllllIIllllllIIlIllIlllIIlIllIIIIIIIIllIIllllIIllIllIlllllIIlIIIIIIlIIlIIIIlllIlllIllIIIIllllIlIIIIlIIllIlllIlIIllIllIIlIIlIIIlIIIll = 324
+lgPFOTfGCeMIhaJvxEKaGDAQnJdcGqPhZONIFBTSEyzrlGaUaNNnqgmfIJYWuovtOOPHjpEAqOUpGNM175 = 511
+UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU = "jHySLbrgYqSHRqtJSJcpDNeAaXPkuEsIvqbEOYopcEhhCpQdupdRtazsQjerrIEuLMNmURZBxuEPmDw"
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL = 890
+j1631116369077013181 = 287
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG = "SOfPMXBYEExBMnoXAgvcabvxtQPehaqEVhhBwquUtkElWJsjHZaKNTkefywVFTfhdwrUsYgUuIHAsXw"
+AaAAaaAAaaaaaAaAaAAAaAAaaAaAAaaaaAaaAAAAAAAaAaAaAAAaaaaAAAAaaAaAaAAAaAAaaaAAAaaAAAaAAaaaAAaaAAAaaaaAaAAAaAaAaAaAaAaAAaAaAAaaAaAAaaAAAaaaAAaAaaAaaaaaAAaAaaAAAAAaAaaaAAAAAAaaAAAaaaAaAAaAa = 476
+l187 = 384
+bZnSKYKGegqupSMjCXzHjLqrNGIurCyYrqnQMzBrcsZNQvunSNViBluuwplKPIQVZrGcHDPqeEljgBo189 = "gqZjZjiTAvWnUqqkZfGkrYNHaIlEogCNQywzdAkeHcOUeuVmRJEdMXkCZbIETgjaTJjKwMCbQnxKbvE"
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff = "DSdrPizxXIQNtlsuehTAgftdbfMuovCNmbyhMXoouDSdlIftUhmwNKhjePWRfYzTWWaVRHHFpyhIhoh"
+Y193 = "porXElwKYwnIbcNHjafqOKfoDtGKYNJhpRjxWjmfosOSbhWiUqGWVcmrYhuAKVXebMWcuEjYNhBSjNx"
+K195 = "NkdqxZJRRUaAZwRVNAQWLcmlbFiKVGSpbBdvnUlfCXUZjYMFSOzmcHSMDhsOjxOuIJDciEYOJIalviW"
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII = 343
+J16311163690776193199 = 228
+L201 = "vMDppwodrawFBEnqjMFykLkHBxErHbaldXDySLXChmFhueDwgLbnIeFmcUBUfZedZttmbQFkXJwCxUL"
+AaaAAaaaaAAaaAaAaaAaAAaAAaaAAaaAAAaaaaAaaaaaAAaAaAAaAaaAAaAAAAAaAAAaAaAAaAaaaaAAaAaaaaaAaaaaAaaAAaaaaAaAAaAAAaAAAAaAaAAAaAaAAAaAAaaaaAAAaaAaaaaaaaAaaaaaaaaaAaAAAAaAaAaaAaaaAAAaAaAaaaAAAaAAaaAaAaAAAAAaaAa = "jLGLVXbdcNSkSRliwqzocdFhbkOKkLUEhTmqHznuynHefEgVKszrzmQdjHMcDwOyIBGjpFVxOqyQBAx"
+riqPCWhSFRosURbsnWkFYEHRKZioCYBBMObmGqXitcPFiSZwOyYusnVsFEltXZPnRtUskzIhLynZVjT205 = 537
+FvWFYYjrLVWBBpnNZOCrvCGkYHDDWWEEtYixBvzMjIclrECsILUFvlSloHLBmSrlwvTRJnvWtCQPTzt207 = "GkxTahVMRqSGYAfQRYcGucldpdnmXjVrxcrqABVYOejVDVlFWcwTWsmoZArbnxBJgvCdTxrEKEVFQhc"
+dRwqmLPPddNEvOjAjSRusAOuBmxtcTuEekUFXinpMqrbDzFodzJGhFNyTieWTkdVCbYqLGkYxszOivu209 = 513
+aAaaAAaaaaAaaAaAAaAaaAaaAaAaAAAaaaaaaaaaAaAAaAaaaAaAAAAaaAAaAAaAaAAAaaAAaAaAaAaaaAAAaaAaaAaaaAaaaaAaAAaAAAAaaAaAAAaAaaaAaAAaAaaAaAaAaAAAAaaaaaAAAAAaAaaaaaAAAAaaAAAaAaAaaaaaAAaAaAaaAAAAaaaAaaAaAAAAaAAaaaaaAaaAaaA = "xjtQlCRJnkSHElgcSvDMKVCDrqHcbspHcmtYhMPZRgGbJrxOvmjUIshyPXdEaCgngKhzydFpIYPEoCT"
+u213 = "HxVvwSeVQWPuDyrfSkrqoTTUNLnXlCDirIxMGeiowZrZqfOhHOfIBOjkJuoAezKsLKynUnhWWsxteAm"
+IIlIllIIIlllIIlIIlllllllllIllllIlllIIIIlIIlllIllIIIIlIIllllllIlIIIlIIllllIlIlIIIlllIlIlIlllIlIIIIIlIIIlIllIIIIIIIlIlllIlIlIlIIIlIlIIllllIIllllIllIllIlIllIlIlIIIIlIlIIllIlllIllIlllIllIllIIIIIlIllllIIIlIIIlIlIIllIllIl = 116
+LwDeQdWYeUKIjdqnHVVHIvQbDWYkgrUZmshxfGeAXqYswFUfbveijoNsYhWGnVJQdIEIcwnTkuyoAcD217 = "lcvqHgqxGqckmOJfMDSGfmEYcrZHZXhMVMamuUAItMbLUUwLTNhBKktSxnaukjkxXqEciwfJkayWmCT"
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm = "SMdlMOXqNivOCHicqUkZOOWSCQjirCIJaxfSXMjUvXAXPqiCtCVeiyDJUdpenXqcjiSrnFUOnMQYKDH"
+TfWyJFldoishipYSGXymOmssmOCWhURwbwXdKSJXlAUsNkRmeLnPBbsEfBaDhvRoWCWiEdlQBdAeFjy221 = "EaYKfMPWaliWaFrdohnxVFZaxminJMcJhZDBBskzEYVltKzgmMuCwCnVKphiGOTDXNrRdCDsohCeOTH"
+lnCUcVDlDMtsLgeWpFhAfKUdzQoZFToHTRrMGYGvJaoNOCyIUKXCzmFPhzcnksECGEaLauvRytyjeOK223 = 479
+AaaAAaaaAAaAAaAAaaaaaaAaaaAAAaaAAaAaaAaAaAaAAaaAaaaaaAAaAaAAaAAAaAaaAaAaAaAaaaAaAaaaAAAaaaaaAAAaAaaAaAaaaaAaAAAaaAAaAaAAAAaaAaaAaAaAaAAaAAAAAAaaaAAaAAAaAaaaaAaaaAAAaaaaaaAaAAaaaaAaaaaaaaaaAaaaaaaaAAAAaAaaaaaAAAaAaaAAAaaAAAAAA = 656
+S227 = 652
+m1631116369079193229 = 398
+aaAAAAaaAAaaaaaAAAaAAaAAAaaAaaaaaAAaaaAaAAaAaAaaaAAAAaAAaaaAaAAAaaaaAaaAAaaaAaAaAAaAAAAaaaaAaaaAaaAaaaaAAAaAAaAAAaaaaAaaaAaaaaAaAaaAaAaaaAaAAaAAAaAAaAaAAAAAaAaAaAAaaaAAAAAaaaaAAaaAAaAAAaaaAaAAAaaAaaaAaAaAaaaaAaaaaAAaaAAAAAaAAaaAAAA = 271
+IllIllIIlIIlIIlIlIllIllIIlIIlIlllIIIIIIIlIllllllIlIlIllIIlIIlIIlllIllIlIIIIIIlIllIIIlllIIIIIlIlIllIlIIIIIlIIIllIllIlIIIIllIlIlIIIIlIIIllIIlIIllIlIIlIIlIllIlllIIlIlllIllllIlllIIllllIIIIllllIIIIIlIlllIIIlIllIIlIllIIlIlIlllIIIlIIlllIllI = "seHeBHUklSDTbZQvOJQnNrcBWPPzTqpoBJfcuxpWGoglUnPNWBgauhoqdClQVleeIfiTbXcwtLkyzcS"
+IIIIllIIlIIIIlIIllIIIlIIIlllIlIIlIlIIIIIIIlIllllIllIllIIlIIIlIIlIlIIIIIIIIIIIIIIllIIlIIllIIlIlIlllIllllIllIIIlIIlIlllIIIIIlIIIIlIIIIllIlIIlllIIllllIIlllllIlllIIlIIllllllIlIIIlIllIlllIlIllIIlIIlllllllIIIllIIlIlIIllIIIIIlIIIlIlIlIIIlIIll = "jHeKVkgGIQZMJquYcQtiIBoVjDQALjbVSIdGkgyJiijaOgzKavDKxHqkYcOofCAqRZinYmtVsFIMDPN"
+saAxPUgBqyNglcghRmmFpoGIUsowFcykuabDHVYKIivBHwvXpdvOXGOnIsyWgfjktYNWokLygMvjfpn237 = "AczbbyWyBzYGdWBZnowVdFasyDvIesZPBHHjsNMTPeKcNGWPRwPCkQgHivXDDBwzycgvvzYnwToLXUi"
+AaAAAAAaAAAaAAaaAAAaAAAAAAaaaAAAAAAAaaAaaaAAAAaaaaaaAaaAaAAaaAAAAaaAAaaaAAaaAaaaaAAaaAAaaaaaAaAAaaAAaaaAAAAAaAAaAAaaAaAaAaaaaAAaAAaaaAaaaaaaAAaaAaAaAaAaAAAaAaAAAAaaAAaaaAaAAAAaAaaAaAAAaaAaaAaaaAAAaAAaAaAAAAaAAAaAAAAaaAAAaAaaAaaAaaAAAAaaaAA = 554
+j16311163690800507241 = 872
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP = 202
+a1631116369080108245 = 374
+s247 = "LkbVJINIfhzmbJpdrsMsvSoWxqOGlWQeBGvlUPEpZDrMVLpgXJZoRMuqYYYdMgccYdcepdGmBTLeFUG"
+Q249 = 575
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd = 376
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV = 249
+AaaaAAaaAAAaAAaAaAAAAAaAAAAaAAaaaAAaAaaAaAaAAaaaaaAAaaAAAAAAaaAAAAAAAaaaaaaAAAAaAAaAaAAAAaaAAaaaAAAAAaaaAaAaAAaaAaAaAaaaAaAaAAaAaaaAAAaaAaAaAaAaaaAaAaAAaAaaAaaAaAAAaaAAaaaaaaaAaAAAaAAaAAaAaAaAAAAaaaAAaaAaaAAAaaaaAAAaaaAAAAAaAaaAaaaAaaAaAaAaaaAaaAaAaaaaAAa = 578
+H1631116369080426257 = 731
+lvdMYtRqXDhVsbRaWewjcpSKgrvHgmCoZZKjjyXawOXoOBkQoPNbDnGMhVwpNXVZEtyAnMqkqoKbikU259 = 564
+P16311163690805097261 = 672
+lIllIIIlIlIIlIIIlllIIIlllIlllIIIlIlIlIllllIlIIIlIllIIIlIIlIIIIIlIIIIIIllIIIlIlIIIIIlIlIIllIIIlIIlIllllllllIlIllIlllllIlIlIllllIIIlllIIIIIlllllIIIIIIlllIIlIIllllIIlIIIlllIIIlIlllIIIIIlIIllllllIIlllIlIlllIIIIIlIlIlIIIlIllIlllIIlIIIIlIlllIlIlIlllIIIIIlIllIIIlIlIIIIl = 776
+s265 = 466
+NZuXgfoOkmdxeAUBjIzktORkGfjIkHioGKJcmjWiuSTMkCYjddFdngFKBJkTuXnQvLiSiZRiTkwGJcH267 = 540
+AAAAaAaAAaAaAaaaAaAAaaaAaaAAaAaAaaAaAAAaaaAAAaAaaaAaaAAAAAAAaAaaaaaaAAaaAaaAAAAaaaaAaAaaAaaAaaaAAaAaaaAAaaaaaAaAaaAAAaAaAAaaaAAAAAAaaaAAaAAaaaaaAAAAaaaaaAaAaAaAAAAaaaAAaAaAaAaAAaAaaaaAAaaaAAaAaAAaAAaaAaaAAAaAaaAaaaaAAaAaAaaAaaAAaAAaaaaAAaaaaaAaaAaaaaAaaAAAaAAAAAaAAaAAA = 485
+TvpcBoFTeSRHwTScAaSThtyonTVDULptcoRbrZzHFQHtOMQApisWhTIkktkkoqkKvdQUauvWarBJlau271 = "UrGhOyWeTdetAWQhvgfsNUFxaMXtHhnpSHzSJovNWhdKDyjcCOPcJzvdQdueHwKQLcOLCUbiruoqQPd"
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm = "WEqWMIkrKqLiDbKCDkAOuqufSKoCbhbeSsOdKWtvjMsjGgoAejtGguwwdPHfZTJYsNnTCeZecgpFJXm"
+w275 = 468
+llllIlIIIlIllIlIIIlIlIIIlIllIIIIlIlIlIlIlIlIIIllIllIIIllllllIllIlllIlIlllllIIIlIIIllIIIIIllllIlllllIIlIlllIIlIIlIIlIIIlIlIIIIIlllIllllIlllllllllIIIIlllIIIIIIIIlIlIlIlIlIIllllIlIIIlIIlIIlIlIlllIIIIIIlllIllIIllIlIIlllIlllIIlIlIlllIIIlIIIIIllIIlllllIllIllIIIllIIIIlIIlllIlllIlIlIl = 334
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC = 273
+vwXgUEqNsHXOzsPuOyrdFfCMqeSJMOEPGcZZPscgugTppjDxoXLzglGFhdDmCbEkxEfztryWqdLQMQI281 = 448
+llllIllllIIIIlIIlIIIIlIIlIIIIIIIIlllIlIllIlIlIIlIIIIlllllllIIIIIIIIllllllIllIlIllllIIIIIIlIlllllIlIIIllIIIIIIIlIIlllIIIIIIlllllllllllllllIlIIlIlIIlllIIlIllIlllIlIllllIIIIlIIIIlIIllIlIIlIIllIlIIllllIIllIllIllIllIIIIIllIlIIIlllIlllllIllIlIlIlllIIlIlllIlIIllIlIIIIlIIIllIIlIIIIllIllIIlI = "tAkOCrOKaBytEPbxTnGNeViZUNoGthiXdabZTodjszqivQZDaTxOBYMwZnTlrlaMlFmKAYiwWCSGQxZ"
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM = "XDfYvbvRaLGKmGpUuRkKTIodjgXQIVQCrtnmoxmaxXrqtshGdVstYlavMBYUjRXFiuxOvckQsQYbEld"
+g287 = "MnFXkiNbuegjcssfosIOXjfqeojVZyJQQMRCtKDRMgIsBcYrsTNtnAOxJKQIgBMPijttEDEBNiaLFKD"
+AaAAAAaaAaAAaAaAAAaaAaaaaAaAaAaaaaAAaAaAAAAaaAaaAaAaAaaAaaaAAaaaaAaaAaAaAAaAAaAAAAaAaAaAAaAaaAAaaaaAaAAaAAaAaaaaaAaaaaAAaaaaAaAAAaaaaAAaaaaaaaaAAaAaAAAAAAaaAaaAAAaaaAAaaAaaaAaaAaaaAAaAAAAaAAaAAAaAAAaAAaaAAAaAAaaaAAAaaAAaAaAAaaAaAAAaaAaaAAAAAAaaAaaaAaaAaAaAaaAAaaAaaAAaAaAAaaaAAaAAaaAAaaAaA = "QYdgnDDifHGSritiwQYuXdwtZefOIwpiqUZDBbJctogfFBihzXVjpVnBxHyoIaYyePUNPfnoNqPUQrt"
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP = "dQFLCGSAOTCgmQyMROMwyJNuRSnGcHZNNGJAaqGwFnQpsZbBGzQeriLIeIQPlluqCnJuCDGisiRFmAc"
+AaaAaaaAaAAAaAAAaAAAAAaaAAaaaAaaAAaaAAAaaAaaaaAaAaAaaAaAAaAaaaaaaaAAaaAAAAAAaaAaAAaAaAaAaaAAAaAAaaAaaAaAAaaaaaaAaAAAAAaaaAaaaAaAAaaaaAaAaAAaAaaAAAaaAaAAAaaAAaAAaAaAaaAaaAAAAaAaAAAaAAaaAAaaaAAaaAAaAaAaAaAaAaAAaaAAAaAaAAAaaAAaaAaAaAaaaAAaAAAAAaAaAAaaaaaaaAaaAaAaAAAaaaAAAAaAAaAAaaAAaAaAaaAaaAAaA = "smXCCGRVgOCirZreVSmYmfwYFLtXcrrRxwpAvaLOzUvGkuiGDJllzLHuPLciTfVPaappdtOOssENBdV"
+IlIlIlIlIIIIIIllIllIlIIlIIlIlIIlIllIlIlIllllIIllIlllIIlIIIIIIlIllllIlIlllIIlIlIIlIlllIlIlllIlllIllIIlllIlIllIlllIIlIIlIlIlIllIIllIlIIlIllllIlIllIIlIllIIlIllllIIIlIIlllIIllIIlIllllIIlllllIIlllIlllIlIlllIlIlIIlIlIIIllllIllIlIIlllIIllllIllIIIIllllIIIIlIllIIIlIllIlIIllllIIIIIlIllIIIIlllllIllIlIllIl = 588
+IIIlIIlIlllIlIlllllIllIllIIIIlIllllllIIllllIIIIllIlIlIIIIlIlIlIIIIIIIIIIlIlllIIlllIIlIlllIIllIIIllIllIIlIlIlIIIlIIIIlIIIIIIIIlllIIlIIIIlIllIIlllIllIllIllIlIlllllIIlIIIIlIllIllIlIIIIIIllIlIllIlIlIllIlIIlIllIIllIIlIIIllIlIIIllIIIllIlIIllIllIlIllIlIllIlIIIIIllIIlllIIllIlIlIlllIlIlIIIIIlIIIIlIlIIIIlI = 656
+x16311163690832913299 = "gCPjvRevVIpcAtdYLvdHKbROzAxZaUkgwthXLMcMfCrhcjDlsaVNVPbeHPHsxWTMgiSRDBcwNYdxRKG"
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP = 244
+aAAaaAAaAAAAaAaaAaAaAAAaAaAaAaaaAaAAAAaaaaaAAaaaAaaAAaaAaAaAaAaaaAaaaaAaaaAAaaAAAaaAAAaaaAAAaAAAaAAAAaAaaAAAaaAAAAAaaAAaAAAAaaAaaAAaAAAaaaAAaaaAaAAAaAaaAaaAAAAaAaaaaaaaaaaaaAAaAaAAAAAAaaaaaaAAaAAAAAaAaaAaAaAaAAAAaAAAaaAaaAaaAAAaAAAaAaAaAaaaAAaAAaaAAAaAAAaaAAAAAaAaAaAAAaAAaaAaAAAAAAaAaAAaAaAaaaaaAaaaaAa = 707
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ = "iSXbfiZadLiIQeqCBxrbuCwCOrckeoduZSBfnSXxbshbafIGgjIRLxCuPtZlmQuoTSGVBLtHgrVyKPm"
+T307 = "nDkKiieEEQFkdaFBcSiqqbfrWCEwjPyAEdPvupmoCUwKLvALPXPvFkSGGyhJwlvcOEKWoxDOrvYEFpj"
+AaAaaaAaaAaaAaaAAAaAAAAAaaAAaAaaAaaaAaaaAAaaaaaAaAaAAaAAAAAAAAAAAaaaAaaAaAaaaAaaaAaaAAAAAAAaaAAaaAAAaaAaAaaAaaAaAaaAAAAAaaaAaAaaAAaAaaAaAaAAAAAAaAaAaAaaaaaaAaaAAAAaAAAAaAaAaAAAaaaAAAaAAaaaAAAAAAAAaAaAaAaAaAaaaAaaAaAaaAAAAAAaAaaaAaAAAAAaaAAaaaaAAaaaaaaAAAAaAAaAAAaAAAaaAAAAAAAaAAAaAaaaaAaaaAAAaAaaaAaaAaAaaaaaA = "KciDRyUkpEnlRwYsBHwGtpalmgBBYVqpKmgCpFsnQuWZjkymxYIBpSeVaZLJpYhMPjJwauowrwzGsfJ"
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd = 318
+GbiZEnphwzRcvhLsTWGGCKQQOGYCOZMoQggaLxygelBHwzsAqTFXebfYtruCrpvGjJxsBylZYlnIqnK313 = 84
+aaaAAaAAaAAAaAaAAAaAaaAaaAaaaaaAaaaAAaaaaAAAAaAaaaAaAaaaaaaaAaAaAAaAAAAaAAaaaAaaaaaaaAaAaAAAaaAaaaaAaAaaaAaAAaAaAaAAAAAAaAaAAaAaaAaAaaAaAAaAaAAAAAAAAaAAaAaAaAAaaAAAAAaAaAAAAaAAaaaAAaAAAAAaAaAaAaAAaaaAaAAaAAaaAaAaAaAaAAaaaaaaaaAAAaAAaaAaAAaAaaAAAAAaaaaAaAaAAAaaaAAaaaaaAAaAAAaaaAAAaaAaAAAAaaaAAAAAaAaAaAaAaAAaAaAaaaA = 529
+Z16311163690843835317 = 370
+ZaBBTAXdptjAFTrddjxunhsrkrxcaSzuaXhJgrSvvPqGiirHxgRIgfHwdLzLZJdJaiXlogdPwFeHxFQ319 = 580
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII = "JLFaKAtFAaeWFbRRkElaMHotiSrAndBgRPgzJjnYcXONXeexEUZGbGAilXzVajUgjCXwMXOseWusBtB"
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW = 263
+c325 = "wCeausUQGmMrrNQHxFetYfDcEbgvKbOuhrBCcAIEQffgpYDBWMOnhukRYWjGeodfjzsYhvhtBScaXbC"
+XLJRyFoaaYMqiifZhCHsePaLvMnIARoglIsYHRAOAtutKxmoJuelKBFkTYlbSlNKuebHyWnCAixkTBp327 = "PxQjQLJhpwzvpIePTzyTcaRqpppJOUxKuLehjvDtUbTNmbWjcZeiGjZlGBCumzwjDCICPuLSZvpyzTO"
+w16311163690848532329 = "MvuAyUzZoKZdIfjhFXmQVECklomCSwgwPTpeHsFFQNnbBbgEvQkTJSTdIGPwDVQFavlYngjsgzUWZMt"
+e16311163690848985331 = 719
+aaAAAaaAaaaAAaaaaAaAAAAAaaaAAaaaaaAaAaAAaAaaAaAAaAaaAaAaaaaaAAAAAAaaAaAAAaAaaAAaAAAAAaaaaAAaaaaAaAaAAAaAAaaAAaAAAaaaAaAAaaaaaAAaaAAaaaAaaAAaAaaAAaaAaaaAAaaAAAAAaAAAAAaAaAAaaAaAAAAAAAaAaAaAaaAAaaAAAAAaAaaAAaaaAAaaaAaaAaaaAaAaAaaAAaaAAAaAaaAaaaAAaAAAaAAaAaaAAaAAaaAAAaAaaaAaaAaAaaaaaAaAAaAAaaAAAaaAaaaAAaaaaaAaaAaaAaaAAaaAAaaAAaAaAAaaA = 284
+N335 = "jQPEOrmAjTCjHkyRFCrwMjeKHLKRAmmmUeoqFkENlYrbrtLBeTqtjQMwFHOfhhaMylIJwoehURMPBqb"
+O16311163690852394337 = "tTjInByTEmuvmYtctvAimLnuWyUfIWlVWBKMYjrlOfQgAwFkdENZDuoQIQkbuZVGIPrdBkKrLrntzgs"
+IllIIIIllIlIlIIIIIlllIllIIllIlIIIIlIllIlIIIllIlIllIllIlIIlIlIlIllIIlllIllIIllIIIIIlIIIllIIlIIlIllllllIIlIIIllllllllllIIIllIIlIllllIlIlIlIIIlIllIlIlllIIlIIIllllIllIIIIIIlllIIIIIIlIIIIIIIllIIIIIIllIIIIIllIIIIllIlIlIlllIllllIIIIIlllIIllIlIlIIIIlllIlIIIIlIIlIIlllIIlIIlIllIlIlIIlIIlllIIllIIllIIlIIIIlIlIllIIlIllIIIIlIllIIIIIlIlIIlIlIIIllIIllll = "qqtUACltORMnsNKMTsoIZvNmzVLyQJuGjIdfJbMpiNoFuOembQivDrcEzwsYwIcdtrYfjCAmNpbvqXX"
+y341 = "QTaAnymCDNmlWrfRIUcFpXWPQILldMImumyJxrDdakaibSOdNmTgVLHJWCppQYiEGZrQZycnllnNgVe"
+W343 = "AeQXtYaUBuuerepKNLZRvwuGOjyaZPyZLVpitxDzMSPtZCfqVZIQEDftsDemfCIqDDfkZZjTwkFtvyL"
+n345 = "kBxHnjPknIZTdrEanDtOwuajwuFFpbCQqwceQPgefUXzfcGUkXhRYeUDLeNpLACKsWciUHuqNXxVrCH"
+mWiuZikUQuRxDZSMhoDAFKZaktaeJjFszoONtkgCliPqbFcDOKDlnLErJqauJSrIaEPqlHSxSZtAhpc347 = 536
+aAaAAaaaaaaaAaaaAaaaaaAaaaAaaAAAAaaaAaAaAaaaaAAAAAaAaaAaaAAaaAaAAaAaAAaaAAaAAaaaAaaaaAaAaaaAAAAaAaaAAAaaAaaaaAAaaaaAAaaaAAAaaaaAaAaAAaaaaaaAAaAAAaaaaAAaAAAAaAAAaAaAaAAaaAaAaAaAAaAaAaaAAaaAAaAaaaAAaAaAaAaAAAaAaAaAaAAaaaAAAaaaAAaAaaaaAaaAaAAAAaaaaAAaaaaAAAaaAAaAaaAAAaaAAaAAaaAAAaaaAaAaAAAaaaaaAAAaAaaaaAAAAaAaAAaAAaAaAAaAaaAaaAAAaAAaaAAAAAaAaaaaAAaAa = 200
+T351 = 206
