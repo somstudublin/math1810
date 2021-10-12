@@ -81,7 +81,7 @@ def a2 (O0O0000O00OO00000 ):#line:84
                 print ("I didn't understand that.")#line:134
                 continue #line:135
         return #line:137
-def a3_notlive (O0OO0OOOO000O0OO0 ):#line:146
+def a3 (O0OO0OOOO000O0OO0 ):#line:146
     global ps #line:148
     OOO0O0O00000O0O00 =".a3_counter.npy"#line:151
     O0OOOO00OOOO0O0OO =np .zeros (1 ,dtype ='int8,bool')#line:152
@@ -120,7 +120,7 @@ def a3_notlive (O0OO0OOOO000O0OO0 ):#line:146
                 print ("I didn't understand that.")#line:194
                 continue #line:195
         return #line:197
-def a4_notlive (OO0000O000OO0O0O0 ):#line:208
+def a4 (OO0000O000OO0O0O0 ):#line:208
         import random #line:210
         import requests #line:211
         global ps #line:213
@@ -179,7 +179,7 @@ def a4_notlive (OO0000O000OO0O0O0 ):#line:208
                                 print ("I didn't understand that.")#line:283
                                 continue #line:284
                 return #line:286
-def a5_notlive (O0000OOO0OOOO0000 ):#line:296
+def a5 (O0000OOO0OOOO0000 ):#line:296
         import random #line:298
         import requests #line:299
         global ps #line:301
@@ -238,7 +238,7 @@ def a5_notlive (O0000OOO0OOOO0000 ):#line:296
                                 print ("I didn't understand that.")#line:377
                                 continue #line:378
         return #line:380
-def a6_notlive (OO00OO0000O0O0OOO ):#line:389
+def a6 (OO00OO0000O0O0OOO ):#line:389
         import random #line:391
         import requests #line:392
         global ps #line:394
@@ -294,7 +294,7 @@ def a6_notlive (OO00OO0000O0O0OOO ):#line:389
                                 print ("I didn't understand that.")#line:468
                                 continue #line:469
         return #line:471
-def a7_notlive (O0O0000O00000O0O0 ):#line:481
+def a7 (O0O0000O00000O0O0 ):#line:481
         OO0OOO0000O00O000 =".a7_counter.npy"#line:485
         OO0O0O0O0000OOO0O =np .zeros (1 ,dtype ='int8,bool')#line:486
         def OO0OOOO00O0OOOOOO ():#line:488
@@ -353,7 +353,7 @@ def a7_notlive (O0O0000O00000O0O0 ):#line:481
                         OO00OO0000O00O000 =None #line:560
                         O0000OO0OO0000OOO =None #line:561
         return #line:563
-def a8_notlive (OOOOO0OO0OO0O0000 ):#line:573
+def a8 (OOOOO0OO0OO0O0000 ):#line:573
         O000O0O0O0OOO0000 =".a8_counter.npy"#line:577
         O0O00O000OO0O00O0 =np .zeros (1 ,dtype ='int8,bool')#line:578
         def OOO0O0O0OO0000000 ():#line:580
@@ -427,22 +427,22 @@ def a1_notlive ():#line:685
 def a2_notlive (OO0O0OOOOO0000OOO ):#line:695
         print ('This CA test is not currently live.')#line:696
         return #line:697
-def a3 (OOO00O00O0OOO0OOO ):#line:705
+def a3_notlive (OOO00O00O0OOO0OOO ):#line:705
         print ('This CA test is not currently live.')#line:706
         return #line:707
-def a4 (OO00O000O00OOO0O0 ):#line:715
+def a4_notlive (OO00O000O00OOO0O0 ):#line:715
         print ('This CA test is not currently live.')#line:716
         return #line:717
-def a5 (O0O00OO0O00OOOOOO ):#line:725
+def a5_notlive (O0O00OO0O00OOOOOO ):#line:725
         print ('This CA test is not currently live.')#line:726
         return #line:727
-def a6 (O0O0000OO0OO00O0O ):#line:735
+def a6_notlive (O0O0000OO0OO00O0O ):#line:735
         print ('This CA test is not currently live.')#line:736
         return #line:737
-def a7 ():#line:745
+def a7_notlive ():#line:745
         print ('This CA test is not currently live.')#line:746
         return #line:747
-def a8 (OO0OO0000OO000OOO ):#line:755
+def a8_notlive (OO0OO0000OO000OOO ):#line:755
         print ('This CA test is not currently live.')#line:756
         return #line:757
 def b1 ():#line:775
