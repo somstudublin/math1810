@@ -5,763 +5,788 @@ import time #line:4
 import os .path #line:5
 import getpass #line:6
 from IPython .display import Markdown ,display #line:7
-def pj (O0O00000OOOOOO00O ,O0O0O00OOOOOO000O ):#line:10
-        print ("\nPasswords may not be changed using this notebook at present.")#line:14
-ps =[]#line:18
-wd =''#line:19
-def a1 ():#line:36
-    global ps #line:38
-    OOO0OOO00OO0OO0OO =".a1_counter.npy"#line:41
-    OO0OOO0O0OOOO00OO =np .zeros (1 ,dtype ='int8,bool')#line:42
-    OOOO0OOOOOOOOO000 =0 #line:44
-    O0O0O0O00OO0OOO00 =ps [0 ]#line:45
-    OOO0000000O0OO0O0 =ps [1 ]#line:46
-    if (waiter ()):#line:48
-        while True :#line:49
-            try :#line:50
-                printmd ('**CA** (2%)')#line:51
-                print (O0O0O0O00OO0OOO00 ,"+",OOO0000000O0OO0O0 )#line:52
-                O0000OO0O00O0O00O =float (input ("Please enter your answer here: "))#line:53
-                OOOO00O0O0OO0OO0O =O0O0O0O00OO0OOO00 +OOO0000000O0OO0O0 #line:54
-                OOO00O0000OO0O0OO =np .isclose (O0000OO0O00O0O00O ,OOOO00O0O0OO0OO0O ,OOOO0OOOOOOOOO000 )#line:55
-                if OOO00O0000OO0O0OO :#line:56
-                    print ("Well done, right answer is ",OOOO00O0O0OO0OO0O )#line:57
-                else :#line:58
-                    print ("Not right yet. Take another look then run this cell again.")#line:59
-                OO0OOO0O0OOOO00OO =trycount (OOO0OOO00OO0OO0OO ,OOO00O0000OO0O0OO )#line:61
-                O0O00O0OO0O000O0O =100 -(OO0OOO0O0OOOO00OO [0 ]-1 )*10 #line:62
-                if OO0OOO0O0OOOO00OO [1 ]:#line:63
-                    print ("First success after ",OO0OOO0O0OOOO00OO [0 ]," tries, you have ",O0O00O0OO0O000O0O ,"% on this exercise.")#line:64
-                else :#line:65
-                    print ("You have had ",OO0OOO0O0OOOO00OO [0 ]," tries.")#line:66
-                    print ("If next try is accepted you will achieve ",O0O00O0OO0O000O0O -10 ,"% on this exercise.")#line:67
-                break #line:69
-            except ValueError :#line:71
-                print ("I didn't understand that.")#line:72
-                continue #line:73
-        return #line:75
-def a2 (OO000O0O00OOOOO0O ):#line:84
-    global ps #line:86
-    OOOOOO0O0O00000OO =".a2_counter.npy"#line:89
-    O00OOOOO000O0OO0O =np .zeros (1 ,dtype ='int8,bool')#line:90
-    O0000O00O0OOO0O00 =6 #line:93
-    O000OOOO00OOO0OO0 =7 #line:94
-    O0OOOOOO000OOOO0O =0 #line:96
-    OOO0O000O0000O000 =(ps [O0000O00O0OOO0O00 ])%6 +1 #line:98
-    OOOO00OOOO00OO000 =(ps [O000OOOO00OOO0OO0 ])%6 +1 #line:99
-    while OOO0O000O0000O000 +OOOO00OOOO00OO000 ==7 or OOO0O000O0000O000 ==OOOO00OOOO00OO000 :#line:100
-        OOOO00OOOO00OO000 +=1 #line:101
-        OOOO00OOOO00OO000 =OOOO00OOOO00OO000 %6 +1 #line:102
-    if (OO000O0O00OOOOO0O ):#line:104
-        printmd ('**CA** (2%)')#line:105
-        print ("Run your program (when you are happy it is working correctly) for a=",OOO0O000O0000O000 ," and b=",OOOO00OOOO00OO000 )#line:106
-        print ('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')#line:107
-        return #line:108
-    if (waiter ()):#line:110
-        while True :#line:111
-            try :#line:112
-                print ("Enter your program's result for a=",OOO0O000O0000O000 ," and b=",OOOO00OOOO00OO000 )#line:113
-                print ('(If you are not ready to enter an answer stop the kernel and go back to your program.)')#line:114
-                OO000O0OOOO0OO00O =float (input ("Please enter your answer here: "))#line:115
-                OO000OOOOO000O000 =(3 *(OOO0O000O0000O000 **3 *OOOO00OOOO00OO000 -OOO0O000O0000O000 *OOOO00OOOO00OO000 **3 ))%7 #line:116
-                OO0OOOOOOO0OOO0OO =np .isclose (OO000O0OOOO0OO00O ,OO000OOOOO000O000 ,O0OOOOOO000OOOO0O )#line:117
-                if OO0OOOOOOO0OOO0OO :#line:118
-                    print ("Well done, right answer is ",OO000OOOOO000O000 )#line:119
-                else :#line:120
-                    print ("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")#line:121
-                O00OOOOO000O0OO0O =trycount (OOOOOO0O0O00000OO ,OO0OOOOOOO0OOO0OO )#line:123
-                O00OOOOOO0OO0O0OO =100 -(O00OOOOO000O0OO0O [0 ]-1 )*10 #line:124
-                if O00OOOOO000O0OO0O [1 ]:#line:125
-                    print ("First success after ",O00OOOOO000O0OO0O [0 ]," tries, you have ",O00OOOOOO0OO0O0OO ,"% on this exercise.")#line:126
+def pj (O00OOOOOOOOOO00OO ,OO00OO0000000O000 ):#line:11
+        print ("\nPasswords may not be changed using this notebook at present.")#line:15
+ps =[]#line:19
+wd =''#line:20
+rid =0 #line:21
+encoff1 =34 #line:22
+encoff2 =567 #line:23
+def a1 ():#line:41
+    global ps #line:43
+    O0O0OOOO000O0O0OO =".a1_counter.npy"#line:46
+    O0O0O000O0000OO0O =np .zeros (1 ,dtype ='int8,bool')#line:47
+    OOO00OOO0000OOOO0 =0 #line:49
+    OO0O000000O00OO0O =ps [0 ]#line:50
+    O0000OOOOO0O000O0 =ps [1 ]#line:51
+    if (waiter ()):#line:53
+        while True :#line:54
+            try :#line:55
+                printmd ('**CA** (2%)')#line:56
+                print (OO0O000000O00OO0O ,"+",O0000OOOOO0O000O0 )#line:57
+                print ('tester')#line:58
+                O000O0OO0O0OOOOOO =float (input ("Please enter your answer here: "))#line:59
+                OO00000OO0OOOOO00 =OO0O000000O00OO0O +O0000OOOOO0O000O0 #line:60
+                OOO0O0OO00000000O =np .isclose (O000O0OO0O0OOOOOO ,OO00000OO0OOOOO00 ,OOO00OOO0000OOOO0 )#line:61
+                if OOO0O0OO00000000O :#line:62
+                    print ("Well done, right answer is ",OO00000OO0OOOOO00 )#line:63
+                else :#line:64
+                    print ("Not right yet. Take another look then run this cell again.")#line:65
+                O0O0O000O0000OO0O =trycount (O0O0OOOO000O0O0OO ,OOO0O0OO00000000O )#line:67
+                OO00OO0OO0OOOO00O =100 -(O0O0O000O0000OO0O [0 ]-1 )*10 #line:68
+                if O0O0O000O0000OO0O [1 ]:#line:69
+                    print ("First success after ",O0O0O000O0000OO0O [0 ]," tries, you have ",OO00OO0OO0OOOO00O ,"% on this exercise.")#line:70
+                    print ("Enter this code into Brightspace:\n\n",genenc (1 +encoff1 ,OO00OO0OO0OOOO00O +encoff2 ),'\n')#line:71
+                else :#line:72
+                    print ("You have had ",O0O0O000O0000OO0O [0 ]," tries.")#line:73
+                    print ("If next try is accepted you will achieve ",OO00OO0OO0OOOO00O -10 ,"% on this exercise.")#line:74
+                break #line:76
+            except ValueError :#line:78
+                print ("I didn't understand that.")#line:79
+                continue #line:80
+        return #line:82
+def a2_notlive (O0O00OO000OO000OO ):#line:91
+    global ps #line:93
+    O00O0O0OOOOO0O000 =".a2_counter.npy"#line:96
+    OOO0OO0OOO00OOO0O =np .zeros (1 ,dtype ='int8,bool')#line:97
+    O0OO00OOOOO00OO0O =6 #line:100
+    O000O00000OOO0O0O =7 #line:101
+    O0OO0OOOO0OOOOO0O =0 #line:103
+    O0O0O000O00OOO0OO =(ps [O0OO00OOOOO00OO0O ])%6 +1 #line:105
+    OOOO0000O00OOO0O0 =(ps [O000O00000OOO0O0O ])%6 +1 #line:106
+    while O0O0O000O00OOO0OO +OOOO0000O00OOO0O0 ==7 or O0O0O000O00OOO0OO ==OOOO0000O00OOO0O0 :#line:107
+        OOOO0000O00OOO0O0 +=1 #line:108
+        OOOO0000O00OOO0O0 =OOOO0000O00OOO0O0 %6 +1 #line:109
+    if (O0O00OO000OO000OO ):#line:111
+        printmd ('**CA** (2%)')#line:112
+        print ("Run your program (when you are happy it is working correctly) for a=",O0O0O000O00OOO0OO ," and b=",OOOO0000O00OOO0O0 )#line:113
+        print ('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')#line:114
+        return #line:115
+    if (waiter ()):#line:117
+        while True :#line:118
+            try :#line:119
+                print ("Enter your program's result for a=",O0O0O000O00OOO0OO ," and b=",OOOO0000O00OOO0O0 )#line:120
+                print ('(If you are not ready to enter an answer stop the kernel and go back to your program.)')#line:121
+                OO00OOO00O0O0O000 =float (input ("Please enter your answer here: "))#line:122
+                O0O000000000OO0O0 =(3 *(O0O0O000O00OOO0OO **3 *OOOO0000O00OOO0O0 -O0O0O000O00OOO0OO *OOOO0000O00OOO0O0 **3 ))%7 #line:123
+                O0OOOO0OO000O0OOO =np .isclose (OO00OOO00O0O0O000 ,O0O000000000OO0O0 ,O0OO0OOOO0OOOOO0O )#line:124
+                if O0OOOO0OO000O0OOO :#line:125
+                    print ("Well done, right answer is ",O0O000000000OO0O0 )#line:126
                 else :#line:127
-                    print ("You have had ",O00OOOOO000O0OO0O [0 ]," tries.")#line:128
-                    print ("If next try is accepted you will achieve ",O00OOOOOO0OO0O0OO -10 ,"% on this exercise.")#line:129
-                break #line:131
-            except ValueError :#line:133
-                print ("I didn't understand that.")#line:134
-                continue #line:135
-        return #line:137
-def a3 (O00O0OO000OO0O0OO ):#line:146
-    global ps #line:148
-    O0O0O0OOO00O0OO0O =".a3_counter.npy"#line:151
-    O00000O0OO0OO0OOO =np .zeros (1 ,dtype ='int8,bool')#line:152
-    OOOOO0000OOOOO0O0 =23 #line:155
-    O0OOOO0O00O000O0O =24 #line:156
-    O000OO0O00O000OOO =(ps [OOOOO0000OOOOO0O0 ])%6 +1 #line:157
-    OO0OOOOOO0OOOOOO0 =(ps [O0OOOO0O00O000O0O ])%6 +1 #line:158
-    OOOOOOO0O00OO00O0 =0 #line:160
-    O000OO0O00O000OOO =10 *O000OO0O00O000OOO +OO0OOOOOO0OOOOOO0 ;#line:162
-    if (O00O0OO000OO0O0OO ):#line:164
-        printmd ('**CA** (6%)')#line:165
-        print ("Run your program for ",O000OO0O00O000OOO ,"people")#line:166
-        print ('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')#line:167
-        return #line:168
-    if (waiter ()):#line:170
-        while True :#line:171
-            try :#line:172
-                print ("Enter your program's result for",O000OO0O00O000OOO ,"people")#line:173
-                print ('(If you are not ready to enter an answer stop the kernel and go back to your program.)')#line:174
-                OOOO0O000O0O0000O =float (input ("Please enter your answer here: "))#line:175
-                O0OOOO000O00O000O =O000OO0O00O000OOO +2 *O000OO0O00O000OOO +2 *O000OO0O00O000OOO +10 *O000OO0O00O000OOO #line:176
-                OOO0O000O00O0O000 =np .isclose (OOOO0O000O0O0000O ,O0OOOO000O00O000O ,OOOOOOO0O00OO00O0 )#line:177
-                if OOO0O000O00O0O000 :#line:178
-                    print ("Well done, right answer is ",O0OOOO000O00O000O )#line:179
-                else :#line:180
-                    print ("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")#line:181
-                O00000O0OO0OO0OOO =trycount (O0O0O0OOO00O0OO0O ,OOO0O000O00O0O000 )#line:183
-                O0O0OOOO0OO0O00OO =100 -(O00000O0OO0OO0OOO [0 ]-1 )*10 #line:184
-                if O00000O0OO0OO0OOO [1 ]:#line:185
-                    print ("First success after ",O00000O0OO0OO0OOO [0 ]," tries, you have ",O0O0OOOO0OO0O00OO ,"% on this exercise.")#line:186
+                    print ("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")#line:128
+                OOO0OO0OOO00OOO0O =trycount (O00O0O0OOOOO0O000 ,O0OOOO0OO000O0OOO )#line:130
+                OOO00OO00OOOOOOOO =100 -(OOO0OO0OOO00OOO0O [0 ]-1 )*10 #line:131
+                if OOO0OO0OOO00OOO0O [1 ]:#line:132
+                    print ("First success after ",OOO0OO0OOO00OOO0O [0 ]," tries, you have ",OOO00OO00OOOOOOOO ,"% on this exercise.")#line:133
+                else :#line:134
+                    print ("You have had ",OOO0OO0OOO00OOO0O [0 ]," tries.")#line:135
+                    print ("If next try is accepted you will achieve ",OOO00OO00OOOOOOOO -10 ,"% on this exercise.")#line:136
+                break #line:138
+            except ValueError :#line:140
+                print ("I didn't understand that.")#line:141
+                continue #line:142
+        return #line:144
+def a3_notlive (OOOOO0000OO0OOOOO ):#line:153
+    global ps #line:155
+    O0O0OO00OOOO0OO0O =".a3_counter.npy"#line:158
+    O000000000O00000O =np .zeros (1 ,dtype ='int8,bool')#line:159
+    OOOOOO00OO00O00OO =23 #line:162
+    O00OO00O0O0000OOO =24 #line:163
+    OOOO0O00O0OOOO0OO =(ps [OOOOOO00OO00O00OO ])%6 +1 #line:164
+    OOOOO00000000OO0O =(ps [O00OO00O0O0000OOO ])%6 +1 #line:165
+    O00000O00O0000000 =0 #line:167
+    OOOO0O00O0OOOO0OO =10 *OOOO0O00O0OOOO0OO +OOOOO00000000OO0O ;#line:169
+    if (OOOOO0000OO0OOOOO ):#line:171
+        printmd ('**CA** (6%)')#line:172
+        print ("Run your program for ",OOOO0O00O0OOOO0OO ,"people")#line:173
+        print ('Once you have the result output by your program, run the next cell below and enter your answer in the dialogue box.')#line:174
+        return #line:175
+    if (waiter ()):#line:177
+        while True :#line:178
+            try :#line:179
+                print ("Enter your program's result for",OOOO0O00O0OOOO0OO ,"people")#line:180
+                print ('(If you are not ready to enter an answer stop the kernel and go back to your program.)')#line:181
+                O000OO00O0000OOOO =float (input ("Please enter your answer here: "))#line:182
+                O00O0OOOOOOO0OO00 =OOOO0O00O0OOOO0OO +2 *OOOO0O00O0OOOO0OO +2 *OOOO0O00O0OOOO0OO +10 *OOOO0O00O0OOOO0OO #line:183
+                OO0OOO00O0OO0000O =np .isclose (O000OO00O0000OOOO ,O00O0OOOOOOO0OO00 ,O00000O00O0000000 )#line:184
+                if OO0OOO00O0OO0000O :#line:185
+                    print ("Well done, right answer is ",O00O0OOOOOOO0OO00 )#line:186
                 else :#line:187
-                    print ("You have had ",O00000O0OO0OO0OOO [0 ]," tries.")#line:188
-                    print ("If next try is accepted you will achieve ",O0O0OOOO0OO0O00OO -10 ,"% on this exercise.")#line:189
-                break #line:191
-            except ValueError :#line:193
-                print ("I didn't understand that.")#line:194
-                continue #line:195
-        return #line:197
-def a4 (O0O0O0O0OO00OO0OO ):#line:208
-        import random #line:210
-        import requests #line:211
-        global ps #line:213
-        global wd #line:214
-        O0O000O0OOO0OO000 =".a4_counter.npy"#line:217
-        O000O000O00OOOO00 =np .zeros (1 ,dtype ='int8,bool')#line:218
-        OO0OOOO000O000OO0 =60 #line:221
-        O00OO000O0O0O00O0 =61 #line:222
-        OOOOOOO0OOO0O0OOO =62 #line:223
-        O0000OOO0000OO0O0 =63 #line:224
-        O00O0O0000000O0O0 =64 #line:225
-        O0OOO000OO0O000O0 =0 #line:228
-        if (O0O0O0O0OO00OO0OO ):#line:230
-                O0OOOO00O00O0OOOO ="https://users.cs.duke.edu/~ola/ap/linuxwords"#line:232
-                OO00O0O000OO0OO0O =requests .get (O0OOOO00O00O0OOOO )#line:234
-                O00OOOO0OOOOO0O0O =OO00O0O000OO0OO0O .content .splitlines ()#line:235
-                random .seed (10 *ps [62 ]+ps [63 ])#line:236
-                OOOO0O0O0O00O0000 =4 +(10 *ps [64 ]+ps [65 ])%4 #line:237
-                O0O00O0000000O00O =True #line:238
-                while O0O00O0000000O00O :#line:239
-                        O00O0O0OOO00O0OO0 =O00OOOO0OOOOO0O0O [random .randint (0 ,len (O00OOOO0OOOOO0O0O )-1 )].decode ("utf-8")#line:240
-                        if len (O00O0O0OOO00O0OO0 )>7 and len (O00O0O0OOO00O0OO0 )<14 and O00O0O0OOO00O0OO0 [0 ].islower ():#line:242
-                                O0O00O0000000O00O =False #line:243
-                                for O0OO000OOO00OOO0O in O00O0O0OOO00O0OO0 :#line:244
-                                        if chr (ord (O0OO000OOO00OOO0O )+OOOO0O0O0O00O0000 )>'z':#line:245
-                                                O0O00O0000000O00O =True #line:246
-                OOO000000OO0OOO0O =len (O00O0O0OOO00O0OO0 )#line:248
-                O00000O00O000O00O =''#line:249
-                for OO00OO0000OO0O0O0 in range (0 ,OOO000000OO0OOO0O ):#line:250
-                        O00000O00O000O00O +=chr (ord (O00O0O0OOO00O0OO0 [OO00OO0000OO0O0O0 ])+OOOO0O0O0O00O0000 )#line:252
-                print ('Your encoded word is',O00000O00O000O00O )#line:254
-                print ('Write your program in the cell below this one.\n')#line:255
-                print ('When you have decoded the word (it should be a real word if you are correct),\n','run the CA cell underneath and enter the word into the dialogue box.')#line:257
-                wd =O00O0O0OOO00O0OO0 #line:258
-                return #line:259
-        if (waiter ()):#line:261
-                while True :#line:262
-                        try :#line:263
-                                printmd ('**CA** (6%)')#line:264
-                                OO0O00O0OO00OOO0O =str (input ("Enter your DECODED word here: "))#line:265
-                                OO0O0O000OOO0O00O =wd #line:266
-                                O0OO000OOOOOO0O00 =OO0O00O0OO00OOO0O ==OO0O0O000OOO0O00O #line:267
-                                if O0OO000OOOOOO0O00 :#line:268
-                                        print ("Well done, right answer is ",OO0O0O000OOO0O00O )#line:269
-                                else :#line:270
-                                        print ("Not right yet. Take another look then run this cell again.")#line:271
-                                O000O000O00OOOO00 =trycount (O0O000O0OOO0OO000 ,O0OO000OOOOOO0O00 )#line:273
-                                OO0000000000O00O0 =100 -(O000O000O00OOOO00 [0 ]-1 )*10 #line:274
-                                if O000O000O00OOOO00 [1 ]:#line:275
-                                        print ("First success after ",O000O000O00OOOO00 [0 ]," tries, you have ",OO0000000000O00O0 ,"% on this exercise.")#line:276
+                    print ("Not right yet. Take another look then run this cell again. (Make sure you are working with integers!)")#line:188
+                O000000000O00000O =trycount (O0O0OO00OOOO0OO0O ,OO0OOO00O0OO0000O )#line:190
+                O0OO00OOO0000OO00 =100 -(O000000000O00000O [0 ]-1 )*10 #line:191
+                if O000000000O00000O [1 ]:#line:192
+                    print ("First success after ",O000000000O00000O [0 ]," tries, you have ",O0OO00OOO0000OO00 ,"% on this exercise.")#line:193
+                else :#line:194
+                    print ("You have had ",O000000000O00000O [0 ]," tries.")#line:195
+                    print ("If next try is accepted you will achieve ",O0OO00OOO0000OO00 -10 ,"% on this exercise.")#line:196
+                break #line:198
+            except ValueError :#line:200
+                print ("I didn't understand that.")#line:201
+                continue #line:202
+        return #line:204
+def a4_notlive (O0OO0OO0O0000OOO0 ):#line:215
+        import random #line:217
+        import requests #line:218
+        global ps #line:220
+        global wd #line:221
+        OO0OO00O0OO00OO00 =".a4_counter.npy"#line:224
+        OOO0OO0OOOOO0OOO0 =np .zeros (1 ,dtype ='int8,bool')#line:225
+        O00OO0OO00OOO0O0O =60 #line:228
+        O00O0O000O0O0OO0O =61 #line:229
+        OO0000O0O00OO0OO0 =62 #line:230
+        OOO000O000O0OOOO0 =63 #line:231
+        O0OO0O000OO0O000O =64 #line:232
+        OOO0OO00OOO0O0OO0 =0 #line:235
+        if (O0OO0OO0O0000OOO0 ):#line:237
+                OO0OO00O0OO00O0OO ="https://users.cs.duke.edu/~ola/ap/linuxwords"#line:239
+                OOO0O0000OOO0OOOO =requests .get (OO0OO00O0OO00O0OO )#line:241
+                OOO00OOOOOOOO0O0O =OOO0O0000OOO0OOOO .content .splitlines ()#line:242
+                random .seed (10 *ps [62 ]+ps [63 ])#line:243
+                O000O00000OOO0OOO =4 +(10 *ps [64 ]+ps [65 ])%4 #line:244
+                OOOO000O0O000OO00 =True #line:245
+                while OOOO000O0O000OO00 :#line:246
+                        O0O0OOOO0O0OOOOOO =OOO00OOOOOOOO0O0O [random .randint (0 ,len (OOO00OOOOOOOO0O0O )-1 )].decode ("utf-8")#line:247
+                        if len (O0O0OOOO0O0OOOOOO )>7 and len (O0O0OOOO0O0OOOOOO )<14 and O0O0OOOO0O0OOOOOO [0 ].islower ():#line:249
+                                OOOO000O0O000OO00 =False #line:250
+                                for OO0O0O0OO00O00OOO in O0O0OOOO0O0OOOOOO :#line:251
+                                        if chr (ord (OO0O0O0OO00O00OOO )+O000O00000OOO0OOO )>'z':#line:252
+                                                OOOO000O0O000OO00 =True #line:253
+                OOOO0OOOO00OOOO0O =len (O0O0OOOO0O0OOOOOO )#line:255
+                OO0000O0O0OO0O0OO =''#line:256
+                for OO00O0OO00OO00O0O in range (0 ,OOOO0OOOO00OOOO0O ):#line:257
+                        OO0000O0O0OO0O0OO +=chr (ord (O0O0OOOO0O0OOOOOO [OO00O0OO00OO00O0O ])+O000O00000OOO0OOO )#line:259
+                print ('Your encoded word is',OO0000O0O0OO0O0OO )#line:261
+                print ('Write your program in the cell below this one.\n')#line:262
+                print ('When you have decoded the word (it should be a real word if you are correct),\n','run the CA cell underneath and enter the word into the dialogue box.')#line:264
+                wd =O0O0OOOO0O0OOOOOO #line:265
+                return #line:266
+        if (waiter ()):#line:268
+                while True :#line:269
+                        try :#line:270
+                                printmd ('**CA** (6%)')#line:271
+                                OO00O0O0OOO00O00O =str (input ("Enter your DECODED word here: "))#line:272
+                                OOOOOO0O0OO0OO000 =wd #line:273
+                                O0OO0O0O0O00O0O00 =OO00O0O0OOO00O00O ==OOOOOO0O0OO0OO000 #line:274
+                                if O0OO0O0O0O00O0O00 :#line:275
+                                        print ("Well done, right answer is ",OOOOOO0O0OO0OO000 )#line:276
                                 else :#line:277
-                                        print ("You have had ",O000O000O00OOOO00 [0 ]," tries.")#line:278
-                                        print ("If next try is accepted you will achieve ",OO0000000000O00O0 -10 ,"% on this exercise.")#line:279
-                                break #line:280
-                        except ValueError :#line:282
-                                print ("I didn't understand that.")#line:283
-                                continue #line:284
-                return #line:286
-def a5 (O00O00OO0O0OOOOOO ):#line:296
-        import random #line:298
-        import requests #line:299
-        global ps #line:301
-        global P0 #line:302
-        OO00OOOO0OO0O0O0O =".a5_counter.npy"#line:306
-        O00OOO0O000O0OOO0 =np .zeros (1 ,dtype ='int8,bool')#line:307
-        OOOOO0000000OOOOO =70 #line:310
-        O0OO00OO00000OOOO =71 #line:311
-        O0000OOO0O0O000OO =72 #line:312
-        OO0OO0OOO0O0O0O00 =73 #line:313
-        OOO0OO0000OOOOO00 =74 #line:314
-        O0O00000O0O00O0O0 =0 #line:317
-        if (O00O00OO0O0OOOOOO ):#line:319
-                P0 =[]#line:320
-                OO00O000O0OOO0OOO =7 +(10 *ps [OOOOO0000000OOOOO ]+ps [O0OO00OO00000OOOO ])%4 #line:321
-                for OO00000OOOOOOO0OO in range (OO00O000O0OOO0OOO ):#line:322
-                        P0 .append (max (0 ,ps [O0000OOO0O0O000OO +OO00000OOOOOOO0OO ]-1 ))#line:323
-                print ('Run your program for the list below:\n',P0 )#line:324
-                print ('Run the next cell and copy and paste your result, as a list of the same length, into the dialogue box.')#line:326
-        elif (waiter ()):#line:328
-                while True :#line:329
-                        try :#line:330
-                                printmd ('**CA** (6%)')#line:333
-                                OO0OO00OO0OO000OO =eval (input ("Enter your list here: "))#line:334
-                                OO0OOOO0OO0O0000O =3 #line:339
-                                OOOOOO000OOOO000O =P0 .copy ()#line:340
-                                OOOOOO000OOOO000O .append (0 )#line:341
-                                print (OOOOOO000OOOO000O )#line:342
-                                OO00O000O0OOO0OOO =len (P0 )#line:343
-                                for O0OO0O0OOO00O00O0 in range (OO0OOOO0OO0O0000O ):#line:344
-                                        for OO00000OOOOOOO0OO in range (OO00O000O0OOO0OOO ):#line:345
-                                                OOOOOO000OOOO000O [OO00000OOOOOOO0OO ]=OOOOOO000OOOO000O [OO00000OOOOOOO0OO +1 ]*(OO00000OOOOOOO0OO +1 )#line:347
-                                OOOOOO000OOOO000O .pop ()#line:348
-                                OO00OO000OO00O0O0 =OOOOOO000OOOO000O #line:351
-                                if not type (OO0OO00OO0OO000OO )==type (OO00OO000OO00O0O0 ):#line:353
-                                        print ('You need to enter answer as a list (not counted as an attempt).')#line:354
-                                elif not len (OO0OO00OO0OO000OO )==len (OO00OO000OO00O0O0 ):#line:355
-                                        print ('You need to enter answer as list of same length (not counted as an attempt).')#line:356
-                                else :#line:357
-                                        OO0OO00OO0OO00OOO =OO0OO00OO0OO000OO ==OO00OO000OO00O0O0 #line:358
-                                        if OO0OO00OO0OO00OOO :#line:359
-                                                print ("Well done, right answer is ",OO00OO000OO00O0O0 )#line:360
-                                        else :#line:361
-                                                print ("Not right yet. Take another look then run this cell again.")#line:362
-                                        O00OOO0O000O0OOO0 =trycount (OO00OOOO0OO0O0O0O ,OO0OO00OO0OO00OOO )#line:364
-                                        OOO0O0000O0O0OO00 =100 -(O00OOO0O000O0OOO0 [0 ]-1 )*10 #line:365
-                                        if O00OOO0O000O0OOO0 [1 ]:#line:366
-                                                print ("First success after ",O00OOO0O000O0OOO0 [0 ]," tries, you have ",OOO0O0000O0O0OO00 ,"% on this exercise.")#line:367
+                                        print ("Not right yet. Take another look then run this cell again.")#line:278
+                                OOO0OO0OOOOO0OOO0 =trycount (OO0OO00O0OO00OO00 ,O0OO0O0O0O00O0O00 )#line:280
+                                O000OO000OO0O000O =100 -(OOO0OO0OOOOO0OOO0 [0 ]-1 )*10 #line:281
+                                if OOO0OO0OOOOO0OOO0 [1 ]:#line:282
+                                        print ("First success after ",OOO0OO0OOOOO0OOO0 [0 ]," tries, you have ",O000OO000OO0O000O ,"% on this exercise.")#line:283
+                                else :#line:284
+                                        print ("You have had ",OOO0OO0OOOOO0OOO0 [0 ]," tries.")#line:285
+                                        print ("If next try is accepted you will achieve ",O000OO000OO0O000O -10 ,"% on this exercise.")#line:286
+                                break #line:287
+                        except ValueError :#line:289
+                                print ("I didn't understand that.")#line:290
+                                continue #line:291
+                return #line:293
+def a5_notlive (O0000OOO0OOO00OO0 ):#line:303
+        import random #line:305
+        import requests #line:306
+        global ps #line:308
+        global P0 #line:309
+        OO00OO00O0OOOOOOO =".a5_counter.npy"#line:313
+        O0OO0OO00OOOOO000 =np .zeros (1 ,dtype ='int8,bool')#line:314
+        OO0OOO00000O0000O =70 #line:317
+        OOO000000O000O00O =71 #line:318
+        O000O0OOOOO00OOOO =72 #line:319
+        OO0O0O000O0OO000O =73 #line:320
+        OOOOOOO0OOOO00OO0 =74 #line:321
+        OO00000OOOOOOOO0O =0 #line:324
+        if (O0000OOO0OOO00OO0 ):#line:326
+                P0 =[]#line:327
+                O0OOO0OOOO0OOOO00 =7 +(10 *ps [OO0OOO00000O0000O ]+ps [OOO000000O000O00O ])%4 #line:328
+                for O0OOO0OO00O000OO0 in range (O0OOO0OOOO0OOOO00 ):#line:329
+                        P0 .append (max (0 ,ps [O000O0OOOOO00OOOO +O0OOO0OO00O000OO0 ]-1 ))#line:330
+                print ('Run your program for the list below:\n',P0 )#line:331
+                print ('Run the next cell and copy and paste your result, as a list of the same length, into the dialogue box.')#line:333
+        elif (waiter ()):#line:335
+                while True :#line:336
+                        try :#line:337
+                                printmd ('**CA** (6%)')#line:340
+                                O0O00000O0O00OO0O =eval (input ("Enter your list here: "))#line:341
+                                OOO0OOO0000000O0O =3 #line:346
+                                OOO0OOOO00OO00O0O =P0 .copy ()#line:347
+                                OOO0OOOO00OO00O0O .append (0 )#line:348
+                                print (OOO0OOOO00OO00O0O )#line:349
+                                O0OOO0OOOO0OOOO00 =len (P0 )#line:350
+                                for OO00OOOO0O0O0OO00 in range (OOO0OOO0000000O0O ):#line:351
+                                        for O0OOO0OO00O000OO0 in range (O0OOO0OOOO0OOOO00 ):#line:352
+                                                OOO0OOOO00OO00O0O [O0OOO0OO00O000OO0 ]=OOO0OOOO00OO00O0O [O0OOO0OO00O000OO0 +1 ]*(O0OOO0OO00O000OO0 +1 )#line:354
+                                OOO0OOOO00OO00O0O .pop ()#line:355
+                                OOO00000O0OO00O00 =OOO0OOOO00OO00O0O #line:358
+                                if not type (O0O00000O0O00OO0O )==type (OOO00000O0OO00O00 ):#line:360
+                                        print ('You need to enter answer as a list (not counted as an attempt).')#line:361
+                                elif not len (O0O00000O0O00OO0O )==len (OOO00000O0OO00O00 ):#line:362
+                                        print ('You need to enter answer as list of same length (not counted as an attempt).')#line:363
+                                else :#line:364
+                                        O0O000OO000O0O00O =O0O00000O0O00OO0O ==OOO00000O0OO00O00 #line:365
+                                        if O0O000OO000O0O00O :#line:366
+                                                print ("Well done, right answer is ",OOO00000O0OO00O00 )#line:367
                                         else :#line:368
-                                                print ("You have had ",O00OOO0O000O0OOO0 [0 ]," tries.")#line:369
-                                                print ("If next try is accepted you will achieve ",OOO0O0000O0O0OO00 -10 ,"% on this exercise.")#line:370
-                                        break #line:371
-                                OOOOOO000OOOO000O =None #line:374
-                                OO00OO000OO00O0O0 =None #line:375
-                        except ValueError :#line:376
-                                print ("I didn't understand that.")#line:377
-                                continue #line:378
-        return #line:380
-def a6 (OOO0O0O000OOO0O0O ):#line:389
-        import random #line:391
-        import requests #line:392
-        global ps #line:394
-        global P0 #line:395
-        OOOOO0OOOO0OOO0O0 =".a6_counter.npy"#line:399
-        O0OO0000OOOOO000O =np .zeros (1 ,dtype ='int8,bool')#line:400
-        O00O0O00O0000000O =11 #line:403
-        OOO0OOOOO0OO0OO0O =16 #line:404
-        OOO00OOOOO0O0OO0O =7 #line:405
-        OOOO0OO00O00OO0O0 =33 #line:406
-        O0O0000O0OOOOO00O =21 #line:407
-        OO000000OOOOOOOOO =0 #line:410
-        if (OOO0O0O000OOO0O0O ):#line:412
-                OO0OO0OOO000OO0O0 =ps [O00O0O00O0000000O ]+ps [OOO0OOOOO0OO0OO0O ]+ps [OOO00OOOOO0O0OO0O ]+ps [OOOO0OO00O00OO0O0 ]+ps [O0O0000O0OOOOO00O ]#line:413
-                random .seed (OO0OO0OOO000OO0O0 )#line:414
-                P0 =random .randint (1000 ,2000 )#line:415
-                print ('Run your program to obtain the stopping time for the value:\n',P0 )#line:416
-                print ('Run the next cell and enter the stopping time into the dialogue box.')#line:418
-        elif (waiter ()):#line:420
-                while True :#line:421
-                        try :#line:422
-                                printmd ('**CA** (6%)')#line:425
-                                OOO0OOO0O00O0OOO0 =eval (input ("Enter your stopping number here: "))#line:426
-                                O000OOO0O0OOOO0OO =P0 #line:430
-                                O0000O0OOO0OO0000 =[O000OOO0O0OOOO0OO ]#line:431
-                                while not O000OOO0O0OOOO0OO ==1 :#line:432
-                                        if O000OOO0O0OOOO0OO %2 :#line:433
-                                                O000OOO0O0OOOO0OO =3 *O000OOO0O0OOOO0OO +1 #line:434
-                                        else :#line:435
-                                                O000OOO0O0OOOO0OO =O000OOO0O0OOOO0OO //2 #line:436
-                                        O0000O0OOO0OO0000 .append (O000OOO0O0OOOO0OO )#line:437
-                                OO0OO00OO0O00OOO0 =len (O0000O0OOO0OO0000 )#line:438
-                                O00OO0OOO0OO0O0O0 =OO0OO00OO0O00OOO0 #line:442
-                                if not type (OOO0OOO0O00O0OOO0 )==type (O00OO0OOO0OO0O0O0 ):#line:444
-                                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:445
-                                else :#line:448
-                                        O000OO0OOO0OOOO0O =OOO0OOO0O00O0OOO0 ==O00OO0OOO0OO0O0O0 #line:449
-                                        if O000OO0OOO0OOOO0O :#line:450
-                                                print ("Well done, right answer is ",O00OO0OOO0OO0O0O0 )#line:451
-                                        else :#line:452
-                                                print ("Not right yet. Take another look then run this cell again.")#line:453
-                                        O0OO0000OOOOO000O =trycount (OOOOO0OOOO0OOO0O0 ,O000OO0OOO0OOOO0O )#line:455
-                                        O0O00000OO000OOOO =100 -(O0OO0000OOOOO000O [0 ]-1 )*10 #line:456
-                                        if O0OO0000OOOOO000O [1 ]:#line:457
-                                                print ("First success after ",O0OO0000OOOOO000O [0 ]," tries, you have ",O0O00000OO000OOOO ,"% on this exercise.")#line:458
+                                                print ("Not right yet. Take another look then run this cell again.")#line:369
+                                        O0OO0OO00OOOOO000 =trycount (OO00OO00O0OOOOOOO ,O0O000OO000O0O00O )#line:371
+                                        O00O0O00OO0OOOO00 =100 -(O0OO0OO00OOOOO000 [0 ]-1 )*10 #line:372
+                                        if O0OO0OO00OOOOO000 [1 ]:#line:373
+                                                print ("First success after ",O0OO0OO00OOOOO000 [0 ]," tries, you have ",O00O0O00OO0OOOO00 ,"% on this exercise.")#line:374
+                                        else :#line:375
+                                                print ("You have had ",O0OO0OO00OOOOO000 [0 ]," tries.")#line:376
+                                                print ("If next try is accepted you will achieve ",O00O0O00OO0OOOO00 -10 ,"% on this exercise.")#line:377
+                                        break #line:378
+                                OOO0OOOO00OO00O0O =None #line:381
+                                OOO00000O0OO00O00 =None #line:382
+                        except ValueError :#line:383
+                                print ("I didn't understand that.")#line:384
+                                continue #line:385
+        return #line:387
+def a6_notlive (OO0000OOO000000OO ):#line:396
+        import random #line:398
+        import requests #line:399
+        global ps #line:401
+        global P0 #line:402
+        O0O0O0000OO00000O =".a6_counter.npy"#line:406
+        OO0OO0OOO00OOO00O =np .zeros (1 ,dtype ='int8,bool')#line:407
+        O0O00O00O0OO00OOO =11 #line:410
+        OOO000OOO00OO00OO =16 #line:411
+        O00OO0OO00O0O0OO0 =7 #line:412
+        OOOO0O00O0O0OOOOO =33 #line:413
+        O0O0O00O0O0OOO000 =21 #line:414
+        OOOO0O0OOO000OOO0 =0 #line:417
+        if (OO0000OOO000000OO ):#line:419
+                OOOOOOOO0OOO0O000 =ps [O0O00O00O0OO00OOO ]+ps [OOO000OOO00OO00OO ]+ps [O00OO0OO00O0O0OO0 ]+ps [OOOO0O00O0O0OOOOO ]+ps [O0O0O00O0O0OOO000 ]#line:420
+                random .seed (OOOOOOOO0OOO0O000 )#line:421
+                P0 =random .randint (1000 ,2000 )#line:422
+                print ('Run your program to obtain the stopping time for the value:\n',P0 )#line:423
+                print ('Run the next cell and enter the stopping time into the dialogue box.')#line:425
+        elif (waiter ()):#line:427
+                while True :#line:428
+                        try :#line:429
+                                printmd ('**CA** (6%)')#line:432
+                                O0OO0O000OO0OOO0O =eval (input ("Enter your stopping number here: "))#line:433
+                                OO0O00000O0O00O00 =P0 #line:437
+                                OO00000O000OO0OO0 =[OO0O00000O0O00O00 ]#line:438
+                                while not OO0O00000O0O00O00 ==1 :#line:439
+                                        if OO0O00000O0O00O00 %2 :#line:440
+                                                OO0O00000O0O00O00 =3 *OO0O00000O0O00O00 +1 #line:441
+                                        else :#line:442
+                                                OO0O00000O0O00O00 =OO0O00000O0O00O00 //2 #line:443
+                                        OO00000O000OO0OO0 .append (OO0O00000O0O00O00 )#line:444
+                                OO0O00OO000OO0OO0 =len (OO00000O000OO0OO0 )#line:445
+                                O000O0OOOOO0O000O =OO0O00OO000OO0OO0 #line:449
+                                if not type (O0OO0O000OO0OOO0O )==type (O000O0OOOOO0O000O ):#line:451
+                                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:452
+                                else :#line:455
+                                        O0O0OOO0O0O0O00O0 =O0OO0O000OO0OOO0O ==O000O0OOOOO0O000O #line:456
+                                        if O0O0OOO0O0O0O00O0 :#line:457
+                                                print ("Well done, right answer is ",O000O0OOOOO0O000O )#line:458
                                         else :#line:459
-                                                print ("You have had ",O0OO0000OOOOO000O [0 ]," tries.")#line:460
-                                                print ("If next try is accepted you will achieve ",O0O00000OO000OOOO -10 ,"% on this exercise.")#line:461
-                                        break #line:462
-                                OO0OO00OO0O00OOO0 =None #line:465
-                                O00OO0OOO0OO0O0O0 =None #line:466
-                        except ValueError :#line:467
-                                print ("I didn't understand that.")#line:468
-                                continue #line:469
-        return #line:471
-def a7 (OO00OOO00000O00O0 ):#line:481
-        OO00OO0OOO0O0OOO0 =".a7_counter.npy"#line:485
-        OO0OOOO000O0OOOOO =np .zeros (1 ,dtype ='int8,bool')#line:486
-        def O000OO00000OOOO0O ():#line:488
-                pass #line:489
-        OOO000O0OO0O00O00 =[(30 ,10 )]#line:492
-        OOO000O0O0O000O0O =1.0e-4 #line:495
-        if (waiter ()):#line:498
-                printmd ('**CA** (6%)')#line:500
-                if not type (OO00OOO00000O00O0 )==type (O000OO00000OOOO0O ):#line:502
-                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:503
-                else :#line:506
-                        def OO0O000000000O000 (O0O00O00O0OOO0OO0 ,O00000O00O0O0OO0O ):#line:509
-                                import math #line:510
-                                O0O00O00O00OOO0OO =9.81 #line:511
-                                OO00O00OOO0OO000O =math .pi *O00000O00O0O0OO0O /180. #line:512
-                                OOO000OOO00O0OO00 =O0O00O00O0OOO0OO0 **2 *math .sin (2 *OO00O00OOO0OO000O )/O0O00O00O00OOO0OO #line:513
-                                OOOOOO0O00OOOO000 =O0O00O00O0OOO0OO0 **2 *(math .sin (OO00O00OOO0OO000O ))**2 /(2. *O0O00O00O00OOO0OO )#line:514
-                                return OOO000OOO00O0OO00 ,OOOOOO0O00OOOO000 #line:515
-                        import random as r #line:518
-                        OOO000O0OO0O00O00 =[]#line:519
-                        O0000OOO00OO00000 =False #line:520
-                        OOO00O000O00O000O =[]#line:521
-                        OOOO0OOO000O0OO00 =10 #line:522
-                        OO00OO00OO00O0OOO =100 #line:523
-                        O0O0O000O0OOOO0OO =5 #line:524
-                        O000OOO00O00O000O =85 #line:525
-                        for O000O0O00O0OO0O0O in range (5 ):#line:526
-                                OOO000O0OO0O00O00 .append ((r .uniform (OOOO0OOO000O0OO00 ,OO00OO00OO00O0OOO ),r .uniform (O0O0O000O0OOOO0OO ,O000OOO00O00O000O )))#line:527
-                        for (OOOOO00O00O0O0OO0 ,OOOO0O0O0OOOO0O00 )in OOO000O0OO0O00O00 :#line:528
-                                print ('Testing:',OOOOO00O00O0O0OO0 ,OOOO0O0O0OOOO0O00 )#line:529
-                                OOO00O0O0OO0000OO =OO00OOO00000O00O0 (OOOOO00O00O0O0OO0 ,OOOO0O0O0OOOO0O00 )#line:530
-                                print ('Output:',*OOO00O0O0OO0000OO )#line:531
-                                OOO0OOOOOO00O0OOO =OO0O000000000O000 (OOOOO00O00O0O0OO0 ,OOOO0O0O0OOOO0O00 )#line:532
-                                print ('Actual:',*OOO0OOOOOO00O0OOO )#line:533
-                                print ()#line:534
-                                if (not type (OOO00O0O0OO0000OO )==type (OOO0OOOOOO00O0OOO ))or (not len (OOO00O0O0OO0000OO )==len (OOO0OOOOOO00O0OOO )):#line:535
-                                        if O0000OOO00OO00000 ==False :#line:536
-                                           O0000OOO00OO00000 =True #line:537
-                                else :#line:538
-                                        OOO00O000O00O000O .append (all (np .isclose (OOO00O0O0OO0000OO ,OOO0OOOOOO00O0OOO ,OOO000O0O0O000O0O )))#line:539
-                        if O0000OOO00OO00000 :#line:541
-                                print ('Check the returned value format of your function (not counted as an attempt).')#line:542
-                        else :#line:544
-                                OO00O00O0OOOO0O00 =all (OOO00O000O00O000O )#line:545
-                                if OO00O00O0OOOO0O00 :#line:546
-                                        print ("Well done, all correct.")#line:547
-                                else :#line:548
-                                        print ("Not right yet. Take another look then run this cell again.")#line:549
-                                OO0OOOO000O0OOOOO =trycount (OO00OO0OOO0O0OOO0 ,OO00O00O0OOOO0O00 )#line:551
-                                OOOO0O00OOOOO000O =100 -(OO0OOOO000O0OOOOO [0 ]-1 )*10 #line:552
-                                if OO0OOOO000O0OOOOO [1 ]:#line:553
-                                        print ("First success after ",OO0OOOO000O0OOOOO [0 ]," tries, you have ",OOOO0O00OOOOO000O ,"% on this exercise.")#line:554
+                                                print ("Not right yet. Take another look then run this cell again.")#line:460
+                                        OO0OO0OOO00OOO00O =trycount (O0O0O0000OO00000O ,O0O0OOO0O0O0O00O0 )#line:462
+                                        O0OOO0O00O0OOOOOO =100 -(OO0OO0OOO00OOO00O [0 ]-1 )*10 #line:463
+                                        if OO0OO0OOO00OOO00O [1 ]:#line:464
+                                                print ("First success after ",OO0OO0OOO00OOO00O [0 ]," tries, you have ",O0OOO0O00O0OOOOOO ,"% on this exercise.")#line:465
+                                        else :#line:466
+                                                print ("You have had ",OO0OO0OOO00OOO00O [0 ]," tries.")#line:467
+                                                print ("If next try is accepted you will achieve ",O0OOO0O00O0OOOOOO -10 ,"% on this exercise.")#line:468
+                                        break #line:469
+                                OO0O00OO000OO0OO0 =None #line:472
+                                O000O0OOOOO0O000O =None #line:473
+                        except ValueError :#line:474
+                                print ("I didn't understand that.")#line:475
+                                continue #line:476
+        return #line:478
+def a7_notlive (OO0OO0OO000O0O000 ):#line:488
+        O0OOO0000000O00OO =".a7_counter.npy"#line:492
+        OOOOO00O00O0OOO0O =np .zeros (1 ,dtype ='int8,bool')#line:493
+        def OO00OOOOO0O00OO0O ():#line:495
+                pass #line:496
+        O0O00OO00O00O00OO =[(30 ,10 )]#line:499
+        O0O000O000OOO0OOO =1.0e-4 #line:502
+        if (waiter ()):#line:505
+                printmd ('**CA** (6%)')#line:507
+                if not type (OO0OO0OO000O0O000 )==type (OO00OOOOO0O00OO0O ):#line:509
+                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:510
+                else :#line:513
+                        def O000OO0000OOO0O00 (OO0O000OO0O0O000O ,O0OO0OO0O00O0O00O ):#line:516
+                                import math #line:517
+                                O0O00OOOO0O0O0OO0 =9.81 #line:518
+                                O000OO0000000OOOO =math .pi *O0OO0OO0O00O0O00O /180. #line:519
+                                O000O0OOOO000O00O =OO0O000OO0O0O000O **2 *math .sin (2 *O000OO0000000OOOO )/O0O00OOOO0O0O0OO0 #line:520
+                                O00O0OO0OO000OO00 =OO0O000OO0O0O000O **2 *(math .sin (O000OO0000000OOOO ))**2 /(2. *O0O00OOOO0O0O0OO0 )#line:521
+                                return O000O0OOOO000O00O ,O00O0OO0OO000OO00 #line:522
+                        import random as r #line:525
+                        O0O00OO00O00O00OO =[]#line:526
+                        O00000OO0OO0O0OO0 =False #line:527
+                        O0O00OOOOO00OOO0O =[]#line:528
+                        OO0O0OO0O0O0OOOOO =10 #line:529
+                        O0OO0OOO0O000O000 =100 #line:530
+                        OO00O0000OOOOO00O =5 #line:531
+                        OO0OOOO00O0000O00 =85 #line:532
+                        for OO000OOOO00O0OO00 in range (5 ):#line:533
+                                O0O00OO00O00O00OO .append ((r .uniform (OO0O0OO0O0O0OOOOO ,O0OO0OOO0O000O000 ),r .uniform (OO00O0000OOOOO00O ,OO0OOOO00O0000O00 )))#line:534
+                        for (OOOO000OOO0O00OO0 ,OOO0OO00OO000OOOO )in O0O00OO00O00O00OO :#line:535
+                                print ('Testing:',OOOO000OOO0O00OO0 ,OOO0OO00OO000OOOO )#line:536
+                                O00OOO0O0OOO000OO =OO0OO0OO000O0O000 (OOOO000OOO0O00OO0 ,OOO0OO00OO000OOOO )#line:537
+                                print ('Output:',*O00OOO0O0OOO000OO )#line:538
+                                OOO0O0OOO0OOOO0O0 =O000OO0000OOO0O00 (OOOO000OOO0O00OO0 ,OOO0OO00OO000OOOO )#line:539
+                                print ('Actual:',*OOO0O0OOO0OOOO0O0 )#line:540
+                                print ()#line:541
+                                if (not type (O00OOO0O0OOO000OO )==type (OOO0O0OOO0OOOO0O0 ))or (not len (O00OOO0O0OOO000OO )==len (OOO0O0OOO0OOOO0O0 )):#line:542
+                                        if O00000OO0OO0O0OO0 ==False :#line:543
+                                           O00000OO0OO0O0OO0 =True #line:544
+                                else :#line:545
+                                        O0O00OOOOO00OOO0O .append (all (np .isclose (O00OOO0O0OOO000OO ,OOO0O0OOO0OOOO0O0 ,O0O000O000OOO0OOO )))#line:546
+                        if O00000OO0OO0O0OO0 :#line:548
+                                print ('Check the returned value format of your function (not counted as an attempt).')#line:549
+                        else :#line:551
+                                O0O0OO000OOOO0OOO =all (O0O00OOOOO00OOO0O )#line:552
+                                if O0O0OO000OOOO0OOO :#line:553
+                                        print ("Well done, all correct.")#line:554
                                 else :#line:555
-                                        print ("You have had ",OO0OOOO000O0OOOOO [0 ]," tries.")#line:556
-                                        print ("If next try is accepted you will achieve ",OOOO0O00OOOOO000O -10 ,"% on this exercise.")#line:557
-                        OOO0OOOOOO00O0OOO =None #line:560
-                        OO0O000000000O000 =None #line:561
-        return #line:563
-def a8 (O0OOOO0OO00O000O0 ):#line:573
-        OO000O00000O0OOO0 =".a8_counter.npy"#line:577
-        OOOO0O000OOOO0OO0 =np .zeros (1 ,dtype ='int8,bool')#line:578
-        def OO00O0OO0OO0OO0O0 ():#line:580
-                pass #line:581
-        O000O00OOO000OO00 =1.0e-4 #line:585
-        if (waiter ()):#line:588
-                printmd ('**CA** (6%)')#line:590
-                if not type (O0OOOO0OO00O000O0 )==type (OO00O0OO0OO0OO0O0 ):#line:594
-                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:595
-                else :#line:599
-                        import inspect #line:602
-                        O0OOOO000O0O00OO0 =inspect .getsourcelines (O0OOOO0OO00O000O0 )#line:603
-                        OO0O000OOOOOO0OOO =True #line:604
-                        OOO00OOOO0O0OO0OO =[]#line:605
-                        for O0O00O000000O00O0 ,OO00OO0OO00O00O00 in enumerate (O0OOOO000O0O00OO0 [0 ]):#line:606
-                                if 'for'in OO00OO0OO00O00O00 or 'while'in OO00OO0OO00O00O00 :#line:607
-                                        OO0O000OOOOOO0OOO =False #line:609
-                                        OOO00OOOO0O0OO0OO .append (O0O00O000000O00O0 )#line:610
-                        if not OO0O000OOOOOO0OOO :#line:611
-                                print ('Function needs to be written without loops (using NumPy), check lines',*OOO00OOOO0O0OO0OO )#line:612
-                                print ('No marks lost for this attempt.')#line:613
-                                return #line:614
-                        def OOOO0OO00OO00OO0O (OOO000O000O000OOO ):#line:617
-                                OOOOOOO000000000O =np .vstack ((OOO000O000O000OOO ,OOO000O000O000OOO [0 ]))#line:618
-                                OOO0O00O00O0O0O0O =sum (OOOOOOO000000000O [:-1 ,0 ]*OOOOOOO000000000O [1 :,1 ])#line:619
-                                OO0OO0OOO0OO000O0 =sum (OOOOOOO000000000O [:-1 ,1 ]*OOOOOOO000000000O [1 :,0 ])#line:620
-                                return abs (OOO0O00O00O0O0O0O -OO0OO0OOO0OO000O0 )/2 #line:621
-                        import random as r #line:624
-                        O0O0O0000O000OOOO =r .randint (6 ,11 )#line:625
-                        OO0O0O0OO0OO00O00 =np .ones ((O0O0O0000O000OOOO ,2 ))#line:626
-                        O00O000OOOOOOO000 =False #line:627
-                        OOO0OOOOOOO000O00 =[]#line:628
-                        OOOOOOO0OOO00OOOO =1. #line:629
-                        O0O0OO0O0OO0OO00O =20. #line:630
-                        O0O00000O0000O0OO =OOOOOOO0OOO00OOOO #line:631
-                        OOO0OOOOOOO00OO0O =O0O0OO0O0OO0OO00O #line:632
-                        for OOO00OOOO0OOO0OO0 in range (O0O0O0000O000OOOO ):#line:633
-                                OO0O0O0OO0OO00O00 [OOO00OOOO0OOO0OO0 ]=[r .uniform (OOOOOOO0OOO00OOOO ,O0O0OO0O0OO0OO00O ),r .uniform (O0O00000O0000O0OO ,OOO0OOOOOOO00OO0O )]#line:634
-                        print ('Testing:',OO0O0O0OO0OO00O00 )#line:635
-                        O0OOO00OO000O00OO =O0OOOO0OO00O000O0 (OO0O0O0OO0OO00O00 )#line:636
-                        print ('Output:',O0OOO00OO000O00OO )#line:637
-                        O000O0OOOO000OOOO =OOOO0OO00OO00OO0O (OO0O0O0OO0OO00O00 )#line:638
-                        print ('Actual:',O000O0OOOO000OOOO )#line:639
-                        print ()#line:640
-                        if not type (O0OOO00OO000O00OO )==type (O000O0OOOO000OOOO ):#line:641
-                                if O00O000OOOOOOO000 ==False :#line:642
-                                        O00O000OOOOOOO000 =True #line:643
-                        else :#line:644
-                                OOO0OOOOOOO000O00 .append (np .isclose (O0OOO00OO000O00OO ,O000O0OOOO000OOOO ,O000O00OOO000OO00 ))#line:645
-                        if O00O000OOOOOOO000 :#line:647
-                                print ('Check the returned value format of your function (not counted as an attempt).')#line:648
-                        else :#line:650
-                                O000OO000000000O0 =all (OOO0OOOOOOO000O00 )#line:651
-                                if O000OO000000000O0 :#line:652
-                                        print ("Well done, all correct.")#line:653
-                                else :#line:654
-                                        print ("Not right yet. Take another look then run this cell again.")#line:655
-                                OOOO0O000OOOO0OO0 =trycount (OO000O00000O0OOO0 ,O000OO000000000O0 )#line:657
-                                O0OO0O00OOOO00O0O =100 -(OOOO0O000OOOO0OO0 [0 ]-1 )*10 #line:658
-                                if OOOO0O000OOOO0OO0 [1 ]:#line:659
-                                        print ("First success after ",OOOO0O000OOOO0OO0 [0 ]," tries, you have ",O0OO0O00OOOO00O0O ,"% on this exercise.")#line:660
+                                        print ("Not right yet. Take another look then run this cell again.")#line:556
+                                OOOOO00O00O0OOO0O =trycount (O0OOO0000000O00OO ,O0O0OO000OOOO0OOO )#line:558
+                                OOOO0000000O00O0O =100 -(OOOOO00O00O0OOO0O [0 ]-1 )*10 #line:559
+                                if OOOOO00O00O0OOO0O [1 ]:#line:560
+                                        print ("First success after ",OOOOO00O00O0OOO0O [0 ]," tries, you have ",OOOO0000000O00O0O ,"% on this exercise.")#line:561
+                                else :#line:562
+                                        print ("You have had ",OOOOO00O00O0OOO0O [0 ]," tries.")#line:563
+                                        print ("If next try is accepted you will achieve ",OOOO0000000O00O0O -10 ,"% on this exercise.")#line:564
+                        OOO0O0OOO0OOOO0O0 =None #line:567
+                        O000OO0000OOO0O00 =None #line:568
+        return #line:570
+def a8_notlive (OO0O0OO0O000O0O00 ):#line:580
+        OO0OO00O0OO00OOO0 =".a8_counter.npy"#line:584
+        OOO000O0000OO000O =np .zeros (1 ,dtype ='int8,bool')#line:585
+        def O0OO00OOO00O00OO0 ():#line:587
+                pass #line:588
+        O0000O000OO0O0O00 =1.0e-4 #line:592
+        if (waiter ()):#line:595
+                printmd ('**CA** (6%)')#line:597
+                if not type (OO0O0OO0O000O0O00 )==type (O0OO00OOO00O00OO0 ):#line:601
+                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:602
+                else :#line:606
+                        import inspect #line:609
+                        OOO00O0OO0OOO00O0 =inspect .getsourcelines (OO0O0OO0O000O0O00 )#line:610
+                        O0OOOOOOOO00O00OO =True #line:611
+                        OO0O0OO0OOO00000O =[]#line:612
+                        for OO0O00OO0OO0000OO ,O0O0000O00OO00000 in enumerate (OOO00O0OO0OOO00O0 [0 ]):#line:613
+                                if 'for'in O0O0000O00OO00000 or 'while'in O0O0000O00OO00000 :#line:614
+                                        O0OOOOOOOO00O00OO =False #line:616
+                                        OO0O0OO0OOO00000O .append (OO0O00OO0OO0000OO )#line:617
+                        if not O0OOOOOOOO00O00OO :#line:618
+                                print ('Function needs to be written without loops (using NumPy), check lines',*OO0O0OO0OOO00000O )#line:619
+                                print ('No marks lost for this attempt.')#line:620
+                                return #line:621
+                        def OO0OOOO00000O0O0O (OO0OOOO0OOO0OOOOO ):#line:624
+                                OOOO00O00OO000O00 =np .vstack ((OO0OOOO0OOO0OOOOO ,OO0OOOO0OOO0OOOOO [0 ]))#line:625
+                                OO0OOOO00OO00OO0O =sum (OOOO00O00OO000O00 [:-1 ,0 ]*OOOO00O00OO000O00 [1 :,1 ])#line:626
+                                O0OO0000OOO00O0O0 =sum (OOOO00O00OO000O00 [:-1 ,1 ]*OOOO00O00OO000O00 [1 :,0 ])#line:627
+                                return abs (OO0OOOO00OO00OO0O -O0OO0000OOO00O0O0 )/2 #line:628
+                        import random as r #line:631
+                        OOOOOO00OO000O0OO =r .randint (6 ,11 )#line:632
+                        OO00000O0O0OOOO0O =np .ones ((OOOOOO00OO000O0OO ,2 ))#line:633
+                        O0OO0OOO0OOO00OO0 =False #line:634
+                        OO0O0O00O000OO0O0 =[]#line:635
+                        OOO00O00OOO0OO0OO =1. #line:636
+                        OOO0OOOO0O0O000OO =20. #line:637
+                        O00O0000OOO00OOOO =OOO00O00OOO0OO0OO #line:638
+                        O000O00OO000O00OO =OOO0OOOO0O0O000OO #line:639
+                        for OO00OO0OO00000O00 in range (OOOOOO00OO000O0OO ):#line:640
+                                OO00000O0O0OOOO0O [OO00OO0OO00000O00 ]=[r .uniform (OOO00O00OOO0OO0OO ,OOO0OOOO0O0O000OO ),r .uniform (O00O0000OOO00OOOO ,O000O00OO000O00OO )]#line:641
+                        print ('Testing:',OO00000O0O0OOOO0O )#line:642
+                        O0O0000OOO0OOO0OO =OO0O0OO0O000O0O00 (OO00000O0O0OOOO0O )#line:643
+                        print ('Output:',O0O0000OOO0OOO0OO )#line:644
+                        O000O0O00O0O0OO00 =OO0OOOO00000O0O0O (OO00000O0O0OOOO0O )#line:645
+                        print ('Actual:',O000O0O00O0O0OO00 )#line:646
+                        print ()#line:647
+                        if not type (O0O0000OOO0OOO0OO )==type (O000O0O00O0O0OO00 ):#line:648
+                                if O0OO0OOO0OOO00OO0 ==False :#line:649
+                                        O0OO0OOO0OOO00OO0 =True #line:650
+                        else :#line:651
+                                OO0O0O00O000OO0O0 .append (np .isclose (O0O0000OOO0OOO0OO ,O000O0O00O0O0OO00 ,O0000O000OO0O0O00 ))#line:652
+                        if O0OO0OOO0OOO00OO0 :#line:654
+                                print ('Check the returned value format of your function (not counted as an attempt).')#line:655
+                        else :#line:657
+                                OO0O0O0OOOOOOO0O0 =all (OO0O0O00O000OO0O0 )#line:658
+                                if OO0O0O0OOOOOOO0O0 :#line:659
+                                        print ("Well done, all correct.")#line:660
                                 else :#line:661
-                                        print ("You have had ",OOOO0O000OOOO0OO0 [0 ]," tries.")#line:662
-                                        print ("If next try is accepted you will achieve ",O0OO0O00OOOO00O0O -10 ,"% on this exercise.")#line:663
-                        O000O0OOOO000OOOO =None #line:666
-                        OOOO0OO00OO00OO0O =None #line:667
-        return #line:669
-def a1_notlive ():#line:685
-        print ('This CA test is not currently live.')#line:686
-        return #line:687
-def a2_notlive (O0OOOOO0OOO00OO0O ):#line:695
-        print ('This CA test is not currently live.')#line:696
-        return #line:697
-def a3_notlive (OO0000O0000O0O000 ):#line:705
-        print ('This CA test is not currently live.')#line:706
-        return #line:707
-def a4_notlive (OOO0000O0OOO00O00 ):#line:715
-        print ('This CA test is not currently live.')#line:716
-        return #line:717
-def a5_notlive (OO0OOO0OO00O00O0O ):#line:725
-        print ('This CA test is not currently live.')#line:726
-        return #line:727
-def a6_notlive (O000000OO0OOO0OO0 ):#line:735
-        print ('This CA test is not currently live.')#line:736
-        return #line:737
-def a7_notlive ():#line:745
-        print ('This CA test is not currently live.')#line:746
-        return #line:747
-def a8_notlive (OO0OOO0000000OOO0 ):#line:755
-        print ('This CA test is not currently live.')#line:756
-        return #line:757
-def b1 ():#line:775
-    global ps #line:777
-    O00000O0OO000OO0O =".b1_counter.npy"#line:780
-    O00OO0O00OO0000OO =np .zeros (1 ,dtype ='int8,bool')#line:781
-    OOO0O00O00OO0O0OO =0.05 #line:783
-    if (waiter ()):#line:785
-        while True :#line:786
-            try :#line:787
-                printmd ('**CA**')#line:788
-                OOOOOO0OO0OO0O00O =eval (input ("Please enter your answer here in the format D,k: "))#line:789
-                OOOOO00OOOO0O00OO =(0.025 ,2.0 )#line:790
-                O00O00O00O0O0O0OO =all (np .isclose (OOOOOO0OO0OO0O00O ,OOOOO00OOOO0O00OO ,rtol =OOO0O00O00OO0O0OO ))#line:791
-                if O00O00O00O0O0O0OO :#line:792
-                    print ("Well done, reasonable estimate is ",OOOOO00OOOO0O00OO )#line:793
-                else :#line:794
-                    print ("Not right yet. Take another look then run this cell again.")#line:795
-                O00OO0O00OO0000OO =trycount (O00000O0OO000OO0O ,O00O00O00O0O0O0OO )#line:797
-                O00O0O0O0O00OO00O =100 -(O00OO0O00OO0000OO [0 ]-1 )*10 #line:798
-                if O00OO0O00OO0000OO [1 ]:#line:799
-                    print ("First success after ",O00OO0O00OO0000OO [0 ]," tries, you have ",O00O0O0O0O00OO00O ,"% on this exercise.")#line:800
+                                        print ("Not right yet. Take another look then run this cell again.")#line:662
+                                OOO000O0000OO000O =trycount (OO0OO00O0OO00OOO0 ,OO0O0O0OOOOOOO0O0 )#line:664
+                                O0OOO0000OOOO0O00 =100 -(OOO000O0000OO000O [0 ]-1 )*10 #line:665
+                                if OOO000O0000OO000O [1 ]:#line:666
+                                        print ("First success after ",OOO000O0000OO000O [0 ]," tries, you have ",O0OOO0000OOOO0O00 ,"% on this exercise.")#line:667
+                                else :#line:668
+                                        print ("You have had ",OOO000O0000OO000O [0 ]," tries.")#line:669
+                                        print ("If next try is accepted you will achieve ",O0OOO0000OOOO0O00 -10 ,"% on this exercise.")#line:670
+                        O000O0O00O0O0OO00 =None #line:673
+                        OO0OOOO00000O0O0O =None #line:674
+        return #line:676
+def a1_notlive ():#line:692
+        print ('This CA test is not currently live.')#line:693
+        return #line:694
+def a2 (OO000O000OOO0O0O0 ):#line:702
+        print ('This CA test is not currently live.')#line:703
+        return #line:704
+def a3 (O00OO0OO0OO0000O0 ):#line:712
+        print ('This CA test is not currently live.')#line:713
+        return #line:714
+def a4 (OOO0OO000000OO0O0 ):#line:722
+        print ('This CA test is not currently live.')#line:723
+        return #line:724
+def a5 (O0000OO000OOO0000 ):#line:732
+        print ('This CA test is not currently live.')#line:733
+        return #line:734
+def a6 (O00OO0OOOO0OOO00O ):#line:742
+        print ('This CA test is not currently live.')#line:743
+        return #line:744
+def a7 ():#line:752
+        print ('This CA test is not currently live.')#line:753
+        return #line:754
+def a8 (O0OOOOOOOOOO0O00O ):#line:762
+        print ('This CA test is not currently live.')#line:763
+        return #line:764
+def b1 ():#line:782
+    global ps #line:784
+    OOOO00000O0000OO0 =".b1_counter.npy"#line:787
+    OO0OOO000O0000OOO =np .zeros (1 ,dtype ='int8,bool')#line:788
+    O0000O0000000O0O0 =0.05 #line:790
+    if (waiter ()):#line:792
+        while True :#line:793
+            try :#line:794
+                printmd ('**CA**')#line:795
+                O0OOOO0O0OO00O0O0 =eval (input ("Please enter your answer here in the format D,k: "))#line:796
+                O000000OO0O0OOO00 =(0.025 ,2.0 )#line:797
+                O0OO0OO0OO0OOO0OO =all (np .isclose (O0OOOO0O0OO00O0O0 ,O000000OO0O0OOO00 ,rtol =O0000O0000000O0O0 ))#line:798
+                if O0OO0OO0OO0OOO0OO :#line:799
+                    print ("Well done, reasonable estimate is ",O000000OO0O0OOO00 )#line:800
                 else :#line:801
-                    print ("You have had ",O00OO0O00OO0000OO [0 ]," tries.")#line:802
-                    print ("If next try is accepted you will achieve ",O00O0O0O0O00OO00O -10 ,"% on this exercise.")#line:803
-                break #line:805
-            except ValueError :#line:807
-                print ("I didn't understand that.")#line:808
-                continue #line:809
-        return #line:811
-def b2 (O0OOO0OOOO0OOO000 ):#line:821
-        O0OOO0O0OOO00O00O =".b2_counter.npy"#line:825
-        OO0000O000OO00O0O =np .zeros (1 ,dtype ='int8,bool')#line:826
-        def OO00O0OOOOOOO00O0 ():#line:828
-                pass #line:829
-        O00OOO0O0000OOO00 =1.0e-2 #line:832
-        OO0O0OOO0OO0OO0OO =0.0 #line:833
-        if (waiter ()):#line:835
-                printmd ('**CA**')#line:837
-                if not type (O0OOO0OOOO0OOO000 )==type (OO00O0OOOOOOO00O0 ):#line:839
-                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:840
-                else :#line:843
-                        def O00OO0000O00OOOO0 (OOOOOOOO000O00OO0 ):#line:847
-                                O00OO0OOOO00000OO =[]#line:848
-                                O0000O000O0000OOO =20.0 #line:849
-                                OO0OOO00OO0O0O0O0 =58.1e-3 #line:850
-                                O0O0O0O000O0OOO00 =9.81 #line:851
-                                O0O000O00OO00OO00 =0.0 #line:852
-                                O0O0O00000000O000 =0.0 #line:853
-                                OOOO0OOOO00O0OOO0 =0.0 #line:854
-                                OOOOO0O0O00OOOOOO =10 #line:855
-                                OOOO0O0O0O00O0O00 =3.35e-2 #line:856
-                                O00000OOO0OO0OOOO =0.51 #line:857
-                                O0OO000O0O00O00OO =1.25 #line:858
-                                O0OO00O0O0OO00OO0 =math .pi *OOOO0O0O0O00O0O00 **2 #line:859
-                                OO0O0OOO000O00O0O =0.5 *O00000OOO0OO0OOOO *O0OO00O0O0OO00OO0 *O0OO000O0O00O00OO #line:860
-                                O0O0000O0OOOO0O00 =100000 #line:862
-                                OO0OOOO00O00OO000 =np .zeros (O0O0000O0OOOO0O00 ,float )#line:863
-                                OOO0O0OOO000OOO00 =np .zeros (O0O0000O0OOOO0O00 ,float )#line:864
-                                O0O0OOO0OOOO00O0O =np .zeros (O0O0000O0OOOO0O00 ,float )#line:865
-                                OO00O0O00O00O00OO =np .zeros (O0O0000O0OOOO0O00 ,float )#line:866
-                                O0000000OO00O00OO =np .zeros (O0O0000O0OOOO0O00 ,float )#line:867
-                                O00O00OOO0OOO0OOO =np .zeros (O0O0000O0OOOO0O00 ,float )#line:868
-                                O000O0OO0O0O0O0O0 =np .zeros (O0O0000O0OOOO0O00 ,float )#line:869
-                                OO0OOOO00O00OO000 ,OO0000O0OO0OO0OOO =np .linspace (OOOO0OOOO00O0OOO0 ,OOOOO0O0O00OOOOOO ,O0O0000O0OOOO0O00 ,retstep =True )#line:870
-                                for O0000O0O00OOOO000 in OOOOOOOO000O00OO0 :#line:872
-                                        O0OO0O0000O00O0O0 =O0000O000O0000OOO *math .cos (O0000O0O00OOOO000 )#line:873
-                                        O00000O00O0000OOO =O0000O000O0000OOO *math .sin (O0000O0O00OOOO000 )#line:874
-                                        O00O00OOO0OOO0OOO [0 ]=O0O000O00OO00OO00 #line:876
-                                        O000O0OO0O0O0O0O0 [0 ]=O0O0O00000000O000 #line:877
-                                        OO00O0O00O00O00OO [0 ]=O0OO0O0000O00O0O0 #line:878
-                                        O0000000OO00O00OO [0 ]=O00000O00O0000OOO #line:879
-                                        for O00O00O0O0O0OOOO0 in range (O0O0000O0OOOO0O00 -1 ):#line:880
-                                                O0O0O0000OO00OOO0 =math .sqrt (OO00O0O00O00O00OO [O00O00O0O0O0OOOO0 ]**2 +O0000000OO00O00OO [O00O00O0O0O0OOOO0 ]**2 )#line:881
-                                                O0OOOOOOO00O00O0O =-OO0O0OOO000O00O0O *O0O0O0000OO00OOO0 *OO00O0O00O00O00OO [O00O00O0O0O0OOOO0 ]#line:882
-                                                OOO0O0OOO000OOO00 [O00O00O0O0O0OOOO0 ]=O0OOOOOOO00O00O0O /OO0OOO00OO0O0O0O0 #line:883
-                                                OO00O0O00O00O00OO [O00O00O0O0O0OOOO0 +1 ]=OO00O0O00O00O00OO [O00O00O0O0O0OOOO0 ]+OOO0O0OOO000OOO00 [O00O00O0O0O0OOOO0 ]*OO0000O0OO0OO0OOO #line:884
-                                                O00O00OOO0OOO0OOO [O00O00O0O0O0OOOO0 +1 ]=O00O00OOO0OOO0OOO [O00O00O0O0O0OOOO0 ]+OO00O0O00O00O00OO [O00O00O0O0O0OOOO0 +1 ]*OO0000O0OO0OO0OOO #line:885
-                                                OOO0000OOOOOO0OOO =-OO0OOO00OO0O0O0O0 *O0O0O0O000O0OOO00 -OO0O0OOO000O00O0O *O0O0O0000OO00OOO0 *O0000000OO00O00OO [O00O00O0O0O0OOOO0 ]#line:886
-                                                O0O0OOO0OOOO00O0O [O00O00O0O0O0OOOO0 ]=OOO0000OOOOOO0OOO /OO0OOO00OO0O0O0O0 #line:887
-                                                O0000000OO00O00OO [O00O00O0O0O0OOOO0 +1 ]=O0000000OO00O00OO [O00O00O0O0O0OOOO0 ]+O0O0OOO0OOOO00O0O [O00O00O0O0O0OOOO0 ]*OO0000O0OO0OO0OOO #line:888
-                                                O000O0OO0O0O0O0O0 [O00O00O0O0O0OOOO0 +1 ]=O000O0OO0O0O0O0O0 [O00O00O0O0O0OOOO0 ]+O0000000OO00O00OO [O00O00O0O0O0OOOO0 +1 ]*OO0000O0OO0OO0OOO #line:889
-                                                if (O000O0OO0O0O0O0O0 [O00O00O0O0O0OOOO0 +1 ]<0 ):#line:890
-                                                        break #line:891
-                                        O0O0000O0O00O0O00 =O00O00O0O0O0OOOO0 #line:892
-                                        O00OO0OOOO00000OO .append (O00O00OOO0OOO0OOO [O0O0000O0O00O0O00 ])#line:893
-                                return (O00OO0OOOO00000OO );#line:895
-                        import random as r #line:898
-                        OOOO0O0000OO0000O =[]#line:899
-                        OO0OOO0O0OO0OO00O =False #line:900
-                        OOOO0O0OO00O0000O =[]#line:901
-                        O0OO0OO00000O0OO0 =0.1 #line:902
-                        O0OO0O0O0O0OO0O0O =1.5 #line:903
-                        for OOOO00OO00O000000 in range (5 ):#line:904
-                                OOOO0O0000OO0000O .append (r .uniform (O0OO0OO00000O0OO0 ,O0OO0O0O0O0OO0O0O ))#line:905
-                        OOOO0O0000OO0000O .sort ()#line:906
-                        print ('Testing thetas=',OOOO0O0000OO0000O )#line:907
-                        OO000O000OOOO00O0 =O0OOO0OOOO0OOO000 (OOOO0O0000OO0000O )#line:908
-                        print ('Output ximpacts=',OO000O000OOOO00O0 )#line:909
-                        O00000OO0O00OOO00 =O00OO0000O00OOOO0 (OOOO0O0000OO0000O )#line:910
-                        print ('Actual ximpacts=',O00000OO0O00OOO00 )#line:911
-                        print ()#line:912
-                        if (not type (OO000O000OOOO00O0 )==type (O00000OO0O00OOO00 ))or (not len (OO000O000OOOO00O0 )==len (O00000OO0O00OOO00 )):#line:913
-                                if OO0OOO0O0OO0OO00O ==False :#line:914
-                                        OO0OOO0O0OO0OO00O =True #line:915
-                        else :#line:916
-                                OOOO0O0OO00O0000O .append (all (np .isclose (OO000O000OOOO00O0 ,O00000OO0O00OOO00 ,rtol =O00OOO0O0000OOO00 ,atol =OO0O0OOO0OO0OO0OO )))#line:917
-                        if OO0OOO0O0OO0OO00O :#line:919
-                                print ('Check the returned value format of your function (not counted as an attempt).')#line:920
-                        else :#line:922
-                                OOOOOO0OOO0O000OO =all (OOOO0O0OO00O0000O )#line:923
-                                if OOOOOO0OOO0O000OO :#line:924
-                                        print ("Well done, all correct.")#line:925
-                                else :#line:926
-                                        print ("Not close enough. Take another look then run this cell again.")#line:927
-                                OO0000O000OO00O0O =trycount (O0OOO0O0OOO00O00O ,OOOOOO0OOO0O000OO )#line:929
-                                O00O00O0OOO0O000O =100 -(OO0000O000OO00O0O [0 ]-1 )*10 #line:930
-                                if OO0000O000OO00O0O [1 ]:#line:931
-                                        print ("First success after ",OO0000O000OO00O0O [0 ]," tries, you have ",O00O00O0OOO0O000O ,"% on this exercise.")#line:932
+                    print ("Not right yet. Take another look then run this cell again.")#line:802
+                OO0OOO000O0000OOO =trycount (OOOO00000O0000OO0 ,O0OO0OO0OO0OOO0OO )#line:804
+                OO000OOO000O0O0OO =100 -(OO0OOO000O0000OOO [0 ]-1 )*10 #line:805
+                if OO0OOO000O0000OOO [1 ]:#line:806
+                    print ("First success after ",OO0OOO000O0000OOO [0 ]," tries, you have ",OO000OOO000O0O0OO ,"% on this exercise.")#line:807
+                else :#line:808
+                    print ("You have had ",OO0OOO000O0000OOO [0 ]," tries.")#line:809
+                    print ("If next try is accepted you will achieve ",OO000OOO000O0O0OO -10 ,"% on this exercise.")#line:810
+                break #line:812
+            except ValueError :#line:814
+                print ("I didn't understand that.")#line:815
+                continue #line:816
+        return #line:818
+def b2 (O00OO000OO0OO00O0 ):#line:828
+        O00OOOO0OO0OOO0OO =".b2_counter.npy"#line:832
+        O0OO00OO000O0OO0O =np .zeros (1 ,dtype ='int8,bool')#line:833
+        def OO0OO0OOOO000O00O ():#line:835
+                pass #line:836
+        OO0O0O0O0OOOO00O0 =1.0e-2 #line:839
+        O0O00000O00OO0000 =0.0 #line:840
+        if (waiter ()):#line:842
+                printmd ('**CA**')#line:844
+                if not type (O00OO000OO0OO00O0 )==type (OO0OO0OOOO000O00O ):#line:846
+                        print ('You need to enter answer as correct type (not counted as an attempt).')#line:847
+                else :#line:850
+                        def O0OO0O0OOOO0O0OOO (O00OO0O00O0000O0O ):#line:854
+                                O0O0O0O00O00O0OOO =[]#line:855
+                                OOO000OOO0000OOO0 =20.0 #line:856
+                                OO0O000OOO00OOOOO =58.1e-3 #line:857
+                                OO000000O000O0O0O =9.81 #line:858
+                                O000000000OOO0OOO =0.0 #line:859
+                                OO0000OO0O00OOOOO =0.0 #line:860
+                                OO00O00O00OO00OO0 =0.0 #line:861
+                                O0OOOO00OO0O0O00O =10 #line:862
+                                O0OO0O00OO0000OOO =3.35e-2 #line:863
+                                OOO00O00OO000OOO0 =0.51 #line:864
+                                O0OOOOO0000OO0000 =1.25 #line:865
+                                OOO0OOOOO0OO0O0O0 =math .pi *O0OO0O00OO0000OOO **2 #line:866
+                                O00O000OO00O0O00O =0.5 *OOO00O00OO000OOO0 *OOO0OOOOO0OO0O0O0 *O0OOOOO0000OO0000 #line:867
+                                OOO0OOO0O0O0OO0O0 =100000 #line:869
+                                O0OO0O0OOOO00O00O =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:870
+                                O00OOOOOOO000OOOO =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:871
+                                OO0OO00O0000O0OOO =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:872
+                                OO0O0OO00OO00O000 =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:873
+                                OOOO0O00O00000OO0 =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:874
+                                O0OOOOOOO0000O000 =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:875
+                                O00OOO0OOO0000O00 =np .zeros (OOO0OOO0O0O0OO0O0 ,float )#line:876
+                                O0OO0O0OOOO00O00O ,O0OOOO00O0OOO0OO0 =np .linspace (OO00O00O00OO00OO0 ,O0OOOO00OO0O0O00O ,OOO0OOO0O0O0OO0O0 ,retstep =True )#line:877
+                                for OO00O0O00000OO00O in O00OO0O00O0000O0O :#line:879
+                                        OO000O0O00OOO000O =OOO000OOO0000OOO0 *math .cos (OO00O0O00000OO00O )#line:880
+                                        O000OO00OO0O0O00O =OOO000OOO0000OOO0 *math .sin (OO00O0O00000OO00O )#line:881
+                                        O0OOOOOOO0000O000 [0 ]=O000000000OOO0OOO #line:883
+                                        O00OOO0OOO0000O00 [0 ]=OO0000OO0O00OOOOO #line:884
+                                        OO0O0OO00OO00O000 [0 ]=OO000O0O00OOO000O #line:885
+                                        OOOO0O00O00000OO0 [0 ]=O000OO00OO0O0O00O #line:886
+                                        for O0O0OO000000OOO0O in range (OOO0OOO0O0O0OO0O0 -1 ):#line:887
+                                                OOO000OOOOOOO0O0O =math .sqrt (OO0O0OO00OO00O000 [O0O0OO000000OOO0O ]**2 +OOOO0O00O00000OO0 [O0O0OO000000OOO0O ]**2 )#line:888
+                                                OO0000O00OOOO0O0O =-O00O000OO00O0O00O *OOO000OOOOOOO0O0O *OO0O0OO00OO00O000 [O0O0OO000000OOO0O ]#line:889
+                                                O00OOOOOOO000OOOO [O0O0OO000000OOO0O ]=OO0000O00OOOO0O0O /OO0O000OOO00OOOOO #line:890
+                                                OO0O0OO00OO00O000 [O0O0OO000000OOO0O +1 ]=OO0O0OO00OO00O000 [O0O0OO000000OOO0O ]+O00OOOOOOO000OOOO [O0O0OO000000OOO0O ]*O0OOOO00O0OOO0OO0 #line:891
+                                                O0OOOOOOO0000O000 [O0O0OO000000OOO0O +1 ]=O0OOOOOOO0000O000 [O0O0OO000000OOO0O ]+OO0O0OO00OO00O000 [O0O0OO000000OOO0O +1 ]*O0OOOO00O0OOO0OO0 #line:892
+                                                OOO0000O0O00OO0OO =-OO0O000OOO00OOOOO *OO000000O000O0O0O -O00O000OO00O0O00O *OOO000OOOOOOO0O0O *OOOO0O00O00000OO0 [O0O0OO000000OOO0O ]#line:893
+                                                OO0OO00O0000O0OOO [O0O0OO000000OOO0O ]=OOO0000O0O00OO0OO /OO0O000OOO00OOOOO #line:894
+                                                OOOO0O00O00000OO0 [O0O0OO000000OOO0O +1 ]=OOOO0O00O00000OO0 [O0O0OO000000OOO0O ]+OO0OO00O0000O0OOO [O0O0OO000000OOO0O ]*O0OOOO00O0OOO0OO0 #line:895
+                                                O00OOO0OOO0000O00 [O0O0OO000000OOO0O +1 ]=O00OOO0OOO0000O00 [O0O0OO000000OOO0O ]+OOOO0O00O00000OO0 [O0O0OO000000OOO0O +1 ]*O0OOOO00O0OOO0OO0 #line:896
+                                                if (O00OOO0OOO0000O00 [O0O0OO000000OOO0O +1 ]<0 ):#line:897
+                                                        break #line:898
+                                        O000O0O00OOO0OO00 =O0O0OO000000OOO0O #line:899
+                                        O0O0O0O00O00O0OOO .append (O0OOOOOOO0000O000 [O000O0O00OOO0OO00 ])#line:900
+                                return (O0O0O0O00O00O0OOO );#line:902
+                        import random as r #line:905
+                        O0O0OO00O0OO0O00O =[]#line:906
+                        O00O00O000O0OOOO0 =False #line:907
+                        OO0O0OO00O0OO0O0O =[]#line:908
+                        O0OO0O0OOO0OO00OO =0.1 #line:909
+                        O0O0O000OO0000OOO =1.5 #line:910
+                        for O0000O0OOOO00OO0O in range (5 ):#line:911
+                                O0O0OO00O0OO0O00O .append (r .uniform (O0OO0O0OOO0OO00OO ,O0O0O000OO0000OOO ))#line:912
+                        O0O0OO00O0OO0O00O .sort ()#line:913
+                        print ('Testing thetas=',O0O0OO00O0OO0O00O )#line:914
+                        OOOO0OOO0000O000O =O00OO000OO0OO00O0 (O0O0OO00O0OO0O00O )#line:915
+                        print ('Output ximpacts=',OOOO0OOO0000O000O )#line:916
+                        O00OOO0O0OO0OOOO0 =O0OO0O0OOOO0O0OOO (O0O0OO00O0OO0O00O )#line:917
+                        print ('Actual ximpacts=',O00OOO0O0OO0OOOO0 )#line:918
+                        print ()#line:919
+                        if (not type (OOOO0OOO0000O000O )==type (O00OOO0O0OO0OOOO0 ))or (not len (OOOO0OOO0000O000O )==len (O00OOO0O0OO0OOOO0 )):#line:920
+                                if O00O00O000O0OOOO0 ==False :#line:921
+                                        O00O00O000O0OOOO0 =True #line:922
+                        else :#line:923
+                                OO0O0OO00O0OO0O0O .append (all (np .isclose (OOOO0OOO0000O000O ,O00OOO0O0OO0OOOO0 ,rtol =OO0O0O0O0OOOO00O0 ,atol =O0O00000O00OO0000 )))#line:924
+                        if O00O00O000O0OOOO0 :#line:926
+                                print ('Check the returned value format of your function (not counted as an attempt).')#line:927
+                        else :#line:929
+                                O00OOO0OOOOO0000O =all (OO0O0OO00O0OO0O0O )#line:930
+                                if O00OOO0OOOOO0000O :#line:931
+                                        print ("Well done, all correct.")#line:932
                                 else :#line:933
-                                        print ("You have had ",OO0000O000OO00O0O [0 ]," tries.")#line:934
-                                        print ("If next try is accepted you will achieve ",O00O00O0OOO0O000O -10 ,"% on this exercise.")#line:935
-                        O00000OO0O00OOO00 =None #line:938
-                        O00OO0000O00OOOO0 =None #line:939
-        return #line:941
-def b3 ():#line:951
-    global ps #line:953
-    OO0O0OOO00OO0O000 =".b3_counter.npy"#line:956
-    OOO0O000000O000O0 =np .zeros (1 ,dtype ='int8,bool')#line:957
-    OO0O000O00O0O00O0 =0.01 #line:960
-    if (waiter ()):#line:962
-        while True :#line:963
-            try :#line:964
-                printmd ('**CA**')#line:965
-                O0O0OO0OOO0OO0000 =float (input ("Enter a real number here: "))#line:966
-                O0OO00000000O0OOO =0.5 #line:967
-                OOOOOOOOOOOO000OO =np .isclose (O0O0OO0OOO0OO0000 ,O0OO00000000O0OOO ,atol =OO0O000O00O0O00O0 )#line:968
-                if OOOOOOOOOOOO000OO :#line:969
-                    print ("Well done. Actual value is ",O0OO00000000O0OOO )#line:970
-                else :#line:971
-                    print ("Not right yet. Take another look then run this cell again.")#line:972
-                OOO0O000000O000O0 =trycount (OO0O0OOO00OO0O000 ,OOOOOOOOOOOO000OO )#line:974
-                OO000O0OOOO00O0O0 =100 -(OOO0O000000O000O0 [0 ]-1 )*10 #line:975
-                if OOO0O000000O000O0 [1 ]:#line:976
-                    print ("First success after ",OOO0O000000O000O0 [0 ]," tries, you have ",OO000O0OOOO00O0O0 ,"% on this exercise.")#line:977
+                                        print ("Not close enough. Take another look then run this cell again.")#line:934
+                                O0OO00OO000O0OO0O =trycount (O00OOOO0OO0OOO0OO ,O00OOO0OOOOO0000O )#line:936
+                                O0O0OOOOO00O00000 =100 -(O0OO00OO000O0OO0O [0 ]-1 )*10 #line:937
+                                if O0OO00OO000O0OO0O [1 ]:#line:938
+                                        print ("First success after ",O0OO00OO000O0OO0O [0 ]," tries, you have ",O0O0OOOOO00O00000 ,"% on this exercise.")#line:939
+                                else :#line:940
+                                        print ("You have had ",O0OO00OO000O0OO0O [0 ]," tries.")#line:941
+                                        print ("If next try is accepted you will achieve ",O0O0OOOOO00O00000 -10 ,"% on this exercise.")#line:942
+                        O00OOO0O0OO0OOOO0 =None #line:945
+                        O0OO0O0OOOO0O0OOO =None #line:946
+        return #line:948
+def b3 ():#line:958
+    global ps #line:960
+    O00O0OOOOO0O0O00O =".b3_counter.npy"#line:963
+    OO0O0000000O00O0O =np .zeros (1 ,dtype ='int8,bool')#line:964
+    O0O0OOOOO000OO00O =0.01 #line:967
+    if (waiter ()):#line:969
+        while True :#line:970
+            try :#line:971
+                printmd ('**CA**')#line:972
+                O0O00O000O00O0O00 =float (input ("Enter a real number here: "))#line:973
+                OOOOO0OOO0O000O00 =0.5 #line:974
+                OOOOOO0OO00000000 =np .isclose (O0O00O000O00O0O00 ,OOOOO0OOO0O000O00 ,atol =O0O0OOOOO000OO00O )#line:975
+                if OOOOOO0OO00000000 :#line:976
+                    print ("Well done. Actual value is ",OOOOO0OOO0O000O00 )#line:977
                 else :#line:978
-                    print ("You have had ",OOO0O000000O000O0 [0 ]," tries.")#line:979
-                    print ("If next try is accepted you will achieve ",OO000O0OOOO00O0O0 -10 ,"% on this exercise.")#line:980
-                break #line:982
-            except ValueError :#line:984
-                print ("I didn't understand that.")#line:985
-                continue #line:986
-        return #line:988
-def b1_notlive ():#line:1000
-        print ('This CA test is not currently live.')#line:1001
-        return #line:1002
-def b2_notlive (OOO000000O0000OO0 ):#line:1012
-        print ('This CA test is not currently live.')#line:1013
-        return #line:1014
-def b3_notlive ():#line:1021
-        print ('This CA test is not currently live.')#line:1022
-        return #line:1023
-def printmd (O0OO000000O00OOOO ):#line:1033
-    display (Markdown (O0OO000000O00OOOO ))#line:1034
-def repeat_to_length (OO0O0000000O0O000 ,OO00O000OOO00OOOO ):#line:1036
-   return (OO0O0000000O0O000 *((OO00O000OOO00OOOO //len (OO0O0000000O0O000 ))+1 ))[:OO00O000OOO00OOOO ]#line:1037
-def getco (OO00OO00OOO00O00O ):#line:1039
-    global ps #line:1040
-    import random #line:1046
-    OOO0000O0000OOO00 =str (random .randint (1e6 ,1e7 ))#line:1047
-    OOOO000O00OO00O00 =int .from_bytes (OOO0000O0000OOO00 .encode (),'little')#line:1051
-    O0O000OOO000OOOO0 =str (OOOO000O00OO00O00 )#line:1052
-    O00O00O0OO0OOO00O =repeat_to_length (O0O000OOO000OOOO0 ,OO00OO00OOO00O00O )#line:1053
-    ps =[int (O0O0OO0OOO0OO00O0 )+1 for O0O0OO0OOO0OO00O0 in O00O00O0OO0OOO00O ]#line:1054
-def waiter ():#line:1056
-    OOO0OO00OO0O00OOO =20 #line:1059
-    OO0OO0O0000O00O00 =".ts1.txt"#line:1061
-    if os .path .isfile (OO0OO0O0000O00O00 ):#line:1062
-        O00O00O0OO0OO0000 =np .loadtxt (OO0OO0O0000O00O00 )#line:1063
-    else :#line:1065
-        O00O00O0OO0OO0000 =0.0 #line:1066
-    OO000OOOOOOO00OO0 =time .time ()#line:1069
-    O0OO0OOO0OO00O0O0 =OO000OOOOOOO00OO0 -O00O00O0OO0OO0000 #line:1070
-    if (O0OO0OOO0OO00O0O0 <OOO0OO00OO0O00OOO ):#line:1072
-        print ("%.1f  seconds since your last exercise answer.\nYou need to work on your estimate for %.1f seconds before you can try again!"%(O0OO0OOO0OO00O0O0 ,OOO0OO00OO0O00OOO ))#line:1073
-        return False #line:1074
-    else :#line:1075
-        OO00O0O00OOO0O00O =open (OO0OO0O0000O00O00 ,'w')#line:1076
-        OO00O0O00OOO0O00O .write (str (OO000OOOOOOO00OO0 ))#line:1077
-        OO00O0O00OOO0O00O .close ()#line:1078
-        return True #line:1079
-def trycount (O0OOO0O00O0O0OOO0 ,OO000OOOOO000O00O ):#line:1081
-    if os .path .isfile (O0OOO0O00O0O0OOO0 ):#line:1083
-        OOO00O00OOO000O0O =np .load (O0OOO0O00O0O0OOO0 )#line:1084
-    else :#line:1086
-        OOO00O00OOO000O0O =np .zeros (1 ,dtype ='int8,bool')#line:1087
-        OOO00O00OOO000O0O =[0 ,False ]#line:1088
-    if not OOO00O00OOO000O0O [1 ]:#line:1091
-        OOO00O00OOO000O0O [0 ]+=1 #line:1092
-        OOO00O00OOO000O0O [1 ]=OO000OOOOO000O00O #line:1093
-        np .save (O0OOO0O00O0O0OOO0 ,OOO00O00OOO000O0O )#line:1095
-    return OOO00O00OOO000O0O #line:1097
-def valdho (O0O0O0OOOOO000OO0 ,OOO0000O0O0000000 ):#line:1105
-    OOOO0O0O0OO00OOOO =".dho_counter.npy"#line:1109
-    OO0O0OO00O0O0O0OO =np .zeros (1 ,dtype ='int8,bool')#line:1111
-    if (waiter ()):#line:1113
-        while True :#line:1114
-            try :#line:1115
-                O0O0OO0OOOO000OOO =float (input ("Please enter your estimate here: "))#line:1116
-                OOOOOO00O0O000O00 =2 *np .sqrt (O0O0O0OOOOO000OO0 *OOO0000O0O0000000 )#line:1117
-                OOO0OO00OOO0OOO0O =np .isclose (O0O0OO0OOOO000OOO ,OOOOOO00O0O000O00 ,0.2 )#line:1118
-                if OOO0OO00OOO0OOO0O :#line:1119
-                    print ("Well done, that is close to the critical damping value ",OOOOOO00O0O000O00 )#line:1120
-                else :#line:1121
-                    print ("Sorry, not very close. Take another look then run this cell again.")#line:1122
-                OO0O0OO00O0O0O0OO =trycount (OOOO0O0O0OO00OOOO ,OOO0OO00OOO0OOO0O )#line:1124
-                OOOOOO0O00000OO0O =100 -(OO0O0OO00O0O0O0OO [0 ]-1 )*10 #line:1125
-                if OO0O0OO00O0O0O0OO [1 ]:#line:1126
-                    print ("First success after ",OO0O0OO00O0O0O0OO [0 ]," tries, you have ",OOOOOO0O00000OO0O ,"% on this exercise.")#line:1127
-                else :#line:1128
-                    print ("You have had ",OO0O0OO00O0O0O0OO [0 ]," tries.")#line:1129
-                    print ("If next try is accepted you will achieve ",OOOOOO0O00000OO0O -10 ,"% on this exercise.")#line:1130
-                break #line:1132
-            except ValueError :#line:1134
-                print ("I didn't understand that.")#line:1135
-                continue #line:1136
-        return #line:1139
-def valdrivendho (O0O0OO0OOOOO00000 ,O0O0O0O0OOO0O0O00 ):#line:1149
-    OO0000OO0000O000O =".drivendho_counter.npy"#line:1153
-    O0OO0O000O0OO00O0 =np .zeros (1 ,dtype ='int8,bool')#line:1155
-    if (waiter ()):#line:1157
-        while True :#line:1158
-            try :#line:1159
-                OO00O00OOO0O0O000 =float (input ("Please enter your estimate here: "))#line:1160
-                O00O0O0OOO00O0O00 =np .sqrt (O0O0OO0OOOOO00000 **2 -2 *O0O0O0O0OOO0O0O00 **2 )#line:1161
-                OOO0OOOO0O0O00000 =np .isclose (OO00O00OOO0O0O000 ,O00O0O0OOO00O0O00 ,0.2 )#line:1162
-                if OOO0OOOO0O0O00000 :#line:1163
-                    print ("Well done, that is close to the resonance value ",O00O0O0OOO00O0O00 )#line:1164
-                else :#line:1165
-                    print ("Sorry, not very close. Take another look then run this cell again.")#line:1166
-                O0OO0O000O0OO00O0 =trycount (OO0000OO0000O000O ,OOO0OOOO0O0O00000 )#line:1168
-                O0OOO0OO0OOOOO0OO =100 -(O0OO0O000O0OO00O0 [0 ]-1 )*10 #line:1169
-                if O0OO0O000O0OO00O0 [1 ]:#line:1170
-                    print ("First success after ",O0OO0O000O0OO00O0 [0 ]," tries, you have ",O0OOO0OO0OOOOO0OO ,"% on this exercise.")#line:1171
-                else :#line:1172
-                    print ("You have had ",O0OO0O000O0OO00O0 [0 ]," tries.")#line:1173
-                    print ("If next try is accepted you will achieve ",O0OOO0OO0OOOOO0OO -10 ,"% on this exercise.")#line:1174
-                break #line:1176
-            except ValueError :#line:1178
-                print ("I didn't understand that.")#line:1179
-                continue #line:1180
-        return #line:1183
-import ipywidgets as widgets #line:1198
-import sys #line:1199
-from IPython .display import display #line:1200
-from IPython .display import clear_output #line:1201
-def create_multipleChoice_widget (O0O00OO0O0O0OOOO0 ,OOOO0O000O0O0OOO0 ,O0000OOO0OO00O0OO ,O0OOOO0000OOOOOOO ):#line:1203
-    O00OO0O0OOOO0OOOO ='.q{:d}_counter.npy'.format (O0O00OO0O0O0OOOO0 )#line:1204
-    O000O000OO0OO0O0O =np .zeros (1 ,dtype ='int8,bool')#line:1205
-    O0OO00O00OO0O0O0O =len (O0000OOO0OO00O0OO )#line:1207
-    if O0OOOO0000OOOOOOO not in O0000OOO0OO00O0OO :#line:1208
-        O0000OOO0OO00O0OO .append (O0OOOO0000OOOOOOO )#line:1209
-    O0OO00OOOO0O000O0 =O0000OOO0OO00O0OO .index (O0OOOO0000OOOOOOO )#line:1211
-    O0OO00000000O0O0O =[(O00OOOO0O00OO00O0 ,OOO00O000O000O000 )for OOO00O000O000O000 ,O00OOOO0O00OO00O0 in enumerate (O0000OOO0OO00O0OO )]#line:1213
-    OO000O0OOOOOO000O =widgets .RadioButtons (options =O0OO00000000O0O0O ,description ='',disabled =False )#line:1218
-    OO0OOO000O00O0OOO =widgets .Output ()#line:1220
-    with OO0OOO000O00O0OOO :#line:1221
-        print (OOOO0O000O0O0OOO0 )#line:1222
-    O0OOO0000O0O0OO00 =widgets .Output ()#line:1224
-    def O0OOOO00O00OOOO0O (O0000OO00O0O0O000 ):#line:1226
-        OOOOO0OOO0O0O00OO =int (OO000O0OOOOOO000O .value )#line:1228
-        OOOO00O00O0OOOO00 =OOOOO0OOO0O0O00OO ==O0OO00OOOO0O000O0 #line:1230
-        OO000O000O0OOO00O =trycount (O00OO0O0OOOO0OOOO ,OOOO00O00O0OOOO00 )#line:1231
-        O00O0O0OOO0OO0O00 =max (0 ,100 -(OO000O000O0OOO00O [0 ]-1 )*100 /O0OO00O00OO0O0O0O )#line:1232
-        O000O00OO00O0O0OO =OO000O0OOOOOO000O .options [OOOOO0OOO0O0O00OO ][0 ]#line:1233
-        if OOOO00O00O0OOOO00 :#line:1234
-            O000O00OO00O0O0OO +=' correct\n'#line:1235
-        else :#line:1236
-            O000O00OO00O0O0OO +=' incorrect\n'#line:1237
-        if OO000O000O0OOO00O [1 ]:#line:1238
-            O000O00OO00O0O0OO +='{:.0f}% on try {:d}'.format (O00O0O0OOO0OO0O00 ,OO000O000O0OOO00O [0 ])#line:1239
-        else :#line:1240
-            O000O00OO00O0O0OO +='{:.0f}% remaining'.format (max (0 ,O00O0O0OOO0OO0O00 -100 /O0OO00O00OO0O0O0O ))#line:1241
-        with O0OOO0000O0O0OO00 :#line:1243
-            clear_output ()#line:1244
-            print (O000O00OO00O0O0OO )#line:1245
-        return #line:1246
-    OO0O0000O000O000O =widgets .Button (description ="submit")#line:1248
-    OO0O0000O000O000O .on_click (O0OOOO00O00OOOO0O )#line:1249
-    return widgets .VBox ([OO0OOO000O00O0OOO ,OO000O0OOOOOO000O ,OO0O0000O000O000O ,O0OOO0000O0O0OO00 ])#line:1250
-def runq1 ():#line:1257
-    OO0OOOOO00000O0O0 =1 #line:1258
-    O0OOO00OO0OOO00OO =create_multipleChoice_widget (OO0OOOOO00000O0O0 ,'Complete program:',['n*fac(n+1)','n*fac(n-1)','(n-1)*fac(n)'],'n*fac(n-1)')#line:1259
-    display (O0OOO00OO0OOO00OO )#line:1260
-def runQ1 ():#line:1270
-    OO0O000000OOOOO00 =1 #line:1271
-    OO00000O0OOO00O0O =create_multipleChoice_widget (OO0O000000OOOOO00 ,'1N=',['m/s^2','kg/m/s^2','kg m/s^2'],'kg m/s^2')#line:1272
-    display (OO00000O0OOO00O0O )#line:1273
-def runQ2x ():#line:1282
-    O0OO0OOOOO0OOO0OO =2 #line:1283
-    OOO0OOO0O0O00OO00 =create_multipleChoice_widget (O0OO0OOOOO0OOO0OO ,'',['centred','backwards','forwards'],'centred')#line:1284
-    display (OOO0OOO0O0O00OO00 )#line:1285
-def runQ3x ():#line:1293
-    OOO0O0OO000O00O0O =3 #line:1294
-    OO0OOOO0O00O00O0O =create_multipleChoice_widget (OOO0O0OO000O00O0O ,'After the Earth\'s gravity, the main effect on a falling tennis ball is: ',['moon','quantum','drag'],'drag')#line:1295
-    display (OO0OOOO0O00O00O0O )#line:1296
-def runQ4x ():#line:1305
-    O0O0OOOOOOO0000O0 =4 #line:1306
-    O000OO00OO0OOO0OO =create_multipleChoice_widget (O0O0OOOOOOO0000O0 ,'If position y is given by Asin(wt), then the velocity v is: ',['Acos(wt)','-Awsin(wt)','Awcos(wt)'],'Awcos(wt)')#line:1307
-    display (O000OO00OO0OOO0OO )#line:1308
-def runQ5x ():#line:1318
-    O00000OO00000OOOO =5 #line:1319
-    OO0OO000OO0OOO000 =create_multipleChoice_widget (O00000OO00000OOOO ,'Newton\'s second law states that force is proportional to ',['everything','position','acceleration'],'acceleration')#line:1320
-    display (OO0OO000OO0OOO000 )#line:1321
-def runQ6x ():#line:1330
-    OO0O0O0OO0OO0O00O =6 #line:1331
-    OO0OO00OO00O00OO0 =create_multipleChoice_widget (OO0O0O0OO0OO0O00O ,'Drag force magnitude increases with ',['speed','height','gravity'],'speed')#line:1332
-    display (OO0OO00OO00O00OO0 )#line:1333
-def runQ7x ():#line:1342
-    OOO00000000O00000 =7 #line:1343
-    O00000OO0O0OO0O00 =create_multipleChoice_widget (OOO00000000O00000 ,'Work has units of ',['Pascals','Newtons','Joules'],'Joules')#line:1344
-    display (O00000OO0O0OO0O00 )#line:1345
+                    print ("Not right yet. Take another look then run this cell again.")#line:979
+                OO0O0000000O00O0O =trycount (O00O0OOOOO0O0O00O ,OOOOOO0OO00000000 )#line:981
+                O0O0OOO00OO0OO000 =100 -(OO0O0000000O00O0O [0 ]-1 )*10 #line:982
+                if OO0O0000000O00O0O [1 ]:#line:983
+                    print ("First success after ",OO0O0000000O00O0O [0 ]," tries, you have ",O0O0OOO00OO0OO000 ,"% on this exercise.")#line:984
+                else :#line:985
+                    print ("You have had ",OO0O0000000O00O0O [0 ]," tries.")#line:986
+                    print ("If next try is accepted you will achieve ",O0O0OOO00OO0OO000 -10 ,"% on this exercise.")#line:987
+                break #line:989
+            except ValueError :#line:991
+                print ("I didn't understand that.")#line:992
+                continue #line:993
+        return #line:995
+def b1_notlive ():#line:1007
+        print ('This CA test is not currently live.')#line:1008
+        return #line:1009
+def b2_notlive (O0O00O0OOOOO0OOOO ):#line:1019
+        print ('This CA test is not currently live.')#line:1020
+        return #line:1021
+def b3_notlive ():#line:1028
+        print ('This CA test is not currently live.')#line:1029
+        return #line:1030
+def printmd (O00OO00O00OO0000O ):#line:1040
+    display (Markdown (O00OO00O00OO0000O ))#line:1041
+def repeat_to_length (O0OO0OOOOO0000O0O ,O00000OOOOOO0O0O0 ):#line:1043
+   return (O0OO0OOOOO0000O0O *((O00000OOOOOO0O0O0 //len (O0OO0OOOOO0000O0O ))+1 ))[:O00000OOOOOO0O0O0 ]#line:1044
+def getco (OO0OOOO0O0OO0O0OO ):#line:1046
+    global ps #line:1047
+    O0OOOOOO00000OO00 =getpass .getuser ()#line:1048
+    O000O000O00O000OO =int .from_bytes (O0OOOOOO00000OO00 .encode (),'little')#line:1049
+    OOO00O00000OOO000 =str (O000O000O00O000OO )#line:1050
+    OOOO0OOO0O00O0O00 =repeat_to_length (OOO00O00000OOO000 ,OO0OOOO0O0OO0O0OO )#line:1051
+    ps =[int (O00000OOOO0000O0O )+1 for O00000OOOO0000O0O in OOOO0OOO0O00O0O00 ]#line:1052
+def waiter ():#line:1055
+    O00OOOOO0O0OOOO00 =20 #line:1058
+    OOOO00O0000O000OO =".ts1.txt"#line:1060
+    if os .path .isfile (OOOO00O0000O000OO ):#line:1061
+        O0OOOO000OOO0O00O =np .loadtxt (OOOO00O0000O000OO )#line:1062
+    else :#line:1064
+        O0OOOO000OOO0O00O =0.0 #line:1065
+    OO000O00OO0OO0OOO =time .time ()#line:1068
+    O00O0O0O00000O0O0 =OO000O00OO0OO0OOO -O0OOOO000OOO0O00O #line:1069
+    if (O00O0O0O00000O0O0 <O00OOOOO0O0OOOO00 ):#line:1071
+        print ("%.1f  seconds since your last exercise answer.\nYou need to work on your estimate for %.1f seconds before you can try again!"%(O00O0O0O00000O0O0 ,O00OOOOO0O0OOOO00 ))#line:1072
+        return False #line:1073
+    else :#line:1074
+        O000000O0OOO000OO =open (OOOO00O0000O000OO ,'w')#line:1075
+        O000000O0OOO000OO .write (str (OO000O00OO0OO0OOO ))#line:1076
+        O000000O0OOO000OO .close ()#line:1077
+        return True #line:1078
+def trycount (OOOOO000000000O0O ,OOO00OOOOO0O0OO0O ):#line:1080
+    if os .path .isfile (OOOOO000000000O0O ):#line:1082
+        OO00OO000000O0OOO =np .load (OOOOO000000000O0O )#line:1083
+    else :#line:1085
+        OO00OO000000O0OOO =np .zeros (1 ,dtype ='int8,bool')#line:1086
+        OO00OO000000O0OOO =[0 ,False ]#line:1087
+    if not OO00OO000000O0OOO [1 ]:#line:1090
+        OO00OO000000O0OOO [0 ]+=1 #line:1091
+        OO00OO000000O0OOO [1 ]=OOO00OOOOO0O0OO0O #line:1092
+        np .save (OOOOO000000000O0O ,OO00OO000000O0OOO )#line:1094
+    return OO00OO000000O0OOO #line:1096
+def valdho (OO0O0000OOO0OO0O0 ,O00000O00O000OO0O ):#line:1104
+    O0OOO0000O0OO0OOO =".dho_counter.npy"#line:1108
+    OO00OOOO0OOO0O000 =np .zeros (1 ,dtype ='int8,bool')#line:1110
+    if (waiter ()):#line:1112
+        while True :#line:1113
+            try :#line:1114
+                OOO00O0O0OO0OOO0O =float (input ("Please enter your estimate here: "))#line:1115
+                OO000O000OOO0OOO0 =2 *np .sqrt (OO0O0000OOO0OO0O0 *O00000O00O000OO0O )#line:1116
+                O0O0O00O0OO000000 =np .isclose (OOO00O0O0OO0OOO0O ,OO000O000OOO0OOO0 ,0.2 )#line:1117
+                if O0O0O00O0OO000000 :#line:1118
+                    print ("Well done, that is close to the critical damping value ",OO000O000OOO0OOO0 )#line:1119
+                else :#line:1120
+                    print ("Sorry, not very close. Take another look then run this cell again.")#line:1121
+                OO00OOOO0OOO0O000 =trycount (O0OOO0000O0OO0OOO ,O0O0O00O0OO000000 )#line:1123
+                O0OO0O0O0000O0O00 =100 -(OO00OOOO0OOO0O000 [0 ]-1 )*10 #line:1124
+                if OO00OOOO0OOO0O000 [1 ]:#line:1125
+                    print ("First success after ",OO00OOOO0OOO0O000 [0 ]," tries, you have ",O0OO0O0O0000O0O00 ,"% on this exercise.")#line:1126
+                else :#line:1127
+                    print ("You have had ",OO00OOOO0OOO0O000 [0 ]," tries.")#line:1128
+                    print ("If next try is accepted you will achieve ",O0OO0O0O0000O0O00 -10 ,"% on this exercise.")#line:1129
+                break #line:1131
+            except ValueError :#line:1133
+                print ("I didn't understand that.")#line:1134
+                continue #line:1135
+        return #line:1138
+def valdrivendho (O0O0O0000O00OOOOO ,OO0000OOO00O0OOOO ):#line:1148
+    O00OO0OOOO0O0OOOO =".drivendho_counter.npy"#line:1152
+    OO00OO0O00OOOO0OO =np .zeros (1 ,dtype ='int8,bool')#line:1154
+    if (waiter ()):#line:1156
+        while True :#line:1157
+            try :#line:1158
+                OO0000OO00O00OO00 =float (input ("Please enter your estimate here: "))#line:1159
+                O00OO00OO00OOO00O =np .sqrt (O0O0O0000O00OOOOO **2 -2 *OO0000OOO00O0OOOO **2 )#line:1160
+                O0OO00OOO0O0O0000 =np .isclose (OO0000OO00O00OO00 ,O00OO00OO00OOO00O ,0.2 )#line:1161
+                if O0OO00OOO0O0O0000 :#line:1162
+                    print ("Well done, that is close to the resonance value ",O00OO00OO00OOO00O )#line:1163
+                else :#line:1164
+                    print ("Sorry, not very close. Take another look then run this cell again.")#line:1165
+                OO00OO0O00OOOO0OO =trycount (O00OO0OOOO0O0OOOO ,O0OO00OOO0O0O0000 )#line:1167
+                OO00O0O0OO0O0OOOO =100 -(OO00OO0O00OOOO0OO [0 ]-1 )*10 #line:1168
+                if OO00OO0O00OOOO0OO [1 ]:#line:1169
+                    print ("First success after ",OO00OO0O00OOOO0OO [0 ]," tries, you have ",OO00O0O0OO0O0OOOO ,"% on this exercise.")#line:1170
+                else :#line:1171
+                    print ("You have had ",OO00OO0O00OOOO0OO [0 ]," tries.")#line:1172
+                    print ("If next try is accepted you will achieve ",OO00O0O0OO0O0OOOO -10 ,"% on this exercise.")#line:1173
+                break #line:1175
+            except ValueError :#line:1177
+                print ("I didn't understand that.")#line:1178
+                continue #line:1179
+        return #line:1182
+import ipywidgets as widgets #line:1197
+import sys #line:1198
+from IPython .display import display #line:1199
+from IPython .display import clear_output #line:1200
+def create_multipleChoice_widget (O0O0OO000000OOO00 ,O0O00OOO00OO00000 ,OOOOO000O00OOOOOO ,O0000O0OO00O0O0O0 ):#line:1202
+    O0OOO0OO0O0000O00 ='.q{:d}_counter.npy'.format (O0O0OO000000OOO00 )#line:1203
+    OOOO0OOOOOOOOO0O0 =np .zeros (1 ,dtype ='int8,bool')#line:1204
+    O0O0O0OOO0000O00O =len (OOOOO000O00OOOOOO )#line:1206
+    if O0000O0OO00O0O0O0 not in OOOOO000O00OOOOOO :#line:1207
+        OOOOO000O00OOOOOO .append (O0000O0OO00O0O0O0 )#line:1208
+    O0OOOOO0OOOO0000O =OOOOO000O00OOOOOO .index (O0000O0OO00O0O0O0 )#line:1210
+    O00OO000OOO0OO0OO =[(OOOOO0O0O0OOOOO00 ,OO0O0OOO0OOOO0000 )for OO0O0OOO0OOOO0000 ,OOOOO0O0O0OOOOO00 in enumerate (OOOOO000O00OOOOOO )]#line:1212
+    OO000O0O0OO00OO00 =widgets .RadioButtons (options =O00OO000OOO0OO0OO ,description ='',disabled =False )#line:1217
+    OOO000OO00O000OO0 =widgets .Output ()#line:1219
+    with OOO000OO00O000OO0 :#line:1220
+        print (O0O00OOO00OO00000 )#line:1221
+    OOOOOO0OO0O00O00O =widgets .Output ()#line:1223
+    def O00O00O0OO00OO000 (OO0OO000O000OOOO0 ):#line:1225
+        OO00OOOO0OO000000 =int (OO000O0O0OO00OO00 .value )#line:1227
+        O0OO0OOO0OO0OOOOO =OO00OOOO0OO000000 ==O0OOOOO0OOOO0000O #line:1229
+        OOOOOO0OOO00O0OOO =trycount (O0OOO0OO0O0000O00 ,O0OO0OOO0OO0OOOOO )#line:1230
+        OO0O00O0O0OO0OOO0 =max (0 ,100 -(OOOOOO0OOO00O0OOO [0 ]-1 )*100 /O0O0O0OOO0000O00O )#line:1231
+        OOOO00O000O0O000O =OO000O0O0OO00OO00 .options [OO00OOOO0OO000000 ][0 ]#line:1232
+        if O0OO0OOO0OO0OOOOO :#line:1233
+            OOOO00O000O0O000O +=' correct\n'#line:1234
+        else :#line:1235
+            OOOO00O000O0O000O +=' incorrect\n'#line:1236
+        if OOOOOO0OOO00O0OOO [1 ]:#line:1237
+            OOOO00O000O0O000O +='{:.0f}% on try {:d}'.format (OO0O00O0O0OO0OOO0 ,OOOOOO0OOO00O0OOO [0 ])#line:1238
+        else :#line:1239
+            OOOO00O000O0O000O +='{:.0f}% remaining'.format (max (0 ,OO0O00O0O0OO0OOO0 -100 /O0O0O0OOO0000O00O ))#line:1240
+        with OOOOOO0OO0O00O00O :#line:1242
+            clear_output ()#line:1243
+            print (OOOO00O000O0O000O )#line:1244
+        return #line:1245
+    OO00OOO0OOOOOO00O =widgets .Button (description ="submit")#line:1247
+    OO00OOO0OOOOOO00O .on_click (O00O00O0OO00OO000 )#line:1248
+    return widgets .VBox ([OOO000OO00O000OO0 ,OO000O0O0OO00OO00 ,OO00OOO0OOOOOO00O ,OOOOOO0OO0O00O00O ])#line:1249
+def runq1 ():#line:1256
+    OOOO0OOOOO0OO0000 =1 #line:1257
+    O00OO000O0O0O0OOO =create_multipleChoice_widget (OOOO0OOOOO0OO0000 ,'Complete program:',['n*fac(n+1)','n*fac(n-1)','(n-1)*fac(n)'],'n*fac(n-1)')#line:1258
+    display (O00OO000O0O0O0OOO )#line:1259
+def runQ1 ():#line:1269
+    OOO00O0000000OO0O =1 #line:1270
+    OOOOOO00O0OOOOO0O =create_multipleChoice_widget (OOO00O0000000OO0O ,'1N=',['m/s^2','kg/m/s^2','kg m/s^2'],'kg m/s^2')#line:1271
+    display (OOOOOO00O0OOOOO0O )#line:1272
+def runQ2x ():#line:1281
+    OOO00O0O00OO0O00O =2 #line:1282
+    OOOOO0O000OOOO0O0 =create_multipleChoice_widget (OOO00O0O00OO0O00O ,'',['centred','backwards','forwards'],'centred')#line:1283
+    display (OOOOO0O000OOOO0O0 )#line:1284
+def runQ3x ():#line:1292
+    OOOO0OO0O00OOO0OO =3 #line:1293
+    O00O0OOO00OOO000O =create_multipleChoice_widget (OOOO0OO0O00OOO0OO ,'After the Earth\'s gravity, the main effect on a falling tennis ball is: ',['moon','quantum','drag'],'drag')#line:1294
+    display (O00O0OOO00OOO000O )#line:1295
+def runQ4x ():#line:1304
+    O00O00OO0000O000O =4 #line:1305
+    O00OOO00OO0O0OO00 =create_multipleChoice_widget (O00O00OO0000O000O ,'If position y is given by Asin(wt), then the velocity v is: ',['Acos(wt)','-Awsin(wt)','Awcos(wt)'],'Awcos(wt)')#line:1306
+    display (O00OOO00OO0O0OO00 )#line:1307
+def runQ5x ():#line:1317
+    O0O000OO0O00O000O =5 #line:1318
+    OO0O00OO0OO000O0O =create_multipleChoice_widget (O0O000OO0O00O000O ,'Newton\'s second law states that force is proportional to ',['everything','position','acceleration'],'acceleration')#line:1319
+    display (OO0O00OO0OO000O0O )#line:1320
+def runQ6x ():#line:1329
+    O0OO0OO0O0O00O0O0 =6 #line:1330
+    OO00OOO00OOO00OOO =create_multipleChoice_widget (O0OO0OO0O0O00O0O0 ,'Drag force magnitude increases with ',['speed','height','gravity'],'speed')#line:1331
+    display (OO00OOO00OOO00OOO )#line:1332
+def runQ7x ():#line:1341
+    OO0000OO00O00O000 =7 #line:1342
+    O0000O0O000000000 =create_multipleChoice_widget (OO0000OO00O00O000 ,'Work has units of ',['Pascals','Newtons','Joules'],'Joules')#line:1343
+    display (O0000O0O000000000 )#line:1344
+pk =(283355 ,839329 )#line:1364
+def getrid ():#line:1367
+    import random #line:1368
+    global rid #line:1369
+    rid =random .randint (100000 ,999999 )#line:1370
+def encrypt (OO0O000O000000O00 ):#line:1373
+    O000OO0OOO0000O00 ,O000O0O0OO00O000O =pk #line:1374
+    O0OO00OO00OO0O00O =len (str (O000O0O0OO00O000O ))#line:1375
+    if O0OO00OO00OO0O00O !=6 :#line:1376
+        print ('Chunk length hardcoded in format conversion to 6 characters.\n May need to adjust here and in getrid range.\n Exiting.\n')#line:1377
+    O0OOOOOO0O0O0O000 =['{:06d}'.format ((int (OO0OOOO0OOO0O00OO )**O000OO0OOO0000O00 )%O000O0O0OO00O000O )for OO0OOOO0OOO0O00OO in str (OO0O000O000000O00 )]#line:1380
+    return ''.join (O0OOOOOO0O0O0O000 )#line:1383
+def genenc (O0OO0O00OOO0OO0OO ,O00OOOOOO0OOOO00O ):#line:1386
+    global rid #line:1387
+    O00OOO000O00O00OO ='{:06d}'.format (rid )#line:1388
+    OOOO0OOO00OOOOO0O ='{:02d}'.format (O0OO0O00OOO0OO0OO )#line:1389
+    O000O0OO000OOO00O ='{:03d}'.format (O00OOOOOO0OOOO00O )#line:1390
+    OOO000000OOO0O000 =O00OOO000O00O00OO +OOOO0OOO00OOOOO0O +O000O0OO000OOO00O #line:1392
+    O0000OO0OOO0OO0O0 ='#'+encrypt (OOO000000OOO0O000 )+'#'#line:1394
+    print ("Your encrypted message is: ",O0000OO0OOO0OO0O0 )#line:1395
+    return O0000OO0OOO0OO0O0 #line:1396
